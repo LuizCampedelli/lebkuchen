@@ -5,7 +5,12 @@ class PagesController < ApplicationController
   def about
   end
 
-  def events
+  def event
   end
 
+  def findus
+  end
+
+  def contact
+  end
 end
