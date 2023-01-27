@@ -1,11 +1,12 @@
 footer {
-  background: rgba($color: #484848, $alpha: 0.85);
+  background: $light-brow;
   height: auto;
   width: 100vw;
   font-family: "auto";
   color: white;
   margin-top: 70px;
 }
+
 
 .footer-content {
   display: flex;
@@ -18,9 +19,9 @@ footer {
 .footer-content h3{
   font-size: 1.8rem;
   font-weight: 400;
-  text-transform: capitalize;
   line-height: 3em;
-  font-family: $body-font;
+  font-family: $headers-font;
+  color: $dark-green
 
 }
 
@@ -30,6 +31,8 @@ footer {
   line-height: 28px;
   font-size: 18px;
   font-family: $body-font;
+  color: $dark-green;
+
 }
 
 .footer-links {
@@ -57,10 +60,6 @@ footer {
   width: 100vw;
   text-align: center;
   padding: 20px 0;
-}
-
-.footer-copyright p{
-  font-size: 14px;
-  word-spacing: 2px;
-  text-transform: capitalize;
+  font-family: $body-font;
+  color: $dark-green;
 }
