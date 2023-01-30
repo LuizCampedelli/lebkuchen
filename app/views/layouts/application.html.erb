@@ -7,16 +7,12 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <%#= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    <%# <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
 
   <body>
-        <div class="container">
-        <br>
-        <% flash.each do |key, message| %>
-          <p class="alert alert-<%= key %>"><%= message %></p>
-        <% end %>
-      </div>
+    <%= render "shared/navbar" %>
     <%= yield %>
+    <%= render "shared/footer" %>
   </body>
 </html>
