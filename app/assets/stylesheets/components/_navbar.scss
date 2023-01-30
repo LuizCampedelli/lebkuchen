@@ -1,18 +1,28 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background:$beige;
+  padding: 10px;
+
+}
+
+.logo-img {
+  height: 50px;
+  margin-left: 30px;
 }
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
-
 .container-fluid {
 
 
 
+}
+
+.nav-link {
+  font-family: $body-font;
+  color: $dark-green;
+  text-transform: uppercase;
+  margin-right: 30px;
 }

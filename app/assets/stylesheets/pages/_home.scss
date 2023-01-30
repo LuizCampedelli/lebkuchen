@@ -1,1 +1,54 @@
 // Specific CSS for your home-page
+#head-banner {
+  height: 500px;
+  background:linear-gradient(180deg, rgba(23, 24, 23, 0.85) 0%, rgba(0, 0, 0, 0) 55.73%), linear-gradient(0deg, rgba(29, 21, 18, 0.35), rgba(29, 21, 18, 0.35)), url(https://res.cloudinary.com/dllghzftv/image/upload/v1675103716/JTGZ1006_ad5wde.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  color: white;
+  filter: drop-shadow(2px 4px 6px black);
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.overlay h1 {
+  text-align: center;  font-size: 100px
+}
+
+.overlay h2 {
+  text-align: center;  margin-bottom: 29px;
+ font-family:$body-font ;
+}
+
+.overlay {
+  position: absolute;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  width: 100%;
+  gap: -18px;
+  margin-top: 187px;
+  color: #f2f2f2;
+}
+
+.btn btn-flat{
+  color: #d9c2c2;
+  border: 3px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn-flat:hover {
+  opacity: 1;
+}
+
+.background {
+  background-color: $beige;
+}
