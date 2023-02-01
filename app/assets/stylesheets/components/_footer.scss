@@ -7,7 +7,7 @@ footer {
   margin-top: 70px;
 }
 
-.img {
+.img img{
   height: 60px;
   width: auto;
   margin-top: 20px;
@@ -79,4 +79,7 @@ footer {
 .line{
   margin: auto;
   width: 75%;
+  border-style: solid;
+  color: $beige;
+
 }

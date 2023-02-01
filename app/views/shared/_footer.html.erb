@@ -1,7 +1,9 @@
 <footer>
   <div class="footer-content">
    <div>
-      <a href=“#”><img class="img" src="https://res.cloudinary.com/dllghzftv/image/upload/v1674840904/Group_32_2_cz1naq.png" alt=“Lebkuchen-aus-Rodogau” /></a>
+      <%= link_to "/", class: "img" do %>
+       <%= image_tag "https://res.cloudinary.com/dllghzftv/image/upload/v1674840904/Group_32_2_cz1naq.png" %>
+     <% end %>
     </div>
         <div class= "pages">
           <a href="#"><p>Events</p></a>
@@ -16,7 +18,7 @@
     </div>
 
   </div>
-   <hr class="line" >
+   <hr class="line">
   <div class="footer-copyright">
      © Copyright 2023, All Rights Reserve by Lebkuchen aus Rodgau
   </div>
