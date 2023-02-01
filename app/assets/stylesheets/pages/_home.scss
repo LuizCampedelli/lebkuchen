@@ -1,54 +1,69 @@
 // Specific CSS for your home-page
-#head-banner {
-  height: 500px;
-  background:linear-gradient(180deg, rgba(23, 24, 23, 0.85) 0%, rgba(0, 0, 0, 0) 55.73%), linear-gradient(0deg, rgba(29, 21, 18, 0.35), rgba(29, 21, 18, 0.35)), url(https://res.cloudinary.com/dllghzftv/image/upload/v1675103716/JTGZ1006_ad5wde.jpg);
+
+
+.banner {
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
-  display: flex;
-  color: white;
+  background-image: linear-gradient(0deg, rgba(29, 21, 18, 0.65), rgba(29, 21, 18, 0.65)), url("lebkuchen.jpg");
   filter: drop-shadow(2px 4px 6px black);
-  margin-bottom: 10px;
-  position: relative;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+
+
 }
 
-.overlay h1 {
-  text-align: center;  font-size: 100px
+.banner h1 {
+  text-align: center;
+  font-size: 115px;
+  font-family: $headers-font;
+  font-weight:lighter;
+  margin-top: 50px;
+  color: $beige;
+
 }
 
-.overlay h2 {
-  text-align: center;  margin-bottom: 29px;
- font-family:$body-font ;
-}
-
-.overlay {
-  position: absolute;
+.banner h2 {
+  text-align: center;
+  font-family:$body-font;
   font-size: 30px;
+  font-weight: 200;
+  color: $beige;
+  margin-top: -75px;
+  margin-bottom: 45px;
+
+}
+
+ .content {
+//   position: absolute;
+   font-size: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+//   justify-content: center;
   align-items: center;
-  height: 75%;
-  width: 100%;
-  gap: -18px;
-  margin-top: 187px;
-  color: #f2f2f2;
+  margin: auto;
+//   height: 75%;
+//   width: 100%;
+ //margin-top: -397px;
+//   color: #f2f2f2;
+//   padding-top: 63px;;
 }
 
-.btn btn-flat{
-  color: #d9c2c2;
-  border: 3px solid #4A4A4A;
-  padding: 8px 24px;
+.btn-flat{
+  background: rgba(160, 112, 55, 0.7);
+  text-decoration: none;
+  padding: 12px 120px;
   border-radius: 50px;
-  font-weight: lighter;
-  opacity: 0.6;
-  transition: opacity 0.3s ease;
+  transition: 0.3s ease;
+  font-family:$body-font;
+  font-size: medium;
+  color: $beige;
+  margin:auto;
+  letter-spacing: 1px;
+
 }
 
 .btn-flat:hover {
-  opacity: 1;
-}
-
-.background {
-  background-color: $beige;
+  color:$beige ;
+  background: #A07037;
 }
