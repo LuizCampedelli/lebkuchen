@@ -1,13 +1,18 @@
-.local{
-  font-family:'Rochester' cursive;
-  font-size: medium;
-  color: blue;
-}
 
-.p {
+
+p {
   line-break: auto;
+  font-family: $body-font;
 }
 
 .container{
   display: flex;
+}
+
+h1{
+  font-family:$headers-font;
+}
+
+.findus-address{
+  font-size: larger;
 }
