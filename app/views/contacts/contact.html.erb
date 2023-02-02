@@ -1,41 +1,42 @@
-<h1> contact page </h1>
+<!DOCTYPE html>
 <html>
-<head>
-    <title>Contact Form</title>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init('aTtn5oVnIzed39MBB');
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+    <title>Contact us! </title>
+          <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+      </script>
+      <script type="text/javascript">
+        (function(){
+            emailjs.init("aTtn5oVnIzed39MBB");
         })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                // generate a five digit number for the contact_number variable
-                this.contact_number.value = Math.random() * 100000 | 0;
-                // these IDs from the previous steps
-                emailjs.sendForm('contact_service', 'contact_form', this)
-                    .then(function() {
-                        console.log('SUCCESS!');
-                    }, function(error) {
-                        console.log('FAILED...', error);
-                    });
-            });
-        }
-    </script>
-</head>
-<body>
-    <form id="contact-form">
-        <input type="hidden" name="contact_number">
-        <label>Name</label>
-        <input type="text" name="user_name">
-        <label>Email</label>
-        <input type="email" name="user_email">
-        <label>Message</label>
-        <textarea name="message"></textarea>
-        <input type="submit" value="Send">
-    </form>
-</body>
+      </script>
+      <script src="contact.js"></script>
+  </head>
+  <body>
+
+    <div class="container border mt-3 bg-light">
+      <div class="row">
+        <div class="col-md-6 p-5 bg-primary text-white"></div>
+        <h1>Hi there!</h1>
+            <h4>If ou have any question, please send us an email, we will be happy to answer!</h4>
+        </div>
+        <div class="col-md-6 py-3 ">
+          <h1>Contact form</h1>
+          <form id="form_id">
+            <h5>Your email</h5>
+            <input type="text" id="to_email" placeholder="email">
+            <h5>Name</h5>
+            <input type="text" id="name" placeholder="name">
+            <h5>Subject</h5>
+            <input type="text" id="subject" placeholder="Subject">
+            <h5>message</h5>
+            <textarea id="message" placeholder="Message"></textarea>
+            <button id="send_button"onclick="sendMail()">Send</button>
+         </form>
+
+        </div>
+    </div>
+  </body>
 </html>
