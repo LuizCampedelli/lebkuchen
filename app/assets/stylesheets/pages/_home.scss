@@ -67,3 +67,24 @@
   color:$beige ;
   background: #A07037;
 }
+
+.home-story{
+  display: flex;
+  align-items: center;
+  color: $dark-green;
+  font-family: $body-font;
+  gap: 88px;
+  justify-content: center;
+  line-height: 150%;
+  text-align: justify;
+
+}
+
+.story h3{
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: #A07037;
+  text-decoration-thickness: 3px;
+  
+
+}
