@@ -5,7 +5,7 @@
 
 }
 
-.logo-img {
+.navbar-brand img {
   height: 50px;
   margin-left: 30px;
 }
@@ -15,6 +15,9 @@
 }
 
 .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 
 
@@ -25,4 +28,14 @@
   color: $dark-green;
   text-transform: uppercase;
   margin-right: 30px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover{
+  text-decoration: underline;
+  text-decoration-color: #A07037;
+  text-decoration-thickness: 0.3em;
+  text-underline-offset: 0.03em;
+
 }
