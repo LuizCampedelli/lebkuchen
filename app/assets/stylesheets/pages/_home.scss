@@ -11,6 +11,7 @@
   justify-content: center;
 
 
+
 }
 
 .banner h1 {
@@ -74,10 +75,16 @@
   color: $dark-green;
   font-family: $body-font;
   gap: 88px;
-  justify-content: center;
   line-height: 150%;
   text-align: justify;
+  justify-content: center;
+}
 
+.story h2{
+  font-family: $headers-font;
+  color: #A07037;
+  font-weight: 400;
+  font-size:xx-large;
 }
 
 .story h3{
@@ -85,6 +92,31 @@
   text-decoration: underline;
   text-decoration-color: #A07037;
   text-decoration-thickness: 3px;
-  
+  margin-top: -9px;
+}
 
+.story p{
+  color:#716040;
+  font-weight: 400;
+
+
+}
+
+.btn-findus{
+  background: rgba(160, 112, 55, 0.7);
+  text-decoration: none;
+  padding: 12px 45px;
+  border-radius: 50px;
+  transition: 0.3s ease;
+  font-family:$body-font;
+  font-size: medium;
+  color: $beige;
+  margin:auto;
+  letter-spacing: 1px;
+
+}
+
+.btn-findus:hover {
+  color:$beige ;
+  background: #A07037;
 }

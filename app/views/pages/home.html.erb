@@ -5,24 +5,42 @@
         <%= link_to "Where to buy", "/findus", class: "btn btn-flat" %>
   </div>
 </div>
+<div >
+  <div class="home-story">
+    <div class="photo">
+      <%= image_tag("about.svg", style: "width: 500px; height: 500px;") %>
+    </div>
+    <div class="story" style="width: 700px; height: 420px;">
+        <h2>About Lebkuchen-aus-Rodogau</h4>
+      <h3>Baking Passion Turned Business</h3>
+      <p>Rodgau's history began when two friends, Matthias Stark and Michael Rieß, had a conversation over good beer and wine and decided to start a business in the baking
+        industry producing Lebkuchen.</p>
 
-<div class="home-story">
-   <div class="photo">
-    <%= image_tag("cooking.svg", style: "width: 460px; height: 460px;") %>
-   </div>
-  <div class="story">
-   <h3>The Story Behind the Delicious Rodgau Lebkuchens</h3>
-   <p>Rodgau's history began when two friends, Matthias Stark and Michael Rieß, had a <br>conversation over good beer and wine.<br>
-      They considered starting a business in the baking industry and came up with the<br>
-      idea of producing Lebkuchen, a popular seasonal treat in Germany. Matthias is a<br>
-       former baker and a passionate hobby baker, who was frustrated with the mass-<br>
-       produced Lebkuchen that didn't meet his high standards. The two friends, along<br>
-       with Thomas Titt, started baking for personal use but soon the demand for their<br>
-       high-quality Lebkuchen exceeded their capacity. They eventually found a bakery<br>
-       to work in as semi-professional bakers and after several successful seasons,<br>
-       they registered their business with the Chamber of Industry and Commerce.<br>
-       Today, their team of five bakes a variety of Mandellebkuchen and<br>
-       Haselnusslebkuchen, made with fine ingredients and baked to perfection. </p>
+        <p>Matthias,a former baker and passionate hobbyist, was frustrated with mass-produced
+        Lebkuchen that didn't meet his high standards. They started producing for personal use,
+        but soon the demand for their high-quality Lebkuchen exceeded their capacity. </p>
+
+        <p>Today, the team of five people produces a variety of Mandellebkuchen and Haselnusslebkuchen made with fine ingredients and baked to perfection.</p>
+          <div style="margin-top:30px">
+          <%= link_to "Find us!", "/findus", class: "btn-findus" %>
+          </div>
+    </div>
   </div>
 
+  <div class="home-story">
+    <div class="story" style="width: 700px; height: 420px;padding-top: 100px">
+      <h2>Our Lebkuchen</h2>
+      <p>Our Lebkuchen is a truly unique product, made without any artificial additives or chemicals.
+       It is purely natural, and we take great care to ensure that it stays that way.</p>
+       <p>This means that our Lebkuchen is not only free from harmful chemicals but also full of authentic flavor and texture.
+       Additionally, it is handcrafted, giving it a unique and artisanal look that sets it apart from mass-
+       produced products.</p>
+       <p>Each cookie is shaped and finished by hand, resulting in a product that is not only
+       delicious but also visually distinct. This approach also means that each cookie may have slight variations
+       in size or shape, but this only adds to its charm and authenticity.</p>
+    </div>
+      <div class="photo">
+        <%= image_tag("handslebkuchen.svg", style: "width: 500px; height: 500px;") %>
+      </div>
+  </div>
 </div>
