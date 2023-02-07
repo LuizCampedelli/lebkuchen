@@ -1,42 +1,54 @@
-<!DOCTYPE html>
+<%# Path: app/views/contacts/contact.html.erb %>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
-    <title>Contact us! </title>
-          <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-      </script>
-      <script type="text/javascript">
-        (function(){
-            emailjs.init("aTtn5oVnIzed39MBB");
-        })();
-      </script>
-      <script src="contact.js"></script>
+    <title>Contact Form</title>
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script>
+      (function(){
+        emailjs.init("l-AUtl_SyfQcygoH4");
+
+        document.addEventListener("DOMContentLoaded", function() {
+          const sendButton = document.getElementById("send_button");
+          const contactForm = document.getElementById("contact_form");
+
+          sendButton.addEventListener("click", function(event){
+            event.preventDefault();
+            sendButton.innerHTML = "Sending...";
+            console.log("Sending email...");
+            emailjs.sendForm("service_amr6cuo", "template_tbm2kny", "#contact_form")
+              .then(function(response) {
+                console.log("E-mail sent successfully!", response.status, response.text);
+                sendButton.innerHTML = "Sent!";
+                contactForm.reset();
+                alert("E-mail sent successfully!");
+              }, function(error) {
+                console.log("E-mail not sent", error);
+                sendButton.innerHTML = "Try Again";
+              });
+          });
+        });
+      })();
+    </script>
   </head>
-  <body>
 
-    <div class="container border mt-3 bg-light">
-      <div class="row">
-        <div class="col-md-6 p-5 bg-primary text-white"></div>
-        <h1>Hi there!</h1>
-            <h4>If ou have any question, please send us an email, we will be happy to answer!</h4>
-        </div>
-        <div class="col-md-6 py-3 ">
-          <h1>Contact form</h1>
-          <form id="form_id">
-            <h5>Your email</h5>
-            <input type="text" id="to_email" placeholder="email">
-            <h5>Name</h5>
-            <input type="text" id="name" placeholder="name">
-            <h5>Subject</h5>
-            <input type="text" id="subject" placeholder="Subject">
-            <h5>message</h5>
-            <textarea id="message" placeholder="Message"></textarea>
-            <button id="send_button"onclick="sendMail()">Send</button>
-         </form>
+  <h1>Welcome to Lebkuchen</h1>
+  <h2>CONTACT</h2>
 
-        </div>
+  <div class="container">
+    <div class="grid">
+      <div class="g-col-6">
+        <form id="contact_form">
+          <input type="text" id="to_email" name="to_email" placeholder="Email">
+          <input type="text" id="name" name="name" placeholder="Name">
+          <input type="text" id="subject" name="subject" placeholder="Subject">
+          <textarea id="message" name="message" placeholder="Message"></textarea>
+          <button id="send_button">Send</button>
+        </form>
+      </div>
+      <br>
+      <div class="g-col-6">
+        <img id="contact-image" src="http://bit.ly/3RKlkcx" alt="Lebkuchen, Contact us!">
+      </div>
     </div>
-  </body>
+  </div>
 </html>

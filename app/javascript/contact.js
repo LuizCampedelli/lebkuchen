@@ -10,9 +10,9 @@ function sendMail() {
   } ;
 
   const serviceID = "service_amr6cuo";
-const templateID = "template_tbm2kny";
+  const templateID = "template_tbm2kny";
 
-EmailJSResponseStatus.send(serviceID, templateID, params)
+emailjs.send(serviceID, templateID, params)
 .then(response =>{
       document.getElementById("name").value = "";
       document.getElementById("to_email").value = "";
