@@ -1,41 +1,54 @@
-<h1> contact page </h1>
+<%# Path: app/views/contacts/contact.html.erb %>
 <html>
-<head>
+  <head>
     <title>Contact Form</title>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init('aTtn5oVnIzed39MBB');
-        })();
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script>
+      (function(){
+        emailjs.init("l-AUtl_SyfQcygoH4");
+
+        document.addEventListener("DOMContentLoaded", function() {
+          const sendButton = document.getElementById("send_button");
+          const contactForm = document.getElementById("contact_form");
+
+          sendButton.addEventListener("click", function(event){
+            event.preventDefault();
+            sendButton.innerHTML = "Sending...";
+            console.log("Sending email...");
+            emailjs.sendForm("service_amr6cuo", "template_tbm2kny", "#contact_form")
+              .then(function(response) {
+                console.log("E-mail sent successfully!", response.status, response.text);
+                sendButton.innerHTML = "Sent!";
+                contactForm.reset();
+                alert("E-mail sent successfully!");
+              }, function(error) {
+                console.log("E-mail not sent", error);
+                sendButton.innerHTML = "Try Again";
+              });
+          });
+        });
+      })();
     </script>
-    <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                // generate a five digit number for the contact_number variable
-                this.contact_number.value = Math.random() * 100000 | 0;
-                // these IDs from the previous steps
-                emailjs.sendForm('contact_service', 'contact_form', this)
-                    .then(function() {
-                        console.log('SUCCESS!');
-                    }, function(error) {
-                        console.log('FAILED...', error);
-                    });
-            });
-        }
-    </script>
-</head>
-<body>
-    <form id="contact-form">
-        <input type="hidden" name="contact_number">
-        <label>Name</label>
-        <input type="text" name="user_name">
-        <label>Email</label>
-        <input type="email" name="user_email">
-        <label>Message</label>
-        <textarea name="message"></textarea>
-        <input type="submit" value="Send">
-    </form>
-</body>
+  </head>
+
+  <h1>Welcome to Lebkuchen</h1>
+  <h2>CONTACT</h2>
+
+  <div class="container">
+    <div class="grid">
+      <div class="g-col-6">
+        <form id="contact_form">
+          <input type="text" id="to_email" name="to_email" placeholder="Email">
+          <input type="text" id="name" name="name" placeholder="Name">
+          <input type="text" id="subject" name="subject" placeholder="Subject">
+          <textarea id="message" name="message" placeholder="Message"></textarea>
+          <button id="send_button">Send</button>
+        </form>
+      </div>
+      <br>
+      <div class="g-col-6">
+        <img id="contact-image" src="http://bit.ly/3RKlkcx" alt="Lebkuchen, Contact us!">
+      </div>
+    </div>
+  </div>
 </html>
