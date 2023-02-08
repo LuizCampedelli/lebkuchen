@@ -3,6 +3,13 @@
 // ./bin/rails generate stimulus controllerName
 
 import { application } from "./application"
+import ScrollTo from 'stimulus-scroll-to'
+
+const application = Application.start()
+application.register('scroll-to', ScrollTo)
 
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
+
+import ScrollReveal from 'stimulus-scroll-reveal'
+application.register('scroll-reveal', ScrollReveal)
