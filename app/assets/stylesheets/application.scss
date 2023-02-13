@@ -14,7 +14,7 @@
 @import "components/container";
 
 .html, body {
-  background-color: $beige;
+  background-color: $beige !important;
   height: 100%;
 
 }
