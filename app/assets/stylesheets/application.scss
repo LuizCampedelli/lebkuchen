@@ -8,13 +8,14 @@
 @import "font-awesome";
 @import "config/fonts";
 
+
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
 @import "components/container";
 
 .html, body {
-  background-color: $beige;
+  background-color: $beige !important;
   height: 100%;
 
 }
