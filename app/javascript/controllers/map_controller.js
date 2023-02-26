@@ -61,12 +61,17 @@ export default class extends Controller {
 
 
  #showLocationToMap() {
-  this.cardTarget.forEach((card) => {
-    card.addEventListener("click", () => {
-      const latitude = card.dataset.latitude
-      const longitude = card.dataset.longitude
-      const center = [longitude, latitude]
-      this.map.flyTo({ center: center, zoom: 9, speed: 0.2, curve: 1 })
+  document.querySelectorAll("#icon").forEach((icon) => {
+    icon.addEventListener("click", (event) => {
+      const lng = icon.dataset.lng
+      const lat = icon.dataset.lat
+
+      this.map.flyTo({
+        center:[lng, lat],
+        essencial: true,
+        zoom: 15,
+        speed: 1,
+       });
     })
   })
 }

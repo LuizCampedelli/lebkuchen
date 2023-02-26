@@ -8,14 +8,11 @@
 
 
   <div class="container-location" >
-    <div id="cards" data-controller="card">
     <% @locations.each do |location| %>
-    <div class="card" data-action = "click->card#disable" data-card-target="card"
-            data-latitude="<%= location.latitude %>"
-            data-longitude="<%= location.longitude %>"></div>
+    <div class="card"></div>
     <h5 class="card-title"><%= location.name %></h5>
     <p class="card-text"><%= location.address %></p>
-    <%= image_tag("icon.svg") %>
+    <%= image_tag("icon.svg", data: { lng: location.longitude, lat: location.latitude }, id: "icon") %>
 
     <% end %>
     </div>
