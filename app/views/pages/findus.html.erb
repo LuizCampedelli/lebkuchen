@@ -11,10 +11,10 @@
     <div class="container-location" >
      <div>
       <% @locations.each do |location| %>
-      <div id="local" data-lng = "<%= location.longitude %>" data-lat="<%= location.latitude %>">
+      <div id="local"  data-lng = "<%= location.longitude %>" data-lat="<%= location.latitude %>">
         <h5 class="card-title"><%= location.name %></h5>
         <p class="card-text"><%= location.address %></p>
-        <%= image_tag("icon.svg", data: { lng: location.longitude, lat: location.latitude }, id: "icon") %>
+        <%= image_tag("icon.svg", id: "icon") %>
       </div>
       <% end %>
       </div>

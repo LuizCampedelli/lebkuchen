@@ -9,7 +9,7 @@ export default class extends Controller {
 
   }
 
-  static targets = ["map"]
+  //static targets = ["map", "local"]
 
 
 
@@ -65,8 +65,9 @@ export default class extends Controller {
 #showLocationToMap(){
   document.querySelectorAll("#local").forEach((local) => {
     local.addEventListener("click", (event) => {
-      const lng = local.dataset.lng
-      const lat = local.dataset.lat
+        const lng = local.dataset.lng
+        const lat = local.dataset.lat
+
 
       this.map.flyTo({
         center:[lng, lat],
