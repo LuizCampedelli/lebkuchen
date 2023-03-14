@@ -23,9 +23,11 @@ module Lebkuchen
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    config.i18n.available_locales = %i[de en]
     config.i18n.default_locale = :de
-    config.i18n.available_locales = [:de, :en]
-    
+    config.i18n.fallbacks = true
+
 
   end
 end
