@@ -12,7 +12,7 @@
 #
 # To use a different locale, set it with `I18n.locale`:
 #
-#     I18n.locale = :es
+#     "I18n.locale" = :es
 #
 # This would use the information in config/locales/es.yml.
 #
@@ -30,4 +30,7 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  welcome: "Hello world"
+  history: "Rodgau's history began when two friends, Matthias Stark and Michael Rieß, had a conversation over good beer and wine and decided to start a business in the baking industry producing Lebkuchen.
+     Matthias,a former baker and passionate hobbyist, was frustrated with mass-produced Lebkuchen that didn't meet his high standards. They started producing for personal use, but soon the demand for their high-quality Lebkuchen exceeded their capacity.
+     Today, the team of five people produces a variety of Mandellebkuchen and Haselnusslebkuchen made with fine ingredients and baked to perfection."
