@@ -5,13 +5,13 @@
     <% end %>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <div class="navbar-nav">
-          <a href="#products" data-controller="scroll-to">Products</a>
-          <a href="#about" data-controller="scroll-to">About</a>
-          <a href="/contact">Contact</a>
-          <a href="/event">Events</a>
-          <a href="/findus">Where to buy</a>
-          <li><%= link_to "Deutch", root_path(locale: :de) %></li>
-          <li><%= link_to "English", root_path(locale: :en) %></li>
+          <li><%= link_to "Produtcs" %></li>
+          <li><%= link_to "About" %></li>
+          <li><%= link_to "Contact", contact_path %></li>
+          <li><%= link_to "Event", event_path %></li>
+          <li><%= link_to "Where to buy", findus_path %></li>
+          <li><%= link_to "de", locale: "de" %></li>
+          <li><%= link_to "en", locale: "en" %></li>
       </div>
     </div>
   </div>
