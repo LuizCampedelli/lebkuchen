@@ -1,11 +1,70 @@
 
 <div class= "banner">
   <div class="content">
-      <h1>Lebkuchen</h1>
+      <h1>Lebkuchen-aus-Rodogau</h1>
       <h2>The most delicious cookie in all of Europe, <br> surprise yourself with the flavour</h2>
         <%= link_to "Where to buy", "/findus", class: "btn btn-flat" %>
-  </div>
+    </div>
 </div>
+
+
+  <div class= "home-content">
+
+   <div class="products">
+
+        <div class="col-sm">
+          <div class="card h-100">
+              <img src="https://cdn.lebkuchen-schmidt.com/userdata/images/Einkaufswelten/N%C3%BCrnberger%20Lebkuchen/nuernberger-lebkuchen-banner.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Card title</h5>
+                <p class="card-text">Some quick example text to build make up the bulk of the card's content.
+                </p>
+              <!-- Trigger/Open The Modal -->
+              <button id="myBtn">Quick view</button>
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+               <!-- Modal content -->
+                  <div class="modal-content">
+                      <span class="close">&times;</span>
+                        <img src="https://www.allrecipes.com/thmb/j3gm0vHEYsNWjRbg9GO7iv2rWjw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7744068-german-lebkuchen-Stacy-D-4x3-1-be2c445f7fe04d9380e3d811e48e5fe3.jpg" alt="">
+                        <p>Zutatenliste
+                        Oblatenlebkuchen mit HASELNÜSSEN
+                        HASELNÜSSE, Sultaninen, VOLLEI ( EIWEIß), Zucker, Butter (LAKTOSE ), Marzipanrohmasse (MANDELN),
+                        Zitronat (Zitronensäure E330), Orangeat ( Zitronensäure E330), Semmelbrösel (WEIZEN),
+                        Rum (Alkohol), Backtriebmittel Pottasche, Gewürze (Zimt), Backoblaten ((WEIZEN), Stärke)
+                        KANN SPUREN ANDERER SCHALENFRÜCHTE ENTHALTEN
+                        Enthält GLUTEN (Semmelbrösel, Oblaten)</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+            <div class="card h-100">
+                <img src="https://glutenfreecuppatea.co.uk/wp-content/uploads/2018/12/gluten-free-lebkuchen-recipe-dairy-free-low-fodmap-featured.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some more quick example text for the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card h-100">
+                <img src="https://realfood.tesco.com/media/images/RFO-1400x919-Lebkuchen-409d206d-e924-4635-911e-764ef748e717-0-1400x919.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Card title</h5>
+                    <p class="card-text">Some quick example text to make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+
+</div>
+
+
+
+
+
+
 <div >
   <div class="home-story">
     <div class="photo">
@@ -16,7 +75,7 @@
       <h3>Baking Passion Turned Business</h3>
        <p><%= t("history") %></p>
           <%= link_to "Find us!", "/findus", class: "btn-findus" %>
-          </div>
+    </div>
     </div>
   </div>
 
@@ -31,4 +90,33 @@
   </div>
 </div>
 
-<h3> <%= t("banana") %></h3>
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
