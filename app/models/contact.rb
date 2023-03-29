@@ -1,4 +1,4 @@
-class ContactForm < MailForm::Base
+class Contact < MailForm::Base
   attribute :name, validate: true
   attribute :email, validate: /\A[^@\s]+@[^@\s]+\z/i
   attribute :file, attachment: true
@@ -11,7 +11,7 @@ class ContactForm < MailForm::Base
   def headers
     {
       subject: "My Contact Form",
-      to: "your.email@your.domain.com",
+      to: "nataliabragancan@gmail.com",
       from: %("#{name}" <#{email}>)
     }
   end

@@ -1,12 +1,11 @@
-
-class ContactFormsController < ApplicationController
+class ContactsController < ApplicationController
   def new
-    @contact_form = ContactForm.new
+    @contact = Contact.new
   end
 
   def create
-    @contact_form = ContactForm.new(params[:contact_form])
-    if @contact_form.deliver
+    @contact = Contact.new(params[:contact_form])
+    if @contact.deliver
       flash[:success] = "Obrigado por entrar em contato conosco! Responderemos em breve."
       redirect_to root_path
     else
