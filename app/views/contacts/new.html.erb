@@ -1,0 +1,15 @@
+
+<h1>Entre em contato conosco</h1>
+<%= form_for @contact, :url => contacts_path do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name, required: true %>
+
+  <%= f.label :email %>
+  <%= f.email_field :email, required: true%>
+
+  <%= f.label :message %>
+  <%= f.text_area :message %>
+
+
+  <%= f.submit "Enviar mensagem" %>
+<% end %>

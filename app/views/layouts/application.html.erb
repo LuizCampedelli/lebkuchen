@@ -15,9 +15,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
 
-  <body id= "top" class ="body" style="margin:0px" >
+  <body class ="body" style="margin:0px" >
 
     <%= render "shared/navbar" %>
+    
     <%= yield %>
     <%= render "shared/footer" %>
     <%= render "shared/back_to_top" %>
