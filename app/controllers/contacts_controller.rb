@@ -4,12 +4,13 @@ class ContactsController < ApplicationController
   end
 
   def create
-    @contact = Contact.new(params[:contact_form])
+    @contact = Contact.new(params[:contact])
+    @contact.request = request
     if @contact.deliver
-      flash[:success] = "Obrigado por entrar em contato conosco! Responderemos em breve."
+      flash.now[:error] = nil
       redirect_to root_path
     else
-      flash[:error] = "Houve um erro ao enviar a mensagem. Por favor, tente novamente."
+      flash.now[:error] = "Houve um erro ao enviar a mensagem. Por favor, tente novamente."
       render :new
     end
   end
