@@ -1,15 +1,18 @@
 
-<h1>Entre em contato conosco</h1>
-<%= form_for @contact, :url => contacts_path do |f| %>
-  <%= f.label :name %>
-  <%= f.text_field :name, required: true %>
-
-  <%= f.label :email %>
-  <%= f.email_field :email, required: true%>
-
-  <%= f.label :message %>
-  <%= f.text_area :message %>
+<h1 id="page_title">Entre em contato conosco</h1>
 
 
-  <%= f.submit "Enviar mensagem" %>
-<% end %>
+
+  <%= simple_form_for @contact do |f| %>
+  <div class="col-md-6">
+      <%= f.input :name, placeholder: "Your name" %><br>
+      <%= f.input :email, placeholder: "Your Email" %><br>
+      <%= f.input :message, as: :text %><br>
+      <div class="hidden">
+          <%= f.label :nicname %><br>
+          <%= f.text_field :nickname, hint: 'Leave this field blank' %>
+      </div>
+
+      <%= f.button :submit, "Send us a message", class: "btn btn-primary" %>
+  <% end %>
+</div>
