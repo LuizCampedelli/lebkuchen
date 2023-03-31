@@ -13,6 +13,7 @@ class ContactsController < ApplicationController
       render :new
     end
   end
+  
 
   def contact_form_params
     params.require(:contact).permit(:name, :email, :message)

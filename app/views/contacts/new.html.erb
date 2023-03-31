@@ -5,16 +5,14 @@
 
   <%= simple_form_for @contact do |f| %>
   <div class="col-md-6">
-      <%= f.input :name %><br>
-      <%= f.input :email %><br>
-      <%= f.input :message %><br>
+      <%= f.input :name, placeholder: "Your name" %><br>
+      <%= f.input :email, placeholder: "Your Email" %><br>
+      <%= f.input :message, as: :text %><br>
       <div class="hidden">
           <%= f.label :nicname %><br>
           <%= f.text_field :nickname, hint: 'Leave this field blank' %>
       </div>
 
-
-
-      <%= f.submit %>
+      <%= f.button :submit, "Send us a message", class: "btn btn-primary" %>
   <% end %>
 </div>
