@@ -2,24 +2,25 @@
 <h1 id="page_title">Entre em contato conosco</h1>
 
 
-<div class="skinny_wrapper wrapper_padding">
+
   <%= form_for @contact do |f| %>
-    <%= f.label :name %><br>
-    <%= f.text_field :name, required: true %>
+  <div class="col-md-6">
+      <%= f.label :name %><br>
+      <%= f.text_field :name, required: true, class: "contact-form-text-area" %>
 
-    <%= f.label :email %><br>
-    <%= f.email_field :email, required: true%>
+      <%= f.label :email %><br>
+      <%= f.email_field :email, required: true, class: "contact-form-text-area"%>
 
-    <%= f.label :message %><br>
-    <%= f.text_area :message,as: :text %>
+      <%= f.label :message %><br>
+      <%= f.text_area :message,rows: 8, cols: 40, required: true, class: "contact-form-text-area", placeholder: "Send us a message" %>
 
-     <div class="hidden">
-        <%= f.label :nicname %><br>
-        <%= f.text_field :nickname, hint: 'Leave this field blank' %>
-    </div>
+      <div class="hidden">
+          <%= f.label :nicname %><br>
+          <%= f.text_field :nickname, hint: 'Leave this field blank' %>
+      </div>
 
 
 
-    <%= f.submit "Enviar mensagem", class: "button" %>
+      <%= f.submit "Enviar mensagem", class: "btn btn-primary" %>
   <% end %>
 </div>
