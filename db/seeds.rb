@@ -30,7 +30,7 @@ location2.save
 
 location3 = Location.new(
   name: "Alexandras Marktstübchen",
-  address: "46 Bischof-Ketteler-Straße, 63165 Mühlheim am Main"
+  address: "46 Bischof-Ketteler-Straße, Mühlheim am Main"
 )
 location3.save
 
