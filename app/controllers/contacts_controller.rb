@@ -7,6 +7,7 @@ class ContactsController < ApplicationController
     @contact = Contact.new(params[:contact])
     @contact.request = request
     if @contact.deliver
+
       flash.now[:sucess] = "Message sent"
       render :create
     else

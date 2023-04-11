@@ -1,3 +1,37 @@
+// .location-title{
+//   align-self: center;
+
+// }
+
+.container-location{
+  display: flex;
+  gap:30px ;
+
+  gap: 100px;
+}
+
+.cards-map{
+  margin-left: 15%;
+
+}
+
+#local{
+  // float: left;
+  display: flex;
+  // flex-direction: row;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  border: 1px;
+  border-radius: 5px;
+  background-color:$light-beige;
+  gap: 30px;
+
+}
+
+#map{
+float: right;
+border-radius: 8px;
+}
 
 .findus  {
   background-size: cover;
@@ -72,9 +106,6 @@ p {
 
 
 }
-
-
-
 
 
 .adress {
