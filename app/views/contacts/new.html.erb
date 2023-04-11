@@ -3,7 +3,7 @@
 
 
 
-  <%= simple_form_for @contact do |f| %>
+  <%= simple_form_for @contact, html: { 'data-turbo': false }  do |f| %>
   <div class="col-md-6">
       <%= f.input :name, placeholder: "Your name" %><br>
       <%= f.input :email, placeholder: "Your Email" %><br>
