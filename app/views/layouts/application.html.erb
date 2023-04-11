@@ -18,7 +18,12 @@
   <body class ="body" style="margin:0px" >
 
     <%= render "shared/navbar" %>
-
+     <div class="container">
+       <br>
+       <% flash.each do |key, message| %>
+         <p class="alert alert-<%= key %>"><%= message %></p>
+       <% end %>
+     </div>
     <%= yield %>
     <%= render "shared/footer" %>
     <%= render "shared/back_to_top" %>
