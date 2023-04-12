@@ -1,18 +1,31 @@
 
-<h1 id="page_title">Entre em contato conosco</h1>
+<h3 id="page_title">Contact us!</h3>
 
 
+<p>If you have any questions about our products or if you simply want to say hello, please contact us. We'll be happy to assist you and get back to you as soon as possible. Thank you for visiting!</p>
 
-  <%= simple_form_for @contact do |f| %>
-  <div class="col-md-6">
-      <%= f.input :name, placeholder: "Your name" %><br>
-      <%= f.input :email, placeholder: "Your Email" %><br>
-      <%= f.input :message, as: :text %><br>
-      <div class="hidden">
-          <%= f.label :nicname %><br>
-          <%= f.text_field :nickname, hint: 'Leave this field blank' %>
+
+<div class="container justify-content-center ">
+ <div class ="row">
+  <div class="col-md-6  ">
+   <%= simple_form_for @contact, html: { 'data-turbo': false }  do |f| %>
+        <%= f.input :name, placeholder: "Your name" %><br>
+        <%= f.input :email, placeholder: "Your Email" %><br>
+        <%= f.input :message, as: :text %><br>
+        <div class="hidden">
+            <%= f.label :nicname %><br>
+            <%= f.text_field :nickname, hint: 'Leave this field blank' %>
+        </div>
+
+        <%= f.button :submit, "Send us a message", class: "btn btn-primary" %>
+    <% end %>
+    </div>
+
+
+   <div class="col-md-6 gx-5 ">
+      <div class="photo">
+          <%= image_tag("lebkuchen-contact.png", style: "width: 500px; height: 500px;") %>
       </div>
-
-      <%= f.button :submit, "Send us a message", class: "btn btn-primary" %>
-  <% end %>
+    </div>
+ </div>
 </div>
