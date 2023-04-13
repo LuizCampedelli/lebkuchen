@@ -8,7 +8,9 @@ export default class extends Controller {
     markers: Array,
 
   }
-  static targets = ["card"]
+
+  //static targets = ["map", "local"]
+
 
 
   connect() {
@@ -17,6 +19,7 @@ export default class extends Controller {
     this.map = new mapboxgl.Map({
       container: this.element,
       style: "mapbox://styles/mapbox/streets-v10",
+      
     });
     this.#addMarkersToMap()
     this.#fitMapToMarkers()
@@ -60,15 +63,16 @@ export default class extends Controller {
 }
 
 
- #showLocationToMap() {
-  document.querySelectorAll("#icon").forEach((icon) => {
-    icon.addEventListener("click", (event) => {
-      const lng = icon.dataset.lng
-      const lat = icon.dataset.lat
+#showLocationToMap(){
+  document.querySelectorAll("#local").forEach((local) => {
+    local.addEventListener("click", (event) => {
+        const lng = local.dataset.lng
+        const lat = local.dataset.lat
+
 
       this.map.flyTo({
         center:[lng, lat],
-        essencial: true,
+        essential: true,
         zoom: 15,
         speed: 1,
        });
