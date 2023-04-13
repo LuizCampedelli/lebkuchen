@@ -23,7 +23,7 @@
 
 }
 
-.nav-link {
+.navbar-nav a {
   font-family: $body-font;
   color: $dark-green;
   text-transform: uppercase;
@@ -32,10 +32,11 @@
   transition: 0.3s ease;
 }
 
-.nav-link:hover{
+.navbar-nav a:hover{
   text-decoration: underline;
   text-decoration-color: #A07037;
-  text-decoration-thickness: 0.3em;
-  text-underline-offset: 0.03em;
+  color: inherit;
 
 }
+
+

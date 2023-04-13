@@ -5,11 +5,13 @@
     <% end %>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <div class="navbar-nav">
-          <%= link_to "Products", "#", class: "nav-link" %>
-          <%= link_to "About", "#", class: "nav-link" %>
-          <%= link_to "Contact", "/contact", class: "nav-link" %>
-          <%= link_to "Events", "/event", class: "nav-link" %>
-          <%= link_to "Where to buy", "/findus", class: "nav-link" %>
+          <li><%= link_to "About", root_path(anchor: 'about') %></li>
+          <li><%= link_to "Produtcs", root_path(anchor: 'products-cards')%></li>
+          <li><%= link_to "Event", event_path %></li>
+          <li><%= link_to "Where to buy", findus_path %></li>
+          <li><%= link_to "Contact", contacts_path %></li>
+          <li><%= link_to "de", locale: "de" %></li>
+          <li><%= link_to "en", locale: "en" %></li>
       </div>
     </div>
   </div>
