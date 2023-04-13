@@ -33,7 +33,12 @@
   "resolved" "https://registry.npmjs.org/@emailjs/browser/-/browser-3.10.0.tgz"
   "version" "3.10.0"
 
-"@hotwired/stimulus@^3.2.1":
+"@hotwired/stimulus-webpack-helpers@^1.0.1":
+  "integrity" "sha512-wa/zupVG0eWxRYJjC1IiPBdt3Lruv0RqGN+/DTMmUWUyMAEB27KXmVY6a8YpUVTM7QwVuaLNGW4EqDgrS2upXQ=="
+  "resolved" "https://registry.npmjs.org/@hotwired/stimulus-webpack-helpers/-/stimulus-webpack-helpers-1.0.1.tgz"
+  "version" "1.0.1"
+
+"@hotwired/stimulus@^3.2.1", "@hotwired/stimulus@>= 3.0":
   "integrity" "sha512-HGlzDcf9vv/EQrMJ5ZG6VWNs8Z/xMN+1o2OhV1gKiSG6CqZt5MCBB1gRg5ILiN3U0jEAxuDTNPRfBcnZBDmupQ=="
   "resolved" "https://registry.npmjs.org/@hotwired/stimulus/-/stimulus-3.2.1.tgz"
   "version" "3.2.1"
@@ -1510,6 +1515,11 @@
   "resolved" "https://registry.npmjs.org/spdx-license-ids/-/spdx-license-ids-3.0.12.tgz"
   "version" "3.0.12"
 
+"stimulus-scroll-reveal@^3.1.0":
+  "integrity" "sha512-3xfiNgwgAM70F6Phy14CCVto3O2gIXiOd4arvqHD+sPv5EdRJ1rav+So2T+IZz89IT3AagF3I7ZY7DgeHm/iNg=="
+  "resolved" "https://registry.npmjs.org/stimulus-scroll-reveal/-/stimulus-scroll-reveal-3.1.0.tgz"
+  "version" "3.1.0"
+
 "stimulus-scroll-to@^4.1.0":
   "integrity" "sha512-bKltfECyU8y/ck8yXy77hlK/vv85igW7LPtZpgkUBFuAGz+Ou7EnMPpKrSJiYoK+TXS2COFilb/PGND/xISxJA=="
   "resolved" "https://registry.npmjs.org/stimulus-scroll-to/-/stimulus-scroll-to-4.1.0.tgz"
@@ -1690,9 +1700,9 @@
   "version" "3.2.3"
 
 "webpack@^5.0.0", "webpack@^5.1.0", "webpack@^5.75.0", "webpack@5.x.x":
-  "integrity" "sha512-piaIaoVJlqMsPtX/+3KTTO6jfvrSYgauFVdt8cr9LTHKmcq/AMd4mhzsiP7ZF/PGRNPGA8336jldh9l2Kt2ogQ=="
-  "resolved" "https://registry.npmjs.org/webpack/-/webpack-5.75.0.tgz"
-  "version" "5.75.0"
+  "integrity" "sha512-18Qv7uGPU8b2vqGeEEObnfICyw2g39CHlDEK4I7NK13LOur1d0HGmGNKGT58Eluwddpn3oEejwvBPoP4M7/KSA=="
+  "resolved" "https://registry.npmjs.org/webpack/-/webpack-5.76.3.tgz"
+  "version" "5.76.3"
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^0.0.51"
