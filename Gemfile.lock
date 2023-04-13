@@ -127,6 +127,9 @@ GEM
       net-imap
       net-pop
       net-smtp
+    mail_form (1.10.0)
+      actionmailer (>= 5.2)
+      activemodel (>= 5.2)
     marcel (1.0.2)
     matrix (0.4.2)
     method_source (1.0.0)
@@ -174,6 +177,9 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.4.4)
       loofah (~> 2.19, >= 2.19.1)
+    rails-i18n (7.0.6)
+      i18n (>= 0.7, < 2)
+      railties (>= 6.0.0, < 8)
     railties (7.0.4)
       actionpack (= 7.0.4)
       activesupport (= 7.0.4)
@@ -248,9 +254,11 @@ DEPENDENCIES
   geocoder
   jbuilder
   jsbundling-rails
+  mail_form
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.4)
+  rails-i18n
   sassc-rails
   selenium-webdriver
   simple_form!

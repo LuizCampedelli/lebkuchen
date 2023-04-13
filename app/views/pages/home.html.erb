@@ -1,11 +1,80 @@
-
+<div id="top"></div>
 <div class= "banner">
   <div class="content">
-      <h1>Lebkuchen</h1>
+      <h1>Lebkuchen-aus-Rodogau</h1>
       <h2>The most delicious cookie in all of Europe, <br> surprise yourself with the flavour</h2>
-        <%= link_to "Where to buy", "/findus", class: "btn btn-flat" %>
-  </div>
+        <%= link_to "Where to buy", "/findus", class: "btn-findus" %>
+    </div>
 </div>
+
+
+  <div class= "home-content">
+
+   <div id="products-cards">
+      <div class= "row gy-2">
+       <div class= "col-md-4">
+          <div class="p-card h-100">
+              <img src="https://cdn.lebkuchen-schmidt.com/userdata/images/Einkaufswelten/N%C3%BCrnberger%20Lebkuchen/nuernberger-lebkuchen-banner.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Card title</h5>
+                <p class="card-text">Some quick example text to build make up the bulk of the card's content.
+                </p>
+              <!-- Trigger/Open The Modal -->
+              <button id="myBtn">Quick view</button>
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+               <!-- Modal content -->
+                  <div class="modal-content">
+                      <span class="close">&times;</span>
+                        <img src="https://www.allrecipes.com/thmb/j3gm0vHEYsNWjRbg9GO7iv2rWjw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7744068-german-lebkuchen-Stacy-D-4x3-1-be2c445f7fe04d9380e3d811e48e5fe3.jpg" alt="">
+                        <p>Zutatenliste
+                        Oblatenlebkuchen mit HASELNÜSSEN
+                        HASELNÜSSE, Sultaninen, VOLLEI ( EIWEIß), Zucker, Butter (LAKTOSE ), Marzipanrohmasse (MANDELN),
+                        Zitronat (Zitronensäure E330), Orangeat ( Zitronensäure E330), Semmelbrösel (WEIZEN),
+                        Rum (Alkohol), Backtriebmittel Pottasche, Gewürze (Zimt), Backoblaten ((WEIZEN), Stärke)
+                        KANN SPUREN ANDERER SCHALENFRÜCHTE ENTHALTEN
+                        Enthält GLUTEN (Semmelbrösel, Oblaten)</p>
+                  </div>
+                </div>
+            </div>
+
+      </div>
+      </div>
+      <div class="col-md-4">
+            <div class="p-card h-100">
+                <img src="https://glutenfreecuppatea.co.uk/wp-content/uploads/2018/12/gluten-free-lebkuchen-recipe-dairy-free-low-fodmap-featured.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <!-- Trigger/Open The Modal -->
+              <button id="myBtn">Quick view</button>
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+               <!-- Modal content -->
+                  <div class="modal-content">
+                      <span class="close">&times;</span>
+                        <img src="https://www.allrecipes.com/thmb/j3gm0vHEYsNWjRbg9GO7iv2rWjw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7744068-german-lebkuchen-Stacy-D-4x3-1-be2c445f7fe04d9380e3d811e48e5fe3.jpg" alt="">
+                        <p>Zutatenliste
+                        Oblatenlebkuchen mit HASELNÜSSEN
+                        HASELNÜSSE, Sultaninen, VOLLEI ( EIWEIß), Zucker, Butter (LAKTOSE ), Marzipanrohmasse (MANDELN),
+                        Zitronat (Zitronensäure E330), Orangeat ( Zitronensäure E330), Semmelbrösel (WEIZEN),
+                        Rum (Alkohol), Backtriebmittel Pottasche, Gewürze (Zimt), Backoblaten ((WEIZEN), Stärke)
+                        KANN SPUREN ANDERER SCHALENFRÜCHTE ENTHALTEN
+                        Enthält GLUTEN (Semmelbrösel, Oblaten)</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+</div>
+</div>
+
+
+
+
+
+
 <div >
   <div class="home-story">
     <div class="photo">
@@ -14,34 +83,49 @@
     <div class="story" style="width: 700px; height: 420px;">
       <h2 id="about">About Lebkuchen-aus-Rodogau</h4>
       <h3>Baking Passion Turned Business</h3>
-      <p>Rodgau's history began when two friends, Matthias Stark and Michael Rieß, had a conversation over good beer and wine and decided to start a business in the baking
-        industry producing Lebkuchen.</p>
-
-        <p>Matthias,a former baker and passionate hobbyist, was frustrated with mass-produced
-        Lebkuchen that didn't meet his high standards. They started producing for personal use,
-        but soon the demand for their high-quality Lebkuchen exceeded their capacity. </p>
-
-        <p>Today, the team of five people produces a variety of Mandellebkuchen and Haselnusslebkuchen made with fine ingredients and baked to perfection.</p>
-          <div style="margin-top:30px">
+       <p><%= t("history") %></p>
           <%= link_to "Find us!", "/findus", class: "btn-findus" %>
-          </div>
+    </div>
     </div>
   </div>
 
   <div class="home-story">
     <div class="story" style="width: 700px; height: 420px;padding-top: 100px">
       <h2 id="products">Our Lebkuchen</h2>
-      <p>Our Lebkuchen is a truly unique product, made without any artificial additives or chemicals.
-       It is purely natural, and we take great care to ensure that it stays that way.</p>
-       <p>This means that our Lebkuchen is not only free from harmful chemicals but also full of authentic flavor and texture.
-       Additionally, it is handcrafted, giving it a unique and artisanal look that sets it apart from mass-
-       produced products.</p>
-       <p>Each cookie is shaped and finished by hand, resulting in a product that is not only
-       delicious but also visually distinct. This approach also means that each cookie may have slight variations
-       in size or shape, but this only adds to its charm and authenticity.</p>
+      <p><%= t("lebkuchen") %></p>
     </div>
       <div class="photo">
         <%= image_tag("handslebkuchen.svg", style: "width: 500px; height: 500px;") %>
       </div>
   </div>
 </div>
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>

@@ -3,13 +3,20 @@
 // ./bin/rails generate stimulus controllerName
 
 import { application } from "./application"
-import ScrollTo from 'stimulus-scroll-to'
-
-const application = Application.start()
-application.register('scroll-to', ScrollTo)
 
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
 
-import ScrollReveal from 'stimulus-scroll-reveal'
-application.register('scroll-reveal', ScrollReveal)
+import MapController from "./map_controller"
+application.register("map", MapController)
+
+import ModalController from "./modal_controller"
+application.register("modal", ModalController)
+
+import { Application } from 'stimulus';
+import { definitionsFromContext } from 'stimulus/webpack-helpers';
+import ScrollRevealController from './scroll_reveal_controller';
+const application = Application.start();
+const context = require.context('./', true, /_controller\.js$/);
+application.load(definitionsFromContext(context));
+application.register('scroll-reveal', ScrollRevealController);
