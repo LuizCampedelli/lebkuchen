@@ -12,7 +12,9 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
-@import "components/container";
+@import "contacts/new";
+
+
 
 .html, body {
   background-color: $beige !important;

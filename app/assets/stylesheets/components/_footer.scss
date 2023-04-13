@@ -6,17 +6,8 @@ footer {
   color: white;
   margin-top: 70px;
   position: absolute;
-  
+
 }
-
-.img img{
-  height: 60px;
-  width: auto;
-  margin-top: 20px;
-  margin-bottom: 35px;
-}
-
-
 .footer-content {
   display: flex;
   align-items: center;
@@ -25,7 +16,6 @@ footer {
   text-align: center;
 
 }
-
 .footer-content p{
   max-width: 500px;
   margin: 10px auto;
@@ -38,50 +28,72 @@ footer {
 
 }
 
+
+.img img{
+  height: 60px;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+
+.link-footer{
+  color: rgb(64, 55, 37);
+  text-decoration: none;
+}
+.link-footer:hover{
+  color: white;
+}
+
+
+
 .footer-links {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 50px 50px;
   font-size: 16px;
-
 }
 .footer-links a {
-  color: white;
+  color: rgb(64, 55, 37);
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
-
 }
-
 .footer-links a:hover {
-  color: $dark-green;
-
+  color: white;
 }
+.footer-links p{
+  color: rgb(64, 55, 37);
+}
+.footer-links p:hover{
+  color: white;
+}
+
+
+.fab-fa-facebook{
+  color: rgb(64, 55, 37);
+  text-decoration: none;
+}
+.fab-fa-instagram{
+  color: rgb(64, 55, 37);
+  text-decoration: none;
+}
+
+
+.line{
+  margin: auto;
+  width: 75%;
+  border-style: solid;
+  color: $beige;
+}
+
 
 .footer-copyright{
-
   width: 100vw;
   text-align: center;
   padding: 20px 0;
   font-family: $body-font;
   color: $dark-green;
   font-size: 14px;
-}
-
-.pages a{
-  text-decoration: none;
-
-}
-
-.pages p:hover{
- color:white;
-
-}
-.line{
-  margin: auto;
-  width: 75%;
-  border-style: solid;
-  color: $beige;
-
 }
