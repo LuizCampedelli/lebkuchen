@@ -1,8 +1,3 @@
-// .location-title{
-//   align-self: center;
-
-// }
-
 .banner1{
   background-size: cover;
   background-position: center;
@@ -35,9 +30,7 @@
 }
 
 #local{
-  // float: left;
   display: flex;
-  // flex-direction: row;
   padding: 10px 10px;
   margin-bottom: 20px;
   border: 1px;
@@ -72,14 +65,12 @@ border-radius: 8px;
   font-family: $body-font;
   font-size: 30px;
   font-weight: 200;
-
 }
 
 .findus-address h2{
   font-family:$body-font ;
   font-weight: 600;
   font-size: 16px;
-
   }
 
 .adress-icon {
@@ -109,11 +100,6 @@ p {
   margin-top: 30px;
 }
 
-// h1{
-//   font-family:$headers-font;
-//   text-align: center;
-// }
-
 .findus-address{
   font-size: 12;
   border: 1px;
@@ -124,10 +110,6 @@ p {
   height: 110px;
   width: 300px;
   padding: 15px;
-
-
-
-
 }
 
 
