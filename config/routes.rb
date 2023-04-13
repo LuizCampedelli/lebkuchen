@@ -1,13 +1,10 @@
 Rails.application.routes.draw do
-  root to: "pages#home"
+  scope "(:locale)", locale: /en|de/ do
+    get "event", to: "pages#event", as: :event
+    get "findus", to: "pages#findus", as: :findus
+    get "contacts", to: "contacts#new"
+    post "contacts", to: "contacts#create"
 
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
-
- get "event", to: "pages#event"
- get "findus", to: "pages#findus"
- get "contact", to: "contacts#contact"
- post "contact", to: "contacts#form"
+    root to: "pages#home"
+  end
 end

@@ -1,0 +1,48 @@
+.card-event {
+  overflow: hidden;
+  height: 361px;
+  width: 1170px;
+  display: flex;
+  align-items: center;
+  margin-left: 56px
+}
+
+.card-event img {
+  height: 100%;
+  width: 400px;
+
+}
+
+.card-event h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.card-event p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 0;
+  margin-top: 18px;
+
+
+}
+
+.card-event .card-event-infos {
+  padding: 39px;
+  align-self: flex-start
+}
+
+.card-event-infos hr{
+  color: #A07037;
+  opacity: 0.5;
+  margin-top: 30px;
+}
+
+.about{
+  color:#A07037;
+  font-weight: 500;
+  text-decoration: none;
+  
+
+}

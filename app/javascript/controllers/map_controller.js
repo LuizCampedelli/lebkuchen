@@ -1,38 +1,82 @@
-import { Controller } from "stimulus"
-import mapboxgl from 'mapbox-gl'
-import 'mapbox-gl/dist/mapbox-gl.css';
+import { Controller } from "@hotwired/stimulus"
 
+
+// Connects to data-controller="map"
 export default class extends Controller {
-  static targets = [ "map" ]
+  static values = {
+    apiKey: String,
+    markers: Array,
+
+  }
+
+  //static targets = ["map", "local"]
+
+
 
   connect() {
+    mapboxgl.accessToken = this.apiKeyValue
 
     this.map = new mapboxgl.Map({
-      container: this.mapTarget,
-      style: "mapbox://styles/andregbt/cldvw7qd400bn01seodm77vbv",
-      center: [50.0013, 8.8769],
-      zoom: 3
+      container: this.element,
+      style: "mapbox://styles/mapbox/streets-v10",
+
     });
-    var marker = new mapboxgl.Marker()
-      .setLngLat([50.02, 8.88])
-      .addTo(this.map);
-  }
+    this.#addMarkersToMap()
+    this.#fitMapToMarkers()
+    this.#showLocationToMap()
+
+
+
+
+    }
+
+
+
+ #addMarkersToMap() {
+    this.markersValue.forEach((marker) => {
+    const customMarker = document.createElement("div")
+    customMarker.style.height = "30px"
+    customMarker.style.width = "30px"
+    customMarker.style.backgroundImage = `url('${marker.image_url}')`
+    customMarker.style.backgroundSize = "contain"
+    const popup = new mapboxgl.Popup().setHTML(marker.info_window_html)
+    new mapboxgl.Marker({element: customMarker} )
+      .setLngLat([ marker.lng, marker.lat])
+      .setPopup(popup)
+      .addTo(this.map)
+
+  })
 }
 
-var div = document.getElementById('myDiv');
 
-map.on('mousemove', function (e) {
-marker.setLngLat(50.096248, 8.856807);
-div.style.left = e.point.x + 'px';
-div.style.top = e.point.y + 'px';
-});
+  #fitMapToMarkers(){
+    const bounds = new mapboxgl.LngLatBounds( )
+    this.markersValue.forEach((marker) => {
+      bounds.extend([marker.lng, marker.lat])
+  })
+  this.map.fitBounds(bounds, {
+    padding: 100, duration: 10
+  })
 
-50.096248, 8.856807
 
-var div = document.getElementById('1');
 
-map.on('mousemove', function (e) {
-marker.setLngLat([-50.096248, 8.856807]);
-div.style.left = e.point.x + 'px';
-div.style.top = e.point.y + 'px';
-});
+}
+
+
+#showLocationToMap(){
+  document.querySelectorAll("#local").forEach((local) => {
+    local.addEventListener("click", (event) => {
+        const lng = local.dataset.lng
+        const lat = local.dataset.lat
+
+
+      this.map.flyTo({
+        center:[lng, lat],
+        essential: true,
+        zoom: 15,
+        speed: 1,
+       });
+    })
+  })
+}
+}

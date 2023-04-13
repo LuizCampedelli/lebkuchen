@@ -1,79 +1,25 @@
-<%# <div class= "banner-findus"> %>
-  <h1>Where to find us</h1>
-    <div class= "findus-container">
-      <div class= "adress">
-        <div class= "findus-address">
-          <h2> Fleischerei Göbel</h2>
-          <p>Dudenhöfer Strasse 33 <br>63110 Rodgau</p>
-        </div>
-
-        <div  class= "findus-address">
-          <h2> Sport aktiv</h2>
-          <p>Ludwigstrasse 6 <br>63110 Rodgau</p>
-        </div>
-
-        <div  class= "findus-address">
-          <div class="local">
-          <h2> Fleischerei Göbel (ehem. Behringer)</h2>
-          <p>Langstrasse 37 <br>63450 Hanau</p>
+<div class= "location-title"></div>
+  <div class= "banner1">
+  <%# <div class="wheretofindus"></div> %>
+  <h1>Where to findus</h1>
+  </div>
+<div class="container-location" >
+     <div class="cards-map">
+        <% @locations.each do |location| %>
+        <div id="local"  data-lng = "<%= location.longitude %>" data-lat="<%= location.latitude %>">
+          <div style="margin:10px;"><%= image_tag("icon.svg", id: "icon") %></div>
+          <div style="margin: 10px 10px;">
+            <div><h5 class="card-title"><%= location.name %></h5></div>
+            <div><p class="card-text"><%= location.address %></p></div>
           </div>
         </div>
-
-        <div  class= "findus-address">
-          <h2> Alexandras Marktstübchen</h2>
-          <p>Bischof-Kettler-Strasse 46 <br>63165 Mühlheim am Main</p>
-        </div>
+        <% end %>
       </div>
-      <div data-controller=“map” data-map-target=“map”>
-        <div id='map' style='width: 400px; height: 300px;'></div>
-      </div>
-        <div id="map"></div>
-<script>
-mapboxgl.accessToken = 'pk.eyJ1IjoiYW5kcmVnYnQiLCJhIjoiY2xhY25oMWgwMGM2djN2bWl0azhzYTg0aSJ9.Kkahd4emN4lOV9k98E6AWA';
-const map = new mapboxgl.Map({
-container: 'map',
-style: 'mapbox://styles/andregbt/cldvw7qd400bn01seodm77vbv',
-center: [50.0013, 8.8769],
-zoom: 10.7
-});
 
-map.on('click', (event) => {
-const features = map.queryRenderedFeatures(event.point, {
-layers: ['lebkuchen']
-});
-if (!features.length) {
-return;
-}
-const feature = features[0];
-
-const popup = new mapboxgl.Popup({ offset: [0, -15] })
-.setLngLat(feature.geometry.coordinates)
-.setHTML(
-`<h3>${feature.properties.title}</h3><p>${feature.properties.description}</p>`
-)
-.addTo(map);
-});
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-        <%# <script>
-          mapboxgl.accessToken = 'pk.eyJ1IjoiYW5kcmVnYnQiLCJhIjoiY2xhY25oMWgwMGM2djN2bWl0azhzYTg0aSJ9.Kkahd4emN4lOV9k98E6AWA';
-          const map = new mapboxgl.Map({
-          container: 'map', // container ID
-          style: 'mapbox://styles/mapbox/streets-v12', // style URL
-          center: [-74.5, 40], // starting position [lng, lat]
-          zoom: 9, // starting zoom
-          });
-        </script> %>
+    <div id = "map" style="width: 40%; height: 60%vh;"
+      data-controller="map"
+      data-map-markers-value="<%= @markers.to_json %>"
+      data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
     </div>
-<%# </div> %>
+
+  </div>
