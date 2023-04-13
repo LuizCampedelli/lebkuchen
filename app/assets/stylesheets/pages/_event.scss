@@ -2,3 +2,31 @@ h3{
   text-transform: uppercase;
   margin: 27px 67px !important;
 }
+
+#cont {
+  color:#9d7937;
+  font-weight: 400;
+  font-family: $body-font;
+}
+
+#page_title{
+  color:purple;
+}
+
+.b-findus {
+  background: rgba(160, 112, 55, 0.7) !important;
+  text-decoration: none !important;
+  padding: 12px 45px !important;
+  border-radius: 50px !important;
+  transition: 0.3s ease !important;
+  font-family: "Poppins", "sans-serif" !important;
+  font-size: medium !important;
+  color: #362e1f !important;
+  margin: auto !important;
+  letter-spacing: 1px !important;
+}
+
+.b-findus:hover {
+  color: $beige !important;
+  background: #A07037 !important;
+}

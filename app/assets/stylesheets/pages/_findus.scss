@@ -3,7 +3,7 @@
 
 // }
 
-.banner1{
+.banner1 {
   background-size: cover;
   background-position: center;
   background-image: linear-gradient(0deg, rgba(29, 21, 18, 0.65), rgba(29, 21, 18, 0.65)), url("image 8.png");
@@ -12,7 +12,7 @@
   justify-content: center;
 }
 
-.banner1 h1{
+.banner1 h1 {
   align-self: center;
   text-align: center;
   font-family:$body-font;
@@ -22,19 +22,19 @@
 
 }
 
-.container-location{
+.container-location {
   display: flex;
   gap:30px ;
   margin-top: 30px;
   gap: 100px;
 }
 
-.cards-map{
+.cards-map {
   margin-left: 15%;
 
 }
 
-#local{
+#local {
   // float: left;
   display: flex;
   // flex-direction: row;
@@ -47,16 +47,16 @@
 
 }
 
-#local:hover{
+#local:hover {
   color: white;
 }
 
-#map{
+#map {
 float: right;
 border-radius: 8px;
 }
 
-.findus  {
+.findus {
   background-size: cover;
   background-position: center;
   background-image: linear-gradient(0deg, rgba(29, 21, 18, 0.65), rgba(29, 21, 18, 0.65)), url("lebkuchen.jpg");
@@ -65,34 +65,30 @@ border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  }
+}
 
-.findus h1{
+.findus h1 {
   color: azure;
   font-family: $body-font;
   font-size: 30px;
   font-weight: 200;
-
 }
 
-.findus-address h2{
+.findus-address h2 {
   font-family:$body-font ;
   font-weight: 600;
   font-size: 16px;
-
-  }
+}
 
 .adress-icon {
   display: flex;
   gap: 25px;
-
 }
 
 .fa-solid {
   color: $dark-green;
   font-size: 35px;
   margin-left: 10px;
-
 }
 
 p {
@@ -114,7 +110,7 @@ p {
 //   text-align: center;
 // }
 
-.findus-address{
+.findus-address {
   font-size: 12;
   border: 1px;
   border-radius: 10px;
@@ -124,10 +120,6 @@ p {
   height: 110px;
   width: 300px;
   padding: 15px;
-
-
-
-
 }
 
 
