@@ -10,4 +10,11 @@ application.register("hello", HelloController)
 import MapController from "./map_controller"
 application.register("map", MapController)
 
+import ModalController from "./modal_controller"
+application.register("modal", ModalController)
+
+
+import ScrollReveal from 'stimulus-scroll-reveal'
+application.register('scroll-reveal', ScrollReveal)
+
 

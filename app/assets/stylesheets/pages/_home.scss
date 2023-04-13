@@ -14,6 +14,7 @@
 
 }
 
+
 .banner h1 {
   text-align: center;
   font-size: 115px;
@@ -30,7 +31,7 @@
   font-size: 30px;
   font-weight: 200;
   color: $beige;
-  margin-top: -75px;
+  margin-top: 75px;
   margin-bottom: 45px;
 
 }
@@ -50,46 +51,64 @@
 //   padding-top: 63px;;
 }
 
+
+#products-cards {
+  display: flex;
+  justify-content:  center;
+  margin:30px;
+  max-width: 100%;
+  gap: 30px;
+
+}
+
+.p-card img{
+ width: 100%;
+ height: 15vw;
+object-fit: cover;
+
+}
+
+
+
 .btn-flat{
-  background: rgba(160, 112, 55, 0.7);
-  text-decoration: none;
-  padding: 12px 120px;
-  border-radius: 50px;
-  transition: 0.3s ease;
-  font-family:$body-font;
-  font-size: medium;
-  color: $beige;
-  margin:auto;
+   background: rgba(160, 112, 55, 0.7);
+   text-decoration: none;
+   padding: 12px 120px;
+   border-radius: 50px;
+   transition: 0.3s ease;
+   font-family:$body-font;
+   font-size: medium;
+   color: $beige;
+   margin:auto;
   letter-spacing: 1px;
 
 }
 
 .btn-flat:hover {
   color:$beige ;
-  background: #A07037;
+   background: #A07037;
 }
 
 .home-story{
   display: flex;
-  align-items: center;
+   align-items: center;
   color: $dark-green;
-  font-family: $body-font;
-  gap: 88px;
-  line-height: 150%;
-  text-align: justify;
-  justify-content: center;
+ font-family: $body-font;
+   gap: 88px;
+   line-height: 150%;
+   text-align: justify;
+   justify-content: center;
 }
 
 .story h2{
-  font-family: $headers-font;
-  color: #A07037;
+   font-family: $headers-font;
+   color: #A07037;
   font-weight: 400;
-  font-size:xx-large;
+   font-size:xx-large;
 }
 
-.story h3{
+ .story h3{
   text-transform: uppercase;
-  text-decoration: underline;
   text-decoration-color: #A07037;
   text-decoration-thickness: 3px;
   margin-top: -9px;
@@ -100,23 +119,63 @@
   font-weight: 400;
 
 
-}
+ }
 
-.btn-findus{
-  background: rgba(160, 112, 55, 0.7);
-  text-decoration: none;
-  padding: 12px 45px;
+ .btn-findus{
+ background: rgba(160, 112, 55, 0.7);
+   text-decoration: none;
+   padding: 12px 45px;
   border-radius: 50px;
-  transition: 0.3s ease;
-  font-family:$body-font;
-  font-size: medium;
-  color: $beige;
-  margin:auto;
-  letter-spacing: 1px;
+    transition: 0.3s ease;
+ font-family:$body-font;
+ font-size: medium;
+ color: $beige;
+ margin:auto;
+ letter-spacing: 1px;
 
 }
 
 .btn-findus:hover {
-  color:$beige ;
-  background: #A07037;
+color:$beige ;
+ background: #A07037;
 }
+
+
+// /* The Modal (background) */
+
+ .modal {
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ }
+
+/* Modal Content/Box */
+ .modal-content {
+   background-color: #fefefe;
+   margin: 15% auto; /* 15% from the top and centered */
+   padding: 20px;
+   border: 1px solid #888;
+   width: 80%; /* Could be more or less, depending on screen size */
+ }
+
+// // /* The Close Button */
+ .close {
+   color: #aaa;
+   float: right;
+  font-size: 28px;
+   font-weight: bold;
+}
+
+// // .close:hover,
+ .close:focus {
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+ }
