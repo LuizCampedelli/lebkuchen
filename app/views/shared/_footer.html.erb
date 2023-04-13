@@ -1,0 +1,25 @@
+<footer>
+  <div class="footer-content">
+   <div>
+      <%= link_to "/", class: "img" do %>
+       <%= image_tag "https://res.cloudinary.com/dllghzftv/image/upload/v1674840904/Group_32_2_cz1naq.png" %>
+     <% end %>
+    </div>
+        <div class= "pages">
+          <p><%= link_to "About", root_path(anchor: 'about'), class:"link-footer" %></p>
+          <p><%= link_to "Produtcs", root_path(anchor: 'products-cards'), class:"link-footer"%></p>
+          <p><%= link_to "Where to buy", findus_path, class:"link-footer" %></p>
+          <p><%= link_to "Events", event_path, class:"link-footer" %></p>
+          <p><%= link_to "Contact", contacts_path, class:"link-footer" %></p>
+        </div>
+    <div class="footer-links">
+     <a href="#"><i class="fab fa-facebook"></i><p>Facebook</p></a>
+     <a href="#"><i class="fab fa-instagram"></i><p>Instagram</p></a>
+    </div>
+
+  </div>
+   <hr class="line">
+  <div class="footer-copyright">
+     © Copyright 2023, All Rights Reserve by Lebkuchen aus Rodgau
+  </div>
+</footer>

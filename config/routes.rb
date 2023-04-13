@@ -1,11 +1,10 @@
 Rails.application.routes.draw do
-  root to: "pages#home"
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  scope "(:locale)", locale: /en|de/ do
+    get "event", to: "pages#event", as: :event
+    get "findus", to: "pages#findus", as: :findus
+    get "contacts", to: "contacts#new"
+    post "contacts", to: "contacts#create"
 
-  # Defines the root path route ("/")
-  # root "articles#index"
-
- get "events", to: "pages#events"
- get "about" , to: "pages#about"
-
+    root to: "pages#home"
+  end
 end

@@ -1,0 +1,18 @@
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+  <div class="container-fluid">
+    <%= link_to "/", class: "navbar-brand" do %>
+      <%= image_tag "https://res.cloudinary.com/dllghzftv/image/upload/v1674840904/Group_32_2_cz1naq.png" %>
+    <% end %>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="navbar-nav">
+          <li><%= link_to "About", root_path(anchor: 'about') %></li>
+          <li><%= link_to "Produtcs", root_path(anchor: 'products-cards')%></li>
+          <li><%= link_to "Event", event_path %></li>
+          <li><%= link_to "Where to buy", findus_path %></li>
+          <li><%= link_to "Contact", contacts_path %></li>
+          <li><%= link_to "de", locale: "de" %></li>
+          <li><%= link_to "en", locale: "en" %></li>
+      </div>
+    </div>
+  </div>
+</div>
