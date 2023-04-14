@@ -1,13 +1,11 @@
+<div class="container align-items-start">
+  <span id="page_title">Contact us!</span>
+  <p>If you have any questions about our products or if you simply want to say hello, please contact us. We'll be happy to assist you and get back to you as soon as possible. Thank you for visiting!</p>
+</div>
 
-<h3 id="page_title">Contact us!</h3>
-
-
-<p>If you have any questions about our products or if you simply want to say hello, please contact us. We'll be happy to assist you and get back to you as soon as possible. Thank you for visiting!</p>
-
-
-<div class="container justify-content-center ">
+<div class="container justify-content-center">
  <div class ="row">
-  <div class="col-md-6  ">
+  <div class="col-md-6">
    <%= simple_form_for @contact do |f| %>
         <%= f.input :name, placeholder: "Your name" %><br>
         <%= f.input :email, placeholder: "Your Email" %><br>
