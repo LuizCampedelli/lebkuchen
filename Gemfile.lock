@@ -1,11 +1,3 @@
-GIT
-  remote: https://github.com/heartcombo/simple_form.git
-  revision: 341e36c087d78e0d5dbf768652e54cc42663f055
-  specs:
-    simple_form (5.1.0)
-      actionpack (>= 5.2)
-      activemodel (>= 5.2)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -205,6 +197,9 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    simple_form (5.1.0)
+      actionpack (>= 5.2)
+      activemodel (>= 5.2)
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -261,7 +256,7 @@ DEPENDENCIES
   rails-i18n
   sassc-rails
   selenium-webdriver
-  simple_form!
+  simple_form
   sprockets-rails
   stimulus-rails
   turbo-rails

@@ -1,12 +1,12 @@
 <div class= "location-title"></div>
   <div class= "banner1">
   <%# <div class="wheretofindus"></div> %>
-  <h1>Where to findus</h1>
+  <h1>Where to find us</h1>
   </div>
 <div class="container-location" >
      <div class="cards-map">
         <% @locations.each do |location| %>
-        <div id="local"  data-lng = "<%= location.longitude %>" data-lat="<%= location.latitude %>">
+        <div id="local" data-lng="<%= location.longitude %>" data-lat="<%= location.latitude %>">
           <div style="margin:10px;"><%= image_tag("icon.svg", id: "icon") %></div>
           <div style="margin: 10px 10px;">
             <div><h5 class="card-title"><%= location.name %></h5></div>
@@ -23,5 +23,3 @@
     </div>
 
   </div>
-
-
