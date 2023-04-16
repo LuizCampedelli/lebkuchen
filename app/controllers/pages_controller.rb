@@ -22,4 +22,8 @@ class PagesController < ApplicationController
 
   def contact
   end
+
+  def product
+  end
+
 end
