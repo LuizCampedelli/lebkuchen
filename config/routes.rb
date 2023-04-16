@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     get "findus", to: "pages#findus", as: :findus
     get "contacts", to: "contacts#new"
     post "contacts", to: "contacts#create"
+    get  "product", to: "pages#product", as: :product
 
     root to: "pages#home"
   end
