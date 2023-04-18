@@ -10,7 +10,7 @@ application.register("hello", HelloController)
 import MapController from "./map_controller"
 application.register("map", MapController)
 
-import ScrollReveal from 'stimulus-scroll-reveal'
+import ScrollReveal from "./scroll_reveal_controller"
 application.register('scroll-reveal', ScrollReveal)
 
 

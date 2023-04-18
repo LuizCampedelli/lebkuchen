@@ -4,12 +4,13 @@
   bottom: 2rem;
   border-radius: 50%;
   font-size: xx-large;
-  line-height: 2rem;
-  padding: 1%;
+  // line-height: 2rem;
+  // padding: 1%;
   color: #403725;
   transition: 0.2s ease;
   background-color: #A07037;
 }
+
 .back-to-top:hover {
-color: $light-black;
+  color: $light-black;
 }
