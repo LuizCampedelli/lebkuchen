@@ -7,6 +7,7 @@
   height: 80vh;
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 
@@ -171,7 +172,7 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
-  
+
  }
 
 .card-product img {
@@ -193,12 +194,32 @@
   opacity: .7;
   margin-bottom: 0;
   margin-top: 8px;
+  align-items: center;
 }
 
-.card-product .card-product-infos {
+.card-product-infos {
   margin-left: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 50px;
+}
+
+
+
+
+// card test
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  // width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
