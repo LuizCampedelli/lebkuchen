@@ -34,33 +34,30 @@
   </div>
 </div>
 
+<div class="container mb-5">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <%= image_tag("about.svg", class: "img-fluid") %>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <h2 id="about" class="ftn-rochs">About Lebkuchen-aus-Rodogau</h2>
+            <h3>Baking Passion Turned Business</h3>
+            <p><%= t("history") %></p>
+            <%= link_to "Find us!", "/findus", class: "btn-findus" %>
+        </div>
+    </div>
 </div>
-<%# card test %>
 
-<div >
-  <div class="home-story">
-    <div class="photo">
-      <%= image_tag("about.svg", style: "width: 500px; height: 500px;") %>
+<div class="container">
+    <div class="row align-items-center">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <h2 id="products" class="ftn-rochs">Our Lebkuchen</h2>
+            <p><%= t("lebkuchen") %></p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <%= image_tag("handslebkuchen.svg", class: "img-fluid") %>
+        </div>
     </div>
-    <div class="story" style="width: 700px; height: 420px;">
-      <h2 id="about">About Lebkuchen-aus-Rodogau</h4>
-      <h3>Baking Passion Turned Business</h3>
-       <p><%= t("history") %></p>
-          <%= link_to "Find us!", "/findus", class: "btn-findus" %>
-    </div>
-    </div>
-  </div>
-
-  <div class="home-story">
-    <div class="story" style="width: 700px; height: 420px;padding-top: 100px">
-      <h2 id="products">Our Lebkuchen</h2>
-      <p><%= t("lebkuchen") %></p>
-    </div>
-      <div class="photo">
-        <%= image_tag("handslebkuchen.svg", style: "width: 500px; height: 500px;") %>
-      </div>
-  </div>
-</div>
 
 
 

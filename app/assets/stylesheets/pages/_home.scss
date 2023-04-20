@@ -1,4 +1,7 @@
 // Specific CSS for your home-page
+.ftn-rochs {
+  font-family: "Rochester";
+}
 .banner {
   background-size: cover;
   background-position: center;
@@ -13,7 +16,7 @@
 
 .banner h1 {
   text-align: center;
-  font-size: 115px;
+  font-size: 7.1875rem;
   font-family: "Rochester";
   font-weight:lighter;
   margin-top: 50px;
@@ -23,15 +26,15 @@
 .banner h2 {
   text-align: center;
   font-family:$body-font;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 200;
   color: $beige;
   margin-top: 75px;
   margin-bottom: 45px;
 }
 
- .content {
-  font-size: 30px;
+.content {
+  font-size: 1.875rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,32 +56,11 @@
   object-fit: cover;
 }
 
-
-
-.btn-flat {
-   background: rgba(160, 112, 55, 0.7);
-   text-decoration: none;
-   padding: 12px 120px;
-   border-radius: 50px;
-   transition: 0.3s ease;
-   font-family:$body-font;
-   font-size: medium;
-   color: $beige;
-   margin:auto;
-  letter-spacing: 1px;
-}
-
-.btn-flat:hover {
-  color:$beige ;
-   background: #A07037;
-}
-
 .home-story {
   display: flex;
   align-items: center;
   color: $dark-green;
   font-family: $body-font;
-  gap: 88px;
   line-height: 150%;
   text-align: justify;
   justify-content: center;
@@ -88,7 +70,7 @@
   font-family: "Rochester";
   color: #A07037;
   font-weight: 400;
-  font-size:xx-large;
+  font-size: 2.5rem;
 }
 
 .story h3 {
@@ -110,7 +92,7 @@
   border-radius: 50px;
   transition: 0.3s ease;
   font-family:$body-font;
-  font-size: medium;
+  font-size: 1rem;
   color: #362e1f;
   margin:auto;
   letter-spacing: 1px;
@@ -147,10 +129,10 @@
 
 // // /* The Close Button */
 .close {
-   color: #aaa;
-   float: right;
-  font-size: 28px;
-   font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 // // .close:hover,
@@ -183,13 +165,13 @@
 }
 
 .card-product h2 {
-  font-size: 35px;
+  font-size: 2.1rem;
   font-weight: bold;
   margin: 0;
 }
 
 .card-product p {
-  font-size: 12px;
+  font-size: 1rem;
   line-height: 1.4;
   opacity: .7;
   margin-bottom: 0;
@@ -205,21 +187,57 @@
   gap: 50px;
 }
 
+// Media queries for responsive design
+@media (max-width: 320px) { // iPhone 5
+  .banner h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+  }
 
+  .banner h2 {
+    font-size: 1rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+}
 
+@media (max-width: 414px) { // iPhone 11
+  .banner h1 {
+    font-size: 3rem;
+    padding: 8px 20px;
+  }
 
-// card test
+  .banner h2 {
+    font-size: 1.2rem;
+  }
+}
 
-.card-category {
-  background-size: cover;
-  background-position: center;
-  height: 350px;
-  // width: 50vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+@media (max-width: 428px) { // iPhone 11 Pro Max
+  .banner h1 {
+    font-size: 3.2rem;
+  }
+
+  .banner h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) { // iPad
+  .banner h1 {
+    font-size: 4rem;
+  }
+
+  .banner h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1025px) { // MacBook
+  .banner h1 {
+    font-size: 7.1875rem; // 115px
+  }
+
+  .banner h2 {
+    font-size: 1.875rem; // 30px
+  }
 }
