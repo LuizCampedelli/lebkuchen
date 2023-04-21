@@ -46,54 +46,49 @@ float: right;
 border-radius: 8px;
 }
 
-.adress-icon {
-  display: flex;
-  gap: 25px;
-}
-
-.fa-solid {
-  color: $dark-green;
-  font-size: 35px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-p {
-  line-break: auto;
-  font-family: $body-font;
-  font-weight: 400;
-}
-
-.findus-container{
-  display: flex;
-  justify-content: center;
-  color: $light-black;
-  gap: 30px;
-  margin-top: 30px;
-}
-
-.findus-address {
-  font-size: 12;
-  border: 1px;
-  border-radius: 10px;
-  background-color: $light-brow;
-  text-align: center;
-  margin: 10px;
-  height: 110px;
-  width: 300px;
-  padding: 15px;
-}
+// .adress-icon {
+//   display: flex;
+//   gap: 25px;
+// }
 
 
-.adress {
-  display: flex;
-  flex-direction:column;
-  gap: 10px;
-  gap: 10px 20px; /* row-gap column gap */
-  row-gap: 10px;
-  column-gap: 20px;
-  grid-column: 2;
-}
+
+// p {
+//   line-break: auto;
+//   font-family: $body-font;
+//   font-weight: 400;
+// }
+
+// .findus-container{
+//   display: flex;
+//   justify-content: center;
+//   color: $light-black;
+//   gap: 30px;
+//   margin-top: 30px;
+// }
+
+// .findus-address {
+//   font-size: 12;
+//   border: 1px;
+//   border-radius: 10px;
+//   background-color: $light-brow;
+//   text-align: center;
+//   margin: 10px;
+//   height: 110px;
+//   width: 300px;
+//   padding: 15px;
+// }
+
+
+// .adress {
+//   display: flex;
+//   flex-direction:column;
+//   gap: 10px;
+//   gap: 10px 20px; /* row-gap column gap */
+//   row-gap: 10px;
+//   column-gap: 20px;
+//   grid-column: 2;
+// }
 
 // Media queries for responsive design
 @media (max-width: 320px) { // iPhone 5
