@@ -2,7 +2,7 @@
   background-size: cover;
   background-position: center;
   background-image: linear-gradient(0deg, rgba(29, 21, 18, 0.65), rgba(29, 21, 18, 0.65)), url("image 8.png");
-  height: 70vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
 }
@@ -11,7 +11,7 @@
   align-self: center;
   text-align: center;
   font-family: "Rochester";
-  font-size: 115px;
+  font-size: 5.625rem;
   font-weight: 300;
   color: $beige;
 
@@ -44,30 +44,6 @@
 #map {
 float: right;
 border-radius: 8px;
-}
-
-.findus {
-  background-size: cover;
-  background-position: center;
-  background-image: linear-gradient(0deg, rgba(29, 21, 18, 0.65), rgba(29, 21, 18, 0.65)), url("lebkuchen.jpg");
-  filter: drop-shadow(2px 4px 6px black);
-  height:30vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.findus h1 {
-  color: azure;
-  font-family: $body-font;
-  font-size: 30px;
-  font-weight: 200;
-}
-
-.findus-address h2 {
-  font-family:$body-font ;
-  font-weight: 600;
-  font-size: 16px;
 }
 
 .adress-icon {
@@ -117,4 +93,36 @@ p {
   row-gap: 10px;
   column-gap: 20px;
   grid-column: 2;
+}
+
+// Media queries for responsive design
+@media (max-width: 320px) { // iPhone 5
+  .banner1 h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+  }
+}
+  @media (max-width: 414px) { // iPhone 11
+    .banner1 h1 {
+      font-size: 3rem;
+      padding: 8px 20px;
+    }
+}
+
+@media (max-width: 428px) { // iPhone 11 Pro Max
+  .banner1 h1 {
+    font-size: 3.2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) { // iPad
+  .banner1 h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1025px) { // MacBook
+  .banner1 h1 {
+    font-size: 5.625rem; // 115px
+  }
 }
