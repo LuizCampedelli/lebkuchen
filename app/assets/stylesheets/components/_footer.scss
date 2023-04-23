@@ -1,9 +1,9 @@
 footer {
   background: $light-brow;
-  height: auto;
+  height: 30vh;
   width: 100vw;
   font-family: "auto";
-  color: white;
+  // color: white;
   margin-top: 70px;
   position: absolute;
 
@@ -92,7 +92,7 @@ footer {
 .footer-copyright{
   width: 100vw;
   text-align: center;
-  padding: 20px 0;
+  padding: 5px 0;
   font-family: $body-font;
   color: $dark-green;
   font-size: 14px;
