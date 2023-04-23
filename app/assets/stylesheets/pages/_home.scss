@@ -41,6 +41,9 @@
   margin: auto;
 }
 
+.container h2{
+
+}
 
 #products-cards {
   display: flex;
@@ -102,6 +105,13 @@
   color: $beige;
   background: #A07037;
 }
+
+
+
+
+
+
+
 
 // /* The Modal (background) */
 
@@ -180,12 +190,35 @@
 }
 
 .card-product-infos {
-  margin-left: 50px;
+  margin: 30px 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 50px;
+  gap: 30px;
+  text-align: center;
+  font-size: 16px;
 }
+
+.card-product-infos h2{
+  font-family: "Rochester";
+  font-size: 40px;
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 500pxpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+  // font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 50px;
+}
+
 
 // Media queries for responsive design
 @media (max-width: 320px) { // iPhone 5
