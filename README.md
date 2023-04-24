@@ -1,1 +1,5 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+Lebkuchen-aus-Rodogau
+
+This website is created with Ruby on Rails 7, HTML 5, CSS, Bootstrap 5 and Stimulus JS, Postgres.
+
+More to come in ReadMe.
