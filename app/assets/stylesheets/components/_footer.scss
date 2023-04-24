@@ -1,25 +1,19 @@
-footer {
-  background: $light-brow;
-  height: 30vh;
-  width: 100vw;
-  font-family: "auto";
-  // color: white;
-  margin-top: 70px;
-  position: absolute;
 
-}
 .footer-content {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  background: $light-brow;
+  position: absolute;
+  // height: 10vh;
 
 }
 .footer-content p{
   max-width: 500px;
-  margin: 10px auto;
-  line-height: 28px;
+  // margin: 10px auto;
+  // line-height: px;
   font-size: 16px;
   font-family: $body-font;
   color: $dark-green;
@@ -30,10 +24,10 @@ footer {
 
 
 .img img{
-  height: 60px;
+  height: 40px;
   width: auto;
-  margin-top: 20px;
-  margin-bottom: 35px;
+  margin: 20px 20px;
+  // margin-bottom: 35px;
 }
 
 
@@ -51,7 +45,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 50px 50px;
+  margin: 10px 10px;
   font-size: 16px;
 }
 .footer-links a {
@@ -95,5 +89,5 @@ footer {
   padding: 5px 0;
   font-family: $body-font;
   color: $dark-green;
-  font-size: 14px;
+  font-size: 11px;
 }
