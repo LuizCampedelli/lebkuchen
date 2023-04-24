@@ -1,20 +1,24 @@
-
+footer {
+  background: $light-brow;
+  height: auto;
+  width: 100vw;
+  font-family: “auto”;
+  color: white;
+  margin-top: 70px;
+  position: absolute;
+}
 .footer-content {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background: $light-brow;
-  position: absolute;
-  // height: 10vh;
-
 }
 .footer-content p{
   max-width: 500px;
   // margin: 10px auto;
   // line-height: px;
-  font-size: 16px;
+  font-size: 12px;
   font-family: $body-font;
   color: $dark-green;
   display: inline;
