@@ -2,24 +2,22 @@
   <div class= "banner1 hide-on-tablet hide-on-mobile">
   <%# <div class="wheretofindus"></div> %>
   <h1>Where to find us</h1>
-  </div>
+</div>
 <div class="container-location" >
-     <div class="cards-map">
-        <% @locations.each do |location| %>
-        <div id="local" data-lng="<%= location.longitude %>" data-lat="<%= location.latitude %>">
-          <div style="margin:10px;"><%= image_tag("icon.svg", id: "icon") %></div>
-          <div style="margin: 10px 10px;">
-            <div><h5 class="card-title"><%= location.name %></h5></div>
-            <div><p class="card-text"><%= location.address %></p></div>
-          </div>
+  <div class="cards-map">
+    <% @locations.each do |location| %>
+    <div id="local" data-lng="<%= location.longitude %>" data-lat="<%= location.latitude %>">
+        <div style="margin:10px;"><%= image_tag("icon.svg", id: "icon") %></div>
+        <div style="margin: 10px 10px;">
+          <div><h5 class="card-title"><%= location.name %></h5></div>
+          <div><p class="card-text"><%= location.address %></p></div>
         </div>
-        <% end %>
-      </div>
-
-    <div id="map" style="width: 40%; height: 60%vh;"
-      data-controller="map"
-      data-map-markers-value="<%= @markers.to_json %>"
-      data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
     </div>
-
+    <% end %>
   </div>
+  <div id="map" style="width: 40%; height: 60%vh;"
+    data-controller="map"
+    data-map-markers-value="<%= @markers.to_json %>"
+    data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
+  </div>
+</div>

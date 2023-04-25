@@ -51,10 +51,11 @@
 
 }
 
-
-@media (max-width: 1250px) {
-.bar{display: none
-}
-
-}
+@media screen and (max-width: 320px),
+       screen and (max-width: 414px),
+       screen and (max-width: 428px),
+       screen and (min-width: 768px) and (max-width: 1024px) {
+  .hide-on-tablet-and-mobile {
+    display: none;
+  }
 }
