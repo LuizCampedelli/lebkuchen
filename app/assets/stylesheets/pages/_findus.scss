@@ -94,21 +94,30 @@ border-radius: 8px;
 // }
 
 // Media queries for responsive design
+@media screen and (max-width: 320px),
+       screen and (max-width: 414px),
+       screen and (max-width: 428px),
+       screen and (min-width: 768px) and (max-width: 1024px) {
+  .hide-on-tablet,
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+
 @media (max-width: 320px) { // iPhone 5
   .banner1 h1 {
     font-size: 2.5rem;
     margin-top: 10px;
   }
-
-
 }
 
 
-  @media (max-width: 414px) { // iPhone 11
-    .banner1 h1 {
-      font-size: 3rem;
-      padding: 8px 20px;
-    }
+@media (max-width: 414px) { // iPhone 11
+  .banner1 h1 {
+    font-size: 3rem;
+    padding: 8px 20px;
+  }
 }
 
 @media (max-width: 428px) { // iPhone 11 Pro Max
