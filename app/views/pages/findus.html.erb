@@ -7,7 +7,7 @@
      <div class="cards-map">
         <% @locations.each do |location| %>
         <div id="local" data-lng="<%= location.longitude %>" data-lat="<%= location.latitude %>">
-          <div style="margin:10px;"><i class="fa-solid fa-location-dot" style="color: #4d2d1f;"></i></div>
+          <div style="margin:10px;"><i class="fa-solid fa-location-dot" style="color: #4d2d1f; font-size:40px"></i></div>
           <div style="margin: 10px 10px;" class="col-12 col-sm-3 col-md-6 col-lg-6">
             <div><h5 class="card-title"><%= location.name %></h5></div>
             <div><p class="card-text"><%= location.address %></p></div>
