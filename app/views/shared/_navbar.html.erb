@@ -8,13 +8,18 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <div class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item"><%= link_to "About", root_path(anchor: 'about'), class: "nav-link" %></li>
+        <li class="nav-item btn-light"><%= link_to "About", root_path(anchor: 'about'), class: "nav-link" %></li>
         <li class="nav-item"><%= link_to "Produtcs", root_path(anchor: 'products-cards'), class: "nav-link" %></li>
         <li class="nav-item"><%= link_to "Event", event_path, class: "nav-link" %></li>
         <li class="nav-item"><%= link_to "Where to buy", findus_path, class: "nav-link" %></li>
         <li class="nav-item"><%= link_to "Contact", contacts_path, class: "nav-link" %></li>
       </div>
-      
+      <span class="bar">&vert; </span>
+      <div class="hr"><hr></div>
+      <div class="navbar-nav">
+        <li class="nav-item"><%= link_to "de", locale: "de", class: "nav-link" %></li>
+        <li class="nav-item"><%= link_to "en", locale: "en", class: "nav-link" %></li>
+      </div>
     </div>
   </div>
 </nav>
