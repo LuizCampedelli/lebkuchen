@@ -17,6 +17,8 @@
 
 }
 
+
+
 .container-location {
   display: flex;
   margin-top: 30px;
@@ -96,7 +98,11 @@ border-radius: 8px;
     font-size: 2.5rem;
     margin-top: 10px;
   }
+
+
 }
+
+
   @media (max-width: 414px) { // iPhone 11
     .banner1 h1 {
       font-size: 3rem;
