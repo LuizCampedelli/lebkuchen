@@ -17,6 +17,8 @@
 
 }
 
+
+
 .container-location {
   display: flex;
   margin-top: 30px;
@@ -34,12 +36,13 @@
   border: 1px;
   border-radius: 5px;
   background-color:$light-beige;
-  // gap: 30px;
+  //gap: 30px;
 }
 
-#local:hover {
+#local:hover  {
   color: white;
 }
+
 
 #map {
 float: right;
@@ -96,7 +99,11 @@ border-radius: 8px;
     font-size: 2.5rem;
     margin-top: 10px;
   }
+
+
 }
+
+
   @media (max-width: 414px) { // iPhone 11
     .banner1 h1 {
       font-size: 3rem;
