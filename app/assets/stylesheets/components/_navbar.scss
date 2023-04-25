@@ -17,6 +17,18 @@
   flex-grow: 0;
 }
 
+.nav-item{
+  align-self: center;
+}
+
+.bar{
+  content: "\007C";
+  margin-right: 10px;
+  margin-left: 10px;
+  align-content: center;
+  font-family: $body-font;
+  color: $dark-green;
+}
 .container-fluid {
   display: flex;
   justify-content: space-between;
@@ -27,7 +39,7 @@
   font-family: $body-font;
   color: $dark-green;
   text-transform: uppercase;
-  margin-right: 30px;
+  margin-right: 10px;
   text-decoration: none;
   transition: 0.3s ease;
 }
@@ -40,3 +52,6 @@
 }
 
 
+// @media (min-width: 1250px) {
+//   ]
+// }
