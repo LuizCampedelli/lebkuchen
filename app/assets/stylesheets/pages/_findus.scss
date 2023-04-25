@@ -14,10 +14,7 @@
   font-size: 5.625rem;
   font-weight: 300;
   color: $beige;
-
 }
-
-
 
 .container-location {
   display: flex;
@@ -47,51 +44,9 @@
 #map {
 float: right;
 border-radius: 8px;
+width: 40%;
+height: 60vh;
 }
-
-// .adress-icon {
-//   display: flex;
-//   gap: 25px;
-// }
-
-
-
-// p {
-//   line-break: auto;
-//   font-family: $body-font;
-//   font-weight: 400;
-// }
-
-// .findus-container{
-//   display: flex;
-//   justify-content: center;
-//   color: $light-black;
-//   gap: 30px;
-//   margin-top: 30px;
-// }
-
-// .findus-address {
-//   font-size: 12;
-//   border: 1px;
-//   border-radius: 10px;
-//   background-color: $light-brow;
-//   text-align: center;
-//   margin: 10px;
-//   height: 110px;
-//   width: 300px;
-//   padding: 15px;
-// }
-
-
-// .adress {
-//   display: flex;
-//   flex-direction:column;
-//   gap: 10px;
-//   gap: 10px 20px; /* row-gap column gap */
-//   row-gap: 10px;
-//   column-gap: 20px;
-//   grid-column: 2;
-// }
 
 // Media queries for responsive design
 @media screen and (max-width: 320px),
@@ -102,7 +57,36 @@ border-radius: 8px;
   .hide-on-mobile {
     display: none;
   }
+
+  .container-location {
+    padding: 0 10px; /* Add some padding to the sides for smaller screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards-map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    flex-direction: column;
+    margin-left: 0%;
+  }
+
+  #map {
+    width: 90%;
+    height: 50vh;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) { // iPad
+    #map {
+      width: 50%;
+      height: 70vh;
+    }
+  }
 }
+
 
 
 @media (max-width: 320px) { // iPhone 5
