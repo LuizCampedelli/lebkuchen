@@ -1,6 +1,18 @@
-.alert {
+#ale-not {
   position: fixed;
   bottom: 16px;
   right: 16px;
   z-index: 1000;
+}
+
+.alert-info {
+  --bs-alert-color: #664f24;
+  --bs-alert-bg: #3BB4C1;
+  --bs-alert-border-color: #ffeece;
+}
+
+.alert-warning {
+  --bs-alert-color: #664f24;
+  --bs-alert-bg: #3BB4C1;
+  --bs-alert-border-color: #ffeece;
 }

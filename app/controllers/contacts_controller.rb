@@ -9,7 +9,7 @@ class ContactsController < ApplicationController
     if @contact.deliver
       flash[:notice] = "Message sent"
     else
-      flash[:error] = "Houve um erro ao enviar a mensagem. Por favor, tente novamente."
+      flash[:alert] = "Houve um erro ao enviar a mensagem. Por favor, tente novamente."
     end
     redirect_to new_contact_path # Use 'redirect_to' and the route helper
   end
