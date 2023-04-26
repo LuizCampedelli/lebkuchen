@@ -7,13 +7,17 @@ class ContactsController < ApplicationController
     @contact = Contact.new(params[:contact])
     @contact.request = request
     if @contact.deliver
-
-      flash.now[:sucess] = "Message sent"
-      render :create
+      flash[:notice] = "Message sent"
     else
-      flash.now[:error] = "Houve um erro ao enviar a mensagem. Por favor, tente novamente."
-
+      flash[:error] = "Houve um erro ao enviar a mensagem. Por favor, tente novamente."
     end
+    redirect_to new_contact_path # Use 'redirect_to' and the route helper
   end
 
+  private
+
+  def contact_params
+    params.require(:contact).permit(:name, :email, :message, :nickname)
+  end
+  
 end
