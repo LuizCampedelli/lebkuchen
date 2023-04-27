@@ -11,7 +11,7 @@ class ContactsController < ApplicationController
     else
       flash[:error] = "Houve um erro ao enviar a mensagem. Por favor, tente novamente."
     end
-    redirect_to new_contact_path # Use 'redirect_to' and the route helper
+    redirect_to contacts_path # Use 'redirect_to' and the route helper
   end
 
   private
@@ -19,5 +19,5 @@ class ContactsController < ApplicationController
   def contact_params
     params.require(:contact).permit(:name, :email, :message, :nickname)
   end
-  
+
 end
