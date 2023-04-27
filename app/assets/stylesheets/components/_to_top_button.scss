@@ -9,6 +9,7 @@
   color: #403725;
   transition: 0.2s ease;
   background-color: #A07037;
+  distance: 50%;
 }
 
 .back-to-top:hover {
@@ -17,7 +18,7 @@
 
 .fa-solid {
   color: $dark-green;
- font-size: 35px;
+  font-size: 35px;
   margin-left: 10px;
   margin-right: 10px;
   }
