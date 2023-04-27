@@ -10,29 +10,38 @@
 <%# card test %>
 <div class="container">
   <div class="row">
-
+    <h2 id="about" class="ftn-rochs">Our products</h2>
     <div class="col-12 col-sm-4 col-md-6 col-lg-6 col-xxl-6">
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://glutenfreecuppatea.co.uk/wp-content/uploads/2018/12/gluten-free-lebkuchen-recipe-dairy-free-low-fodmap-featured.jpg)">
-        <div class="card-product-infos">
-          <h2>Almond</h2>
-          <p>The most fantastic Almond lebkuchen you will ever taste</p>
-          <%= link_to "More info", "/product", class: "btn-findus" %>
+       <div class="card-product">
+          <img src="https://glutenfreecuppatea.co.uk/wp-content/uploads/2018/12/gluten-free-lebkuchen-recipe-dairy-free-low-fodmap-featured.jpg">
+          <div class="card-product-infos" id="card-product-info">
+            <h2>Almond</h2>
+             <p>The most fantastic Almond lebkuchen you will ever taste</p>
+            <%= link_to "More info", "/product", class: "btn-findus" %>
+           </div>
+
         </div>
+    </div>
+    <div class="col-12 col-sm-4 col-md-6 col-lg-6 col-xxl-6">
+       <div class="card-product">
+          <img src="https://cdn.lebkuchen-schmidt.com/userdata/images/Einkaufswelten/N%C3%BCrnberger%20Lebkuchen/nuernberger-lebkuchen-banner.jpg">
+          <div class="card-product-infos">
+            <h2>Hazelnut</h2>
+             <p>The most fantastic Hazelnut lebkuchen you will ever taste</p>
+             <%= link_to "More info", "/product", class: "btn-findus" %>
+           </div>
         </div>
     </div>
 
 
-    <div class="col-12 col-sm-4 col-md-6 col-lg-6 col-xxl-6">
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://cdn.lebkuchen-schmidt.com/userdata/images/Einkaufswelten/N%C3%BCrnberger%20Lebkuchen/nuernberger-lebkuchen-banner.jpg)">
-      <div class="card-product-infos">
-        <h2>Hazelnut</h2>
-        <p>The most fantastic Hazelnut lebkuchen you will ever taste</p>
-        <%= link_to "More info", "/product", class: "btn-findus" %>
-      </div>
-      </div>
-    </div>
+
   </div>
 </div>
+
+
+
+
+
 
 <div class="container mb-5">
     <div class="row">
@@ -40,8 +49,8 @@
             <%= image_tag("about.svg", class: "img-fluid") %>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-6">
-            <h2 id="about" class="ftn-rochs">About Lebkuchen-aus-Rodogau</h2>
-            <h3>Baking Passion Turned Business</h3>
+            <h2 class="ftn-rochs">About Lebkuchen-aus-Rodogau</h2>
+            <h3 id="abouts">Baking Passion Turned Business</h3>
             <p><%= t("history") %></p>
             <%= link_to "Find us!", "/findus", class: "btn-findus" %>
         </div>

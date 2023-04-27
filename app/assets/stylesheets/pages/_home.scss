@@ -10,9 +10,9 @@
   height: 80vh;
   display: flex;
   justify-content: center;
+  margin-top: 15px;
   margin-bottom: 30px;
 }
-
 
 .banner h1 {
   text-align: center;
@@ -32,6 +32,10 @@
   margin-top: 75px;
   margin-bottom: 45px;
 }
+#about{
+  margin-bottom: 30px;
+  font-size:2.7rem ;
+}
 
 .content {
   font-size: 1.875rem;
@@ -39,24 +43,6 @@
   flex-direction: column;
   align-items: center;
   margin: auto;
-}
-
-.container h2{
-
-}
-
-#products-cards {
-  display: flex;
-  justify-content: center;
-  margin:30px;
-  max-width: 100%;
-  gap: 30px;
-}
-
-.p-card img {
-  width: 100%;
-  height: 15vw;
-  object-fit: cover;
 }
 
 .home-story {
@@ -91,7 +77,7 @@
 .btn-findus {
   background: rgba(160, 112, 55, 0.7);
   text-decoration: none;
-  padding: 12px 45px;
+  padding: 10px 45px;
   border-radius: 8px;
   transition: 0.3s ease;
   font-family:$body-font;
@@ -105,118 +91,46 @@
   color: $beige;
   background: #A07037;
 }
-
-
-
-
-
-
-
-
-// /* The Modal (background) */
-
- .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
- }
-
-/* Modal Content/Box */
-.modal-content {
-   background-color: #fefefe;
-   margin: 15% auto; /* 15% from the top and centered */
-   padding: 20px;
-   border: 1px solid #888;
-   width: 80%; /* Could be more or less, depending on screen size */
- }
-
-// // /* The Close Button */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 2rem;
-  font-weight: bold;
+.card-product{
+background-color: rgba(255, 255, 255,0.5);
+background-o: 0.5;
+border-radius: 10px;
 }
-
-// // .close:hover,
-.close:focus {
-   color: black;
-   text-decoration: none;
-   cursor: pointer;
- }
-
-// from new cards
-
-
- .card-product {
-  padding: 15px;
-  overflow: hidden;
-  height: 350px;
-  width: 70vw;
-  background:$light-beige;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  display: flex;
-  align-items: center;
-
- }
 
 .card-product img {
-  height: 100%;
-  width: 500px;
+  height: 300px;
+  width: 100%;
   border-radius: 5px;
   object-fit: cover;
-}
-
-.card-product h2 {
-  font-size: 2.1rem;
-  font-weight: bold;
-  margin: 0;
-}
-
-.card-product p {
-  font-size: 1rem;
-  line-height: 1.4;
-  opacity: .7;
-  margin-bottom: 0;
-  margin-top: 8px;
-  align-items: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  // margin-top: 20px;
 }
 
 .card-product-infos {
-  margin: 30px 30px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  margin-left: 20px;
+  padding-bottom: 20px;
   display: flex;
+  justify-content: flex-start !important;
   flex-direction: column;
-  gap: 30px;
-  text-align: center;
   font-size: 16px;
 }
 
 .card-product-infos h2{
   font-family: "Rochester";
-  font-size: 40px;
+  font-size: 30px;
+  margin-bottom: 0;
 }
 
-.card-category {
-  background-size: cover;
-  background-position: center;
-  height: 500pxpx;
+.card-product-infos p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.card-product-infos .btn-findus {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 22px;
-  // font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  margin-bottom: 50px;
 }
 
 
@@ -274,3 +188,95 @@
     font-size: 1.875rem; // 30px
   }
 }
+
+
+// .card-category {
+//   background-size: cover;
+//   background-position: center;
+//   height: 500pxpx;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   color: white;
+//   font-size: 22px;
+//   // font-weight: bold;
+//   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+//   border-radius: 5px;
+//   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+//   margin-bottom: 50px;
+// }
+
+// .card-product h2 {
+//   font-size: 2rem;
+//   margin: 0;
+// }
+
+// /* The Modal (background) */
+
+//  .modal {
+//   display: none; /* Hidden by default */
+//   position: fixed; /* Stay in place */
+//   z-index: 1; /* Sit on top */
+//   left: 0;
+//   top: 0;
+//   width: 100%; /* Full width */
+//   height: 100%; /* Full height */
+//   overflow: auto; /* Enable scroll if needed */
+//   background-color: rgb(0,0,0); /* Fallback color */
+//   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+//  }
+
+// /* Modal Content/Box */
+// .modal-content {
+//    background-color: #fefefe;
+//    margin: 15% auto; /* 15% from the top and centered */
+//    padding: 20px;
+//    border: 1px solid #888;
+//    width: 80%; /* Could be more or less, depending on screen size */
+//  }
+
+// // // /* The Close Button */
+// .close {
+//   color: #aaa;
+//   float: right;
+//   font-size: 2rem;
+//   font-weight: bold;
+// }
+
+// // // .close:hover,
+// .close:focus {
+//    color: black;
+//    text-decoration: none;
+//    cursor: pointer;
+//  }
+
+// from new cards
+
+// .homes-cards{
+// justify-content: flex-start;
+// }
+
+// .card-category {
+//   padding: 15px;
+//   overflow: hidden;
+//   height: 350px;
+//   width: 30vw;
+//   background:$light-beige;
+//   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+//   display: flex;
+//   align-items: center;
+
+//  }
+// #products-cards {
+//   display: flex;
+//   justify-content: center;
+//   margin:30px;
+//   max-width: 100%;
+//   gap: 30px;
+// }
+
+// .p-card img {
+//   width: 100%;
+//   height: 15vw;
+//   object-fit: cover;
+// }
