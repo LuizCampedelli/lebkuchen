@@ -5,7 +5,6 @@ Rails.application.routes.draw do
     get "contacts", to: "contacts#new"
     post "contacts", to: "contacts#create"
     get  "product", to: "pages#product", as: :product
-    resources :contacts, only: [:new, :create]
     root to: "pages#home"
   end
 end
