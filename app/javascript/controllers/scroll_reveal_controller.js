@@ -4,8 +4,8 @@ export default class extends Controller {
   static targets = ["link"];
 
   connect() {
-    console.log("Connected to scroll-reveal controller");
-    console.log("Link target:", this.linkTarget);
+    // console.log("Connected to scroll-reveal controller");
+    // console.log("Link target:", this.linkTarget);
     this.checkScrollPosition();
     window.addEventListener("scroll", () => this.checkScrollPosition());
   }
@@ -13,11 +13,12 @@ export default class extends Controller {
   checkScrollPosition() {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const middleScrollHeight = scrollHeight / 5;
 
-    console.log("Scroll position:", scrollTop);
-    console.log("Scroll height:", scrollHeight);
+    // console.log("Scroll position:", scrollTop);
+    // console.log("Scroll height:", scrollHeight);
 
-    if (scrollTop >= scrollHeight) {
+    if (scrollTop >= middleScrollHeight) {
       this.linkTarget.classList.remove("d-none");
     } else {
       this.linkTarget.classList.add("d-none");
