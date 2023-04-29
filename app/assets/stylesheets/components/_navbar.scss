@@ -1,3 +1,52 @@
+/* Custom Toggler */
+.navbar-toggler:focus {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: none;
+  width: 24px;
+  height: 2px;
+  background-color: black;
+  position: relative;
+}
+
+.custom-toggler .navbar-toggler-icon::before,
+.custom-toggler .navbar-toggler-icon::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  left: 0;
+  border: none;
+}
+
+.custom-toggler .navbar-toggler-icon::before {
+  top: -7px;
+}
+
+.custom-toggler .navbar-toggler-icon::after {
+  bottom: -7px;
+}
+
+/* Active state */
+.custom-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background-color: transparent;
+}
+
+.custom-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.custom-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+
+/* Full page */
 .btn-light:hover {
   background: rgba(160, 112, 55, 0.7) !important;
 }
