@@ -10,7 +10,8 @@ application.register("hello", HelloController)
 import MapController from "./map_controller"
 application.register("map", MapController)
 
-import ScrollReveal from "./scroll_reveal_controller"
-application.register('scroll-reveal', ScrollReveal)
+import NavbarController from "./navbar_controller"
+application.register("navbar", NavbarController)
 
-
+import ScrollRevealController from "./scroll_reveal_controller"
+application.register("scroll-reveal", ScrollRevealController)
