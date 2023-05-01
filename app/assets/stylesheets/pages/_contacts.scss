@@ -8,3 +8,13 @@
 .contact-text{
   max-width: 50%;
 }
+
+// Media queries for responsive design
+@media screen and (max-width: 320px),
+       screen and (max-width: 414px),
+       screen and (max-width: 428px),
+       screen and (min-width: 320px) and (max-width: 1024px) {
+  .contact-text {
+    max-width: 100%;
+  }
+}
