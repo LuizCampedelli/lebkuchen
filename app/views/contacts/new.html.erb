@@ -1,7 +1,7 @@
-<div class="hr"><hr></div>
+<div class="hrmobile"><hr></div>
 <div class="container align-items-start">
   <span id="page_title">Contact us!</span>
-  <p class="contact-text"> Are you curious about our products or interested in knowing how everything works, we will be happy to answer you as soon as possible!</p>
+  <p class="contact-text"> Are you curious about our products or interested in knowing how everything works? We will be happy to answer you as soon as possible!</p>
 </div>
 
 <div class="container justify-content-center">
@@ -10,7 +10,7 @@
    <%= simple_form_for @contact do |f| %>
         <%= f.input :name, placeholder: "Your Name" %><br>
         <%= f.input :email, placeholder: "Your Email" %><br>
-        <%= f.input :message, as: :text %><br>
+        <%= f.input :message, placeholder:"Your Message", as: :text %><br>
         <div class="d-none">
             <%= f.label :nickname %><br>
             <%= f.text_field :nickname, hint: 'Leave this field blank' %>
@@ -21,7 +21,7 @@
 
    <div class="col-md-6 gx-5">
       <div class="photo hide-on-tablet hide-on-mobile">
-          <%= image_tag("lebkuchen-contact.png", style: "width: 500px; height: 500px;") %>
+          <%= image_tag("lebkuchen-contact.png", class: "ph") %>
       </div>
     </div>
  </div>
