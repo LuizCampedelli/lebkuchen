@@ -1,0 +1,47 @@
+#page_title{
+  text-align: left;
+  font-size: 2.2em;
+  text-transform: uppercase;
+
+}
+
+.contact-text{
+  max-width: 50%;
+
+}
+
+.photo{
+  margin-bottom: 20px;
+}
+
+.hrmobile{
+  color: $submit-button;
+
+}
+
+.ph{
+  width: 500px;
+  height: 500px;
+  margin-left: 44px;
+
+}
+
+abbr[title="required"] {
+  display: none;
+}
+
+
+
+
+// Media queries for responsive design
+@media screen and (max-width: 320px),
+       screen and (max-width: 414px),
+       screen and (max-width: 428px),
+       screen and (min-width: 320px) and (max-width: 1024px) {
+  .contact-text {
+    max-width: 100%;
+  }
+  #page_title{
+    font-size: 2rem;
+  }
+}
