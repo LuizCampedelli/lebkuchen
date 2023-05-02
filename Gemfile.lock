@@ -84,6 +84,8 @@ GEM
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
     concurrent-ruby (1.1.10)
+    cookies_eu (1.7.8)
+      js_cookie_rails (~> 2.2.0)
     crass (1.0.6)
     date (3.3.3)
     debug (1.7.1)
@@ -109,6 +111,8 @@ GEM
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
+    js_cookie_rails (2.2.0)
+      railties (>= 3.1)
     jsbundling-rails (1.1.1)
       railties (>= 6.0.0)
     loofah (2.19.1)
@@ -244,6 +248,7 @@ DEPENDENCIES
   autoprefixer-rails
   bootsnap
   capybara
+  cookies_eu
   debug
   dotenv-rails
   font-awesome-sass (~> 6.1)
