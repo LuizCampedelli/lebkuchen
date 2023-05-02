@@ -8,9 +8,9 @@
  <div class ="row">
   <div class="col-md-6">
    <%= simple_form_for @contact do |f| %>
-        <%= f.input :name, placeholder: "Your Name" %><br>
-        <%= f.input :email, placeholder: "Your Email" %><br>
-        <%= f.input :message, placeholder:"Your Message", as: :text %><br>
+        <%= f.input :name, placeholder: "Your Name and your Surname", :label_html => { :class => "label-form" }, input_html: { id: 'inputsform' } %><br>
+        <%= f.input :email, placeholder: "Your Email like @lebkuchen.de", :label_html => { :class => "label-form"}, input_html: { id: 'inputsform' }  %><br>
+        <%= f.input :message, placeholder:"Your kind Message to us", :label_html => { :class => "label-form" }, input_html: { id: 'inputsform' }, as: :text %><br>
         <div class="d-none">
             <%= f.label :nickname %><br>
             <%= f.text_field :nickname, hint: 'Leave this field blank' %>
