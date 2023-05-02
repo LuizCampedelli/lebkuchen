@@ -13,6 +13,9 @@
 @import "components/index";
 @import "pages/index";
 
+// Cookies_consent
+@import "cookies_eu";
+
 .html, body {
   background-color: $beige !important;
   height: 100%;

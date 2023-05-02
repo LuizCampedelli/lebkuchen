@@ -26,4 +26,7 @@ class PagesController < ApplicationController
   def product
   end
 
+  def cookies_eu
+  end
+
 end
