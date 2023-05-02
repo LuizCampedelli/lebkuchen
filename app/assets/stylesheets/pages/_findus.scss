@@ -1,4 +1,5 @@
 .banner1 {
+  margin-top: 15px;
   background-size: cover;
   background-position: center;
   background-image: linear-gradient(0deg, rgba(29, 21, 18, 0.65), rgba(29, 21, 18, 0.65)), url("image 8.png");
@@ -50,6 +51,13 @@ height: 60vh;
 }
 
 // Media queries for responsive design
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+  .hrmobile {
+    display: none;
+  }
+}
+
+
 @media screen and (max-width: 320px),
        screen and (max-width: 414px),
        screen and (max-width: 428px),
