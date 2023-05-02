@@ -26,6 +26,22 @@
 
 }
 
+.label-form{
+  display: none;
+}
+
+#inputsform{
+  box-shadow:  0 1px 2px rgb(59, 41, 20);
+  border-radius: 8px;
+  border-color: #D9C3AD;
+
+}
+
+#inputsform::placeholder {
+  color: red;
+}
+
+
 abbr[title="required"] {
   display: none;
 }
