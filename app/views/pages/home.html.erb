@@ -2,7 +2,7 @@
 <div class= "banner">
   <div class="content">
       <h1>Lebkuchen-aus-Rodgau</h1>
-      <h2>The most delicious cookie in all of Europe, <br> surprise yourself with the flavour</h2>
+      <h2><%= t("slogan") %></h2>
         <%= link_to "Where to buy", "/findus", class: "btn-findus" %>
     </div>
 </div>
@@ -10,13 +10,13 @@
 <%# card test %>
 <div class="container">
   <div class="row">
-    <h2 id="about" class="ftn-rochs">Our products</h2>
+    <h2 id="about" class="ftn-rochs"><%= t("ourproducts") %></h2>
     <div class="col-12 col-sm-4 col-md-6 col-lg-6 col-xxl-6">
        <div class="card-product">
           <img src="https://glutenfreecuppatea.co.uk/wp-content/uploads/2018/12/gluten-free-lebkuchen-recipe-dairy-free-low-fodmap-featured.jpg">
           <div class="card-product-infos" id="card-product-info">
-            <h2>Almond</h2>
-             <p>The most fantastic Almond lebkuchen you will ever taste</p>
+            <h2><%= t("almond") %></h2>
+             <p><%= t("almonddiscription") %></p>
             <%= link_to "More info", "/product", class: "btn-findus" %>
            </div>
 
@@ -26,8 +26,8 @@
        <div class="card-product">
           <img src="https://cdn.lebkuchen-schmidt.com/userdata/images/Einkaufswelten/N%C3%BCrnberger%20Lebkuchen/nuernberger-lebkuchen-banner.jpg">
           <div class="card-product-infos">
-            <h2>Hazelnut</h2>
-             <p>The most fantastic Hazelnut lebkuchen you will ever taste</p>
+            <h2><%= t("hazelnut") %></h2>
+             <p><%= t("hazelnutdiscription") %></p>
              <%= link_to "More info", "/product", class: "btn-findus" %>
            </div>
         </div>
@@ -49,8 +49,8 @@
             <%= image_tag("about.svg", class: "img-fluid") %>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-6">
-            <h2 class="ftn-rochs">About Lebkuchen-aus-Rodogau</h2>
-            <h3 id="abouts">Baking Passion Turned Business</h3>
+            <h2 class="ftn-rochs"><%= t("about") %></h2>
+            <h3 id="abouts"><%= t("bakingpassion") %></h3>
             <p><%= t("history") %></p>
             <%= link_to "Find us!", "/findus", class: "btn-findus" %>
         </div>
@@ -60,7 +60,7 @@
 <div class="container">
     <div class="row align-items-center">
         <div class="col-12 col-sm-6 col-md-6 col-lg-6">
-            <h2 id="products" class="ftn-rochs">Our Lebkuchen</h2>
+            <h2 id="products" class="ftn-rochs"><%= t("ourlebkuchen") %></h2>
             <p><%= t("lebkuchen") %></p>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-6">
