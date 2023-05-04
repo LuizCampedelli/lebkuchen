@@ -1,11 +1,13 @@
 de:
-# Navbar
-products: "Produkte"
-events: "Veranstaltungen"
+
+  # Navbar
+  products: "Produkte"
+  events: "Veranstaltungen"
 
 
 
-#  Home-Page
+
+  #  Home-Page
   slogan: "Mit Liebe und Tradition hergestellt, ist unser Lebkuchen die perfekte Leckerei für jede Gelegenheit!"
   wheretobuybtn: "Wo zu kaufen"
 
@@ -32,7 +34,9 @@ events: "Veranstaltungen"
 
 
   # wheretofindus
-findus: "Wo Sie uns finden"
 
-# contact
-contactus: "Kontakt"
+  findus: "Wo Sie uns finden"
+
+  # contact
+  contactus: "Kontakt"
+
