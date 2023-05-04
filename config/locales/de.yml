@@ -1,9 +1,9 @@
 de:
-# Navbar
+  # Navbar
 
 
 
-#  Home-Page
+  #  Home-Page
   slogan: "Mit Liebe und Tradition hergestellt, ist unser Lebkuchen die perfekte Leckerei für jede Gelegenheit!"
   wheretobuybtn: "Wo zu kaufen"
 
@@ -28,8 +28,9 @@ de:
 
 
   # wheretofindus
-wheretofindus: "Wo Sie uns finden"
+  wheretofindus: "Wo Sie uns finden"
 
-# contact
-# contact
-contactus: "Kontakt"
+  # contact
+  contactus: "Kontakt"
+
+

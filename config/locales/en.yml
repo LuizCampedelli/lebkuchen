@@ -59,8 +59,8 @@ en:
      Today, the team of five people produces a variety of Mandellebkuchen and Haselnusslebkuchen made with fine ingredients and baked to perfection."
   events: "Upcoming events"
 
-# wheretofindus
-wheretofindus: "Where to find us"
+  # wheretofindus
+  wheretofindus: "Where to find us"
 
-# contact
-contactus: "Contact us"
+  # contact
+  contactus: "Contact us"
