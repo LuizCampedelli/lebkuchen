@@ -6,7 +6,6 @@
     </div>
 </div>
 
-<%# card test %>
 <div class="container">
   <div class="row">
     <h2 id="about" class="ftn-rochs">ourproducts</h2>
@@ -16,7 +15,9 @@
           <div class="card-product-infos" id="card-product-info">
             <h2><%= t("almond") %></h2>
              <p><%= t("almonddiscription") %></p>
-            <%= link_to "More info", "/product", class: "btn-findus" %>
+             <div style="max-width:30%" >
+             <%= link_to "More info", "/product", class: "btn-findus" %>
+            </div>
            </div>
 
         </div>
@@ -27,7 +28,9 @@
           <div class="card-product-infos">
             <h2><%= t("hazelnut") %></h2>
              <p><%= t("hazelnutdiscription") %></p>
+             <div style="max-width:30%" >
              <%= link_to "More info", "/product", class: "btn-findus" %>
+             </div>
            </div>
         </div>
     </div>

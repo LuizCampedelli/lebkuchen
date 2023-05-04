@@ -7,5 +7,7 @@ Rails.application.routes.draw do
     get  "product", to: "pages#product", as: :product
     get '/cookies', to: 'pages#cookies_eu', as: 'cookies'
     root to: "pages#home"
+    match "/404", to: "errors#not_found", via: :all
+    match "/500", to: "errors#internal_server_error", via: :all
   end
 end
