@@ -1,70 +1,36 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t "hello"
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t("hello") %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     "I18n.locale" = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   "true": "foo"
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
-
 en:
-# Navbar
-products: "Products"
-about-link:
-events: "Events"
+   # Navbar
+   products: "Products"
+   about-link:
+   events: "Events"
+   #  Home-Page
+   slogan: "Made with love and tradition, our Lebkuchen is the perfect treat for any occasion!"
+   wheretobuybtn: "Where to buy"
+
+   ourproducts: "Our Products"
+
+   almond: "Almond"
+   almonddiscription: "Almond Lebkuchen is a cookie made with ground almonds, honey, and spices. Decorated with a glaze and sliced almonds"
+   hazelnut: "Hazelnut"
+   hazelnutdiscription: "Hazelnut Lebkuchen is a cookie made with ground hazelnuts, honey, and warm spices. These cookies are topped with a sweet glaze and chopped hazelnuts"
+   moreinfobtn: "More info"
+
+   about: "About Lebkuchen-aus-Rodogau"
+   bakingpassion: "BAKING PASSION TURNED BUSINESS"
+   findusbtn: "Find us!"
+
+   ourlebkuchen: "Our Lebkuchen"
+   lebkuchen: "Our Lebkuchen is a truly unique product, made without any artificial additives or chemicals. It is purely natural, and we take great care to ensure that it stays that way.
+      This means that our Lebkuchen is not only free from harmful chemicals but also full of authentic flavor and texture. Additionally, it is handcrafted, giving it a unique and artisanal look that sets it apart from mass- produced products.
+      Each cookie is shaped and finished by hand, resulting in a product that is not only delicious but also visually distinct. This approach also means that each cookie may have slight variations in size or shape, but this only adds to its charm and authenticity."
 
 
-#  Home-Page
-  slogan: "Made with love and tradition, our Lebkuchen is the perfect treat for any occasion!"
-  wheretobuybtn: "Where to buy"
+   history: "Rodgau's history began when two friends, Matthias Stark and Michael Rieß, had a conversation over good beer and wine and decided to start a business in the baking industry producing Lebkuchen. Matthias,a former baker and passionate hobbyist, was frustrated with mass-produced Lebkuchen that didn't meet his high standards. They started producing for personal use, but soon the demand for their high-quality Lebkuchen exceeded their capacity. Today, the team of five people produces a variety of Mandellebkuchen and Haselnusslebkuchen made with fine ingredients and baked to perfection."
+   
+   upcomingevents: "Upcoming events"
 
-  ourproducts: "Our Products"
-  almond: "Almond"
-  almonddiscription: "Almond Lebkuchen is a cookie made with ground almonds, honey, and spices. Decorated with a glaze and sliced almonds"
-  hazelnut: "Hazelnut"
-  hazelnutdiscription: "Hazelnut Lebkuchen is a cookie made with ground hazelnuts, honey, and warm spices. These cookies are topped with a sweet glaze and chopped hazelnuts"
-  moreinfobtn: "More info"
+   # wheretofindus
+   wheretofindus: "Where to find us"
 
-  about: "About Lebkuchen-aus-Rodogau"
-  bakingpassion: "BAKING PASSION TURNED BUSINESS"
-  findusbtn: "Find us!"
-
-  ourlebkuchen: "Our Lebkuchen"
-  lebkuchen: "Our Lebkuchen is a truly unique product, made without any artificial additives or chemicals. It is purely natural, and we take great care to ensure that it stays that way.
-   This means that our Lebkuchen is not only free from harmful chemicals but also full of authentic flavor and texture. Additionally, it is handcrafted, giving it a unique and artisanal look that sets it apart from mass- produced products.
-   Each cookie is shaped and finished by hand, resulting in a product that is not only delicious but also visually distinct. This approach also means that each cookie may have slight variations in size or shape, but this only adds to its charm and authenticity."
-
-
-  history: "Rodgau's history began when two friends, Matthias Stark and Michael Rieß, had a conversation over good beer and wine and decided to start a business in the baking industry producing Lebkuchen.
-     Matthias,a former baker and passionate hobbyist, was frustrated with mass-produced Lebkuchen that didn't meet his high standards. They started producing for personal use, but soon the demand for their high-quality Lebkuchen exceeded their capacity.
-     Today, the team of five people produces a variety of Mandellebkuchen and Haselnusslebkuchen made with fine ingredients and baked to perfection."
-  events: "Upcoming events"
-
-  # wheretofindus
-  wheretofindus: "Where to find us"
-
-  # contact
-  contactus: "Contact us"
+   # contact
+   contactus: "Contact us"
