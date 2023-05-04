@@ -91,43 +91,61 @@ height: 60vh;
 
   @media only screen and (min-width: 768px) and (max-width: 1024px) { // iPad
     #map {
-      width: 50%;
-      height: 70vh;
+      width: 95%;
+      height: 50vh;
     }
   }
 }
 
 
 
-@media (max-width: 320px) { // iPhone 5
-  .banner1 h1 {
-    font-size: 2.5rem;
-    margin-top: 10px;
-  }
+// @media (max-width: 320px) { // iPhone 5
+//   .banner1 h1 {
+//     font-size: 2.5rem;
+//     margin-top: 10px;
+//   }
+// }
+
+
+// @media (max-width: 414px) { // iPhone 11
+//   .banner1 h1 {
+//     font-size: 3rem;
+//     padding: 8px 20px;
+//   }
+// }
+
+// @media (max-width: 428px) { // iPhone 11 Pro Max
+//   .banner1 h1 {
+//     font-size: 3.2rem;
+//   }
+// }
+
+// @media (min-width: 768px) and (max-width: 1024px) { // iPad
+//   .banner1 h1 {
+//     font-size: 4rem;
+//   }
+// }
+
+// @media (min-width: 1025px) { // MacBook
+//   .banner1 h1 {
+//     font-size: 5.625rem; // 115px
+//   }
+// }
+
+
+//Boilerplate for reponsive design -
+// tablets
+@media screen and (min-width: 500px) {
+// INPUT CODE HERE
 }
-
-
-@media (max-width: 414px) { // iPhone 11
-  .banner1 h1 {
-    font-size: 3rem;
-    padding: 8px 20px;
-  }
+// laptops
+@media screen and (min-width: 992px) {
 }
-
-@media (max-width: 428px) { // iPhone 11 Pro Max
-  .banner1 h1 {
-    font-size: 3.2rem;
-  }
+// normal desktop
+@media screen and (min-width: 1200px) {
 }
-
-@media (min-width: 768px) and (max-width: 1024px) { // iPad
-  .banner1 h1 {
-    font-size: 4rem;
-  }
+@media screen and (min-width: 1280px) and (min-height:800px) {
 }
-
-@media (min-width: 1025px) { // MacBook
-  .banner1 h1 {
-    font-size: 5.625rem; // 115px
-  }
+// bigger monitors
+@media screen and (min-width: 1600px) {
 }
