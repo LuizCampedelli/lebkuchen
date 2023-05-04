@@ -1,5 +1,9 @@
 de:
+
   # Navbar
+  products: "Produkte"
+  events: "Veranstaltungen"
+
 
 
 
@@ -12,9 +16,11 @@ de:
   almonddiscription: "Mandel-Lebkuchen ist ein Gebäck aus gemahlenen Mandeln, Honig und Gewürzen. Verziert mit einer Glasur und gehobelten Mandeln"
   hazelnut: "Haselnuss"
   hazelnutdiscription: "Haselnusslebkuchen ist ein Gebäck aus gemahlenen Haselnüssen, Honig und warmen Gewürzen. Diese Kekse werden mit einer süßen Glasur und gehackten Haselnüssen bestrichen."
+  moreinfobtn: "mehr Infos"
 
   about: "Über Lebkuchen-aus-Rodogau"
   bakingpassion: "BACKEN AUS LEIDENSCHAFT WIRD ZUM GESCHÄFT"
+  findusbtn: "Finden Sie uns"
 
   ourlebkuchen: "Unser Lebkuchen"
   lebkuchen: "Unser Lebkuchen ist ein wirklich einzigartiges Produkt, das ohne künstliche Zusatzstoffe oder Chemikalien hergestellt wird. Er ist rein natürlich, und wir achten sehr darauf, dass das auch so bleibt.
@@ -24,13 +30,13 @@ de:
   history: "Die Geschichte von Rodgau begann, als zwei Freunde, Matthias Stark und Michael Rieß, sich bei gutem Bier und Wein unterhielten und beschlossen, ein Unternehmen in der Backbranche zu gründen, das Lebkuchen herstellt.
      Matthias, ein ehemaliger Bäcker und leidenschaftlicher Hobbybäcker, war frustriert von den Lebkuchen aus der Massenproduktion, die seinen hohen Ansprüchen nicht genügten. Sie begannen mit der Produktion für den Eigenbedarf, doch schon bald überstieg die Nachfrage nach ihren hochwertigen Lebkuchen die Kapazitäten.
      Heute stellt das fünfköpfige Team eine Vielzahl von Mandellebkuchen und Haselnusslebkuchen her, die mit feinen Zutaten und in Perfektion gebacken werden"
-  events: "Kommende Veranstaltungen"
+
 
 
   # wheretofindus
-  wheretofindus: "Wo Sie uns finden"
+
+  findus: "Wo Sie uns finden"
 
   # contact
   contactus: "Kontakt"
-
 
