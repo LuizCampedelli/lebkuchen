@@ -5,10 +5,12 @@
 
 }
 
-.contact-text{
-  max-width: 50%;
 
-}
+
+// .contact-text{
+//   max-width: 50%;
+
+// }
 
 .photo{
   margin-bottom: 20px;
@@ -31,14 +33,15 @@
 }
 
 #inputsform{
-  box-shadow:  0 1px 2px rgb(59, 41, 20);
+  // box-shadow:  0 1px 2px rgb(59, 41, 20);
   border-radius: 8px;
-  border-color: #D9C3AD;
+  border-color: transparent;
 
 }
 
 #inputsform::placeholder {
-  color: red;
+  color: #543B1D;
+  opacity: 0.5;
 }
 
 
