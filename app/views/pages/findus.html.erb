@@ -6,15 +6,17 @@
 <div class="container-location" >
   <div class="cards-map">
     <% @locations.each do |location| %>
-    <div id="local" data-lng="<%= location.longitude %>" data-lat="<%= location.latitude %>">
+    <div class="information-location">
         <div style="margin:10px;"><%= image_tag("icon.svg", id: "icon") %></div>
         <div style="margin: 10px 10px;">
           <div><h5 class="card-title"><%= location.name %></h5></div>
           <div class="mb-3"><p class="card-text"><%= location.address %></p></div>
-          <div><p class="link-map">Ver no mapa</p></div>
+          <div><p class="link-map" id="local" data-lng="<%= location.longitude %>" data-lat="<%= location.latitude %>">See on the map</p></div>
         </div>
     </div>
+     <hr class="hrfindus">
     <% end %>
+
   </div>
   <div id="map"
     data-controller="map"
