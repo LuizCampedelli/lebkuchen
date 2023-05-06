@@ -33,9 +33,10 @@
   padding: 10px 10px;
   margin-bottom: 20px;
   border: 1px;
-  border-radius: 5px;
-  background-color:$light-beige;
+  //border-radius: 5px;
+  //background-color:$light-beige;
   //gap: 30px;
+  border-bottom: 1px solid #8C7851;
 }
 
 #local:hover  {
@@ -47,7 +48,11 @@
 float: right;
 border-radius: 8px;
 width: 40%;
-height: 60vh;
+height: 80vh;
+}
+
+.link-map{
+  color:blue;
 }
 
 // Media queries for responsive design
