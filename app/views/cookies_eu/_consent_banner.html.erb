@@ -5,14 +5,20 @@
       <span class="cookies-eu-button-holder">
         <button class="cookies-eu-ok js-cookies-eu-ok" data-cookie-banner-target="cookie-banner.okButton" data-action="click->cookie-banner#hide"> <%= t('cookies_eu.ok') %> </button>
         <% if defined?(link).present? %>
-          <a href="<%= link %>" class="cookies-eu-link" target="<%= defined?(target).present? ? target : '' %>"> <%= t('cookies_eu.learn_more') %> </a>
+          <a href="<%= link %>" class="cookies-eu-link" target="<%= defined?(target).present? ? target : '' %>"> <%= t('cookies_eu.privacy_policy') %> </a>
         <% end %>
+      </span>
+      <span class="bar cookies-eu-lang-switcher">
+        <a href="?locale=de" class="cookies-eu-lang-link">DE</a>
+        <span>|</span>
+        <a href="?locale=en" class="cookies-eu-lang-link">EN</a>
       </span>
     </div>
   <% end %>
 <% else %>
   <% raise Exception.new "'cookies' is a reserved Rails class, please rename your method" %>
 <% end %>
+
 
 
 
