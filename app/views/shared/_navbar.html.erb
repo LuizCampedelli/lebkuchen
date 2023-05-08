@@ -8,11 +8,11 @@
     </button>
     <div class="collapse navbar-collapse custom-navbar-collapse" id="navbarSupportedContent" data-navbar-target="menu">
       <div class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item"><%= link_to "Produtcs", root_path(anchor: 'card-product-info'), class: "nav-link" %></li>
-        <li class="nav-item"><%= link_to "About", root_path(anchor: 'abouts'), class: "nav-link" %></li>
-        <li class="nav-item"><%= link_to "Event", event_path, class: "nav-link" %></li>
-        <li class="nav-item"><%= link_to "Where to buy", findus_path, class: "nav-link" %></li>
-        <li class="nav-item"><%= link_to "Contact", contacts_path, class: "nav-link" %></li>
+        <li class="nav-item"><%= link_to t("products-link"), root_path(anchor: 'card-product-info'), class: "nav-link" %></li>
+        <li class="nav-item"><%= link_to t("about-link"), root_path(anchor: 'abouts'), class: "nav-link" %></li>
+        <li class="nav-item"><%= link_to t("events-link"), event_path, class: "nav-link" %></li>
+        <li class="nav-item"><%= link_to t("wheretobuy-link"), findus_path, class: "nav-link" %></li>
+        <li class="nav-item"><%= link_to t("contactus"), contacts_path, class: "nav-link" %></li>
       </div>
       <span class="bar hide-on-tablet-and-mobile">&vert; </span>
       <div class="hr"><hr></div>

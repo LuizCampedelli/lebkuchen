@@ -1,8 +1,15 @@
 en:
    # Navbar
    products: "Products"
-   about-link:
-   events: "Events"
+   about-link: "About"
+   events-link: "Events"
+   wheretobuy-link: "Where to buy"
+
+   # Footer
+
+    privacy: "Privacy Policy"
+    legal: "Legal"
+
    #  Home-Page
    slogan: "Made with love and tradition, our Lebkuchen is the perfect treat for any occasion!"
    wheretobuybtn: "Where to buy"
@@ -26,7 +33,7 @@ en:
 
 
    history: "Rodgau's history began when two friends, Matthias Stark and Michael Rieß, had a conversation over good beer and wine and decided to start a business in the baking industry producing Lebkuchen. Matthias,a former baker and passionate hobbyist, was frustrated with mass-produced Lebkuchen that didn't meet his high standards. They started producing for personal use, but soon the demand for their high-quality Lebkuchen exceeded their capacity. Today, the team of five people produces a variety of Mandellebkuchen and Haselnusslebkuchen made with fine ingredients and baked to perfection."
-   
+
    upcomingevents: "Upcoming events"
 
    # wheretofindus

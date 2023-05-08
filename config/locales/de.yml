@@ -1,12 +1,20 @@
 de:
 
   # Navbar
-  products: "Produkte"
-  events: "Veranstaltungen"
+  products-link: "Produkte"
+  about-link: "über"
+  events-link: "Veranstaltungen"
+  wheretobuy-link: "Wo zu kaufen"
+
+  # Footer
+
+  privacy: "Datenschutzbestimmungen"
+  legal: "Rechtliches"
 
   #  Home-Page
   slogan: "Mit Liebe und Tradition hergestellt, ist unser Lebkuchen die perfekte Leckerei für jede Gelegenheit!"
   wheretobuybtn: "Wo zu kaufen"
+  contactus: "Kontakt"
 
   ourproducts: "Unsere Produkte"
   almond: "Mandel"
@@ -36,4 +44,3 @@ de:
 
   # contact
   contactus: "Kontakt"
-
