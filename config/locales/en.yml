@@ -1,14 +1,14 @@
 en:
    # Navbar
-   products: "Products"
+   products-link: "Products"
    about-link: "About"
    events-link: "Events"
    wheretobuy-link: "Where to buy"
 
    # Footer
+   privacy: "Datenschutzbestimmungen"
+   legal: "Rechtliches"
 
-    privacy: "Privacy Policy"
-    legal: "Legal"
 
    #  Home-Page
    slogan: "Made with love and tradition, our Lebkuchen is the perfect treat for any occasion!"
@@ -41,3 +41,11 @@ en:
 
    # contact
    contactus: "Contact us"
+   contact-phrase: "Have questions about our products or how everything works? We're here to help! Send us a message and we'll get back to you as soon as possible with all the answers you need."
+   name: "Your Name"
+   email: "Your Email"
+   message: "Your Message"
+   sendusmessage: " Send us a message"
+
+   cookies_eu:
+      privacy_policy: Privacy Policy

@@ -2,14 +2,14 @@
   <div class="footer-content">
    <div>
       <%= link_to "/", class: "img" do %>
-       <%= image_tag "https://res.cloudinary.com/dllghzftv/image/upload/v1682360170/Group_32_2_cz1naq_srxn5j.png" %>
+       <%= image_tag "https://res.cloudinary.com/dllghzftv/image/upload/v1683548192/LogoWhite_cmbp7k.png" %>
      <% end %>
     </div>
         <div class= "pages">
-          <p><%= link_to "About", root_path(anchor: 'about'), class:"link-footer" %></p>
-          <p><%= link_to "Privacy Policy", findus_path, class:"link-footer" %></p>
-          <p><%= link_to "Legal", findus_path, class:"link-footer" %></p>
-          <p><%= link_to "Contact", contacts_path, class:"link-footer" %></p>
+          <p><%= link_to t("about-link"), root_path(anchor: 'about'), class:"link-footer" %></p>
+          <p><%= link_to t("privacy"), findus_path, class:"link-footer" %></p>
+          <p><%= link_to t("legal"), findus_path, class:"link-footer" %></p>
+          <p><%= link_to t("contactus"), contacts_path, class:"link-footer" %></p>
 
         </div>
     <div class="footer-links">
