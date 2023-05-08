@@ -2,21 +2,21 @@
 <div class="primeira m-4">
   <div class="container align-items-start ml-4 mb-4">
     <span id="page_title"><%= t("contactus") %></span>
-    <p class="contact-text"> Are you curious about our products or interested in knowing how everything works? We will be happy to answer you as soon as possible!</p>
+    <p class="contact-text"> <%= t("contact-phrase") %></p>
   </div>
 
   <div class="container justify-content-center">
   <div class ="row">
     <div class="col-md-6">
     <%= simple_form_for @contact do |f| %>
-          <%= f.input :name, placeholder: "Your Name", :label_html => { :class => "label-form" }, input_html: { id: 'inputsform' } %><br>
-          <%= f.input :email, placeholder: "Your Email", :label_html => { :class => "label-form"}, input_html: { id: 'inputsform' }  %><br>
-          <%= f.input :message, placeholder:"Your Message", :label_html => { :class => "label-form" }, input_html: { id: 'inputsform' }, as: :text %><br>
+          <%= f.input :name, placeholder: t("name"), :label_html => { :class => "label-form" }, input_html: { id: 'inputsform' } %><br>
+          <%= f.input :email, placeholder: t("email"), :label_html => { :class => "label-form"}, input_html: { id: 'inputsform' }  %><br>
+          <%= f.input :message, placeholder: t("message"), :label_html => { :class => "label-form" }, input_html: { id: 'inputsform' }, as: :text %><br>
           <div class="d-none">
               <%= f.label :nickname %><br>
               <%= f.text_field :nickname, hint: 'Leave this field blank' %>
           </div>
-          <%= f.button :submit, "Send us a message", class: "b-findus" %>
+          <%= f.button :submit, t("sendusmessage"), class: "b-findus" %>
       <% end %>
       </div>
 

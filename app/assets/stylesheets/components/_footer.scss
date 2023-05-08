@@ -1,5 +1,5 @@
 footer {
-  background: $light-brow;
+  background: rgba(59, 41, 20, 1);
   height: auto;
   width: 100vw;
   font-family: “auto”;
@@ -20,7 +20,7 @@ footer {
   // line-height: px;
   font-size: 12px;
   font-family: $body-font;
-  color: $dark-green;
+  color: $white;
   display: inline;
   padding: 20px;
 
@@ -36,11 +36,11 @@ footer {
 
 
 .link-footer{
-  color: rgb(64, 55, 37);
+  color:rgb(234, 221, 207);
   text-decoration: none;
 }
 .link-footer:hover{
-  color: white;
+  color: black;
 }
 
 
@@ -53,19 +53,19 @@ footer {
   font-size: 16px;
 }
 .footer-links a {
-  color: rgb(64, 55, 37);
+  color: rgb(234, 221, 207);
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
 }
 .footer-links a:hover {
-  color: white;
+  color: black;
 }
 .footer-links p{
-  color: rgb(64, 55, 37);
+  color: rgb(234, 221, 207);
 }
 .footer-links p:hover{
-  color: white;
+  color: black;
 }
 
 
@@ -92,6 +92,6 @@ footer {
   text-align: center;
   padding: 5px 0;
   font-family: $body-font;
-  color: $dark-green;
+  color: rgb(234, 221, 207);
   font-size: 11px;
 }
