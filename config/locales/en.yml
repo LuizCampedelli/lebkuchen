@@ -6,8 +6,8 @@ en:
    wheretobuy-link: "Where to buy"
 
    # Footer
-   privacy: "Datenschutzbestimmungen"
-   legal: "Rechtliches"
+   privacy: "Privacy Policy"
+   legal: "Legal"
 
 
    #  Home-Page
@@ -15,6 +15,7 @@ en:
    wheretobuybtn: "Where to buy"
 
    ourproducts: "Our Products"
+   moreinfobtn: "More"
 
    almond: "Almond"
    almonddiscription: "Almond Lebkuchen is a cookie made with ground almonds, honey, and spices. Decorated with a glaze and sliced almonds"
