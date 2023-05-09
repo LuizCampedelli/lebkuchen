@@ -29,7 +29,7 @@
   font-size: 1.875rem;
   font-weight: 200;
   color: $beige;
-  margin-top: 75px;
+  margin-top: 60px;
   margin-bottom: 45px;
 }
 #about{
@@ -44,6 +44,8 @@
   align-items: center;
   margin: auto;
 }
+
+
 
 .home-story {
   display: flex;
@@ -75,21 +77,23 @@
 }
 
 .btn-findus {
-  background: rgba(160, 112, 55, 0.7);
+  background: #A07037;
   text-decoration: none;
   padding: 10px 45px;
   border-radius: 8px;
   transition: 0.3s ease;
   font-family:$body-font;
   font-size: 1rem;
-  color: #362e1f;
+  color: $beige;;
   margin:auto;
   letter-spacing: 1px;
 }
 
 .btn-findus:hover {
-  color: $beige;
-  background: #A07037;
+  background: rgba(160, 112, 55, 0.7);
+  color: #362e1f;
+
+
 }
 .card-product{
 background-color: rgba(255, 255, 255,0.5);

@@ -11,24 +11,38 @@ h3{
 
 
 .b-findus {
-  background: rgba(160, 112, 55, 0.7) !important;
+  background:#A07037 !important;
   text-decoration: none !important;
   padding: 12px 45px !important;
   border-radius: 8px !important;
   transition: 0.3s ease !important;
   font-family: "Poppins", "sans-serif" !important;
   font-size: medium !important;
-  color: #362e1f !important;
+  color: beige !important;
   margin: auto !important;
   letter-spacing: 1px !important;
   box-shadow:  0 1px 2px rgb(59, 41, 20);
 }
 
 .b-findus:hover {
-  color: $beige !important;
-  background: #A07037 !important;
+  color: #362e1f !important;
+  background: rgba(160, 112, 55, 0.7)!important;
 }
 
 // abbr[title=“required”] {
 //   display: none;
 // }
+
+
+.btn-findus {
+  background: #A07037;
+  text-decoration: none;
+  padding: 10px 45px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  font-family:$body-font;
+  font-size: 1rem;
+  color: $beige;
+  margin:auto;
+  letter-spacing: 1px;
+}
