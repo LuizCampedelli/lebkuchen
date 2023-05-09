@@ -2,6 +2,7 @@
 .ftn-rochs {
   font-family: "Rochester";
 }
+
 .banner {
   background-size: cover;
   background-position: center;
@@ -79,14 +80,21 @@
 .btn-findus {
   background: #A07037;
   text-decoration: none;
-  padding: 10px 45px;
   border-radius: 8px;
   transition: 0.3s ease;
   font-family:$body-font;
   font-size: 1rem;
+
   color: $beige;;
   margin:auto;
   letter-spacing: 1px;
+
+//   color: #362e1f;
+//   letter-spacing: 1px;;
+//   display: inline-block;
+//   text-align: center;
+//   line-height: normal; /* Adjust this value if needed */
+
 }
 
 .btn-findus:hover {
@@ -95,9 +103,15 @@
 
 
 }
+
+.text-container {
+  height: 150px; /* Adjust the height according to your needs */
+  overflow: auto; /* Enable scrolling for content that exceeds the container height */
+}
+
 .card-product{
 background-color: rgba(255, 255, 255,0.5);
-background-o: 0.5;
+background: 0.5;
 border-radius: 10px;
 }
 
@@ -115,7 +129,6 @@ border-radius: 10px;
   margin-bottom: 80px;
   margin-left: 20px;
   padding-bottom: 20px;
-  display: flex;
   justify-content: flex-start !important;
   flex-direction: column;
   font-size: 16px;
@@ -133,10 +146,6 @@ border-radius: 10px;
   margin-top: 0px;
 }
 
-.card-product-infos .btn-findus {
-  display: flex;
-}
-
 
 // Media queries for responsive design
 @media (max-width: 320px) { // iPhone 5
@@ -150,6 +159,12 @@ border-radius: 10px;
     margin-top: 25px;
     margin-bottom: 10px;
   }
+
+  .btn-findus {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+
 }
 
 @media (max-width: 414px) { // iPhone 11
@@ -161,6 +176,16 @@ border-radius: 10px;
   .banner h2 {
     font-size: 1.2rem;
   }
+
+  .btn-findus {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+
+  .card-product-infos p {
+    font-size: 0.9rem;
+  }
+
 }
 
 @media (max-width: 428px) { // iPhone 11 Pro Max
@@ -171,6 +196,16 @@ border-radius: 10px;
   .banner h2 {
     font-size: 1.3rem;
   }
+
+  .btn-findus {
+    font-size: 0.95rem;
+    padding: 12px 24px;
+  }
+
+  .prod-desc {
+    font-size: 0.9rem;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) { // iPad
@@ -180,6 +215,11 @@ border-radius: 10px;
 
   .banner h2 {
     font-size: 1.5rem;
+  }
+
+  .btn-findus {
+    font-size: 1rem;
+    padding: 14px 28px;
   }
 }
 
@@ -191,96 +231,9 @@ border-radius: 10px;
   .banner h2 {
     font-size: 1.875rem; // 30px
   }
+
+  .btn-findus {
+    font-size: 1.2rem;
+    padding: 16px 32px;
+  }
 }
-
-
-// .card-category {
-//   background-size: cover;
-//   background-position: center;
-//   height: 500pxpx;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   color: white;
-//   font-size: 22px;
-//   // font-weight: bold;
-//   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-//   border-radius: 5px;
-//   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-//   margin-bottom: 50px;
-// }
-
-// .card-product h2 {
-//   font-size: 2rem;
-//   margin: 0;
-// }
-
-// /* The Modal (background) */
-
-//  .modal {
-//   display: none; /* Hidden by default */
-//   position: fixed; /* Stay in place */
-//   z-index: 1; /* Sit on top */
-//   left: 0;
-//   top: 0;
-//   width: 100%; /* Full width */
-//   height: 100%; /* Full height */
-//   overflow: auto; /* Enable scroll if needed */
-//   background-color: rgb(0,0,0); /* Fallback color */
-//   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-//  }
-
-// /* Modal Content/Box */
-// .modal-content {
-//    background-color: #fefefe;
-//    margin: 15% auto; /* 15% from the top and centered */
-//    padding: 20px;
-//    border: 1px solid #888;
-//    width: 80%; /* Could be more or less, depending on screen size */
-//  }
-
-// // // /* The Close Button */
-// .close {
-//   color: #aaa;
-//   float: right;
-//   font-size: 2rem;
-//   font-weight: bold;
-// }
-
-// // // .close:hover,
-// .close:focus {
-//    color: black;
-//    text-decoration: none;
-//    cursor: pointer;
-//  }
-
-// from new cards
-
-// .homes-cards{
-// justify-content: flex-start;
-// }
-
-// .card-category {
-//   padding: 15px;
-//   overflow: hidden;
-//   height: 350px;
-//   width: 30vw;
-//   background:$light-beige;
-//   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-//   display: flex;
-//   align-items: center;
-
-//  }
-// #products-cards {
-//   display: flex;
-//   justify-content: center;
-//   margin:30px;
-//   max-width: 100%;
-//   gap: 30px;
-// }
-
-// .p-card img {
-//   width: 100%;
-//   height: 15vw;
-//   object-fit: cover;
-// }

@@ -15,7 +15,9 @@
           <img src="https://glutenfreecuppatea.co.uk/wp-content/uploads/2018/12/gluten-free-lebkuchen-recipe-dairy-free-low-fodmap-featured.jpg">
           <div class="card-product-infos" id="card-product-info">
             <h2><%= t("almond") %></h2>
-             <p><%= t("almonddiscription") %></p>
+            <div class="text-container">
+              <p class="prod-desc"><%= t("almonddiscription") %></p>
+            </div>
              <div style="max-width:30%" >
              <%= link_to t("moreinfobtn"), "/product", class: "btn-findus" %>
             </div>
@@ -27,7 +29,9 @@
           <img src="https://cdn.lebkuchen-schmidt.com/userdata/images/Einkaufswelten/N%C3%BCrnberger%20Lebkuchen/nuernberger-lebkuchen-banner.jpg">
           <div class="card-product-infos">
             <h2><%= t("hazelnut") %></h2>
-             <p><%= t("hazelnutdiscription") %></p>
+            <div class="text-container">
+              <p class="prod-desc"><%= t("hazelnutdiscription") %></p>
+            </div>
              <div style="max-width:30%" >
              <%= link_to t("moreinfobtn"), "/product", class: "btn-findus" %>
              </div>
