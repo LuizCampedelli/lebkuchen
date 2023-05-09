@@ -16,6 +16,7 @@ de:
 
 
    ourproducts: "Unsere Produkte"
+   moreinfobtn: "mehr Infos"
 
    almond: "Mandel"
    almonddiscription: "Mandel-Lebkuchen ist ein Gebäck aus gemahlenen Mandeln, Honig und Gewürzen. Verziert mit einer Glasur und gehobelten Mandeln"
@@ -40,7 +41,7 @@ de:
 
    # wheretofindus
 
-   findus: "Wo Sie uns finden"
+   wheretofindus: "Wo Sie uns finden"
 
    # contact
    contactus: "Kontakt"
