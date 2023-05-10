@@ -3,7 +3,13 @@
  <div class="row">
 
   <div class="col-12 col-sm-6 col-md-12 col-lg-3 col-xxl-6">
-   <%= image_tag("frame.svg", class: "img-fluid") %>
+   <div data-controller="carousel" class="swiper-container" data-carousel-options='{"direction": "vertical"}'>
+     <div class="swiper-wrapper">
+       <div class="swiper-slide">Slide 1</div>
+       <div class="swiper-slide">Slide 2</div>
+       <div class="swiper-slide">Slide 3</div>
+     </div>
+   </div>
   </div>
 
 
