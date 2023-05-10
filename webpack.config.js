@@ -7,6 +7,15 @@ module.exports = {
   entry: {
     application: "./app/javascript/application.js"
   },
+
+  module: {
+    rules: [{ test: /\.css|scss$/,
+              use: ['style-loader',
+                    'css-loader',
+                    ],
+            }],
+  },
+
   output: {
     filename: "[name].js",
     sourceMapFilename: "[file].map",
@@ -17,4 +26,5 @@ module.exports = {
       maxChunks: 1
     })
   ]
+
 }
