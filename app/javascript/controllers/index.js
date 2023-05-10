@@ -4,6 +4,9 @@
 
 import { application } from "./application"
 
+import CarouselController from "./carousel_controller"
+application.register("carousel", CarouselController)
+
 import CookieBannerController from "./cookie_banner_controller"
 application.register("cookie-banner", CookieBannerController)
 
