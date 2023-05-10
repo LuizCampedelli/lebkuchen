@@ -46,8 +46,6 @@
   margin: auto;
 }
 
-
-
 .home-story {
   display: flex;
   align-items: center;
@@ -93,14 +91,11 @@
   text-align: center;
   line-height: normal; /* Adjust this value if needed */
   white-space: nowrap;
-
 }
 
 .btn-findus:hover {
   background: rgba(160, 112, 55, 0.7);
   color: #362e1f;
-
-
 }
 
 .text-container {
@@ -140,9 +135,8 @@ border-radius: 10px;
 }
 
 .card-product-infos p {
-  font-size: 1rem;
-  margin-bottom: 20px;
-  margin-top: 0px;
+  font-size: 1.1rem;
+  margin-top: 10px;
 }
 
 
