@@ -44,6 +44,9 @@ de:
 
    # contact
    contactus: "Kontakt"
+   messagesent: "Nachricht gesendet"
+   messageerror: "Es ist ein Fehler beim Senden der Nachricht aufgetreten. Bitte versuchen Sie es erneut"
+
    contact-phrase: "Haben Sie Fragen zu unseren Produkten oder wie alles funktioniert? Wir sind für Sie da! Schicken Sie uns eine Nachricht und wir werden Ihnen so schnell wie möglich alle Antworten geben."
    name: "Ihr Name"
    email: "Ihre E-Mail"

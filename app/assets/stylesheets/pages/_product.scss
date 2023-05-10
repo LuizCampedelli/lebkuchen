@@ -12,3 +12,35 @@
   //gap: 30px;
 
 }
+
+
+.btn-flavor {
+  background: #F5E4D0;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.25rem;
+  transition: 0.3s ease;
+  font-family:$body-font;
+  font-size: 1rem;
+  color: #543B1D;
+  margin:auto;
+  letter-spacing: 1px;
+  height: 37px;
+}
+
+.btn-flavor:hover {
+  background: #A07037;
+  color: #FFFFFF;
+}
+
+.flavors{
+  font-family:$body-font;
+  margin-top: 1rem;
+}
+
+tbody th{
+  font-weight:normal !important;
+
+}
+
+
