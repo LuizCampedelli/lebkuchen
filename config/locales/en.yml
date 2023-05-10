@@ -15,13 +15,12 @@ en:
    wheretobuybtn: "Where to buy"
 
    ourproducts: "Our Products"
-   moreinfobtn: "More"
+   moreinfobtn: "More info"
 
    almond: "Almond"
    almonddiscription: "Almond Lebkuchen is a cookie made with ground almonds, honey, and spices. Decorated with a glaze and sliced almonds"
    hazelnut: "Hazelnut"
    hazelnutdiscription: "Hazelnut Lebkuchen is a cookie made with ground hazelnuts, honey, and warm spices. These cookies are topped with a sweet glaze and chopped hazelnuts"
-   moreinfobtn: "More info"
 
    about: "About Lebkuchen-aus-Rodogau"
    bakingpassion: "BAKING PASSION TURNED BUSINESS"
@@ -51,3 +50,4 @@ en:
 
    cookies_eu:
       privacy_policy: Privacy Policy
+      privacy_policy_link: "cookies_eu_en"

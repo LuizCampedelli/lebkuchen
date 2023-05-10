@@ -4,21 +4,20 @@
       <span class="cookies-eu-content-holder"><%= t('cookies_eu.cookies_text') %></span>
       <span class="cookies-eu-button-holder">
         <button class="cookies-eu-ok js-cookies-eu-ok" data-cookie-banner-target="cookie-banner.okButton" data-action="click->cookie-banner#hide"> <%= t('cookies_eu.ok') %> </button>
-        <% if defined?(link).present? %>
-          <a href="<%= link %>" class="cookies-eu-link" target="<%= defined?(target).present? ? target : '' %>"> <%= t('cookies_eu.privacy_policy') %> </a>
+        <% if I18n.exists?('cookies_eu.privacy_policy_link', I18n.locale) %>
+          <a href="<%= t('cookies_eu.privacy_policy_link') %>" class="cookies-eu-link" target="<%= defined?(target).present? ? target : '' %>"> <%= t('cookies_eu.privacy_policy') %> </a>
         <% end %>
       </span>
       <span class="bar cookies-eu-lang-switcher">
-        <a href="?locale=de" class="cookies-eu-lang-link">DE</a>
+        <a href="<%= "#{request.path}?locale=de" %>" class="cookies-eu-lang-link">DE</a>
         <span>|</span>
-        <a href="?locale=en" class="cookies-eu-lang-link">EN</a>
+        <a href="<%= "#{request.path}?locale=en" %>" class="cookies-eu-lang-link">EN</a>
       </span>
     </div>
   <% end %>
 <% else %>
   <% raise Exception.new "'cookies' is a reserved Rails class, please rename your method" %>
 <% end %>
-
 
 
 
