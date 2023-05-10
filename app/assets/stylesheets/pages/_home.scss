@@ -82,10 +82,15 @@
   transition: 0.3s ease;
   font-family:$body-font;
   font-size: 1rem;
-
   color: $beige;;
   margin:auto;
   letter-spacing: 1px;
+//   color: #362e1f;
+//   letter-spacing: 1px;;
+  display: inline-block;
+  text-align: center;
+  line-height: normal; /* Adjust this value if needed */
+  white-space: nowrap;
 }
 
 .btn-findus:hover {

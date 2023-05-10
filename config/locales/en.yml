@@ -42,6 +42,8 @@ en:
 
    # contact
    contactus: "Contact us"
+   messagesent: "Message sent"
+   messageerror: "There was an error sending the message. Please try again"
 
    contact-phrase: "Have questions about our products or how everything works? We're here to help! Send us a message and we'll get back to you as soon as possible with all the answers you need."
    name: "Your Name"
@@ -50,4 +52,5 @@ en:
    sendusmessage: " Send us a message"
 
    cookies_eu:
-      privacy_policy: Privacy Policy
+      privacy_policy: "Privacy Policy"
+      1-privacy-information: "1. Privacy Information"
