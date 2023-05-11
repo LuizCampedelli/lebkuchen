@@ -27,6 +27,11 @@ class PagesController < ApplicationController
   end
 
   def cookies_eu
-  end
+    if I18n.locale == :en
+      render 'cookies_eu_en'
+    else
+      render 'cookies_eu'
+    end
+  end  
 
 end
