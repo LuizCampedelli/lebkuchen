@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     get "contacts", to: "contacts#new"
     post "contacts", to: "contacts#create"
     get  "product", to: "pages#product", as: :product
+    get "legal", to: "pages#legal", as: :legal
     get '/cookies_eu', to: 'pages#cookies_eu', as: 'cookies'
     get '/cookies_eu_en', to: 'pages#cookies_eu_en', as: 'cookies_en'
     root to: "pages#home"
