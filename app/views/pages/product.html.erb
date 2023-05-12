@@ -1,14 +1,12 @@
 <div class="hrmobile"><hr></div>
   <div class="container">
     <div class="row">
-      <div class="col-12 col-sm-6 col-md-12 col-lg-3 col-xxl-6 ">
-        <div data-controller="carousel" class="swiper-container" data-carousel-options='{"direction": "vertical"}'>
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-          </div>
-        </div>
+      <div class="col-12 col-sm-6 col-md-12 col-lg-3 col-xxl-6">
+        <swiper-container class="mySwiper" navigation="true">
+          <swiper-slide><%= image_tag "chocoflavor.svg", size: "350x350", alt: "chocolate" %></swiper-slide>
+          <swiper-slide><%= image_tag "plainflavor.svg", size: "350x350", alt: "plainflavor" %></swiper-slide>
+          <swiper-slide><%= image_tag "sugarflavor.svg", size: "350x350", alt: "sugarflavor" %></swiper-slide>
+        </swiper-container>
       </div>
       <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-6">
         <h2>Lebkuchen-aus-Rodgau</h2>
