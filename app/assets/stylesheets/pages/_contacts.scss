@@ -5,10 +5,10 @@
 
 }
 
-
-
  .contact-text{
    max-width: 50%;
+   font-family: $body-font;
+   margin-top: 25px;
 
  }
 
@@ -63,4 +63,17 @@ abbr[title="required"] {
   #page_title{
     font-size: 2rem;
   }
+
+  .b-findus{
+    padding: 12px 25px !important;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  .b-findus{
+    padding: 12px 3px !important;
+  }
+
 }
