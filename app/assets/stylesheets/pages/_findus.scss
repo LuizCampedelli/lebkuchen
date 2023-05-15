@@ -123,16 +123,19 @@ height: 87vh;
        ;
     }
 
-
-
-
   }
 
-
+  // bigger monitors
 
 
 }
+@media only screen and (min-width: 1600px) {
 
+  #map {
+    width: 50%;
+    height: 70vh;
+  }
+}
 
 
 // @media (max-width: 320px) { // iPhone 5
@@ -171,17 +174,17 @@ height: 87vh;
 
 //Boilerplate for reponsive design -
 // tablets
-@media screen and (min-width: 500px) {
+//@media screen and (min-width: 500px) {
 // INPUT CODE HERE
-}
+//}
 // laptops
-@media screen and (min-width: 992px) {
-}
+//@media screen and (min-width: 992px) {
+//}
 // normal desktop
-@media screen and (min-width: 1200px) {
-}
-@media screen and (min-width: 1280px) and (min-height:800px) {
-}
+//@media screen and (min-width: 1200px) {
+//}
+//@media screen and (min-width: 1280px) and (min-height:800px) {
+//}
 // bigger monitors
-@media screen and (min-width: 1600px) {
-}
+//@media screen and (min-width: 1600px) {
+//}
