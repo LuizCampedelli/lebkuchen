@@ -19,4 +19,5 @@ application.register("navbar", NavbarController)
 import ScrollRevealController from "./scroll_reveal_controller"
 application.register("scroll-reveal", ScrollRevealController)
 
-
+import SliderController from "./slider_controller"
+application.register("slider", SliderController)

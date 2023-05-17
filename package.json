@@ -15,6 +15,7 @@
     "stimulus-carousel": "^5.0.1",
     "stimulus-scroll-reveal": "^3.2.0",
     "stimulus-scroll-to": "^4.1.0",
+    "swiper": "^9.3.2",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   },

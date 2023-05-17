@@ -1,11 +1,11 @@
 <div class="hrmobile"><hr></div>
-  <div class="container">
+  <div class="container" data-controller="slider">
     <div class="row">
       <div class="col-12 col-sm-6 col-md-12 col-lg-3 col-xxl-6">
         <swiper-container class="mySwiper" navigation="true">
-          <swiper-slide><%= image_tag "chocoflavor.svg", size: "350x350", alt: "chocolate" %></swiper-slide>
-          <swiper-slide><%= image_tag "plainflavor.svg", size: "350x350", alt: "plainflavor" %></swiper-slide>
-          <swiper-slide><%= image_tag "sugarflavor.svg", size: "350x350", alt: "sugarflavor" %></swiper-slide>
+          <swiper-slide data-swiper-slide-index="0" data-slider-target="slide"><%= image_tag "chocoflavor.svg", size: "350x350", alt: "chocolate" %></swiper-slide>
+          <swiper-slide data-swiper-slide-index="1" data-slider-target="slide"><%= image_tag "plainflavor.svg", size: "350x350", alt: "plainflavor" %></swiper-slide>
+          <swiper-slide data-swiper-slide-index="2" data-slider-target="slide"><%= image_tag "sugarflavor.svg", size: "350x350", alt: "sugarflavor" %></swiper-slide>
         </swiper-container>
       </div>
       <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-6">
@@ -15,11 +15,11 @@
         <p class="flavors">Suppose cottage between and way. Minuter him own clothes but observe country. Agreement far boy otherwise rapturous incommode favourite.</p>
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-6">
           <p class="flavors"><strong>Flavors available</strong></p>
-            <div class="btn-prod">
-              <%= link_to "Nozes", "/findus", class: "btn-flavor me-2" %>
-              <%= link_to "Sugar", "/findus", class: "btn-flavor me-2" %>
-              <%= link_to "Dark chocolate", "/findus", class: "btn-flavor me-2" %>
-            </div>
+            <div class="btn-prod" data-target="slider.buttons">
+              <%= link_to "Nozes", "#", class: "btn-flavor me-2", data: { action: "click->slider#goTo", target: "slider.button", index: 0 } %>
+              <%= link_to "Sugar", "#", class: "btn-flavor me-2", data: { action: "click->slider#goTo", target: "slider.button", index: 1 } %>
+              <%= link_to "Dark chocolate", "#", class: "btn-flavor me-2", data: { action: "click->slider#goTo", target: "slider.button", index: 2 } %>
+          </div>
         </div>
       </div>
       <div class= "container">
