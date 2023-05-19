@@ -1,0 +1,2035 @@
+ 2035  ..
+ 2034  git push origin landing-page
+ 2033  git commit -m "atualizou o ruby e o bundle"
+ 2032  git add .
+ 2031  git checkout -b landing-page
+ 2030  git diff
+ 2029  gst
+ 2028  git status
+ 2027  rails c
+ 2026  rails db:create db:migrate
+ 2025  yarn install
+ 2024  bundle install
+ 2023  git pull origin main
+ 2022  bundle install
+ 2021  git pull origin main
+ 2020  ll
+ 2019  cd mcpenchel/rails-authentication-1020
+ 2018  cd code
+ 2017  ruby -v
+ 2016  cd
+ 2015  ruby -v
+ 2014  rbenv -v
+ 2013  bundle install
+ 2012  ll
+ 2011  cd rails-authentication-1020
+ 2010  ll
+ 2009  git clone git@github.com:mcpenchel/rails-authentication-1020.git
+ 2008  cd mcpenchel
+ 2007  mkdir mcpenchel
+ 2006  ls
+ 2005  ll
+ 2004  cd code
+ 2003  ll
+ 2002  code
+ 2001  cd
+ 2000  cd code
+ 1999  cd ..
+ 1998  cd code
+ 1997  rm -rf mcpenchel
+ 1996  ll
+ 1995  mkdir mcpenchel
+ 1994  ll
+ 1993  cd code
+ 1992  psql --version
+ 1991  psql -v
+ 1990  psql
+ 1989  yarn build --watch
+ 1988  yarn
+ 1987  yarn build --watch
+ 1986  bundle
+ 1985  yarn build --watch
+ 1984  rails s
+ 1983  yarn build --watch
+ 1982  yarn build ==watch
+ 1981  rails s
+ 1980  rails db:migrate
+ 1979  rails g model Review list:references comment:text rating:integer
+ 1978  rails db:seed
+ 1977  rails db:migrate
+ 1976  rails db:create
+ 1975  code .
+ 1974  ll
+ 1973  cd ~/code/LuizCampedelli/rails-watch-list
+ 1972  psql -d postgres
+ 1971  psql --v
+ 1970  psql -v
+ 1969  git push origin master
+ 1968  git commit -m "quiz done"
+ 1967  git add .
+ 1966  rake
+ 1965  code .
+ 1964  cd 05-Rails/05-Rails-MC-with-images/01-Rails-frontend-quiz
+ 1963  git pull upstream master -X ours
+ 1962  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1961  rails routes
+ 1960  rails c
+ 1959  rails s
+ 1958  rails g controller lists
+ 1957  rails routes
+ 1956  rails s
+ 1955  rails db:seed
+ 1954  rails db
+ 1953  bundle install
+ 1952  gem 'faker'
+ 1951  git commit -m "models validation done"
+ 1950  git add .
+ 1949  git status
+ 1948  rspec spec/models
+ 1947  rake db:migrate
+ 1946  rspec spec/models
+ 1945  rails g model bookmark comment:text movie:references list:references
+ 1944  rails g model list name
+ 1943  rails g model movie title overview:text poster_url rating:float
+ 1942  yarn -v
+ 1941  bundle -v
+ 1940  gst
+ 1939  git push origin master
+ 1938  git commit -m "initial setup rails front end"
+ 1937  git add .
+ 1936  git status
+ 1935  unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-master app/assets/stylesheets
+ 1934  curl -L https://github.com/lewagon/stylesheets/archive/master.zip > stylesheets.zip
+ 1933  rm -rf app/assets/stylesheets
+ 1932  rails generate simple_form:install --bootstrap
+ 1931  bundle install
+ 1930  code .
+ 1929  yarn add bootstrap @popperjs/core
+ 1928  rspec spec/models
+ 1927  rails db:migrate RAILS_ENV=test
+ 1926  rails db:migrate
+ 1925  git commit -m "Prepare rails app with external specs"
+ 1924  git add .
+ 1923  git submodule add https://github.com/lewagon/fullstack-challenges-04-Rails-watch-list-specs.git spec
+ 1922  rails db:test:prepare
+ 1921  rails db:migrate
+ 1920  bundle install
+ 1919  echo "gem 'rails-controller-testing', group: [ :test ]" >> Gemfile
+ 1918  echo "gem 'rspec-rails', group: [ :test ]" >> Gemfile
+ 1917  git push origin master
+ 1916  gh repo create --public --source=.
+ 1915  git commit -m "rails-watch-list"
+ 1914  git add .
+ 1913  rails db:create
+ 1912  cd rails-watch-list
+ 1911  rails new rails-watch-list -j webpack -d postgresql --skip-action-mailbox -T
+ 1910  cd ~/code/LuizCampedelli
+ 1909  git push origin master
+ 1908  git commit -m "quiz done"
+ 1907  git add .
+ 1906  git status
+ 1905  rake
+ 1904  rails routes
+ 1903  rake
+ 1902  code .
+ 1901  cd 05-Rails/04-Rails-mister-cocktail/01-Advanced-routing-quiz
+ 1900  git pull upstream master -X ours
+ 1899  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1898  cd ..
+ 1897  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1896  git commit -m "yelp uncompleted"
+ 1895  git status
+ 1894  git add .
+ 1893  git status
+ 1892  yarn -v
+ 1891  node -v
+ 1890  rails routes
+ 1889  rails c
+ 1888  rails db:seed
+ 1887  git push origin master
+ 1886  git commit -m "yep first commit"
+ 1885  git add .
+ 1884  rails routes
+ 1883  rails s
+ 1882  rails g controller restaurants
+ 1881  rails routes
+ 1880  rails db:seed
+ 1879  rspec spec/01_models
+ 1878  rails db:migrate
+ 1877  rails g migration add_restaurant_id_to_reviews restaurant:references
+ 1876  rspec spec/01_models
+ 1875  rails db:migrate
+ 1874  rails g migration ChangeColumnRating
+ 1873  rails db:migrate
+ 1872  rails g model review rating content
+ 1871  rails db:migrate
+ 1870  rails g model restaurant name address phone_number category
+ 1869  git status
+ 1868  rspec
+ 1867  bin/rake
+ 1866  rake
+ 1865  bundle --version
+ 1864  bumble --version
+ 1863  bunble --version
+ 1862  rspec
+ 1861  history
+ 1860  rspec
+ 1859  rspecx
+ 1858  rails db:migrate RAILS_ENV=test
+ 1857  rails generate simple_form:install --bootstrap
+ 1856  bundle install
+ 1855  code .
+ 1854  git status
+ 1853  git commit -m "Prepare rails app with external specs"
+ 1852  git add .
+ 1851  git submodule add git@github.com:lewagon/fullstack-challenges-03-Rails-restaurant-reviews-specs.git spec
+ 1850  spec
+ 1849  git submodule add git@github.com:lewagon/fullstack-challenges-03-Rails-restaurant-reviews-specs.git
+ 1848  bundle install
+ 1847  cd rails-yelp-mvp
+ 1846  cd ~/code/LuizCampedelli
+ 1845  cd rails-yelp-mvp
+ 1844  cd ../
+ 1843  code .
+ 1842  cd /Users/luizcampedelli/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.7/lib/bundler
+ 1841  code .
+ 1840  cd /Users/luizcampedelli/.rbenv/versions/3.1.2/lib/ruby/site_ruby/3.1.0/rubygems
+ 1839  bundle install
+ 1838  gem update bundler
+ 1837  bundle install
+ 1836  gem update --system 3.4.1
+ 1835  bundle install
+ 1834  gem update --system 3.4.3
+ 1833  code .
+ 1832  ll
+ 1831  cd /home/luizcampedelli/.rbenv/versions/3.1.2/lib/ruby/3.1.0/bundler
+ 1830  cd /home/bruno/.rbenv/versions/3.1.2/lib/ruby/3.1.0/bundler
+ 1829  bundle install
+ 1828  gem update --system
+ 1827  bundle install
+ 1826  echo "gem 'rails-controller-testing', group: [ :test ]" >> Gemfile
+ 1825  echo "gem 'rspec-rails', group: [ :test ]" >> Gemfile
+ 1824  git push origin master
+ 1823  gh repo create --public --source=.
+ 1822  git commit -m "rails new"
+ 1821  git add .
+ 1820  cd rails-yelp-mvp
+ 1819  rails new rails-yelp-mvp --skip-active-storage --skip-action-mailbox -T
+ 1818  cd ~/code/LuizCampedelli
+ 1817  git push origin master
+ 1816  git commit -m "better indenting"
+ 1815  git add .
+ 1814  git status
+ 1813  git st
+ 1812  git s
+ 1811  rake
+ 1810  git push origin master
+ 1809  git commit -m "crud quiz done"
+ 1808  git add .
+ 1807  git status
+ 1806  rake
+ 1805  code .
+ 1804  cd 05-Rails/03-Rails-restaurant-reviews/01-CRUD-quiz
+ 1803  git pull upstream master -X ours
+ 1802  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1801  rails c
+ 1800  raisl c
+ 1799  history
+ 1798  rails s
+ 1797  rails 2
+ 1796  rails db:seed
+ 1795  rails console
+ 1794  rails c
+ 1793  rails g controller tasks
+ 1792  rake db:migrate
+ 1791  sudo rm -rf /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Dream\ Collab\ fev\ 2020\ _\ correcoes\ 2\ _\ sem\ borda\ _\ mobile\ .pdf /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Endereço\ caixa\ postal.pim /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Endereco\ Fraresso.psd /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Endereço\ luis\ otavio.jpg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/endereco\ vulcan\ photoshop.psd /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/endereco\ vulcanvaper\ caixa\ postal.pim /Users/luizcampedelli/.Trash/FileZilla\ Pro.app /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Fim\ do\ e-sedex\ 4\ aplicativos\ de\ entregas\ que\ oferecem\ preço\ e\ facilidade\ Programa\ NEX.URL /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/How\ to\ Block\ Countries\ in\ Wordpress\ -\ Chron.com.url /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/lista\ de\ envasados\ at\ \(1\).xlsx /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/LISTA.VAPE.04.03.20.xlsx /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/nmac.to_gkh.zip /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/nxmac.com_spsiev2943.zip /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Perfumers\ Apprentice\ -\ Cinnamon\ Red\ Hot\ \(PG\).url /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Perfumers\ Apprentice\ -\ Fruit\ Circles\ With\ Milk\ Flavor.url /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Perfumers\ Apprentice\ -\ Orange\ Cookies\ Type\ Flavored\ Blend--.url /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Periféricos\ High\ End\ —\ Seu\ guia\ de\ periféricos\!.URL /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Sindicate\ \(1\).rar /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Sindicate.rar /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/VULCAN\ VAPER.xlsx /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp-logo2.rar /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp.jpg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp.psd /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp.rar /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/wc-product-export-21-8-2019-1566426775134.csv /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/wc-product-export-21-8-2019-1566426955054.csv /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/winrar-x64-571.exe 
+ 1790  rm -rf /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/---cartao\ loja--- /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/---congresso\ nacional---- /Users/luizcampedelli/.Trash/1.\ Primeiros\ passos.mp4 /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/adelio\ vive.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Config\ PC.txt /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/conta\ deposito.jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Cópia\ de\ convertcsv.xlsx /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Dream\ Collab\ fev\ 2020\ _\ correcoes\ 2\ _\ sem\ borda\ _\ mobile\ .pdf /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/endereço\ Contato\ vape.txt /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Endereco\ Fraresso.psd /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Endereço\ luis\ otavio.jpg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Endereço\ luis\ otavio.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/endereco\ luiz.txt /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Endereço\ marcos.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/endereco\ vulcan\ photoshop.psd /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/endereco\ vulcanvaper\ caixa\ postal.pim /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/etiqueta\ de\ envio.pdf /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/FIAP\ DISPONIBILIZA\ 20\ CURSOS\ GRATUITOS\ NAS\ ÁREAS\ DE\ TECNOLOGIA\ E\ NEGÓCIOS\ -\ FIAP\ 2.webloc /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/FIAP\ DISPONIBILIZA\ 20\ CURSOS\ GRATUITOS\ NAS\ ÁREAS\ DE\ TECNOLOGIA\ E\ NEGÓCIOS\ -\ FIAP.webloc /Users/luizcampedelli/.Trash/FileZilla\ Pro.app /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Fim\ do\ e-sedex\ 4\ aplicativos\ de\ entregas\ que\ oferecem\ preço\ e\ facilidade\ Programa\ NEX.URL /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/halo\ others.txt /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/How\ to\ Block\ Countries\ in\ Wordpress\ -\ Chron.com.url /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/instagram /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/IVG\ SABORES.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/JUJUICES.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/lista\ de\ envasados\ at\ \(1\).xlsx /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/LISTA.VAPE.04.03.20.xlsx /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Meet-\ ans-rfpk-mdw\ 2.webloc /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Meet-\ ans-rfpk-mdw.webloc /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/mercado.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/nmac.to_gkh.zip /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/nxmac.com_spsiev2943.zip /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/paulo\ figueiro.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Perfumers\ Apprentice\ -\ Cinnamon\ Red\ Hot\ \(PG\).url /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Perfumers\ Apprentice\ -\ Fruit\ Circles\ With\ Milk\ Flavor.url /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Perfumers\ Apprentice\ -\ Orange\ Cookies\ Type\ Flavored\ Blend--.url /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Periféricos\ High\ End\ —\ Seu\ guia\ de\ periféricos\!.URL /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/quadrado-preto.png /Users/luizcampedelli/.Trash/rails-stupid-coaching-master /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 2 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 3 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 4 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 19.58.59 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 19.59.02 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 19.59.18 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 19.59.39 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 19.59.59 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 20.00.13 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 20.00.52 /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Receitas\ Zomo /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Rotulo\ Motor\ Ericsson /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Screen\ Shot\ 2023-01-07\ at\ 19.25.29.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Screen\ Shot\ 2023-01-13\ at\ 09.48.00.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Screen\ Shot\ 2023-01-13\ at\ 09.48.12.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Screen\ Shot\ 2023-01-13\ at\ 09.48.28.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Screen\ Shot\ 2023-01-13\ at\ 09.48.36.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Screenshot_2019-11-20\ Dashboard\ -\ Pagar\ me.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Sindicate\ \(1\).rar /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Sindicate.rar /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/untitled\ folder /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/untitled\ folder\ 17.07.54 /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/VULCAN\ VAPER.xlsx /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp-logo2.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp-logo2.rar /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp.jpg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp.psd /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp.rar /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/wc-product-export-21-8-2019-1566426775134.csv /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/wc-product-export-21-8-2019-1566426955054.csv /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/WhatsApp\ Image\ 2019-07-26\ at\ 14.47.24.jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/WhatsApp\ Image\ 2019-08-02\ at\ 16.57.26.jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/WhatsApp\ Image\ 2019-08-05\ at\ 14.03.28.jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/WhatsApp\ Image\ 2019-10-04\ at\ 12.50.40.jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/WhatsApp\ Image\ 2019-10-04\ at\ 12.50.40\(1\).jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/WhatsApp\ Image\ 2019-11-19\ at\ 16.31.51.jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/WhatsApp\ Image\ 2019-12-20\ at\ 17.33.23.jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/WhatsApp\ Image\ 2020-01-23\ at\ 19.05.52.jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/winrar-x64-571.exe 
+ 1789  rails generate model task title:string details:text completed:boolean
+ 1788  rails routes
+ 1787  rails generate model task title:string details:text completed: boolean (default: false)
+ 1786  git status
+ 1785  git commit -m "added route tasks index"
+ 1784  git add .
+ 1783  git commit -m "added route tasks index"
+ 1782  code .
+ 1781  git push origin master
+ 1780  git remote -v
+ 1779  gh repo create --public --source=.
+ 1778  git commit -m "rails crud inicial"
+ 1777  git status
+ 1776  git add .
+ 1775  cd rails-task-manager
+ 1774  rails new rails-task-manager --skip-active-storage --skip-action-mailbox
+ 1773  cd ~/code/LuizCampedelli
+ 1772  git push origin master
+ 1771  git commit -m "resolving quiz"
+ 1770  git add .
+ 1769  git status
+ 1768  rake
+ 1767  code .
+ 1766  cd 05-Rails/02-Rails-CRUD/01-Routing-quiz
+ 1765  git pull upstream master -X ours
+ 1764  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1763  git push origin master
+ 1762  git commit -m "faker done 2"
+ 1761  git add .
+ 1760  git status
+ 1759  rake
+ 1758  node
+ 1757  rake
+ 1756  rake webpack
+ 1755  code .
+ 1754  cd 04-Front-End/05-DOM-and-Events/05-Fake-Inbox
+ 1753  git pull upstream master -X ours
+ 1752  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1751  rails s
+ 1750  ps aux
+ 1749  ps aux | grep
+ 1748  rails s
+ 1747  rails generate controller games
+ 1746  code .
+ 1745  git push origin master
+ 1744  git remote -v
+ 1743  gh repo create --public --source=.
+ 1742  git status
+ 1741  git commit -m "rails longest game"
+ 1740  git add .
+ 1739  cd rails-longest-word-game
+ 1738  rails new rails-longest-word-game --skip-active-storage --skip-action-mailbox
+ 1737  cd ~/code/LuizCampedelli
+ 1736  git push origin master
+ 1735  git remote -v
+ 1734  git status
+ 1733  git commit -m "rails intro ok"
+ 1732  git add .
+ 1731  git status
+ 1730  rails destroy controller answers
+ 1729  rails generate controller answers
+ 1728  rails routes
+ 1727  rails generate controller questions
+ 1726  rails s
+ 1725  code .
+ 1724  git remote -v
+ 1723  brew upgrade gh
+ 1722  git push origin master
+ 1721  gh repo create --public --source=.
+ 1720  git status
+ 1719  git commit -m "rails new"
+ 1718  git add .
+ 1717  cd rails-stupid-coaching
+ 1716  rails new rails-stupid-coaching --skip-active-storage --skip-action-mailbox
+ 1715  pwd
+ 1714  ll
+ 1713  cd ~/code/LuizCampedelli
+ 1712  rails -v
+ 1711  git push origin master
+ 1710  git commit -m "http mvc quiz"
+ 1709  git add .
+ 1708  git status
+ 1707  rake
+ 1706  code .
+ 1705  cd 05-Rails/01-Rails-intro/01-HTTP-and-MVC-quiz
+ 1704  git pull upstream master -X ours
+ 1703  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1702  rails -v
+ 1701  rm -rf /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/1\ leva /Users/luizcampedelli/.Trash/DEVONagent.app /Users/luizcampedelli/.Trash/DEVONagent_Lite.app.zip /Users/luizcampedelli/.Trash/DEVONagent_Pro.dmg.zip /Users/luizcampedelli/.Trash/EasyAimLock /Users/luizcampedelli/.Trash/EasyAimLock\ \(1\).zip /Users/luizcampedelli/.Trash/EasyAimLock\ \(2\) /Users/luizcampedelli/.Trash/EasyAimLock\ 16.23.57.zip /Users/luizcampedelli/.Trash/EasyAimLock\ v4.0.4.02.zip /Users/luizcampedelli/.Trash/EasyAimLock.zip /Users/luizcampedelli/.Trash/Edraw\ Max\ v8.3 /Users/luizcampedelli/.Trash/EdrawMax.app /Users/luizcampedelli/.Trash/Integrity\ Pro\ \(8.1.8\ \[IntelPre-K\&\#39\;ed\]\)-109020.torrent /Users/luizcampedelli/.Trash/Luminar\ Neo\ 1.5.1\ ARM /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/NF-e\ -\ Nota\ Fiscal\ Eletrônica\ de\ Serviços\ -\ São\ Paulo.pdf /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~Keynote/Documents/.Trash/Untitled\ Folder /Users/luizcampedelli/.Trash/Wondershare\ Filmora\ X.app /Users/luizcampedelli/.Trash/Wondershare\ Filmora\ 12.app /Users/luizcampedelli/.Trash/Wondershare\ Filmora\ X\ 11.7.3 
+ 1700  git status
+ 1699  rake webpack
+ 1698  git push origin master
+ 1697  git commit -m "projeto louco"
+ 1696  git add .
+ 1695  git status
+ 1694  yarn
+ 1693  git push origin master
+ 1692  git status
+ 1691  git diff .
+ 1690  git status
+ 1689  git push origin master
+ 1688  git commit -m "chackbox"
+ 1687  git status
+ 1686  cd 04-Front-End/07-JavaScript-Plugins/04-Stimulus
+ 1685  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1684  git status
+ 1683  echo $TMPDIR
+ 1682  git status
+ 1681  rake webpack
+ 1680  code .
+ 1679  cd 04-Front-End/07-JavaScript-Plugins/02-Geocoder
+ 1678  git pull upstream master -X ours
+ 1677  git status
+ 1676  git restore 04-Front-End/07-JavaScript-Plugins/04-Stimulus/package.json
+ 1675  git restore 04-Front-End/07-JavaScript-Plugins/04-Stimulus/lib/index.js
+ 1674  git restore 04-Front-End/07-JavaScript-Plugins/04-Stimulus/index.html
+ 1673  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1672  git restore 04-Front-End/07-JavaScript-Plugins/04-Stimulus/README.md
+ 1671  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1670  git push origin master
+ 1669  git commit -m "checkbox done"
+ 1668  git status
+ 1667  git add lib/controllers/
+ 1666  git status
+ 1665  rake
+ 1664  rake webpack
+ 1663  touch lib/controllers/check_all_checkboxes_controller.js
+ 1662  mkdir lib/controllers
+ 1661  yarn add @hotwired/stimulus-webpack-helpers
+ 1660  yarn add @hotwired/stimulus
+ 1659  rake webpack
+ 1658  code .
+ 1657  cd 04-Front-End/07-JavaScript-Plugins/04-Stimulus
+ 1656  git pull upstream master -X ours\n
+ 1655  clear
+ 1654  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1653  git push origin master
+ 1652  git commit -m "wagon race"
+ 1651  git status
+ 1650  git st
+ 1649  git sts
+ 1648  git add .
+ 1647  cd 04-Front-End/05-DOM-and-Events/04-Wagon-Race
+ 1646  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1645  git status
+ 1644  git push origin master
+ 1643  git commit -m "card sprint"
+ 1642  git status
+ 1641  git push origin master
+ 1640  git status
+ 1639  git add .
+ 1638  cd 04-Front-End/02-CSS-components/02-Card-sprint
+ 1637  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1636  git status
+ 1635  git push origin master
+ 1634  git commit -m "ES6 classes"
+ 1633  git add .
+ 1632  git status
+ 1631  rake
+ 1630  code .
+ 1629  cd 04-Front-End/07-JavaScript-Plugins/03-Classes
+ 1628  git pull upstream master -X ours
+ 1627  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1626  git push origin master
+ 1625  git commit -m "bugfixed"
+ 1624  git add .
+ 1623  git status
+ 1622  rake webpack
+ 1621  code .
+ 1620  cd 04-Front-End/07-JavaScript-Plugins/01-Bugfix
+ 1619  git pull upstream master -X ours
+ 1618  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1617  git remote -v
+ 1616  npm run test-daemon
+ 1615  npm install
+ 1614  yarn install
+ 1613  yarn -v
+ 1612  npm run test-daemon
+ 1611  npm run -test daemon
+ 1610  npm run test daemon
+ 1609  npm run daemon
+ 1608  cd daemon
+ 1607  ll
+ 1606  cd challenges
+ 1605  ll
+ 1604  cd TypeScriptAlg
+ 1603  ll
+ 1602  ll\\nexit
+ 1601  yarn -v
+ 1600  npm -v
+ 1599  git clone git@github.com:cajudeleite/TypeScriptAlg.git
+ 1598  git@github.com:cajudeleite/TypeScriptAlg.git
+ 1597  ll
+ 1596  cd LuizCampedelli
+ 1595  ll
+ 1594  cd /Users/luizcampedelli/code
+ 1593  rake webpack
+ 1592  /Users/luizcampedelli/Downloads/DEVONagent\ Pro\ 3.9.6/DEVONagent\ Pro\ 3.9.6\ \[k\].app/Contents/MacOS/iFleckAD ; exit;
+ 1591  code .
+ 1590  cd 04-Front-End/06-HTTP-and-AJAX/02-My-Favourite-Sports
+ 1589  git pull upstream master -X ours
+ 1588  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1587  git push origin master
+ 1586  git commit -m "click me alert"
+ 1585  git add .
+ 1584  git status
+ 1583  rake webpack
+ 1582  code .
+ 1581  cd 04-Front-End/06-HTTP-and-AJAX/01-Click-me
+ 1580  git pull upstream master -X ours
+ 1579  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1578  rake webpack
+ 1577  code .
+ 1576  cd 04-Front-End/05-DOM-and-Events/04-Wagon-Race
+ 1575  git pull upstream master -X ours
+ 1574  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1573  git push origin master
+ 1572  git commit -m "my first listener"
+ 1571  git add .
+ 1570  git status
+ 1569  rake webpack
+ 1568  code .
+ 1567  cd 04-Front-End/05-DOM-and-Events/03-My-First-Event-Listener
+ 1566  git pull upstream master -X ours
+ 1565  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1564  git status
+ 1563  git push origin master
+ 1562  git commit -m "dom manipulation modificado"
+ 1561  git add .
+ 1560  cd 04-Front-End/05-DOM-and-Events/02-DOM-Manipulation
+ 1559  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1558  git push origin master
+ 1557  git commit -m "dom manipulation"
+ 1556  git add .
+ 1555  git status
+ 1554  rake webpack
+ 1553  code .
+ 1552  cd 04-Front-End/05-DOM-and-Events/02-DOM-Manipulation
+ 1551  git pull upstream master -X ours
+ 1550  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1549  git push origin master
+ 1548  git commit -m "selector js done"
+ 1547  git add .
+ 1546  git status
+ 1545  rake
+ 1544  rake webpack
+ 1543  webpack-dev-server
+ 1542  rake webpack
+ 1541  code .
+ 1540  cd 04-Front-End/05-DOM-and-Events/01-Select-element
+ 1539  git pull upstream master -X ours
+ 1538  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1537  rake
+ 1536  rake webpack
+ 1535  webpack-dev-server
+ 1534  rake webpack
+ 1533  webpack-dev-server
+ 1532  ebpack-dev-serverwebpack-dev-server
+ 1531  rake webpack
+ 1530  yarn -v
+ 1529  node -v
+ 1528  code .
+ 1527  cd 04-Front-End/05-DOM-and-Events/01-Select-element
+ 1526  git pull upstream master -X ours
+ 1525  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1524  git push origin master
+ 1523  git commit -m "lord of the rings"
+ 1522  git add .
+ 1521  git status
+ 1520  rake
+ 1519  node lib/lord_of_the_rings.js
+ 1518  rake
+ 1517  code .
+ 1516  cd 04-Front-End/04-JavaScript-basics/05-Lord-of-the-rings
+ 1515  git pull upstream master -X ours
+ 1514  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1513  git push origin master
+ 1512  git commit -m "javascript list tag"
+ 1511  git add .
+ 1510  git status
+ 1509  rake
+ 1508  code .
+ 1507  cd 04-Front-End/04-JavaScript-basics/04-Unordered-list
+ 1506  git pull upstream master -X ours
+ 1505  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1504  git push origin master
+ 1503  git commit -m "valid email"
+ 1502  git add .
+ 1501  rake
+ 1500  git push origin master
+ 1499  git commit -m "valid email"
+ 1498  git add .
+ 1497  git status
+ 1496  rake
+ 1495  code .
+ 1494  cd 04-Front-End/04-JavaScript-basics/03-Valid-email
+ 1493  git pull upstream master -X ours
+ 1492  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1491  git push origin master
+ 1490  git commit -m "looping"
+ 1489  git add .
+ 1488  git status
+ 1487  node lib/sum_of_negative.js
+ 1486  rake
+ 1485  node lib/sum_of_negative.js
+ 1484  rake
+ 1483  rake --trace
+ 1482  rake
+ 1481  code .
+ 1480  node lib/sum_of_negative.js
+ 1479  rake
+ 1478  top
+ 1477  node lib/sum_of_negative.js
+ 1476  top
+ 1475  top --trace
+ 1474  rake
+ 1473  node lib/sum_of_negative.js
+ 1472  console.log(sumOfNegative([-4, 5, -2, 9]));
+ 1471  node lib/sum_of_negative.js
+ 1470  rake
+ 1469  node lib/sum_of_negative.js
+ 1468  rake
+ 1467  node lib/sum_of_negative.js
+ 1466  rake
+ 1465  node lib/sum_of_negative.js
+ 1464  code .
+ 1463  cd 04-Front-End/04-JavaScript-basics/02-Sum-of-negative
+ 1462  git pull upstream master -X ours
+ 1461  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1460  git push origin master
+ 1459  git commit -m "evenorodd"
+ 1458  git add .
+ 1457  git status
+ 1456  git push origin master
+ 1455  git commit -m "evenorodd"
+ 1454  git add .
+ 1453  git status
+ 1452  rake
+ 1451  yarn -v
+ 1450  node
+ 1449  node -v
+ 1448  brew install node
+ 1447  brew update
+ 1446  brew
+ 1445  brew update
+ 1444  code .
+ 1443  cd 04-Front-End/04-JavaScript-basics/01-Even-or-odd
+ 1442  git pull upstream master -X ours
+ 1441  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1440  git push origin master
+ 1439  git commit -m "map layout done"
+ 1438  git add .
+ 1437  git status
+ 1436  code .
+ 1435  cd 04-Front-End/03-Bootstrap/04-Map-layout
+ 1434  git pull upstream master -X ours
+ 1433  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1432  git push origin master
+ 1431  git commit -m "Bootstrap forms"
+ 1430  git add .
+ 1429  git status
+ 1428  code .
+ 1427  cd 04-Front-End/03-Bootstrap/03-Bootstrap-forms
+ 1426  git pull upstream master -X ours
+ 1425  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1424  git push origin master
+ 1423  git commit -m "bootstrap proto"
+ 1422  git add .
+ 1421  git status
+ 1420  code .
+ 1419  cd 04-Front-End/03-Bootstrap/02-Bootstrap-prototyping
+ 1418  git pull upstream master -X ours
+ 1417  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1416  git push origin master
+ 1415  git commit -m "smiley"
+ 1414  git add .
+ 1413  git status
+ 1412  code .
+ 1411  cd 04-Front-End/03-Bootstrap/01-Smiley-grids
+ 1410  git pull upstream master -X ours
+ 1409  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1408  /Volumes/Solis\ 1.0.8/Open\ Gatekeeper\ friendly ; exit;
+ 1407  serve
+ 1406  code .
+ 1405  cd 04-Front-End/02-CSS-components/02-Card-sprint
+ 1404  git pull upstream master -X ours
+ 1403  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1402  git status
+ 1401  git push origin master
+ 1400  git commit -m "buttons done"
+ 1399  git add .
+ 1398  git status
+ 1397  serve
+ 1396  code .
+ 1395  cd 04-Front-End/02-CSS-components/01-Button-sprint
+ 1394  git pull upstream master -X ours
+ 1393  git add 04-Front-End/01-HTML-and-CSS/06-Medium-copycat/medium-article/
+ 1392  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1391  code .
+ 1390  gh repo view --web
+ 1389  git push origin gh-pages
+ 1388  git push origin gp-pages
+ 1387  git commit -m "testando"
+ 1386  git add .
+ 1385  git co gh-pages
+ 1384  ll
+ 1383  cd ~/code/LuizCampedelli/profile
+ 1382  git co gh-pages
+ 1381  git pull upstream master -X ours
+ 1380  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1379  serve
+ 1378  code .
+ 1377  touch medium-article/style.css
+ 1376  touch medium-article/index.html
+ 1375  mkdir medium-article
+ 1374  cd 04-Front-End/01-HTML-and-CSS/06-Medium-copycat
+ 1373  git pull upstream master -X ours
+ 1372  git restore 04-Front-End/01-HTML-and-CSS/04-Responsive-profile/profile/style.css
+ 1371  git restore 04-Front-End/01-HTML-and-CSS/04-Responsive-profile/profile/index.html
+ 1370  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1369  git push origin master
+ 1368  git commit -m "Submitting my work to Kitt"
+ 1367  git add .
+ 1366  rm -rf profile/.git
+ 1365  cp -r ~/code/LuizCampedelli/profile .
+ 1364  cd ~/code/LuizCampedelli/fullstack-challenges/04-Front-End/01-HTML-and-CSS/05-Push-on-Github-Pages
+ 1363  git push origin gh-pages
+ 1362  git commit -m "make a little text change 3"
+ 1361  git add .
+ 1360  git push origin gh-pages
+ 1359  git commit -m "make a little text change 2"
+ 1358  git add .
+ 1357  git push origin gh-pages
+ 1356  git commit -m "make a little text change"
+ 1355  git add .
+ 1354  git push origin gh-pages
+ 1353  git co -b gh-pages
+ 1352  gh repo view --web
+ 1351  gh repo create --public --source=.
+ 1350  gh repo create
+ 1349  git commit -m "my profile page"
+ 1348  git add .
+ 1347  git init
+ 1346  ls -lha
+ 1345  ll
+ 1344  pwd
+ 1343  serve
+ 1342  gh repo create
+ 1341  git commit -m "my profile page"
+ 1340  git add .
+ 1339  git init
+ 1338  cd ~/code/LuizCampedelli/profile
+ 1337  cp -r profile ~/code/LuizCampedelli
+ 1336  cd ~/code/LuizCampedelli/fullstack-challenges/04-Front-End/01-HTML-and-CSS/04-Responsive-profile
+ 1335  git push origin master
+ 1334  git commit -m "Added media types to CSS"
+ 1333  git add .
+ 1332  code .
+ 1331  cp -r ../03-Finishing-profile-design/profile .
+ 1330  cd 04-Front-End/01-HTML-and-CSS/04-Responsive-profile
+ 1329  git pull upstream master -X ours
+ 1328  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1327  git push origin master
+ 1326  git commit -m "Added div to my profile page"
+ 1325  git add .
+ 1324  serve
+ 1323  code .
+ 1322  cp -r ../02-Fonts-and-colors/profile .
+ 1321  cd 04-Front-End/01-HTML-and-CSS/03-Finishing-profile-design
+ 1320  git pull upstream master -X ours
+ 1319  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1318  git push origin master
+ 1317  git commit -m "Added fonts & colors to my profile page"
+ 1316  git add .
+ 1315  serve
+ 1314  top
+ 1313  serve
+ 1312  touch style.css
+ 1311  serve
+ 1310  cd ..
+ 1309  serve
+ 1308  code .
+ 1307  cd profile
+ 1306  cp -r ../01-Profile-content/profile .
+ 1305  cd 04-Front-End/01-HTML-and-CSS/02-Fonts-and-colors
+ 1304  git pull upstream master -X ours
+ 1303  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1302  cp -r ../profile ../../02-Fonts-and-colors
+ 1301  git push origin master
+ 1300  git commit -m "Added content to my profile page"
+ 1299  git add .
+ 1298  rake
+ 1297  serve
+ 1296  gem install webrick
+ 1295  serve
+ 1294  cd ..
+ 1293  serve
+ 1292  server
+ 1291  code .
+ 1290  mkdir images
+ 1289  cd profile
+ 1288  code .
+ 1287  cd 04-Front-End/01-HTML-and-CSS/01-Profile-content
+ 1286  git pull upstream master -X ours
+ 1285  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1284  git push origin master
+ 1283  git commit -m "advance 1 done"
+ 1282  git add .
+ 1281  rake
+ 1280  git push origin master
+ 1279  git commit -m "advance 1 done"
+ 1278  git add .
+ 1277  git status
+ 1276  rake
+ 1275  rake db:seed
+ 1274  rake
+ 1273  rake db:seed
+ 1272  rake console
+ 1271  rake
+ 1270  rake db:seed
+ 1269  rake
+ 1268  rake db:seed
+ 1267  rake
+ 1266  rake db:seed
+ 1265  rake
+ 1264  rake db:seed
+ 1263  rake
+ 1262  rake db:seed
+ 1261  rake
+ 1260  rake db:seed
+ 1259  rake
+ 1258  rake db:seed
+ 1257  rake
+ 1256  rake db:seed
+ 1255  rake
+ 1254  rake db:seed
+ 1253  rake
+ 1252  rake db:seed
+ 1251  rake
+ 1250  rake db:seed
+ 1249  rake
+ 1248  rake db:seed
+ 1247  rake
+ 1246  rake db:seed
+ 1245  rake
+ 1244  rake db:drop db:create db:migrate
+ 1243  rake
+ 1242  rake console
+ 1241  rake -T
+ 1240  rake
+ 1239  rake db:drop db:create db:migrate
+ 1238  rake
+ 1237  rake db:drop db:create db:migrate
+ 1236  rake
+ 1235  rake db:migrate
+ 1234  touch db/migrate/${TIMESTAMP}_create_users.rb
+ 1233  TIMESTAMP=`rake db:timestamp`
+ 1232  rake db:create
+ 1231  cd ..
+ 1230  pwd
+ 1229  touch db/migrate/${TIMESTAMP}_create_users.rb
+ 1228  TIMESTAMP=`rake db:timestamp`
+ 1227  touch db/migrate/${TIMESTAMP}_create_users.rb
+ 1226  TIMESTAMP=`rake db:timestamp`
+ 1225  rake db:create
+ 1224  touch db/migrate/${TIMESTAMP}_create_users.rb
+ 1223  TIMESTAMP=`rake db:timestamp`
+ 1222  rake
+ 1221  touch user.rb
+ 1220  ls
+ 1219  cd app/models
+ 1218  pwd
+ 1217  rake
+ 1216  sqlite3
+ 1215  rake
+ 1214  rake db:migrate
+ 1213  rake db:create
+ 1212  rake
+ 1211  code .
+ 1210  cd 03-AR-Database/04-ActiveRecord-Advanced/01-Associations
+ 1209  git pull upstream master -X ours
+ 1208  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1207  git status
+ 1206  git add db/schema.rb
+ 1205  git push origin master
+ 1204  git commit -m "seed api"
+ 1203  git add .
+ 1202  git status
+ 1201  rake
+ 1200  rake db:drop db:migrate db:seed
+ 1199  rake db:seed
+ 1198  rake db:migrate
+ 1197  rake
+ 1196  rake console
+ 1195  irb
+ 1194  rake console
+ 1193  rake db:seed
+ 1192  rake
+ 1191  rake db:seed
+ 1190  rake db:migrate
+ 1189  ruby app/models/post.rb
+ 1188  ruby post.rb
+ 1187  rake db:seed
+ 1186  rake db:seeds
+ 1185  rake
+ 1184  sqlite3 db/development.sqlite3
+ 1183  rake db:drop db:create db:migrate db:seed
+ 1182  gem install rest-client
+ 1181  code .
+ 1180  cd 03-AR-Database/03-ActiveRecord-Basics/05-Seed-API
+ 1179  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1178  git push origin master
+ 1177  git commit -m "fix style"
+ 1176  git add .
+ 1175  git status
+ 1174  rake
+ 1173  code .
+ 1172  cd 03-AR-Database/03-ActiveRecord-Basics/03-Models
+ 1171  git pull upstream master -X ours
+ 1170  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1169  git push origin master
+ 1168  git push orgin master
+ 1167  git commit -m "faker style fix"
+ 1166  git add .
+ 1165  git status
+ 1164  rake console
+ 1163  rake db:drop db:create db:migrate db:seed
+ 1162  rake
+ 1161  git push origin master
+ 1160  git commit -m "faker done"
+ 1159  git add .
+ 1158  git status
+ 1157  rake console
+ 1156  rake db:drop db:create db:migrate db:seed
+ 1155  rake console
+ 1154  rake db:drop db:create db:migrate db:seed
+ 1153  rake console
+ 1152  rake db:drop db:create db:migrate db:seed
+ 1151  rake db:seed
+ 1150  gem install faker
+ 1149  rake db:seed
+ 1148  code .
+ 1147  cd 03-AR-Database/03-ActiveRecord-Basics/04-Seed-Faker
+ 1146  git pull upstream master -X ours
+ 1145  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1144  git push origin master
+ 1143  git commit -m "finished"
+ 1142  git add .
+ 1141  git status
+ 1140  ruby app.rb
+ 1139  sqlite3 db/development.sqlite3
+ 1138  rake db:migrate
+ 1137  rake db:create
+ 1136  git push origin master
+ 1135  git commit -m "ünfinished" 
+ 1134  git add .
+ 1133  git status
+ 1132  rake
+ 1131  ruby app.rb
+ 1130  cd 03-AR-Database/03-ActiveRecord-Basics/03-Models
+ 1129  cd ~/code/LuizCampedelli/fullstack-challenges/
+ 1128  cd 03-AR-Database/03-ActiveRecord-Basics/03-Models
+ 1127  pwd
+ 1126  cd ..
+ 1125  ruby app.rb
+ 1124  1
+ 1123  ruby app.rb
+ 1122  OA
+ 1121  ruby app.rb
+ 1120  rake
+ 1119  ruby app.rb
+ 1118  rake
+ 1117  sqlite3
+ 1116  rake db:migrate
+ 1115  rake db:create
+ 1114  code .
+ 1113  cd 03-AR-Database/03-ActiveRecord-Basics/03-Models
+ 1112  git pull upstream master -X ours
+ 1111  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1110  git push origin master
+ 1109  git commit -m "migrations okay"
+ 1108  git add .
+ 1107  rake
+ 1106  git push origin master
+ 1105  git commit -m "migrations done i guess"
+ 1104  git add .
+ 1103  git status
+ 1102  rake db:timestamp
+ 1101  ake db:timestamp
+ 1100  rake db:drop db:create db:migrate
+ 1099  sqlite3 db/development.sqlite3
+ 1098  rake db:migrate
+ 1097  TIMESTAMP=`rake db:timestamp`\ntouch db/migrate/${TIMESTAMP}_add_rating_to_create_posts.rb
+ 1096  rake console
+ 1095  rake db:migrate
+ 1094  rake -T
+ 1093  code .
+ 1092  cd 03-AR-Database/03-ActiveRecord-Basics/02-Migrations
+ 1091  git pull upstream master -X ours
+ 1090  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1089  git push origin master
+ 1088  git commit -m "gen done"
+ 1087  git add .
+ 1086  git status
+ 1085  rake db:timestamp
+ 1084  rake db:seed
+ 1083  rake db:version
+ 1082  rake db:migrate
+ 1081  rake db:drop
+ 1080  rake db:create
+ 1079  git status
+ 1078  rake db:drop
+ 1077  rake db:timestamp
+ 1076  rake db:seed
+ 1075  rake db:version
+ 1074  rake db:migrate
+ 1073  rake db:drop
+ 1072  rake db:create
+ 1071  code .
+ 1070  cd 03-AR-Database/03-ActiveRecord-Basics/01-Create-a-DB
+ 1069  git pull upstream master -X ours
+ 1068  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1067  git push origin master
+ 1066  git commit -m "incomplete crud"
+ 1065  git add .
+ 1064  git status
+ 1063  rake
+ 1062  code .
+ 1061  cd 03-AR-Database/02-SQL-CRUD/04-Create-Update
+ 1060  git pull upstream master -X ours
+ 1059  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1058  git push origin master
+ 1057  git commit -m "delete ok"
+ 1056  git status
+ 1055  git add .
+ 1054  rake
+ 1053  git status
+ 1052  rake
+ 1051  code .
+ 1050  cd 03-AR-Database/02-SQL-CRUD/03-Delete
+ 1049  git pull upstream master -X ours
+ 1048  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1047  git push origin master
+ 1046  git commit -m "crud read ok"
+ 1045  git add .
+ 1044  git status
+ 1043  rake
+ 1042  RAKE
+ 1041  rake
+ 1040  code .
+ 1039  cd 03-AR-Database/02-SQL-CRUD/02-Read
+ 1038  git pull upstream master -X ours
+ 1037  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1036  git push origin master
+ 1035  git commit -m "query done"
+ 1034  git add .
+ 1033  git status
+ 1032  rake
+ 1031  ruby lib/query.rb
+ 1030  rake
+ 1029  ruby lib/query.rb
+ 1028  rake
+ 1027  ruby lib/query.rb
+ 1026  rake
+ 1025  ruby lib/query.rb
+ 1024  code .
+ 1023  cd 03-AR-Database/02-SQL-CRUD/01-Query-the-DB
+ 1022  git pull upstream master -X ours
+ 1021  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1020  Volumes/Adobe\ Zii\ 2022\ 7.0.0/Open\ Gatekeeper\ friendly ; exit;
+ 1019  git push origin master
+ 1018  git commit -m "sql query top new"
+ 1017  git add .
+ 1016  gst
+ 1015  rake
+ 1014  git push origin master
+ 1013  git commit -m "sql querys"
+ 1012  git add .
+ 1011  gst
+ 1010  rake
+ 1009  git push origin master
+ 1008  git commit -m "sql query done"
+ 1007  git add .
+ 1006  gst
+ 1005  gts
+ 1004  rake
+ 1003  git push origin master
+ 1002  git push orgin master
+ 1001  git commit -m "incompleto"
+ 1000  git add .
+  999  gst
+  998  gts
+  997  rake
+  996  k
+  995  rake
+  994  code .
+  993  cd 03-AR-Database/01-DB-Design-and-SQL/05-SQL-queries
+  992  git pull upstream master -X ours
+  991  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+  990  git push origin master
+  989  git commit -m "improve style"
+  988  git add .
+  987  git status
+  986  rake
+  985  git push origin master
+  984  git commit -m "improve style"
+  983  git add .
+  982  git status
+  981  git push origin master
+  980  git commit -m "interact done"
+  979  git add .
+  978  gst
+  977  gts
+  976  git reset ../../../02-OOP/06-Food-Delivery-Day-Two/01-Food-Delivery/db.sqlilte
+  975  git status
+  974  rake
+  973  ruby lib/queries.rb
+  972  rake
+  971  ruby lib/queries.rb
+  970  rake
+  969  ruby lib/queries.rb
+  968  pwd
+  967  irb
+  966  gem install sqlite3
+  965  code .
+  964  cd 03-AR-Database/01-DB-Design-and-SQL/04-Interacting-with-code
+  963  git pull upstream master -X ours
+  962  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+  961  git push origin master
+  960  git commit -m "jukebox"
+  959  git add .
+  958  git status
+  957  rake
+  956  sqlite3 lib/db/jukebox.sqlite
+  955  sqlite3 -version
+  954  code .
+  953  cd 03-AR-Database/01-DB-Design-and-SQL/03-Interacting-with-db
+  952  git pull upstream master -X ours
+  951  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+  950  git push origin master
+  949  git commit -m "db design done"
+  948  git add .
+  947  git status
+  946  rake
+  945  code .
+  944  cd 03-AR-Database/01-DB-Design-and-SQL/02-SQL-design
+  943  git pull upstream master -X ours
+  942  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+  941  git push origin master
+  940  git commit -m "users table"
+  939  git add .
+  938  gst
+  937  gts
+  936  rake
+  935  code .
+  934  cd 03-AR-Database/01-DB-Design-and-SQL/01-Your-first-table
+  933  git pull upstream master -X ours
+  932  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+  931  sqlite3 db.sqlilte
+  930  sqlite3 db.sqlite
+  929  sqlite3 --version
+  928  gst
+  927  git commit -m "projecto bkp"
+  926  git add .
+  925  gst
+  924  git restore ../01-Food-Delivery.zip
+  923  git status
+  922  git push origin master
+  921  git commit -m "versao professor matheus"
+  920  git add .
+  919  git status
+  918  ruby app.rb
+  917  rake
+  916  pwd
+  915  rake
+  914  ruby app.rb
+  913  rake
+  912  sqlite3 /Users/luizcampedelli/Downloads/patients_doctors.sqlite 
+  911  sqlite3 --version
+  910  rake
+  909  code .
+  908  cd 02-OOP/06-Food-Delivery-Day-Two/01-Food-Delivery
+  907  git pull upstream master -X ours
+  906  \nFood Delivery Day 2\nKick-start terminal instructions\ncd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+  905  rake
+  904  ll
+  903  pwd
+  902  rake
+  901  git status
+  900  pwd
+  899  /Volumes/Aiseesoft\ Mac\ FoneTrans\ 9.1.50.116226/Open\ Gatekeeper\ friendly ; exit;
+  898  /Volumes/AnyMP4\ iPhone\ Unlocker\ for\ Mac\ 1.0.26.1994/Open\ Gatekeeper\ friendly ; exit;
+  897  /Volumes/FonePaw\ iOS\ Unlocker\ 1.7.0.1253/Open\ Gatekeeper\ friendly ; exit;
+  896  /Volumes/FoneDog\ iOS\ Unlocker\ 1.0.8.1800/Open\ Gatekeeper\ friendly ; exit;
+  895  /Volumes/Mac\ FoneLab\ 10.2.92.124018/Open\ Gatekeeper\ friendly ; exit;
+  894  rake
+  893  meal_repo = MealRepository.new('data/meals.csv')\nmeals_controller = MealsController.new(meal_repo)\n\ncustomer_repo = CustomerRepository.new('data/customers.csv')\ncustomers_controller = CustomersController.employee_repository = EmployeeRepository.new('data/employees.csv')\nsessions_controller = SessionsController.new(employee_repository)
+  892  meal_repo = MealRepository.new('data/meals.csv')\nmeals_controller = MealsController.new(meal_repo)\n\ncustomer_repo = CustomerRepository.new('data/customers.csv')\ncustomers_controller = CustomersController.new(customer_repo)\n\nemployee_repository = EmployeeRepository.new('data/employees.csv')\nsessions_controller = SessionsController.new(employee_repository)
+  891  require "csv"\nrequire_relative "../models/meal"\n\nclass MealRepository\n  def initialize(csv_file)\n    @csv_file = csv_file\n    @meals = []\n    load_csv if File.exist?(csv_file)\n  end\n\n  def create(meal)\n    meal.id = @meals.empty? ? 1 : @meals.last.id + 1\n    # @meals.empty? ? meal.id = 1 : meal.id = @meals.size + 1\n    @meals << meal\n    save_to_csv\n  end\n\n  def all\n    @meals\n  end\n\n  def find(id)\n    @meals.find do |meal|\n      meal.id == id\n    end\n  end\n\n  private\n\n  def save_to_csv\n    CSV.open(@csv_file, "wb", headers: :first_row, header_converters: :symbol) do |file|\n      file << %i[id name price]\n      @meals.each do |meal|\n        file << [meal.id, meal.name, meal.price]\n      end\n    end\n  end\n\n  def load_csv\n    CSV.foreach(@csv_file, headers: :first_row, header_converters: :symbol) do |row|\n      meals = Meal.new(id: row[:id].to_i, name: row[:name], price: row[:price].to_i)\n      @meals << meals\n    end\n  end\nend\n
+  890  rake
+  889  ruby app.rb
+  888  cd ..
+  887  ll
+  886  ruby app.rb
+  885  ll
+  884  cd controllers
+  883  ll
+  882  cd app
+  881  ll
+  880  code .
+  879  pwd
+  878  cd 02-OOP/06-Food-Delivery-Day-Two/01-Food-Delivery
+  877  git pull upstream master -X ours
+  876  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+  875  rake
+  874  ruby app.rb
+  873  cp -r ../../05-Food-Delivery-Day-One/01-Food-Delivery/{app,data,app.rb,router.rb} .
+  872  code .
+  871  cd 02-OOP/06-Food-Delivery-Day-Two/01-Food-Delivery
+  870  git pull upstream master -X ours
+  869  git status
+  868  cd ~/code/LuizCampedelli/fullstack-challenges/
+  867  git push origin master
+  866  git commit -m "food delivery done"
+  865  git add .
+  864  git status
+  863  ruby app.rb
+  862  rake
+  861  rake customer
+  860  ruby app.rb
+  859  pwd
+  858  ruby app.rb
+  857  rake customer
+  856  ruby app.rb
+  855  ll
+  854  pwd
+  853  ruby app.rb
+  852  rake customer
+  851  rake customers
+  850  ruby app/controllers/customers_controller.rb
+  849  pwd
+  848  rake customer
+  847  ruby app.rb
+  846  git push origin master
+  845  git commit -m "meals_tasks_done"
+  844  git add .
+  843  git status
+  842  rake meal
+  841  ruby app.rb
+  840  rake meal
+  839  ruby app.rb
+  838  git status
+  837  ruby app.rb
+  836  rake meal
+  835  git push origin master
+  834  git commit -m "meal_repo_done"
+  833  git add .
+  832  git status
+  831  rake meal
+  830  rake meal_repository
+  829  rake meal
+  828  git push origin master
+  827  git commit -m "meal repo not finished"
+  826  git add .
+  825  git status
+  824  rake meal
+  823  (id: row[:id].to_i, name: row[:name], price: row[:price].to_i)
+  822  rake meal
+  821  (id: row[:id].to_i, name: row[:name], price: row[:price].to_i)
+  820  rake meal
+  819  exit
+  818  rake
+  817  git status
+  816  git push origin master
+  815  git commit -m "meal done"
+  814  git add .
+  813  git status
+  812  rake meal
+  811  code .
+  810  cd 02-OOP/05-Food-Delivery-Day-One/01-Food-Delivery
+  809  git pull upstream master -X ours
+  808  git status
+  807  cd ~/code/LuizCampedelli/fullstack-challenges/
+  806  git status
+  805  git push origin master
+  804  git commit -m "strawberry html for parser"
+  803  git status
+  802  git add ../../03-Cookbook-Day-One/02-Cookbook/strawberry.html
+  801  git restore ../../03-Cookbook-Day-One/02-Cookbook/lib/controller.rb ../../03-Cookbook-Day-One/02-Cookbook/lib/recipe.rb ../../03-Cookbook-Day-One/02-Cookbook/lib/recipes.csv ../../03-Cookbook-Day-One/02-Cookbook/lib/router.rb ../../03-Cookbook-Day-One/02-Cookbook/lib/view.rb
+  800  git restore ../../03-Cookbook-Day-One/02-Cookbook/lib/controller.rb && /recipe.rb
+  799  git status
+  798  git push origin master
+  797  git commit -m "cookbook 2"
+  796  git add .
+  795  git status
+  794  ruby lib/app.rb
+  793  rake
+  792  cd ..
+  791  rake
+  790  pwd
+  789  rake
+  788  ll
+  787  cd lib
+  786  ll
+  785  cp strawberry.html lib
+  784  ll
+  783  cp strawberry.html /Users/luizcampedelli/code/LuizCampedelli/fullstack-challenges/02-OOP/04-Cookbook-Day-Two/01-Cookbook-Advanced
+  782  pwd
+  781  ll
+  780  cd 02-Cookbook/
+  779  ll
+  778  cd 02-OOP/03-Cookbook-Day-One
+  777  ll
+  776  cd code/LuizCampedelli/fullstack-challenges
+  775  ll
+  774  cd ~
+  773  ll
+  772  cd ..
+  771  ll
+  770  cat bonus_formatter.rb
+  769  ll
+  768  cp 02-OOP/03-Cookbook-Day-One/02-Cookbook/strawberry.html 02-OOP/04-Cookbook-Day-Two/01-Cookbook-Advanced/lib
+  767  code .
+  766  cd 02-OOP/04-Cookbook-Day-Two/01-Cookbook-Advanced
+  765  git pull upstream master -X ours
+  764  git status
+  763  cd ~/code/LuizCampedelli/fullstack-challenges/
+  762  cd ..
+  761  ll
+  760  cd lib
+  759  ll
+  758  cp -r ../../03-Cookbook-Day-One/02-Cookbook/lib .
+  757  ll
+  756  cd ~/code/LuizCampedelli/fullstack-challenges/02-OOP/04-Cookbook-Day-Two/01-Cookbook-Advanced
+  755  ll
+  754  pwd
+  753  curl --silent "https://www.allrecipes.com/search?q=strawberry" > strawberry.html
+  752  Volumes/Wondershare\ Filmora\ X\ 11.7.5/Open\ Gatekeeper\ friendly ; exit;
+  751  rake
+  750  ruby lib/app.rb
+  749  rake
+  748  ruby lib/app.rb
+  747  rake
+  746  ruby lib/app.rb
+  745  rake
+  744  ruby lib/app.rb
+  743  ruby lib/app
+  742  git push origin master
+  741  git commit -m "cookbook part 1, good style, a estudar"
+  740  git add .
+  739  git status
+  738  rake
+  737  git push origin master
+  736  git commit -m "cookbook part 1 ok, a estudar"
+  735  git add .
+  734  git status
+  733  rake
+  732  touch controller.rb
+  731  pwd
+  730  rake
+  729  ll
+  728  cd ..
+  727  code .
+  726  cd batch_1020_task_manager
+  725  ll
+  724  pwd
+  723  gh repo clone RobertoBarros/batch_1020_task_manager
+  722  pwd
+  721  rake
+  720  pwd
+  719  touch cookbook.rb
+  718  cp ../01-Recipe/lib/recipe.rb lib
+  717  code .
+  716  cd 02-OOP/03-Cookbook-Day-One/02-Cookbook
+  715  git pull upstream master -X ours
+  714  git status
+  713  git tatus
+  712  cd ~/code/LuizCampedelli/fullstack-challenges/
+  711  cd 02-OOP/03-Cookbook-Day-One/02-Cookbook
+  710  git push origin master
+  709  git push oroign master
+  708  git commit -m "recipe done"
+  707  git add .
+  706  git status
+  705  rake
+  704  ruby -v
+  703  rake
+  702  touch recipe.rb
+  701  code .
+  700  cd 02-OOP/03-Cookbook-Day-One/01-Recipe
+  699  git pull upstream master -X ours
+  698  git status
+  697  cd ~/code/LuizCampedelli/fullstack-challenges/
+  696  git status
+  695  git push origin master
+  694  git commit -m "fix file"
+  693  git add .
+  692  rake
+  691  git push origin master
+  690  git commit -m "acertei , verificar depois"
+  689  git add .
+  688  git status
+  687  rake
+  686  irb
+  685  rake
+  684  irb
+  683  code .
+  682  cd 02-OOP/02-OO-Advanced/04-Instance-vs-Class
+  681  cd ~/code/LuizCampedelli/fullstack-challenges/
+  680  git status
+  679  cd ~/code/LuizCampedelli/fullstack-challenges/
+  678  git status
+  677  git push origin master
+  676  git commit -m "farming correct"
+  675  git add .
+  674  git status
+  673  rake
+  672  ruby lib/farming_diary.rb
+  671  rake
+  670  ruby lib/farming_diary.rb
+  669  rake
+  668  code .
+  667  cd 02-OOP/02-OO-Advanced/02-Farming-Diary-Crops
+  666  git pull upstream master -X ours
+  665  git status
+  664  cd ~/code/LuizCampedelli/fullstack-challenges/
+  663  git push origin master
+  662  git commit -m "dog heranca"
+  661  git add .
+  660  git status
+  659  rake
+  658  rate
+  657  rake
+  656  code .
+  655  cd 02-OOP/02-OO-Advanced/01-Dog-inheritance
+  654  git pull upstream master -X ours
+  653  git status
+  652  cd ~/code/LuizCampedelli/fullstack-challenges/
+  651  git status
+  650  git push origin master
+  649  git commit -m "slot machine"
+  648  git add .
+  647  git status
+  646  rake
+  645  git status
+  644  cd ~/code/LuizCampedelli/fullstack-challenges/
+  643  git push origin master
+  642  git commit -m "orange tree solucao original"
+  641  git add .
+  640  git status
+  639  rake
+  638  git push origin master
+  637  git push orgin master
+  636  git commit -m "orange tree quase"
+  635  git commit "orange tree quase"
+  634  git add .
+  633  git status
+  632  rake
+  631  ruby lib/interface.rb
+  630  rake
+  629  git status
+  628  ruby lib/buying_scenario.rb
+  627  ruby lib/vending_machine.rb
+  626  rake
+  625  code .
+  624  cd 02-OOP/01-OO-Basics/02-Getters-and-Setters
+  623  git pull upstream master -X ours
+  622  git status
+  621  cd ~/code/LuizCampedelli/fullstack-challenges/
+  620  rake
+  619  ruby lib/interface.rb
+  618  rake
+  617  code .
+  616  cd 02-OOP/01-OO-Basics/03-Basic-OOP
+  615  git pull upstream master -X ours
+  614  git status
+  613  cd ~/code/LuizCampedelli/fullstack-challenges/
+  612  git push origin master
+  611  git commit -m "wagon sorted incomplete"
+  610  git add .
+  609  git status
+  608  ruby lib/interface.rb
+  607  rake
+  606  ruby lib/wagon_sort.rb
+  605  rake
+  604  code .
+  603  cd 01-Ruby/02-Flow-Array/03-Sorting-the-wagon
+  602  git pull upstream master -X ours
+  601  git status
+  600  cd ~/code/LuizCampedelli/fullstack-challenges/
+  599  git status
+  598  git push origin master
+  597  git push orgin master
+  596  git commit -m "sort le wagon work to do yet"
+  595  git add ../../../01-Ruby/02-Flow-Array/03-Sorting-the-wagon/lib/wagon_sort.rb
+  594  git status
+  593  git add .
+  592  git push origin master
+  591  git commit -m "Defined my class sucess"
+  590  git add .
+  589  rake
+  588  git status
+  587  git push origin master
+  586  git commit -m "stupid coach work to do yet"
+  585  git status
+  584  git add ../../01-Programming-basics/05-Stupid-coaching/lib/interface.rb
+  583  git add ../../01-Programming-basics/05-Stupid-coaching/lib/coach_answer.rb
+  582  git status
+  581  git restore ../../04-Hash-Symbols/01-Modeling-with-Hash/lib/restaurant_order.rb
+  580  git status
+  579  rake
+  578  git status
+  577  pwd
+  576  git status
+  575  pwd
+  574  git status
+  573  git push origin master
+  572  git commit -m "instacart reboot"
+  571  git add .
+  570  git status
+  569  rake
+  568  git status
+  567  git commit -m "horse race"
+  566  git add .
+  565  rake
+  564  git status
+  563  git commit -m "restaurant_order"
+  562  pwd
+  561  git status
+  560  git commit -m "burger restaurant"
+  559  git add .
+  558  git status
+  557  pwd
+  556  git status
+  555  git push origin master
+  554  git commit -m "calculator reboot"
+  553  git add .
+  552  git status
+  551  git push origin master
+  550  git commit -m "chrismas list"
+  549  git add .
+  548  git status
+  547  pwd
+  546  git status
+  545  git push origin master
+  544  git commit -m "reboot horses"
+  543  git add .
+  542  git status
+  541  rake
+  540  git status
+  539  cd ~/code/LuizCampedelli/fullstack-challenges/
+  538  code .
+  537  pwd
+  536  cd 02-OOP/01-OO-Basics/03-Basic-OOP
+  535  pwd
+  534  git push origin master
+  533  git commit -m "getters and setters"
+  532  git add .
+  531  git status
+  530  rake
+  529  ruby lib/buying_scenario.rb
+  528  rake
+  527  ruby lib/buying_scenario.rb
+  526  ruby lib/refilling_scenario.rb
+  525  ruby lib/vending_machine.rb
+  524  ruby lib/buying_scenario.rb
+  523  rake
+  522  ruby lib/buying_scenario.rb
+  521  ruby lib/vending_machine.rb
+  520  rake
+  519  ruby lib/buying_scenario.rb
+  518  rake
+  517  ruby lib/buying_scenario.rb
+  516  rake
+  515  ruby lib/buying_scenario.rb
+  514  rake
+  513  ruby lib/buying_scenario.rb
+  512  rake
+  511  ruby lib/buying_scenario.rb
+  510  ruby lib/vending_machine.rb
+  509  ruby lib/buying_scenario.rb
+  508  ruby lib/vending_machine.rb
+  507  ruby lib/buying_scenario.rb
+  506  rake
+  505  ruby lib/buying_scenario.rb
+  504  ruby lib/vending_machine.rb
+  503  ruby lib/buying_scenario.rb
+  502  puts display(vending_machine)
+  501  ruby lib/buying_scenario.rb
+  500  ruby lib/vending_machine.rb
+  499  ruby lib/buying_scenario.rb
+  498  ruby lib/vending_machine.rb
+  497  ruby lib/buying_scenario.rb
+  496  ruby lib/vending_machine.rb
+  495  code .
+  494  cd 02-OOP/01-OO-Basics/02-Getters-and-Setters
+  493  git pull upstream master -X ours
+  492  git status
+  491  cd ~/code/LuizCampedelli/fullstack-challenges/
+  490  irb
+  489  ll
+  488  irb
+  487  ruby interface.rb
+  486  ruby sports_car.rb
+  485  pwd
+  484  irb
+  483  fusca = SportsCar.new("fusca")
+  482  pwd
+  481  irb
+  480  git status
+  479  ruby lib/interface.rb
+  478  git push origin master
+  477  git commit -m "Declaring Class"
+  476  git status
+  475  git add .
+  474  git status
+  473  rake
+  472  ruby lib/interface.rb
+  471  rake
+  470  ruby lib/interface.rb
+  469  rake
+  468  ruby lib/interface.rb
+  467  rake
+  466  ruby lib/interface.rb
+  465  rake
+  464  ruby lib/interface.rb
+  463  ruby lib/sports_car.rb
+  462  ruby lib/interface.rb
+  461  ruby lib/sports_car.rb
+  460  ruby lib/interface.rb
+  459  rake
+  458  ruby lib/sports_car.rb
+  457  ruby lib/interface.rb
+  456  ruby lib/sports_car.rb
+  455  ruby lib/interface.rb
+  454  rake
+  453  ruby lib/interface.rb
+  452  ruby lib/sports_car.rb
+  451  ruby lib/interface.rb
+  450  ruby lib/sports_car.rb
+  449  ruby lib/interface.rb
+  448  ruby lib/sports_car.rb
+  447  ruby lib/interface.rb
+  446  rake
+  445  ruby lib/interface.rb
+  444  rake
+  443  ruby lib/interface.rb
+  442  rake
+  441  ruby lib/sports_car.rb
+  440  rake
+  439  ruby lib/sports_car.rb
+  438  rake
+  437  ruby lib/sports_car.rb
+  436  rake
+  435  ruby lib/sports_car.rb
+  434  rake
+  433  ruby lib/sports_car.rb
+  432  rake
+  431  ruby lib/sports_car.rb
+  430  irb
+  429  rake
+  428  touch interface.rb
+  427  touch car.rb
+  426  touch lib/restaurant.rb
+  425  ls
+  424  cd lib
+  423  pwd
+  422  rake
+  421  ruby lib/interface.rb
+  420  rake
+  419  ruby lib/interface.rb
+  418  Game.new
+  417  ruby lib/interface.rb
+  416  ruby lib/game.rb
+  415  rake
+  414  ruby lib/game.rb
+  413  rake
+  412  irb
+  411  rake
+  410  ruby lib/game.rb
+  409  irb
+  408  ruby lib/game.rb
+  407  irb
+  406  ruby lib/interface.rb
+  405  ruby lib/game.rb
+  404  irb
+  403  ruby -v
+  402  irb
+  401  pwd
+  400  irb
+  399  VideoGame
+  398  ruby lib/videogame.rb
+  397  ruby lib/interface.rb
+  396  irb
+  395  code .
+  394  cd 02-OOP/01-OO-Basics/01-Define-your-own-class
+  393  pwd
+  392  git pull upstream master -X ours
+  391  git push origin master
+  390  git commit -m "calculator reboot"
+  389  git add 01-Ruby/05-Regular-Expressions/Reboot-01-Calculator/lib/calculator.rb
+  388  git status
+  387  cd ~/code/LuizCampedelli/fullstack-challenges/
+  386  gem install pry-byebug
+  385  pry 
+  384  ruby lib/interface.rb
+  383  git status
+  382  git diff
+  381  git push origin master
+  380  git commit -m "final do curso ruby"
+  379  git add .
+  378  git status
+  377  ruby lib/interface.rb
+  376  curl -H "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0"  https://www.etsy.com/search\?q\=THE_ARTICLE_YOUR_ARE_LOOKING_FOR > results.html
+  375  curl --manual
+  374  curl -H "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0"  
+  373  ruby -v
+  372  curl -H "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0"  
+  371  irb
+  370  code .
+  369  cd 01-Ruby/06-Parsing/Reboot-01-Christmas-list
+  368  git pull upstream master -X ours
+  367  git status
+  366  cd ~/code/LuizCampedelli/fullstack-challenges/
+  365  /Volumes/1Click\ -\ Screen\ Recorder\ 4.3.0/Open\ Gatekeeper\ friendly ; exit;
+  364  /Volumes/Expressions\ 1.3.3/Open\ Gatekeeper\ friendly ; exit;
+  363  ruby lib/interface.rb
+  362  code .
+  361  cd 01-Ruby/05-Regular-Expressions/Reboot-03-Instacart
+  360  git pull upstream master -X ours
+  359  git status
+  358  cd ~/code/LuizCampedelli/fullstack-challenges/
+  357  rake
+  356  ruby lib/interface.rb
+  355  rake
+  354  code .
+  353  cd 01-Ruby/05-Regular-Expressions/Reboot-02-Horse-race
+  352  git pull upstream master -X ours
+  351  git status
+  350  cd ~/code/LuizCampedelli/fullstack-challenges/
+  349  ruby lib/interface.rb
+  348  git push origin master
+  347  git commit -m "burger_restaurante_fixed"
+  346  git add .
+  345  git status
+  344  rake
+  343  git status
+  342  git push origin master
+  341  git commit -m "burger_restaurant_ok"
+  340  git status
+  339  git add .
+  338  git status
+  337  git add .
+  336  rake
+  335  code .
+  334  cd 01-Ruby/03-Iterators-Blocks/03-Burger-restaurant
+  333  git pull upstream master -X ours
+  332  git status
+  331  cd ~/code/LuizCampedelli/fullstack-challenges/
+  330  rake
+  329  ruby lib/interface.rb
+  328  rake
+  327  code .
+  326  cd 01-Ruby/05-Regular-Expressions/Reboot-01-Calculator
+  325  git pull upstream -X ours
+  324  git status
+  323  cd ~/code/LuizCampedelli/fullstack-challenges/
+  322  git status
+  321  cd ~/code/LuizCampedelli/fullstack-challenges/
+  320  git push origin master
+  319  git commit -m "burger 2 dificil"
+  318  git add .
+  317  git status
+  316  rake
+  315  code .
+  314  01-Ruby/04-Hash-Symbols/02-Modeling-with-Hash-part-II
+  313  git pull upstream master -X ours
+  312  git status
+  311  cd ~/code/LuizCampedelli/fullstack-challenges/
+  310  gist status
+  309  rake
+  308  git push origin master
+  307  git commit -m "burger_rest_order_1"
+  306  git add .
+  305  git status
+  304  rake
+  303  ruby -v
+  302  rake
+  301  irb
+  300  ruby students.rb
+  299  cd Sites
+  298  ls
+  297  cd $HOME
+  296  rake
+  295  ruby -v
+  294  rbenv
+  293  rake
+  292  ruby -v
+  291  code .
+  290  cd 01-Ruby/04-Hash-Symbols/01-Modeling-with-Hash
+  289  git pull upstream master -X ours
+  288  git status
+  287  cd ~/code/LuizCampedelli/fullstack-challenges/
+  286  rake
+  285  code .
+  284  cd 01-Ruby/03-Iterators-Blocks/03-Burger-restaurant
+  283  git pull upstream master -X ours
+  282  git status
+  281  cd ~/code/LuizCampedelli/fullstack-challenges/
+  280  rake
+  279  code
+  278  curl -Ls https://raw.githubusercontent.com/lewagon/setup/master/check.rb > _.rb && ruby _.rb && rm _.rb || rm _.rb
+  277  exec zsh
+  276  psql -d postgres
+  275  brew install postgresql\nbrew services start postgresql
+  274  sqlite3 -version
+  273  brew install sqlite
+  272  yarn -v
+  271  npm install --global yarn\nexec zsh
+  270  nvm cache clear
+  269  node -v
+  268  nvm install 16.15.1
+  267  nvm -v
+  266  export NVM_DIR="$HOME/.nvm"\n[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm\n[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+  265  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | zsh\nexec zsh
+  264  rm -rf ~/.gemrc
+  263  gem install colored faker http pry-byebug rake rails rest-client rspec rubocop-performance sqlite3
+  262  ruby -v
+  261  exec zsh
+  260  rbenv global 3.1.2
+  259  rbenv install 3.1.2
+  258  brew install rbenv
+  257  brew uninstall --force rbenv ruby-build\nexec zsh
+  256  sudo rm -rf $HOME/.rbenv /usr/local/rbenv /opt/rbenv /usr/local/opt/rbenv
+  255  rvm implode && sudo rm -rf ~/.rvm
+  254  exec zsh
+  253  gh api user/emails | jq -r '.[].email'
+  252  export GITHUB_USERNAME=`gh api user | jq -r '.login'`\necho $GITHUB_USERNAME
+  251  gh auth status
+  250  gh auth login -s 'user:email' -w
+  249  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  248  code --install-extension ms-vscode.sublime-keybindings\ncode --install-extension emmanuelbeziat.vscode-great-icons\ncode --install-extension github.github-vscode-theme\ncode --install-extension MS-vsliveshare.vsliveshare\ncode --install-extension rebornix.ruby\ncode --install-extension dbaeumer.vscode-eslint\ncode --install-extension Rubymaniac.vscode-paste-and-indent\ncode --install-extension alexcvzz.vscode-sqlite
+  247  code
+  246  brew install --cask visual-studio-code
+  245  brew upgrade git || brew install git\nbrew upgrade gh || brew install gh\nbrew upgrade wget || brew install wget\nbrew upgrade imagemagick || brew install imagemagick\nbrew upgrade jq || brew install jq\nbrew upgrade openssl || brew install openssl
+  244  brew update
+  243  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  242  xcode-select --install
+  241  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile\neval "$(/opt/homebrew/bin/brew shellenv)"
+  240  brew
+  239  exec zsh
+  238  brew update
+  237  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  236  brew
+  235  brew uninstall --force rbenv ruby-build\nexec zsh
+  234  sudo rm -rf $HOME/.rbenv /usr/local/rbenv /opt/rbenv /usr/local/opt/rbenv
+  233  rvm implode && sudo rm -rf ~/.rvm
+  232  ruby -v
+  231  cd
+  230  gem update --system
+  229  rake
+  228  rake --trace
+  227  rake
+  226  code .
+  225  cd 01-Ruby/03-Iterators-Blocks/03-Burger-restaurant
+  224  git pull upstream master -X ours
+  223  git status
+  222  cd ~/code/LuizCampedelli/fullstack-challenges/
+  221  cat .zshrc
+  220  ls -lha
+  219  ll
+  218  pwd
+  217  cd
+  216  pwd
+  215  code .
+  214  cd 01-Ruby/03-Iterators-Blocks/03-Burger-restaurant
+  213  git pull upstream master -X ours
+  212  git status
+  211  cd ~/code/LuizCampedelli/fullstack-challenges/
+  210  code .
+  209  cd 01-Ruby/03-Iterators-Blocks/03-Burger-restaurant
+  208  git pull upstream master -X ours
+  207  git status
+  206  cd ~/code/LuizCampedelli/fullstack-challenges/
+  205  git push origin master
+  204  git commit -m "sorted_pairs melhorado"
+  203  git add .
+  202  git status
+  201  rake
+  200  raake
+  199  git push origin master
+  198  git commit -m "short_words fix"
+  197  git add .
+  196  git status
+  195  rake
+  194  git push origin master
+  193  git commit -m "enumarable done"
+  192  git add .
+  191  git status
+  190  rake
+  189  irb
+  188  rake
+  187  irb
+  186  ruby lib/enumerable.rb
+  185  rake
+  184  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  183  sudo spctl --master-disable
+  182  code --install-extension MS-vsliveshare.vsliveshare\ncode --install-extension rebornix.ruby\ncode --install-extension dbaeumer.vscode-eslint\ncode --install-extension Rubymaniac.vscode-paste-and-indent\ncode --install-extension alexcvzz.vscode-sqlite
+  181  code --install-extension github.github-vscode-theme
+  180  code --install-extension emmanuelbeziat.vscode-great-icons
+  179  code --install-extension ms-vscode.sublime-keybindings
+  178  code
+  177  brew install --cask visual-studio-code
+  176  brew update
+  175  brew upgrade openssl || brew install openssl
+  174  brew upgrade jq || brew install jq
+  173  brew upgrade imagemagick || brew install imagemagick
+  172  brew upgrade wget || brew install wget
+  171  brew upgrade gh || brew install gh
+  170  brew upgrade git || brew install git
+  169  brew update
+  168  brew update
+  167  eval "$(/opt/homebrew/bin/brew shellenv)"
+  166  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+  165  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  164  code .
+  163  cd 01-Ruby/03-Iterators-Blocks/02-Enumerable
+  162  git pull upstream master -X ours
+  161  git status
+  160  cd ~/code/LuizCampedelli/fullstack-challenges/
+  159  git push origin master
+  158  git commit -m "foi esse raio que aparecia do"
+  157  git add .
+  156  git status
+  155  rake
+  154  code .
+  153  cd 01-Ruby/03-Iterators-Blocks/01-How-many-team-members
+  152  git pull upstream master -X ours
+  151  git status
+  150  git restore 01-Ruby/03-Iterators-Blocks/01-How-many-team-members/lib/team.rb
+  149  git restore team.rb
+  148  git status
+  147  cd ~/code/LuizCampedelli/fullstack-challenges/
+  146  rake
+  145  irb
+  144  code .
+  143  cd 01-Ruby/03-Iterators-Blocks/01-How-many-team-members
+  142  git pull upstream master -X ours
+  141  git status
+  140  cd ~/code/LuizCampedelli/fullstack-challenges/
+  139  rake
+  138  ruby lib/team.rb
+  137  rake
+  136  ruby lib/team.rb
+  135  rake
+  134  rakE
+  133  rake
+  132  ruby lib/team.rb
+  131  rake
+  130  code .
+  129  cd 01-Ruby/03-Iterators-Blocks/01-How-many-team-members
+  128  git pull upstream master -X ours
+  127  git status
+  126  cd ~/code/LuizCampedelli/fullstack-challenges/
+  125  ruby /Users/luizcampedelli/Sites/teste.rb
+  124  irb
+  123  ruby /Users/luizcampedelli/Sites/teste.rb
+  122  ruby /Users/luizcampedelli
+  121  rake
+  120  code .
+  119  cd 01-Ruby/02-Flow-Array/03-Sorting-the-wagon
+  118  git pull upstream master -X ours
+  117  git status
+  116  cd ~/code/LuizCampedelli/fullstack-challenges/
+  115  git push origin master
+  114  git commit -m "for e while feitos"
+  113  git add .
+  112  git status
+  111  rake
+  110  jkdsskdjkj
+  109  code .
+  108  cd 01-Ruby/02-Flow-Array/02-Simple-looping
+  107  git pull upstream master -X ours
+  106  git status
+  105  cd ~/code/LuizCampedelli/fullstack-challenges/
+  104  pwd
+  103  code .
+  102  cd
+  101  skjdjkhdasjkhl
+  100  code .
+   99  cd 01-Ruby/02-Flow-Array/02-Simple-looping
+   98  cd ~/code/LuizCampedelli/fullstack-challenges/
+   97  kjdskjhdhjkas
+   96  lkjdsaljkdasljksad
+   95  code .
+   94  cd
+   93  lklkjkljjkl
+   92  lkjhewhjkldhjkldshjkldsafJHKL
+   91  code --install-extension ms-vscode.sublime-keybindings
+   90  klajklasdjkl
+   89  code .
+   88  kljlkjjlkjkl
+   87  code .
+   86  cd 01-Ruby/02-Flow-Array/02-Simple-looping
+   85  git pull upstream master -X ours
+   84  git status
+   83  cd ~/code/LuizCampedelli/fullstack-challenges/
+   82  clear
+   81  lear
+   80  yuyuyutyut
+   79  code .
+   78  cd 01-Ruby/02-Flow-Array/02-Simple-looping
+   77  git pull upstream master -X ours
+   76  git status
+   75  cd ~/code/LuizCampedelli/fullstack-challenges/
+   74  pwd
+   73  cd 01-Ruby/02-Flow-Array/02-Simple-looping
+   72  pwd
+   71  clear
+   70  git push origin master
+   69  git push orgin master
+   68  git commit -m "vote ok"
+   67  git add .
+   66  git status
+   65  rake
+   64  clear
+   63  rake
+   62  ruby lib/vote.rb
+   61  pwd
+   60  ruby vote.rb
+   59  code .
+   58  cd 01-Ruby/02-Flow-Array/01-Can-you-vote
+   57  git pull upstream master -X ours
+   56  git pull upstream -X ours
+   55  git status
+   54  cd ~/code/LuizCampedelli/fullstack-challenges/
+   53  code .
+   52  cd 01-Ruby/01-Programming-basics/05-Stupid-coaching
+   51  git pull upstream master -X ours
+   50  git status
+   49  cd ~/code/LuizCampedelli/fullstack-challenges/
+   48  pwd
+   47  defaults write com.apple.screencapture location "${HOME}/Desktop"
+   46  defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
+   45  defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+   44  defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+   43  curl -Ls https://raw.githubusercontent.com/lewagon/setup/master/check.rb > _.rb && ruby _.rb && rm _.rb || rm _.rb
+   42  gem install colored faker http pry-byebug rake rails rest-client rspec rubocop-performance sqlite3
+   41  gem uninstall -qxaI colored faker http pry-byebug rake rails rest-client rspec rubocop-performance sqlite3
+   40  curl -Ls https://raw.githubusercontent.com/lewagon/setup/master/check.rb > _.rb && ruby _.rb && rm _.rb || rm _.rb
+   39  exec zsh
+   38  psql -d postgres
+   37  brew install postgresql\nbrew services start postgresql
+   36  sqlite3 -version
+   35  brew install sqlite
+   34  yarn -v
+   33  exec zsh
+   32  npm install --global yarn
+   31  nvm cache clear
+   30  node -v
+   29  nvm install 16.15.1
+   28  nvm -v
+   27  exec zsh
+   26  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | zsh
+   25  gem install colored faker http pry-byebug rake rails rest-client rspec rubocop-perfor
+   24  ruby -v
+   23  exec zsh
+   22  rbenv global 3.1.2
+   21  rbenv install 3.1.2
+   20  brew install rbenv
+   19  exec zsh
+   18  brew uninstall --force rbenv ruby-build
+   17  sudo rm -rf $HOME/.rbenv /usr/local/rbenv /opt/rbenv /usr/local/opt/rbenv
+   16  rvm implode && sudo rm -rf ~/.rvm
+   15  exec zsh
+   14  cd ~/code/$GITHUB_USERNAME/dotfiles && zsh git_setup.sh
+   13  gh api user/emails | jq -r '.[].email'
+   12  zsh install.sh
+   11  cd ~/code/$GITHUB_USERNAME/dotfiles
+   10  echo $GITHUB_USERNAME
+    9  export GITHUB_USERNAME=`gh api user | jq -r '.login'`
+    8  gh auth status
+    7  killall Finder
+    6  defaults write com.apple.Finder AppleShowAllFiles true
+    5  gh auth login -s 'user:email' -w
+    4  /Volumes/RAR\ Extractor\ -\ Unarchiver\ 6.4.2\ MAS\ +\ In-App/Open\ Gatekeeper\ friendly ; exit;
+    3  /Users/luizcampedelli/Documents/GateKeeper_Helper.command ; exit;
+    2  xcode-select --install
+    1  xcode-select --install
