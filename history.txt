@@ -1,0 +1,5504 @@
+    1  xcode-select --install
+    2  xcode-select --install
+    3  /Users/luizcampedelli/Documents/GateKeeper_Helper.command ; exit;
+    4  /Volumes/RAR\ Extractor\ -\ Unarchiver\ 6.4.2\ MAS\ +\ In-App/Open\ Gatekeeper\ friendly ; exit;
+    5  gh auth login -s 'user:email' -w
+    6  defaults write com.apple.Finder AppleShowAllFiles true
+    7  killall Finder
+    8  gh auth status
+    9  export GITHUB_USERNAME=`gh api user | jq -r '.login'`
+   10  echo $GITHUB_USERNAME
+   11  cd ~/code/$GITHUB_USERNAME/dotfiles
+   12  zsh install.sh
+   13  gh api user/emails | jq -r '.[].email'
+   14  cd ~/code/$GITHUB_USERNAME/dotfiles && zsh git_setup.sh
+   15  exec zsh
+   16  rvm implode && sudo rm -rf ~/.rvm
+   17  sudo rm -rf $HOME/.rbenv /usr/local/rbenv /opt/rbenv /usr/local/opt/rbenv
+   18  brew uninstall --force rbenv ruby-build
+   19  exec zsh
+   20  brew install rbenv
+   21  rbenv install 3.1.2
+   22  rbenv global 3.1.2
+   23  exec zsh
+   24  ruby -v
+   25  gem install colored faker http pry-byebug rake rails rest-client rspec rubocop-perfor
+   26  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | zsh
+   27  exec zsh
+   28  nvm -v
+   29  nvm install 16.15.1
+   30  node -v
+   31  nvm cache clear
+   32  npm install --global yarn
+   33  exec zsh
+   34  yarn -v
+   35  brew install sqlite
+   36  sqlite3 -version
+   37  brew install postgresql\nbrew services start postgresql
+   38  psql -d postgres
+   39  exec zsh
+   40  curl -Ls https://raw.githubusercontent.com/lewagon/setup/master/check.rb > _.rb && ruby _.rb && rm _.rb || rm _.rb
+   41  gem uninstall -qxaI colored faker http pry-byebug rake rails rest-client rspec rubocop-performance sqlite3
+   42  gem install colored faker http pry-byebug rake rails rest-client rspec rubocop-performance sqlite3
+   43  curl -Ls https://raw.githubusercontent.com/lewagon/setup/master/check.rb > _.rb && ruby _.rb && rm _.rb || rm _.rb
+   44  defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+   45  defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+   46  defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
+   47  defaults write com.apple.screencapture location "${HOME}/Desktop"
+   48  pwd
+   49  cd ~/code/LuizCampedelli/fullstack-challenges/
+   50  git status
+   51  git pull upstream master -X ours
+   52  cd 01-Ruby/01-Programming-basics/05-Stupid-coaching
+   53  code .
+   54  cd ~/code/LuizCampedelli/fullstack-challenges/
+   55  git status
+   56  git pull upstream -X ours
+   57  git pull upstream master -X ours
+   58  cd 01-Ruby/02-Flow-Array/01-Can-you-vote
+   59  code .
+   60  ruby vote.rb
+   61  pwd
+   62  ruby lib/vote.rb
+   63  rake
+   64  clear
+   65  rake
+   66  git status
+   67  git add .
+   68  git commit -m "vote ok"
+   69  git push orgin master
+   70  git push origin master
+   71  clear
+   72  pwd
+   73  cd 01-Ruby/02-Flow-Array/02-Simple-looping
+   74  pwd
+   75  cd ~/code/LuizCampedelli/fullstack-challenges/
+   76  git status
+   77  git pull upstream master -X ours
+   78  cd 01-Ruby/02-Flow-Array/02-Simple-looping
+   79  code .
+   80  yuyuyutyut
+   81  lear
+   82  clear
+   83  cd ~/code/LuizCampedelli/fullstack-challenges/
+   84  git status
+   85  git pull upstream master -X ours
+   86  cd 01-Ruby/02-Flow-Array/02-Simple-looping
+   87  code .
+   88  kljlkjjlkjkl
+   89  code .
+   90  klajklasdjkl
+   91  code --install-extension ms-vscode.sublime-keybindings
+   92  lkjhewhjkldhjkldshjkldsafJHKL
+   93  lklkjkljjkl
+   94  cd
+   95  code .
+   96  lkjdsaljkdasljksad
+   97  kjdskjhdhjkas
+   98  cd ~/code/LuizCampedelli/fullstack-challenges/
+   99  cd 01-Ruby/02-Flow-Array/02-Simple-looping
+  100  code .
+  101  skjdjkhdasjkhl
+  102  cd
+  103  code .
+  104  pwd
+  105  cd ~/code/LuizCampedelli/fullstack-challenges/
+  106  git status
+  107  git pull upstream master -X ours
+  108  cd 01-Ruby/02-Flow-Array/02-Simple-looping
+  109  code .
+  110  jkdsskdjkj
+  111  rake
+  112  git status
+  113  git add .
+  114  git commit -m "for e while feitos"
+  115  git push origin master
+  116  cd ~/code/LuizCampedelli/fullstack-challenges/
+  117  git status
+  118  git pull upstream master -X ours
+  119  cd 01-Ruby/02-Flow-Array/03-Sorting-the-wagon
+  120  code .
+  121  rake
+  122  ruby /Users/luizcampedelli
+  123  ruby /Users/luizcampedelli/Sites/teste.rb
+  124  irb
+  125  ruby /Users/luizcampedelli/Sites/teste.rb
+  126  cd ~/code/LuizCampedelli/fullstack-challenges/
+  127  git status
+  128  git pull upstream master -X ours
+  129  cd 01-Ruby/03-Iterators-Blocks/01-How-many-team-members
+  130  code .
+  131  rake
+  132  ruby lib/team.rb
+  133  rake
+  134  rakE
+  135  rake
+  136  ruby lib/team.rb
+  137  rake
+  138  ruby lib/team.rb
+  139  rake
+  140  cd ~/code/LuizCampedelli/fullstack-challenges/
+  141  git status
+  142  git pull upstream master -X ours
+  143  cd 01-Ruby/03-Iterators-Blocks/01-How-many-team-members
+  144  code .
+  145  irb
+  146  rake
+  147  cd ~/code/LuizCampedelli/fullstack-challenges/
+  148  git status
+  149  git restore team.rb
+  150  git restore 01-Ruby/03-Iterators-Blocks/01-How-many-team-members/lib/team.rb
+  151  git status
+  152  git pull upstream master -X ours
+  153  cd 01-Ruby/03-Iterators-Blocks/01-How-many-team-members
+  154  code .
+  155  rake
+  156  git status
+  157  git add .
+  158  git commit -m "foi esse raio que aparecia do"
+  159  git push origin master
+  160  cd ~/code/LuizCampedelli/fullstack-challenges/
+  161  git status
+  162  git pull upstream master -X ours
+  163  cd 01-Ruby/03-Iterators-Blocks/02-Enumerable
+  164  code .
+  165  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  166  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+  167  eval "$(/opt/homebrew/bin/brew shellenv)"
+  168  brew update
+  169  brew update
+  170  brew upgrade git || brew install git
+  171  brew upgrade gh || brew install gh
+  172  brew upgrade wget || brew install wget
+  173  brew upgrade imagemagick || brew install imagemagick
+  174  brew upgrade jq || brew install jq
+  175  brew upgrade openssl || brew install openssl
+  176  brew update
+  177  brew install --cask visual-studio-code
+  178  code
+  179  code --install-extension ms-vscode.sublime-keybindings
+  180  code --install-extension emmanuelbeziat.vscode-great-icons
+  181  code --install-extension github.github-vscode-theme
+  182  code --install-extension MS-vsliveshare.vsliveshare\ncode --install-extension rebornix.ruby\ncode --install-extension dbaeumer.vscode-eslint\ncode --install-extension Rubymaniac.vscode-paste-and-indent\ncode --install-extension alexcvzz.vscode-sqlite
+  183  sudo spctl --master-disable
+  184  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  185  rake
+  186  ruby lib/enumerable.rb
+  187  irb
+  188  rake
+  189  irb
+  190  rake
+  191  git status
+  192  git add .
+  193  git commit -m "enumarable done"
+  194  git push origin master
+  195  rake
+  196  git status
+  197  git add .
+  198  git commit -m "short_words fix"
+  199  git push origin master
+  200  raake
+  201  rake
+  202  git status
+  203  git add .
+  204  git commit -m "sorted_pairs melhorado"
+  205  git push origin master
+  206  cd ~/code/LuizCampedelli/fullstack-challenges/
+  207  git status
+  208  git pull upstream master -X ours
+  209  cd 01-Ruby/03-Iterators-Blocks/03-Burger-restaurant
+  210  code .
+  211  cd ~/code/LuizCampedelli/fullstack-challenges/
+  212  git status
+  213  git pull upstream master -X ours
+  214  cd 01-Ruby/03-Iterators-Blocks/03-Burger-restaurant
+  215  code .
+  216  pwd
+  217  cd
+  218  pwd
+  219  ll
+  220  ls -lha
+  221  cat .zshrc
+  222  cd ~/code/LuizCampedelli/fullstack-challenges/
+  223  git status
+  224  git pull upstream master -X ours
+  225  cd 01-Ruby/03-Iterators-Blocks/03-Burger-restaurant
+  226  code .
+  227  rake
+  228  rake --trace
+  229  rake
+  230  gem update --system
+  231  cd
+  232  ruby -v
+  233  rvm implode && sudo rm -rf ~/.rvm
+  234  sudo rm -rf $HOME/.rbenv /usr/local/rbenv /opt/rbenv /usr/local/opt/rbenv
+  235  brew uninstall --force rbenv ruby-build\nexec zsh
+  236  brew
+  237  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  238  brew update
+  239  exec zsh
+  240  brew
+  241  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile\neval "$(/opt/homebrew/bin/brew shellenv)"
+  242  xcode-select --install
+  243  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  244  brew update
+  245  brew upgrade git || brew install git\nbrew upgrade gh || brew install gh\nbrew upgrade wget || brew install wget\nbrew upgrade imagemagick || brew install imagemagick\nbrew upgrade jq || brew install jq\nbrew upgrade openssl || brew install openssl
+  246  brew install --cask visual-studio-code
+  247  code
+  248  code --install-extension ms-vscode.sublime-keybindings\ncode --install-extension emmanuelbeziat.vscode-great-icons\ncode --install-extension github.github-vscode-theme\ncode --install-extension MS-vsliveshare.vsliveshare\ncode --install-extension rebornix.ruby\ncode --install-extension dbaeumer.vscode-eslint\ncode --install-extension Rubymaniac.vscode-paste-and-indent\ncode --install-extension alexcvzz.vscode-sqlite
+  249  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  250  gh auth login -s 'user:email' -w
+  251  gh auth status
+  252  export GITHUB_USERNAME=`gh api user | jq -r '.login'`\necho $GITHUB_USERNAME
+  253  gh api user/emails | jq -r '.[].email'
+  254  exec zsh
+  255  rvm implode && sudo rm -rf ~/.rvm
+  256  sudo rm -rf $HOME/.rbenv /usr/local/rbenv /opt/rbenv /usr/local/opt/rbenv
+  257  brew uninstall --force rbenv ruby-build\nexec zsh
+  258  brew install rbenv
+  259  rbenv install 3.1.2
+  260  rbenv global 3.1.2
+  261  exec zsh
+  262  ruby -v
+  263  gem install colored faker http pry-byebug rake rails rest-client rspec rubocop-performance sqlite3
+  264  rm -rf ~/.gemrc
+  265  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | zsh\nexec zsh
+  266  export NVM_DIR="$HOME/.nvm"\n[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm\n[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+  267  nvm -v
+  268  nvm install 16.15.1
+  269  node -v
+  270  nvm cache clear
+  271  npm install --global yarn\nexec zsh
+  272  yarn -v
+  273  brew install sqlite
+  274  sqlite3 -version
+  275  brew install postgresql\nbrew services start postgresql
+  276  psql -d postgres
+  277  exec zsh
+  278  curl -Ls https://raw.githubusercontent.com/lewagon/setup/master/check.rb > _.rb && ruby _.rb && rm _.rb || rm _.rb
+  279  code
+  280  rake
+  281  cd ~/code/LuizCampedelli/fullstack-challenges/
+  282  git status
+  283  git pull upstream master -X ours
+  284  cd 01-Ruby/03-Iterators-Blocks/03-Burger-restaurant
+  285  code .
+  286  rake
+  287  cd ~/code/LuizCampedelli/fullstack-challenges/
+  288  git status
+  289  git pull upstream master -X ours
+  290  cd 01-Ruby/04-Hash-Symbols/01-Modeling-with-Hash
+  291  code .
+  292  ruby -v
+  293  rake
+  294  rbenv
+  295  ruby -v
+  296  rake
+  297  cd $HOME
+  298  ls
+  299  cd Sites
+  300  ruby students.rb
+  301  irb
+  302  rake
+  303  ruby -v
+  304  rake
+  305  git status
+  306  git add .
+  307  git commit -m "burger_rest_order_1"
+  308  git push origin master
+  309  rake
+  310  gist status
+  311  cd ~/code/LuizCampedelli/fullstack-challenges/
+  312  git status
+  313  git pull upstream master -X ours
+  314  01-Ruby/04-Hash-Symbols/02-Modeling-with-Hash-part-II
+  315  code .
+  316  rake
+  317  git status
+  318  git add .
+  319  git commit -m "burger 2 dificil"
+  320  git push origin master
+  321  cd ~/code/LuizCampedelli/fullstack-challenges/
+  322  git status
+  323  cd ~/code/LuizCampedelli/fullstack-challenges/
+  324  git status
+  325  git pull upstream -X ours
+  326  cd 01-Ruby/05-Regular-Expressions/Reboot-01-Calculator
+  327  code .
+  328  rake
+  329  ruby lib/interface.rb
+  330  rake
+  331  cd ~/code/LuizCampedelli/fullstack-challenges/
+  332  git status
+  333  git pull upstream master -X ours
+  334  cd 01-Ruby/03-Iterators-Blocks/03-Burger-restaurant
+  335  code .
+  336  rake
+  337  git add .
+  338  git status
+  339  git add .
+  340  git status
+  341  git commit -m "burger_restaurant_ok"
+  342  git push origin master
+  343  git status
+  344  rake
+  345  git status
+  346  git add .
+  347  git commit -m "burger_restaurante_fixed"
+  348  git push origin master
+  349  ruby lib/interface.rb
+  350  cd ~/code/LuizCampedelli/fullstack-challenges/
+  351  git status
+  352  git pull upstream master -X ours
+  353  cd 01-Ruby/05-Regular-Expressions/Reboot-02-Horse-race
+  354  code .
+  355  rake
+  356  ruby lib/interface.rb
+  357  rake
+  358  cd ~/code/LuizCampedelli/fullstack-challenges/
+  359  git status
+  360  git pull upstream master -X ours
+  361  cd 01-Ruby/05-Regular-Expressions/Reboot-03-Instacart
+  362  code .
+  363  ruby lib/interface.rb
+  364  /Volumes/Expressions\ 1.3.3/Open\ Gatekeeper\ friendly ; exit;
+  365  /Volumes/1Click\ -\ Screen\ Recorder\ 4.3.0/Open\ Gatekeeper\ friendly ; exit;
+  366  cd ~/code/LuizCampedelli/fullstack-challenges/
+  367  git status
+  368  git pull upstream master -X ours
+  369  cd 01-Ruby/06-Parsing/Reboot-01-Christmas-list
+  370  code .
+  371  irb
+  372  curl -H "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0"  
+  373  ruby -v
+  374  curl -H "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0"  
+  375  curl --manual
+  376  curl -H "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0"  https://www.etsy.com/search\?q\=THE_ARTICLE_YOUR_ARE_LOOKING_FOR > results.html
+  377  ruby lib/interface.rb
+  378  git status
+  379  git add .
+  380  git commit -m "final do curso ruby"
+  381  git push origin master
+  382  git diff
+  383  git status
+  384  ruby lib/interface.rb
+  385  pry 
+  386  gem install pry-byebug
+  387  cd ~/code/LuizCampedelli/fullstack-challenges/
+  388  git status
+  389  git add 01-Ruby/05-Regular-Expressions/Reboot-01-Calculator/lib/calculator.rb
+  390  git commit -m "calculator reboot"
+  391  git push origin master
+  392  git pull upstream master -X ours
+  393  pwd
+  394  cd 02-OOP/01-OO-Basics/01-Define-your-own-class
+  395  code .
+  396  irb
+  397  ruby lib/interface.rb
+  398  ruby lib/videogame.rb
+  399  VideoGame
+  400  irb
+  401  pwd
+  402  irb
+  403  ruby -v
+  404  irb
+  405  ruby lib/game.rb
+  406  ruby lib/interface.rb
+  407  irb
+  408  ruby lib/game.rb
+  409  irb
+  410  ruby lib/game.rb
+  411  rake
+  412  irb
+  413  rake
+  414  ruby lib/game.rb
+  415  rake
+  416  ruby lib/game.rb
+  417  ruby lib/interface.rb
+  418  Game.new
+  419  ruby lib/interface.rb
+  420  rake
+  421  ruby lib/interface.rb
+  422  rake
+  423  pwd
+  424  cd lib
+  425  ls
+  426  touch lib/restaurant.rb
+  427  touch car.rb
+  428  touch interface.rb
+  429  rake
+  430  irb
+  431  ruby lib/sports_car.rb
+  432  rake
+  433  ruby lib/sports_car.rb
+  434  rake
+  435  ruby lib/sports_car.rb
+  436  rake
+  437  ruby lib/sports_car.rb
+  438  rake
+  439  ruby lib/sports_car.rb
+  440  rake
+  441  ruby lib/sports_car.rb
+  442  rake
+  443  ruby lib/interface.rb
+  444  rake
+  445  ruby lib/interface.rb
+  446  rake
+  447  ruby lib/interface.rb
+  448  ruby lib/sports_car.rb
+  449  ruby lib/interface.rb
+  450  ruby lib/sports_car.rb
+  451  ruby lib/interface.rb
+  452  ruby lib/sports_car.rb
+  453  ruby lib/interface.rb
+  454  rake
+  455  ruby lib/interface.rb
+  456  ruby lib/sports_car.rb
+  457  ruby lib/interface.rb
+  458  ruby lib/sports_car.rb
+  459  rake
+  460  ruby lib/interface.rb
+  461  ruby lib/sports_car.rb
+  462  ruby lib/interface.rb
+  463  ruby lib/sports_car.rb
+  464  ruby lib/interface.rb
+  465  rake
+  466  ruby lib/interface.rb
+  467  rake
+  468  ruby lib/interface.rb
+  469  rake
+  470  ruby lib/interface.rb
+  471  rake
+  472  ruby lib/interface.rb
+  473  rake
+  474  git status
+  475  git add .
+  476  git status
+  477  git commit -m "Declaring Class"
+  478  git push origin master
+  479  ruby lib/interface.rb
+  480  git status
+  481  irb
+  482  pwd
+  483  fusca = SportsCar.new("fusca")
+  484  irb
+  485  pwd
+  486  ruby sports_car.rb
+  487  ruby interface.rb
+  488  irb
+  489  ll
+  490  irb
+  491  cd ~/code/LuizCampedelli/fullstack-challenges/
+  492  git status
+  493  git pull upstream master -X ours
+  494  cd 02-OOP/01-OO-Basics/02-Getters-and-Setters
+  495  code .
+  496  ruby lib/vending_machine.rb
+  497  ruby lib/buying_scenario.rb
+  498  ruby lib/vending_machine.rb
+  499  ruby lib/buying_scenario.rb
+  500  ruby lib/vending_machine.rb
+  501  ruby lib/buying_scenario.rb
+  502  puts display(vending_machine)
+  503  ruby lib/buying_scenario.rb
+  504  ruby lib/vending_machine.rb
+  505  ruby lib/buying_scenario.rb
+  506  rake
+  507  ruby lib/buying_scenario.rb
+  508  ruby lib/vending_machine.rb
+  509  ruby lib/buying_scenario.rb
+  510  ruby lib/vending_machine.rb
+  511  ruby lib/buying_scenario.rb
+  512  rake
+  513  ruby lib/buying_scenario.rb
+  514  rake
+  515  ruby lib/buying_scenario.rb
+  516  rake
+  517  ruby lib/buying_scenario.rb
+  518  rake
+  519  ruby lib/buying_scenario.rb
+  520  rake
+  521  ruby lib/vending_machine.rb
+  522  ruby lib/buying_scenario.rb
+  523  rake
+  524  ruby lib/buying_scenario.rb
+  525  ruby lib/vending_machine.rb
+  526  ruby lib/refilling_scenario.rb
+  527  ruby lib/buying_scenario.rb
+  528  rake
+  529  ruby lib/buying_scenario.rb
+  530  rake
+  531  git status
+  532  git add .
+  533  git commit -m "getters and setters"
+  534  git push origin master
+  535  pwd
+  536  cd 02-OOP/01-OO-Basics/03-Basic-OOP
+  537  pwd
+  538  code .
+  539  cd ~/code/LuizCampedelli/fullstack-challenges/
+  540  git status
+  541  rake
+  542  git status
+  543  git add .
+  544  git commit -m "reboot horses"
+  545  git push origin master
+  546  git status
+  547  pwd
+  548  git status
+  549  git add .
+  550  git commit -m "chrismas list"
+  551  git push origin master
+  552  git status
+  553  git add .
+  554  git commit -m "calculator reboot"
+  555  git push origin master
+  556  git status
+  557  pwd
+  558  git status
+  559  git add .
+  560  git commit -m "burger restaurant"
+  561  git status
+  562  pwd
+  563  git commit -m "restaurant_order"
+  564  git status
+  565  rake
+  566  git add .
+  567  git commit -m "horse race"
+  568  git status
+  569  rake
+  570  git status
+  571  git add .
+  572  git commit -m "instacart reboot"
+  573  git push origin master
+  574  git status
+  575  pwd
+  576  git status
+  577  pwd
+  578  git status
+  579  rake
+  580  git status
+  581  git restore ../../04-Hash-Symbols/01-Modeling-with-Hash/lib/restaurant_order.rb
+  582  git status
+  583  git add ../../01-Programming-basics/05-Stupid-coaching/lib/coach_answer.rb
+  584  git add ../../01-Programming-basics/05-Stupid-coaching/lib/interface.rb
+  585  git status
+  586  git commit -m "stupid coach work to do yet"
+  587  git push origin master
+  588  git status
+  589  rake
+  590  git add .
+  591  git commit -m "Defined my class sucess"
+  592  git push origin master
+  593  git add .
+  594  git status
+  595  git add ../../../01-Ruby/02-Flow-Array/03-Sorting-the-wagon/lib/wagon_sort.rb
+  596  git commit -m "sort le wagon work to do yet"
+  597  git push orgin master
+  598  git push origin master
+  599  git status
+  600  cd ~/code/LuizCampedelli/fullstack-challenges/
+  601  git status
+  602  git pull upstream master -X ours
+  603  cd 01-Ruby/02-Flow-Array/03-Sorting-the-wagon
+  604  code .
+  605  rake
+  606  ruby lib/wagon_sort.rb
+  607  rake
+  608  ruby lib/interface.rb
+  609  git status
+  610  git add .
+  611  git commit -m "wagon sorted incomplete"
+  612  git push origin master
+  613  cd ~/code/LuizCampedelli/fullstack-challenges/
+  614  git status
+  615  git pull upstream master -X ours
+  616  cd 02-OOP/01-OO-Basics/03-Basic-OOP
+  617  code .
+  618  rake
+  619  ruby lib/interface.rb
+  620  rake
+  621  cd ~/code/LuizCampedelli/fullstack-challenges/
+  622  git status
+  623  git pull upstream master -X ours
+  624  cd 02-OOP/01-OO-Basics/02-Getters-and-Setters
+  625  code .
+  626  rake
+  627  ruby lib/vending_machine.rb
+  628  ruby lib/buying_scenario.rb
+  629  git status
+  630  rake
+  631  ruby lib/interface.rb
+  632  rake
+  633  git status
+  634  git add .
+  635  git commit "orange tree quase"
+  636  git commit -m "orange tree quase"
+  637  git push orgin master
+  638  git push origin master
+  639  rake
+  640  git status
+  641  git add .
+  642  git commit -m "orange tree solucao original"
+  643  git push origin master
+  644  cd ~/code/LuizCampedelli/fullstack-challenges/
+  645  git status
+  646  rake
+  647  git status
+  648  git add .
+  649  git commit -m "slot machine"
+  650  git push origin master
+  651  git status
+  652  cd ~/code/LuizCampedelli/fullstack-challenges/
+  653  git status
+  654  git pull upstream master -X ours
+  655  cd 02-OOP/02-OO-Advanced/01-Dog-inheritance
+  656  code .
+  657  rake
+  658  rate
+  659  rake
+  660  git status
+  661  git add .
+  662  git commit -m "dog heranca"
+  663  git push origin master
+  664  cd ~/code/LuizCampedelli/fullstack-challenges/
+  665  git status
+  666  git pull upstream master -X ours
+  667  cd 02-OOP/02-OO-Advanced/02-Farming-Diary-Crops
+  668  code .
+  669  rake
+  670  ruby lib/farming_diary.rb
+  671  rake
+  672  ruby lib/farming_diary.rb
+  673  rake
+  674  git status
+  675  git add .
+  676  git commit -m "farming correct"
+  677  git push origin master
+  678  git status
+  679  cd ~/code/LuizCampedelli/fullstack-challenges/
+  680  git status
+  681  cd ~/code/LuizCampedelli/fullstack-challenges/
+  682  cd 02-OOP/02-OO-Advanced/04-Instance-vs-Class
+  683  code .
+  684  irb
+  685  rake
+  686  irb
+  687  rake
+  688  git status
+  689  git add .
+  690  git commit -m "acertei , verificar depois"
+  691  git push origin master
+  692  rake
+  693  git add .
+  694  git commit -m "fix file"
+  695  git push origin master
+  696  git status
+  697  cd ~/code/LuizCampedelli/fullstack-challenges/
+  698  git status
+  699  git pull upstream master -X ours
+  700  cd 02-OOP/03-Cookbook-Day-One/01-Recipe
+  701  code .
+  702  touch recipe.rb
+  703  rake
+  704  ruby -v
+  705  rake
+  706  git status
+  707  git add .
+  708  git commit -m "recipe done"
+  709  git push oroign master
+  710  git push origin master
+  711  cd 02-OOP/03-Cookbook-Day-One/02-Cookbook
+  712  cd ~/code/LuizCampedelli/fullstack-challenges/
+  713  git tatus
+  714  git status
+  715  git pull upstream master -X ours
+  716  cd 02-OOP/03-Cookbook-Day-One/02-Cookbook
+  717  code .
+  718  cp ../01-Recipe/lib/recipe.rb lib
+  719  touch cookbook.rb
+  720  pwd
+  721  rake
+  722  pwd
+  723  gh repo clone RobertoBarros/batch_1020_task_manager
+  724  pwd
+  725  ll
+  726  cd batch_1020_task_manager
+  727  code .
+  728  cd ..
+  729  ll
+  730  rake
+  731  pwd
+  732  touch controller.rb
+  733  rake
+  734  git status
+  735  git add .
+  736  git commit -m "cookbook part 1 ok, a estudar"
+  737  git push origin master
+  738  rake
+  739  git status
+  740  git add .
+  741  git commit -m "cookbook part 1, good style, a estudar"
+  742  git push origin master
+  743  ruby lib/app
+  744  ruby lib/app.rb
+  745  rake
+  746  ruby lib/app.rb
+  747  rake
+  748  ruby lib/app.rb
+  749  rake
+  750  ruby lib/app.rb
+  751  rake
+  752  Volumes/Wondershare\ Filmora\ X\ 11.7.5/Open\ Gatekeeper\ friendly ; exit;
+  753  curl --silent "https://www.allrecipes.com/search?q=strawberry" > strawberry.html
+  754  pwd
+  755  ll
+  756  cd ~/code/LuizCampedelli/fullstack-challenges/02-OOP/04-Cookbook-Day-Two/01-Cookbook-Advanced
+  757  ll
+  758  cp -r ../../03-Cookbook-Day-One/02-Cookbook/lib .
+  759  ll
+  760  cd lib
+  761  ll
+  762  cd ..
+  763  cd ~/code/LuizCampedelli/fullstack-challenges/
+  764  git status
+  765  git pull upstream master -X ours
+  766  cd 02-OOP/04-Cookbook-Day-Two/01-Cookbook-Advanced
+  767  code .
+  768  cp 02-OOP/03-Cookbook-Day-One/02-Cookbook/strawberry.html 02-OOP/04-Cookbook-Day-Two/01-Cookbook-Advanced/lib
+  769  ll
+  770  cat bonus_formatter.rb
+  771  ll
+  772  cd ..
+  773  ll
+  774  cd ~
+  775  ll
+  776  cd code/LuizCampedelli/fullstack-challenges
+  777  ll
+  778  cd 02-OOP/03-Cookbook-Day-One
+  779  ll
+  780  cd 02-Cookbook/
+  781  ll
+  782  pwd
+  783  cp strawberry.html /Users/luizcampedelli/code/LuizCampedelli/fullstack-challenges/02-OOP/04-Cookbook-Day-Two/01-Cookbook-Advanced
+  784  ll
+  785  cp strawberry.html lib
+  786  ll
+  787  cd lib
+  788  ll
+  789  rake
+  790  pwd
+  791  rake
+  792  cd ..
+  793  rake
+  794  ruby lib/app.rb
+  795  git status
+  796  git add .
+  797  git commit -m "cookbook 2"
+  798  git push origin master
+  799  git status
+  800  git restore ../../03-Cookbook-Day-One/02-Cookbook/lib/controller.rb && /recipe.rb
+  801  git restore ../../03-Cookbook-Day-One/02-Cookbook/lib/controller.rb ../../03-Cookbook-Day-One/02-Cookbook/lib/recipe.rb ../../03-Cookbook-Day-One/02-Cookbook/lib/recipes.csv ../../03-Cookbook-Day-One/02-Cookbook/lib/router.rb ../../03-Cookbook-Day-One/02-Cookbook/lib/view.rb
+  802  git add ../../03-Cookbook-Day-One/02-Cookbook/strawberry.html
+  803  git status
+  804  git commit -m "strawberry html for parser"
+  805  git push origin master
+  806  git status
+  807  cd ~/code/LuizCampedelli/fullstack-challenges/
+  808  git status
+  809  git pull upstream master -X ours
+  810  cd 02-OOP/05-Food-Delivery-Day-One/01-Food-Delivery
+  811  code .
+  812  rake meal
+  813  git status
+  814  git add .
+  815  git commit -m "meal done"
+  816  git push origin master
+  817  git status
+  818  rake
+  819  exit
+  820  rake meal
+  821  (id: row[:id].to_i, name: row[:name], price: row[:price].to_i)
+  822  rake meal
+  823  (id: row[:id].to_i, name: row[:name], price: row[:price].to_i)
+  824  rake meal
+  825  git status
+  826  git add .
+  827  git commit -m "meal repo not finished"
+  828  git push origin master
+  829  rake meal
+  830  rake meal_repository
+  831  rake meal
+  832  git status
+  833  git add .
+  834  git commit -m "meal_repo_done"
+  835  git push origin master
+  836  rake meal
+  837  ruby app.rb
+  838  git status
+  839  ruby app.rb
+  840  rake meal
+  841  ruby app.rb
+  842  rake meal
+  843  git status
+  844  git add .
+  845  git commit -m "meals_tasks_done"
+  846  git push origin master
+  847  ruby app.rb
+  848  rake customer
+  849  pwd
+  850  ruby app/controllers/customers_controller.rb
+  851  rake customers
+  852  rake customer
+  853  ruby app.rb
+  854  pwd
+  855  ll
+  856  ruby app.rb
+  857  rake customer
+  858  ruby app.rb
+  859  pwd
+  860  ruby app.rb
+  861  rake customer
+  862  rake
+  863  ruby app.rb
+  864  git status
+  865  git add .
+  866  git commit -m "food delivery done"
+  867  git push origin master
+  868  cd ~/code/LuizCampedelli/fullstack-challenges/
+  869  git status
+  870  git pull upstream master -X ours
+  871  cd 02-OOP/06-Food-Delivery-Day-Two/01-Food-Delivery
+  872  code .
+  873  cp -r ../../05-Food-Delivery-Day-One/01-Food-Delivery/{app,data,app.rb,router.rb} .
+  874  ruby app.rb
+  875  rake
+  876  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+  877  git pull upstream master -X ours
+  878  cd 02-OOP/06-Food-Delivery-Day-Two/01-Food-Delivery
+  879  pwd
+  880  code .
+  881  ll
+  882  cd app
+  883  ll
+  884  cd controllers
+  885  ll
+  886  ruby app.rb
+  887  ll
+  888  cd ..
+  889  ruby app.rb
+  890  rake
+  891  require "csv"\nrequire_relative "../models/meal"\n\nclass MealRepository\n  def initialize(csv_file)\n    @csv_file = csv_file\n    @meals = []\n    load_csv if File.exist?(csv_file)\n  end\n\n  def create(meal)\n    meal.id = @meals.empty? ? 1 : @meals.last.id + 1\n    # @meals.empty? ? meal.id = 1 : meal.id = @meals.size + 1\n    @meals << meal\n    save_to_csv\n  end\n\n  def all\n    @meals\n  end\n\n  def find(id)\n    @meals.find do |meal|\n      meal.id == id\n    end\n  end\n\n  private\n\n  def save_to_csv\n    CSV.open(@csv_file, "wb", headers: :first_row, header_converters: :symbol) do |file|\n      file << %i[id name price]\n      @meals.each do |meal|\n        file << [meal.id, meal.name, meal.price]\n      end\n    end\n  end\n\n  def load_csv\n    CSV.foreach(@csv_file, headers: :first_row, header_converters: :symbol) do |row|\n      meals = Meal.new(id: row[:id].to_i, name: row[:name], price: row[:price].to_i)\n      @meals << meals\n    end\n  end\nend\n
+  892  meal_repo = MealRepository.new('data/meals.csv')\nmeals_controller = MealsController.new(meal_repo)\n\ncustomer_repo = CustomerRepository.new('data/customers.csv')\ncustomers_controller = CustomersController.new(customer_repo)\n\nemployee_repository = EmployeeRepository.new('data/employees.csv')\nsessions_controller = SessionsController.new(employee_repository)
+  893  meal_repo = MealRepository.new('data/meals.csv')\nmeals_controller = MealsController.new(meal_repo)\n\ncustomer_repo = CustomerRepository.new('data/customers.csv')\ncustomers_controller = CustomersController.employee_repository = EmployeeRepository.new('data/employees.csv')\nsessions_controller = SessionsController.new(employee_repository)
+  894  rake
+  895  /Volumes/Mac\ FoneLab\ 10.2.92.124018/Open\ Gatekeeper\ friendly ; exit;
+  896  /Volumes/FoneDog\ iOS\ Unlocker\ 1.0.8.1800/Open\ Gatekeeper\ friendly ; exit;
+  897  /Volumes/FonePaw\ iOS\ Unlocker\ 1.7.0.1253/Open\ Gatekeeper\ friendly ; exit;
+  898  /Volumes/AnyMP4\ iPhone\ Unlocker\ for\ Mac\ 1.0.26.1994/Open\ Gatekeeper\ friendly ; exit;
+  899  /Volumes/Aiseesoft\ Mac\ FoneTrans\ 9.1.50.116226/Open\ Gatekeeper\ friendly ; exit;
+  900  pwd
+  901  git status
+  902  rake
+  903  pwd
+  904  ll
+  905  rake
+  906  \nFood Delivery Day 2\nKick-start terminal instructions\ncd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+  907  git pull upstream master -X ours
+  908  cd 02-OOP/06-Food-Delivery-Day-Two/01-Food-Delivery
+  909  code .
+  910  rake
+  911  sqlite3 --version
+  912  sqlite3 /Users/luizcampedelli/Downloads/patients_doctors.sqlite 
+  913  rake
+  914  ruby app.rb
+  915  rake
+  916  pwd
+  917  rake
+  918  ruby app.rb
+  919  git status
+  920  git add .
+  921  git commit -m "versao professor matheus"
+  922  git push origin master
+  923  git status
+  924  git restore ../01-Food-Delivery.zip
+  925  gst
+  926  git add .
+  927  git commit -m "projecto bkp"
+  928  gst
+  929  sqlite3 --version
+  930  sqlite3 db.sqlite
+  931  sqlite3 db.sqlilte
+  932  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+  933  git pull upstream master -X ours
+  934  cd 03-AR-Database/01-DB-Design-and-SQL/01-Your-first-table
+  935  code .
+  936  rake
+  937  gts
+  938  gst
+  939  git add .
+  940  git commit -m "users table"
+  941  git push origin master
+  942  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+  943  git pull upstream master -X ours
+  944  cd 03-AR-Database/01-DB-Design-and-SQL/02-SQL-design
+  945  code .
+  946  rake
+  947  git status
+  948  git add .
+  949  git commit -m "db design done"
+  950  git push origin master
+  951  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+  952  git pull upstream master -X ours
+  953  cd 03-AR-Database/01-DB-Design-and-SQL/03-Interacting-with-db
+  954  code .
+  955  sqlite3 -version
+  956  sqlite3 lib/db/jukebox.sqlite
+  957  rake
+  958  git status
+  959  git add .
+  960  git commit -m "jukebox"
+  961  git push origin master
+  962  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+  963  git pull upstream master -X ours
+  964  cd 03-AR-Database/01-DB-Design-and-SQL/04-Interacting-with-code
+  965  code .
+  966  gem install sqlite3
+  967  irb
+  968  pwd
+  969  ruby lib/queries.rb
+  970  rake
+  971  ruby lib/queries.rb
+  972  rake
+  973  ruby lib/queries.rb
+  974  rake
+  975  git status
+  976  git reset ../../../02-OOP/06-Food-Delivery-Day-Two/01-Food-Delivery/db.sqlilte
+  977  gts
+  978  gst
+  979  git add .
+  980  git commit -m "interact done"
+  981  git push origin master
+  982  git status
+  983  git add .
+  984  git commit -m "improve style"
+  985  git push origin master
+  986  rake
+  987  git status
+  988  git add .
+  989  git commit -m "improve style"
+  990  git push origin master
+  991  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+  992  git pull upstream master -X ours
+  993  cd 03-AR-Database/01-DB-Design-and-SQL/05-SQL-queries
+  994  code .
+  995  rake
+  996  k
+  997  rake
+  998  gts
+  999  gst
+ 1000  git add .
+ 1001  git commit -m "incompleto"
+ 1002  git push orgin master
+ 1003  git push origin master
+ 1004  rake
+ 1005  gts
+ 1006  gst
+ 1007  git add .
+ 1008  git commit -m "sql query done"
+ 1009  git push origin master
+ 1010  rake
+ 1011  gst
+ 1012  git add .
+ 1013  git commit -m "sql querys"
+ 1014  git push origin master
+ 1015  rake
+ 1016  gst
+ 1017  git add .
+ 1018  git commit -m "sql query top new"
+ 1019  git push origin master
+ 1020  Volumes/Adobe\ Zii\ 2022\ 7.0.0/Open\ Gatekeeper\ friendly ; exit;
+ 1021  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1022  git pull upstream master -X ours
+ 1023  cd 03-AR-Database/02-SQL-CRUD/01-Query-the-DB
+ 1024  code .
+ 1025  ruby lib/query.rb
+ 1026  rake
+ 1027  ruby lib/query.rb
+ 1028  rake
+ 1029  ruby lib/query.rb
+ 1030  rake
+ 1031  ruby lib/query.rb
+ 1032  rake
+ 1033  git status
+ 1034  git add .
+ 1035  git commit -m "query done"
+ 1036  git push origin master
+ 1037  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1038  git pull upstream master -X ours
+ 1039  cd 03-AR-Database/02-SQL-CRUD/02-Read
+ 1040  code .
+ 1041  rake
+ 1042  RAKE
+ 1043  rake
+ 1044  git status
+ 1045  git add .
+ 1046  git commit -m "crud read ok"
+ 1047  git push origin master
+ 1048  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1049  git pull upstream master -X ours
+ 1050  cd 03-AR-Database/02-SQL-CRUD/03-Delete
+ 1051  code .
+ 1052  rake
+ 1053  git status
+ 1054  rake
+ 1055  git add .
+ 1056  git status
+ 1057  git commit -m "delete ok"
+ 1058  git push origin master
+ 1059  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1060  git pull upstream master -X ours
+ 1061  cd 03-AR-Database/02-SQL-CRUD/04-Create-Update
+ 1062  code .
+ 1063  rake
+ 1064  git status
+ 1065  git add .
+ 1066  git commit -m "incomplete crud"
+ 1067  git push origin master
+ 1068  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1069  git pull upstream master -X ours
+ 1070  cd 03-AR-Database/03-ActiveRecord-Basics/01-Create-a-DB
+ 1071  code .
+ 1072  rake db:create
+ 1073  rake db:drop
+ 1074  rake db:migrate
+ 1075  rake db:version
+ 1076  rake db:seed
+ 1077  rake db:timestamp
+ 1078  rake db:drop
+ 1079  git status
+ 1080  rake db:create
+ 1081  rake db:drop
+ 1082  rake db:migrate
+ 1083  rake db:version
+ 1084  rake db:seed
+ 1085  rake db:timestamp
+ 1086  git status
+ 1087  git add .
+ 1088  git commit -m "gen done"
+ 1089  git push origin master
+ 1090  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1091  git pull upstream master -X ours
+ 1092  cd 03-AR-Database/03-ActiveRecord-Basics/02-Migrations
+ 1093  code .
+ 1094  rake -T
+ 1095  rake db:migrate
+ 1096  rake console
+ 1097  TIMESTAMP=`rake db:timestamp`\ntouch db/migrate/${TIMESTAMP}_add_rating_to_create_posts.rb
+ 1098  rake db:migrate
+ 1099  sqlite3 db/development.sqlite3
+ 1100  rake db:drop db:create db:migrate
+ 1101  ake db:timestamp
+ 1102  rake db:timestamp
+ 1103  git status
+ 1104  git add .
+ 1105  git commit -m "migrations done i guess"
+ 1106  git push origin master
+ 1107  rake
+ 1108  git add .
+ 1109  git commit -m "migrations okay"
+ 1110  git push origin master
+ 1111  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1112  git pull upstream master -X ours
+ 1113  cd 03-AR-Database/03-ActiveRecord-Basics/03-Models
+ 1114  code .
+ 1115  rake db:create
+ 1116  rake db:migrate
+ 1117  sqlite3
+ 1118  rake
+ 1119  ruby app.rb
+ 1120  rake
+ 1121  ruby app.rb
+ 1122  OA
+ 1123  ruby app.rb
+ 1124  1
+ 1125  ruby app.rb
+ 1126  cd ..
+ 1127  pwd
+ 1128  cd 03-AR-Database/03-ActiveRecord-Basics/03-Models
+ 1129  cd ~/code/LuizCampedelli/fullstack-challenges/
+ 1130  cd 03-AR-Database/03-ActiveRecord-Basics/03-Models
+ 1131  ruby app.rb
+ 1132  rake
+ 1133  git status
+ 1134  git add .
+ 1135  git commit -m "ünfinished" 
+ 1136  git push origin master
+ 1137  rake db:create
+ 1138  rake db:migrate
+ 1139  sqlite3 db/development.sqlite3
+ 1140  ruby app.rb
+ 1141  git status
+ 1142  git add .
+ 1143  git commit -m "finished"
+ 1144  git push origin master
+ 1145  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1146  git pull upstream master -X ours
+ 1147  cd 03-AR-Database/03-ActiveRecord-Basics/04-Seed-Faker
+ 1148  code .
+ 1149  rake db:seed
+ 1150  gem install faker
+ 1151  rake db:seed
+ 1152  rake db:drop db:create db:migrate db:seed
+ 1153  rake console
+ 1154  rake db:drop db:create db:migrate db:seed
+ 1155  rake console
+ 1156  rake db:drop db:create db:migrate db:seed
+ 1157  rake console
+ 1158  git status
+ 1159  git add .
+ 1160  git commit -m "faker done"
+ 1161  git push origin master
+ 1162  rake
+ 1163  rake db:drop db:create db:migrate db:seed
+ 1164  rake console
+ 1165  git status
+ 1166  git add .
+ 1167  git commit -m "faker style fix"
+ 1168  git push orgin master
+ 1169  git push origin master
+ 1170  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1171  git pull upstream master -X ours
+ 1172  cd 03-AR-Database/03-ActiveRecord-Basics/03-Models
+ 1173  code .
+ 1174  rake
+ 1175  git status
+ 1176  git add .
+ 1177  git commit -m "fix style"
+ 1178  git push origin master
+ 1179  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1180  cd 03-AR-Database/03-ActiveRecord-Basics/05-Seed-API
+ 1181  code .
+ 1182  gem install rest-client
+ 1183  rake db:drop db:create db:migrate db:seed
+ 1184  sqlite3 db/development.sqlite3
+ 1185  rake
+ 1186  rake db:seeds
+ 1187  rake db:seed
+ 1188  ruby post.rb
+ 1189  ruby app/models/post.rb
+ 1190  rake db:migrate
+ 1191  rake db:seed
+ 1192  rake
+ 1193  rake db:seed
+ 1194  rake console
+ 1195  irb
+ 1196  rake console
+ 1197  rake
+ 1198  rake db:migrate
+ 1199  rake db:seed
+ 1200  rake db:drop db:migrate db:seed
+ 1201  rake
+ 1202  git status
+ 1203  git add .
+ 1204  git commit -m "seed api"
+ 1205  git push origin master
+ 1206  git add db/schema.rb
+ 1207  git status
+ 1208  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1209  git pull upstream master -X ours
+ 1210  cd 03-AR-Database/04-ActiveRecord-Advanced/01-Associations
+ 1211  code .
+ 1212  rake
+ 1213  rake db:create
+ 1214  rake db:migrate
+ 1215  rake
+ 1216  sqlite3
+ 1217  rake
+ 1218  pwd
+ 1219  cd app/models
+ 1220  ls
+ 1221  touch user.rb
+ 1222  rake
+ 1223  TIMESTAMP=`rake db:timestamp`
+ 1224  touch db/migrate/${TIMESTAMP}_create_users.rb
+ 1225  rake db:create
+ 1226  TIMESTAMP=`rake db:timestamp`
+ 1227  touch db/migrate/${TIMESTAMP}_create_users.rb
+ 1228  TIMESTAMP=`rake db:timestamp`
+ 1229  touch db/migrate/${TIMESTAMP}_create_users.rb
+ 1230  pwd
+ 1231  cd ..
+ 1232  rake db:create
+ 1233  TIMESTAMP=`rake db:timestamp`
+ 1234  touch db/migrate/${TIMESTAMP}_create_users.rb
+ 1235  rake db:migrate
+ 1236  rake
+ 1237  rake db:drop db:create db:migrate
+ 1238  rake
+ 1239  rake db:drop db:create db:migrate
+ 1240  rake
+ 1241  rake -T
+ 1242  rake console
+ 1243  rake
+ 1244  rake db:drop db:create db:migrate
+ 1245  rake
+ 1246  rake db:seed
+ 1247  rake
+ 1248  rake db:seed
+ 1249  rake
+ 1250  rake db:seed
+ 1251  rake
+ 1252  rake db:seed
+ 1253  rake
+ 1254  rake db:seed
+ 1255  rake
+ 1256  rake db:seed
+ 1257  rake
+ 1258  rake db:seed
+ 1259  rake
+ 1260  rake db:seed
+ 1261  rake
+ 1262  rake db:seed
+ 1263  rake
+ 1264  rake db:seed
+ 1265  rake
+ 1266  rake db:seed
+ 1267  rake
+ 1268  rake db:seed
+ 1269  rake
+ 1270  rake db:seed
+ 1271  rake
+ 1272  rake console
+ 1273  rake db:seed
+ 1274  rake
+ 1275  rake db:seed
+ 1276  rake
+ 1277  git status
+ 1278  git add .
+ 1279  git commit -m "advance 1 done"
+ 1280  git push origin master
+ 1281  rake
+ 1282  git add .
+ 1283  git commit -m "advance 1 done"
+ 1284  git push origin master
+ 1285  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1286  git pull upstream master -X ours
+ 1287  cd 04-Front-End/01-HTML-and-CSS/01-Profile-content
+ 1288  code .
+ 1289  cd profile
+ 1290  mkdir images
+ 1291  code .
+ 1292  server
+ 1293  serve
+ 1294  cd ..
+ 1295  serve
+ 1296  gem install webrick
+ 1297  serve
+ 1298  rake
+ 1299  git add .
+ 1300  git commit -m "Added content to my profile page"
+ 1301  git push origin master
+ 1302  cp -r ../profile ../../02-Fonts-and-colors
+ 1303  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1304  git pull upstream master -X ours
+ 1305  cd 04-Front-End/01-HTML-and-CSS/02-Fonts-and-colors
+ 1306  cp -r ../01-Profile-content/profile .
+ 1307  cd profile
+ 1308  code .
+ 1309  serve
+ 1310  cd ..
+ 1311  serve
+ 1312  touch style.css
+ 1313  serve
+ 1314  top
+ 1315  serve
+ 1316  git add .
+ 1317  git commit -m "Added fonts & colors to my profile page"
+ 1318  git push origin master
+ 1319  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1320  git pull upstream master -X ours
+ 1321  cd 04-Front-End/01-HTML-and-CSS/03-Finishing-profile-design
+ 1322  cp -r ../02-Fonts-and-colors/profile .
+ 1323  code .
+ 1324  serve
+ 1325  git add .
+ 1326  git commit -m "Added div to my profile page"
+ 1327  git push origin master
+ 1328  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1329  git pull upstream master -X ours
+ 1330  cd 04-Front-End/01-HTML-and-CSS/04-Responsive-profile
+ 1331  cp -r ../03-Finishing-profile-design/profile .
+ 1332  code .
+ 1333  git add .
+ 1334  git commit -m "Added media types to CSS"
+ 1335  git push origin master
+ 1336  cd ~/code/LuizCampedelli/fullstack-challenges/04-Front-End/01-HTML-and-CSS/04-Responsive-profile
+ 1337  cp -r profile ~/code/LuizCampedelli
+ 1338  cd ~/code/LuizCampedelli/profile
+ 1339  git init
+ 1340  git add .
+ 1341  git commit -m "my profile page"
+ 1342  gh repo create
+ 1343  serve
+ 1344  pwd
+ 1345  ll
+ 1346  ls -lha
+ 1347  git init
+ 1348  git add .
+ 1349  git commit -m "my profile page"
+ 1350  gh repo create
+ 1351  gh repo create --public --source=.
+ 1352  gh repo view --web
+ 1353  git co -b gh-pages
+ 1354  git push origin gh-pages
+ 1355  git add .
+ 1356  git commit -m "make a little text change"
+ 1357  git push origin gh-pages
+ 1358  git add .
+ 1359  git commit -m "make a little text change 2"
+ 1360  git push origin gh-pages
+ 1361  git add .
+ 1362  git commit -m "make a little text change 3"
+ 1363  git push origin gh-pages
+ 1364  cd ~/code/LuizCampedelli/fullstack-challenges/04-Front-End/01-HTML-and-CSS/05-Push-on-Github-Pages
+ 1365  cp -r ~/code/LuizCampedelli/profile .
+ 1366  rm -rf profile/.git
+ 1367  git add .
+ 1368  git commit -m "Submitting my work to Kitt"
+ 1369  git push origin master
+ 1370  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1371  git restore 04-Front-End/01-HTML-and-CSS/04-Responsive-profile/profile/index.html
+ 1372  git restore 04-Front-End/01-HTML-and-CSS/04-Responsive-profile/profile/style.css
+ 1373  git pull upstream master -X ours
+ 1374  cd 04-Front-End/01-HTML-and-CSS/06-Medium-copycat
+ 1375  mkdir medium-article
+ 1376  touch medium-article/index.html
+ 1377  touch medium-article/style.css
+ 1378  code .
+ 1379  serve
+ 1380  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1381  git pull upstream master -X ours
+ 1382  git co gh-pages
+ 1383  cd ~/code/LuizCampedelli/profile
+ 1384  ll
+ 1385  git co gh-pages
+ 1386  git add .
+ 1387  git commit -m "testando"
+ 1388  git push origin gp-pages
+ 1389  git push origin gh-pages
+ 1390  gh repo view --web
+ 1391  code .
+ 1392  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1393  git add 04-Front-End/01-HTML-and-CSS/06-Medium-copycat/medium-article/
+ 1394  git pull upstream master -X ours
+ 1395  cd 04-Front-End/02-CSS-components/01-Button-sprint
+ 1396  code .
+ 1397  serve
+ 1398  git status
+ 1399  git add .
+ 1400  git commit -m "buttons done"
+ 1401  git push origin master
+ 1402  git status
+ 1403  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1404  git pull upstream master -X ours
+ 1405  cd 04-Front-End/02-CSS-components/02-Card-sprint
+ 1406  code .
+ 1407  serve
+ 1408  /Volumes/Solis\ 1.0.8/Open\ Gatekeeper\ friendly ; exit;
+ 1409  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1410  git pull upstream master -X ours
+ 1411  cd 04-Front-End/03-Bootstrap/01-Smiley-grids
+ 1412  code .
+ 1413  git status
+ 1414  git add .
+ 1415  git commit -m "smiley"
+ 1416  git push origin master
+ 1417  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1418  git pull upstream master -X ours
+ 1419  cd 04-Front-End/03-Bootstrap/02-Bootstrap-prototyping
+ 1420  code .
+ 1421  git status
+ 1422  git add .
+ 1423  git commit -m "bootstrap proto"
+ 1424  git push origin master
+ 1425  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1426  git pull upstream master -X ours
+ 1427  cd 04-Front-End/03-Bootstrap/03-Bootstrap-forms
+ 1428  code .
+ 1429  git status
+ 1430  git add .
+ 1431  git commit -m "Bootstrap forms"
+ 1432  git push origin master
+ 1433  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1434  git pull upstream master -X ours
+ 1435  cd 04-Front-End/03-Bootstrap/04-Map-layout
+ 1436  code .
+ 1437  git status
+ 1438  git add .
+ 1439  git commit -m "map layout done"
+ 1440  git push origin master
+ 1441  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1442  git pull upstream master -X ours
+ 1443  cd 04-Front-End/04-JavaScript-basics/01-Even-or-odd
+ 1444  code .
+ 1445  brew update
+ 1446  brew
+ 1447  brew update
+ 1448  brew install node
+ 1449  node -v
+ 1450  node
+ 1451  yarn -v
+ 1452  rake
+ 1453  git status
+ 1454  git add .
+ 1455  git commit -m "evenorodd"
+ 1456  git push origin master
+ 1457  git status
+ 1458  git add .
+ 1459  git commit -m "evenorodd"
+ 1460  git push origin master
+ 1461  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1462  git pull upstream master -X ours
+ 1463  cd 04-Front-End/04-JavaScript-basics/02-Sum-of-negative
+ 1464  code .
+ 1465  node lib/sum_of_negative.js
+ 1466  rake
+ 1467  node lib/sum_of_negative.js
+ 1468  rake
+ 1469  node lib/sum_of_negative.js
+ 1470  rake
+ 1471  node lib/sum_of_negative.js
+ 1472  console.log(sumOfNegative([-4, 5, -2, 9]));
+ 1473  node lib/sum_of_negative.js
+ 1474  rake
+ 1475  top --trace
+ 1476  top
+ 1477  node lib/sum_of_negative.js
+ 1478  top
+ 1479  rake
+ 1480  node lib/sum_of_negative.js
+ 1481  code .
+ 1482  rake
+ 1483  rake --trace
+ 1484  rake
+ 1485  node lib/sum_of_negative.js
+ 1486  rake
+ 1487  node lib/sum_of_negative.js
+ 1488  git status
+ 1489  git add .
+ 1490  git commit -m "looping"
+ 1491  git push origin master
+ 1492  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1493  git pull upstream master -X ours
+ 1494  cd 04-Front-End/04-JavaScript-basics/03-Valid-email
+ 1495  code .
+ 1496  rake
+ 1497  git status
+ 1498  git add .
+ 1499  git commit -m "valid email"
+ 1500  git push origin master
+ 1501  rake
+ 1502  git add .
+ 1503  git commit -m "valid email"
+ 1504  git push origin master
+ 1505  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1506  git pull upstream master -X ours
+ 1507  cd 04-Front-End/04-JavaScript-basics/04-Unordered-list
+ 1508  code .
+ 1509  rake
+ 1510  git status
+ 1511  git add .
+ 1512  git commit -m "javascript list tag"
+ 1513  git push origin master
+ 1514  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1515  git pull upstream master -X ours
+ 1516  cd 04-Front-End/04-JavaScript-basics/05-Lord-of-the-rings
+ 1517  code .
+ 1518  rake
+ 1519  node lib/lord_of_the_rings.js
+ 1520  rake
+ 1521  git status
+ 1522  git add .
+ 1523  git commit -m "lord of the rings"
+ 1524  git push origin master
+ 1525  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1526  git pull upstream master -X ours
+ 1527  cd 04-Front-End/05-DOM-and-Events/01-Select-element
+ 1528  code .
+ 1529  node -v
+ 1530  yarn -v
+ 1531  rake webpack
+ 1532  ebpack-dev-serverwebpack-dev-server
+ 1533  webpack-dev-server
+ 1534  rake webpack
+ 1535  webpack-dev-server
+ 1536  rake webpack
+ 1537  rake
+ 1538  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1539  git pull upstream master -X ours
+ 1540  cd 04-Front-End/05-DOM-and-Events/01-Select-element
+ 1541  code .
+ 1542  rake webpack
+ 1543  webpack-dev-server
+ 1544  rake webpack
+ 1545  rake
+ 1546  git status
+ 1547  git add .
+ 1548  git commit -m "selector js done"
+ 1549  git push origin master
+ 1550  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1551  git pull upstream master -X ours
+ 1552  cd 04-Front-End/05-DOM-and-Events/02-DOM-Manipulation
+ 1553  code .
+ 1554  rake webpack
+ 1555  git status
+ 1556  git add .
+ 1557  git commit -m "dom manipulation"
+ 1558  git push origin master
+ 1559  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1560  cd 04-Front-End/05-DOM-and-Events/02-DOM-Manipulation
+ 1561  git add .
+ 1562  git commit -m "dom manipulation modificado"
+ 1563  git push origin master
+ 1564  git status
+ 1565  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1566  git pull upstream master -X ours
+ 1567  cd 04-Front-End/05-DOM-and-Events/03-My-First-Event-Listener
+ 1568  code .
+ 1569  rake webpack
+ 1570  git status
+ 1571  git add .
+ 1572  git commit -m "my first listener"
+ 1573  git push origin master
+ 1574  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1575  git pull upstream master -X ours
+ 1576  cd 04-Front-End/05-DOM-and-Events/04-Wagon-Race
+ 1577  code .
+ 1578  rake webpack
+ 1579  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1580  git pull upstream master -X ours
+ 1581  cd 04-Front-End/06-HTTP-and-AJAX/01-Click-me
+ 1582  code .
+ 1583  rake webpack
+ 1584  git status
+ 1585  git add .
+ 1586  git commit -m "click me alert"
+ 1587  git push origin master
+ 1588  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1589  git pull upstream master -X ours
+ 1590  cd 04-Front-End/06-HTTP-and-AJAX/02-My-Favourite-Sports
+ 1591  code .
+ 1592  /Users/luizcampedelli/Downloads/DEVONagent\ Pro\ 3.9.6/DEVONagent\ Pro\ 3.9.6\ \[k\].app/Contents/MacOS/iFleckAD ; exit;
+ 1593  rake webpack
+ 1594  cd /Users/luizcampedelli/code
+ 1595  ll
+ 1596  cd LuizCampedelli
+ 1597  ll
+ 1598  git@github.com:cajudeleite/TypeScriptAlg.git
+ 1599  git clone git@github.com:cajudeleite/TypeScriptAlg.git
+ 1600  npm -v
+ 1601  yarn -v
+ 1602  ll\\nexit
+ 1603  ll
+ 1604  cd TypeScriptAlg
+ 1605  ll
+ 1606  cd challenges
+ 1607  ll
+ 1608  cd daemon
+ 1609  npm run daemon
+ 1610  npm run test daemon
+ 1611  npm run -test daemon
+ 1612  npm run test-daemon
+ 1613  yarn -v
+ 1614  yarn install
+ 1615  npm install
+ 1616  npm run test-daemon
+ 1617  git remote -v
+ 1618  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1619  git pull upstream master -X ours
+ 1620  cd 04-Front-End/07-JavaScript-Plugins/01-Bugfix
+ 1621  code .
+ 1622  rake webpack
+ 1623  git status
+ 1624  git add .
+ 1625  git commit -m "bugfixed"
+ 1626  git push origin master
+ 1627  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1628  git pull upstream master -X ours
+ 1629  cd 04-Front-End/07-JavaScript-Plugins/03-Classes
+ 1630  code .
+ 1631  rake
+ 1632  git status
+ 1633  git add .
+ 1634  git commit -m "ES6 classes"
+ 1635  git push origin master
+ 1636  git status
+ 1637  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1638  cd 04-Front-End/02-CSS-components/02-Card-sprint
+ 1639  git add .
+ 1640  git status
+ 1641  git push origin master
+ 1642  git status
+ 1643  git commit -m "card sprint"
+ 1644  git push origin master
+ 1645  git status
+ 1646  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1647  cd 04-Front-End/05-DOM-and-Events/04-Wagon-Race
+ 1648  git add .
+ 1649  git sts
+ 1650  git st
+ 1651  git status
+ 1652  git commit -m "wagon race"
+ 1653  git push origin master
+ 1654  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1655  clear
+ 1656  git pull upstream master -X ours\n
+ 1657  cd 04-Front-End/07-JavaScript-Plugins/04-Stimulus
+ 1658  code .
+ 1659  rake webpack
+ 1660  yarn add @hotwired/stimulus
+ 1661  yarn add @hotwired/stimulus-webpack-helpers
+ 1662  mkdir lib/controllers
+ 1663  touch lib/controllers/check_all_checkboxes_controller.js
+ 1664  rake webpack
+ 1665  rake
+ 1666  git status
+ 1667  git add lib/controllers/
+ 1668  git status
+ 1669  git commit -m "checkbox done"
+ 1670  git push origin master
+ 1671  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1672  git restore 04-Front-End/07-JavaScript-Plugins/04-Stimulus/README.md
+ 1673  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1674  git restore 04-Front-End/07-JavaScript-Plugins/04-Stimulus/index.html
+ 1675  git restore 04-Front-End/07-JavaScript-Plugins/04-Stimulus/lib/index.js
+ 1676  git restore 04-Front-End/07-JavaScript-Plugins/04-Stimulus/package.json
+ 1677  git status
+ 1678  git pull upstream master -X ours
+ 1679  cd 04-Front-End/07-JavaScript-Plugins/02-Geocoder
+ 1680  code .
+ 1681  rake webpack
+ 1682  git status
+ 1683  echo $TMPDIR
+ 1684  git status
+ 1685  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1686  cd 04-Front-End/07-JavaScript-Plugins/04-Stimulus
+ 1687  git status
+ 1688  git commit -m "chackbox"
+ 1689  git push origin master
+ 1690  git status
+ 1691  git diff .
+ 1692  git status
+ 1693  git push origin master
+ 1694  yarn
+ 1695  git status
+ 1696  git add .
+ 1697  git commit -m "projeto louco"
+ 1698  git push origin master
+ 1699  rake webpack
+ 1700  git status
+ 1701  rm -rf /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/1\ leva /Users/luizcampedelli/.Trash/DEVONagent.app /Users/luizcampedelli/.Trash/DEVONagent_Lite.app.zip /Users/luizcampedelli/.Trash/DEVONagent_Pro.dmg.zip /Users/luizcampedelli/.Trash/EasyAimLock /Users/luizcampedelli/.Trash/EasyAimLock\ \(1\).zip /Users/luizcampedelli/.Trash/EasyAimLock\ \(2\) /Users/luizcampedelli/.Trash/EasyAimLock\ 16.23.57.zip /Users/luizcampedelli/.Trash/EasyAimLock\ v4.0.4.02.zip /Users/luizcampedelli/.Trash/EasyAimLock.zip /Users/luizcampedelli/.Trash/Edraw\ Max\ v8.3 /Users/luizcampedelli/.Trash/EdrawMax.app /Users/luizcampedelli/.Trash/Integrity\ Pro\ \(8.1.8\ \[IntelPre-K\&\#39\;ed\]\)-109020.torrent /Users/luizcampedelli/.Trash/Luminar\ Neo\ 1.5.1\ ARM /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/NF-e\ -\ Nota\ Fiscal\ Eletrônica\ de\ Serviços\ -\ São\ Paulo.pdf /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~Keynote/Documents/.Trash/Untitled\ Folder /Users/luizcampedelli/.Trash/Wondershare\ Filmora\ X.app /Users/luizcampedelli/.Trash/Wondershare\ Filmora\ 12.app /Users/luizcampedelli/.Trash/Wondershare\ Filmora\ X\ 11.7.3 
+ 1702  rails -v
+ 1703  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1704  git pull upstream master -X ours
+ 1705  cd 05-Rails/01-Rails-intro/01-HTTP-and-MVC-quiz
+ 1706  code .
+ 1707  rake
+ 1708  git status
+ 1709  git add .
+ 1710  git commit -m "http mvc quiz"
+ 1711  git push origin master
+ 1712  rails -v
+ 1713  cd ~/code/LuizCampedelli
+ 1714  ll
+ 1715  pwd
+ 1716  rails new rails-stupid-coaching --skip-active-storage --skip-action-mailbox
+ 1717  cd rails-stupid-coaching
+ 1718  git add .
+ 1719  git commit -m "rails new"
+ 1720  git status
+ 1721  gh repo create --public --source=.
+ 1722  git push origin master
+ 1723  brew upgrade gh
+ 1724  git remote -v
+ 1725  code .
+ 1726  rails s
+ 1727  rails generate controller questions
+ 1728  rails routes
+ 1729  rails generate controller answers
+ 1730  rails destroy controller answers
+ 1731  git status
+ 1732  git add .
+ 1733  git commit -m "rails intro ok"
+ 1734  git status
+ 1735  git remote -v
+ 1736  git push origin master
+ 1737  cd ~/code/LuizCampedelli
+ 1738  rails new rails-longest-word-game --skip-active-storage --skip-action-mailbox
+ 1739  cd rails-longest-word-game
+ 1740  git add .
+ 1741  git commit -m "rails longest game"
+ 1742  git status
+ 1743  gh repo create --public --source=.
+ 1744  git remote -v
+ 1745  git push origin master
+ 1746  code .
+ 1747  rails generate controller games
+ 1748  rails s
+ 1749  ps aux | grep
+ 1750  ps aux
+ 1751  rails s
+ 1752  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1753  git pull upstream master -X ours
+ 1754  cd 04-Front-End/05-DOM-and-Events/05-Fake-Inbox
+ 1755  code .
+ 1756  rake webpack
+ 1757  rake
+ 1758  node
+ 1759  rake
+ 1760  git status
+ 1761  git add .
+ 1762  git commit -m "faker done 2"
+ 1763  git push origin master
+ 1764  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1765  git pull upstream master -X ours
+ 1766  cd 05-Rails/02-Rails-CRUD/01-Routing-quiz
+ 1767  code .
+ 1768  rake
+ 1769  git status
+ 1770  git add .
+ 1771  git commit -m "resolving quiz"
+ 1772  git push origin master
+ 1773  cd ~/code/LuizCampedelli
+ 1774  rails new rails-task-manager --skip-active-storage --skip-action-mailbox
+ 1775  cd rails-task-manager
+ 1776  git add .
+ 1777  git status
+ 1778  git commit -m "rails crud inicial"
+ 1779  gh repo create --public --source=.
+ 1780  git remote -v
+ 1781  git push origin master
+ 1782  code .
+ 1783  git commit -m "added route tasks index"
+ 1784  git add .
+ 1785  git commit -m "added route tasks index"
+ 1786  git status
+ 1787  rails generate model task title:string details:text completed: boolean (default: false)
+ 1788  rails routes
+ 1789  rails generate model task title:string details:text completed:boolean
+ 1790  rm -rf /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/---cartao\ loja--- /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/---congresso\ nacional---- /Users/luizcampedelli/.Trash/1.\ Primeiros\ passos.mp4 /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/adelio\ vive.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Config\ PC.txt /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/conta\ deposito.jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Cópia\ de\ convertcsv.xlsx /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Dream\ Collab\ fev\ 2020\ _\ correcoes\ 2\ _\ sem\ borda\ _\ mobile\ .pdf /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/endereço\ Contato\ vape.txt /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Endereco\ Fraresso.psd /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Endereço\ luis\ otavio.jpg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Endereço\ luis\ otavio.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/endereco\ luiz.txt /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Endereço\ marcos.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/endereco\ vulcan\ photoshop.psd /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/endereco\ vulcanvaper\ caixa\ postal.pim /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/etiqueta\ de\ envio.pdf /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/FIAP\ DISPONIBILIZA\ 20\ CURSOS\ GRATUITOS\ NAS\ ÁREAS\ DE\ TECNOLOGIA\ E\ NEGÓCIOS\ -\ FIAP\ 2.webloc /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/FIAP\ DISPONIBILIZA\ 20\ CURSOS\ GRATUITOS\ NAS\ ÁREAS\ DE\ TECNOLOGIA\ E\ NEGÓCIOS\ -\ FIAP.webloc /Users/luizcampedelli/.Trash/FileZilla\ Pro.app /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Fim\ do\ e-sedex\ 4\ aplicativos\ de\ entregas\ que\ oferecem\ preço\ e\ facilidade\ Programa\ NEX.URL /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/halo\ others.txt /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/How\ to\ Block\ Countries\ in\ Wordpress\ -\ Chron.com.url /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/instagram /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/IVG\ SABORES.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/JUJUICES.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/lista\ de\ envasados\ at\ \(1\).xlsx /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/LISTA.VAPE.04.03.20.xlsx /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Meet-\ ans-rfpk-mdw\ 2.webloc /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Meet-\ ans-rfpk-mdw.webloc /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/mercado.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/nmac.to_gkh.zip /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/nxmac.com_spsiev2943.zip /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/paulo\ figueiro.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Perfumers\ Apprentice\ -\ Cinnamon\ Red\ Hot\ \(PG\).url /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Perfumers\ Apprentice\ -\ Fruit\ Circles\ With\ Milk\ Flavor.url /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Perfumers\ Apprentice\ -\ Orange\ Cookies\ Type\ Flavored\ Blend--.url /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Periféricos\ High\ End\ —\ Seu\ guia\ de\ periféricos\!.URL /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/quadrado-preto.png /Users/luizcampedelli/.Trash/rails-stupid-coaching-master /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 2 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 3 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 4 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 19.58.59 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 19.59.02 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 19.59.18 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 19.59.39 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 19.59.59 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 20.00.13 /Users/luizcampedelli/.Trash/rails-stupid-coaching-master\ 20.00.52 /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Receitas\ Zomo /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Rotulo\ Motor\ Ericsson /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Screen\ Shot\ 2023-01-07\ at\ 19.25.29.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Screen\ Shot\ 2023-01-13\ at\ 09.48.00.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Screen\ Shot\ 2023-01-13\ at\ 09.48.12.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Screen\ Shot\ 2023-01-13\ at\ 09.48.28.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Screen\ Shot\ 2023-01-13\ at\ 09.48.36.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Screenshot_2019-11-20\ Dashboard\ -\ Pagar\ me.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Sindicate\ \(1\).rar /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Sindicate.rar /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/untitled\ folder /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/untitled\ folder\ 17.07.54 /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/VULCAN\ VAPER.xlsx /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp-logo2.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp-logo2.rar /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp.jpg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp.png /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp.psd /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp.rar /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/wc-product-export-21-8-2019-1566426775134.csv /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/wc-product-export-21-8-2019-1566426955054.csv /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/WhatsApp\ Image\ 2019-07-26\ at\ 14.47.24.jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/WhatsApp\ Image\ 2019-08-02\ at\ 16.57.26.jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/WhatsApp\ Image\ 2019-08-05\ at\ 14.03.28.jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/WhatsApp\ Image\ 2019-10-04\ at\ 12.50.40.jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/WhatsApp\ Image\ 2019-10-04\ at\ 12.50.40\(1\).jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/WhatsApp\ Image\ 2019-11-19\ at\ 16.31.51.jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/WhatsApp\ Image\ 2019-12-20\ at\ 17.33.23.jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/WhatsApp\ Image\ 2020-01-23\ at\ 19.05.52.jpeg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/winrar-x64-571.exe 
+ 1791  sudo rm -rf /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Dream\ Collab\ fev\ 2020\ _\ correcoes\ 2\ _\ sem\ borda\ _\ mobile\ .pdf /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Endereço\ caixa\ postal.pim /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Endereco\ Fraresso.psd /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Endereço\ luis\ otavio.jpg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/endereco\ vulcan\ photoshop.psd /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/endereco\ vulcanvaper\ caixa\ postal.pim /Users/luizcampedelli/.Trash/FileZilla\ Pro.app /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Fim\ do\ e-sedex\ 4\ aplicativos\ de\ entregas\ que\ oferecem\ preço\ e\ facilidade\ Programa\ NEX.URL /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/How\ to\ Block\ Countries\ in\ Wordpress\ -\ Chron.com.url /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/lista\ de\ envasados\ at\ \(1\).xlsx /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/LISTA.VAPE.04.03.20.xlsx /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/nmac.to_gkh.zip /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/nxmac.com_spsiev2943.zip /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Perfumers\ Apprentice\ -\ Cinnamon\ Red\ Hot\ \(PG\).url /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Perfumers\ Apprentice\ -\ Fruit\ Circles\ With\ Milk\ Flavor.url /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Perfumers\ Apprentice\ -\ Orange\ Cookies\ Type\ Flavored\ Blend--.url /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Periféricos\ High\ End\ —\ Seu\ guia\ de\ periféricos\!.URL /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Sindicate\ \(1\).rar /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/Sindicate.rar /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/VULCAN\ VAPER.xlsx /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp-logo2.rar /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp.jpg /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp.psd /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/vulcan-vp.rar /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/wc-product-export-21-8-2019-1566426775134.csv /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/wc-product-export-21-8-2019-1566426955054.csv /Users/luizcampedelli/Library/Mobile\ Documents/com\~apple\~CloudDocs/.Trash/winrar-x64-571.exe 
+ 1792  rake db:migrate
+ 1793  rails g controller tasks
+ 1794  rails c
+ 1795  rails console
+ 1796  rails db:seed
+ 1797  rails 2
+ 1798  rails s
+ 1799  history
+ 1800  raisl c
+ 1801  rails c
+ 1802  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1803  git pull upstream master -X ours
+ 1804  cd 05-Rails/03-Rails-restaurant-reviews/01-CRUD-quiz
+ 1805  code .
+ 1806  rake
+ 1807  git status
+ 1808  git add .
+ 1809  git commit -m "crud quiz done"
+ 1810  git push origin master
+ 1811  rake
+ 1812  git s
+ 1813  git st
+ 1814  git status
+ 1815  git add .
+ 1816  git commit -m "better indenting"
+ 1817  git push origin master
+ 1818  cd ~/code/LuizCampedelli
+ 1819  rails new rails-yelp-mvp --skip-active-storage --skip-action-mailbox -T
+ 1820  cd rails-yelp-mvp
+ 1821  git add .
+ 1822  git commit -m "rails new"
+ 1823  gh repo create --public --source=.
+ 1824  git push origin master
+ 1825  echo "gem 'rspec-rails', group: [ :test ]" >> Gemfile
+ 1826  echo "gem 'rails-controller-testing', group: [ :test ]" >> Gemfile
+ 1827  bundle install
+ 1828  gem update --system
+ 1829  bundle install
+ 1830  cd /home/bruno/.rbenv/versions/3.1.2/lib/ruby/3.1.0/bundler
+ 1831  cd /home/luizcampedelli/.rbenv/versions/3.1.2/lib/ruby/3.1.0/bundler
+ 1832  ll
+ 1833  code .
+ 1834  gem update --system 3.4.3
+ 1835  bundle install
+ 1836  gem update --system 3.4.1
+ 1837  bundle install
+ 1838  gem update bundler
+ 1839  bundle install
+ 1840  cd /Users/luizcampedelli/.rbenv/versions/3.1.2/lib/ruby/site_ruby/3.1.0/rubygems
+ 1841  code .
+ 1842  cd /Users/luizcampedelli/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.7/lib/bundler
+ 1843  code .
+ 1844  cd ../
+ 1845  cd rails-yelp-mvp
+ 1846  cd ~/code/LuizCampedelli
+ 1847  cd rails-yelp-mvp
+ 1848  bundle install
+ 1849  git submodule add git@github.com:lewagon/fullstack-challenges-03-Rails-restaurant-reviews-specs.git
+ 1850  spec
+ 1851  git submodule add git@github.com:lewagon/fullstack-challenges-03-Rails-restaurant-reviews-specs.git spec
+ 1852  git add .
+ 1853  git commit -m "Prepare rails app with external specs"
+ 1854  git status
+ 1855  code .
+ 1856  bundle install
+ 1857  rails generate simple_form:install --bootstrap
+ 1858  rails db:migrate RAILS_ENV=test
+ 1859  rspecx
+ 1860  rspec
+ 1861  history
+ 1862  rspec
+ 1863  bunble --version
+ 1864  bumble --version
+ 1865  bundle --version
+ 1866  rake
+ 1867  bin/rake
+ 1868  rspec
+ 1869  git status
+ 1870  rails g model restaurant name address phone_number category
+ 1871  rails db:migrate
+ 1872  rails g model review rating content
+ 1873  rails db:migrate
+ 1874  rails g migration ChangeColumnRating
+ 1875  rails db:migrate
+ 1876  rspec spec/01_models
+ 1877  rails g migration add_restaurant_id_to_reviews restaurant:references
+ 1878  rails db:migrate
+ 1879  rspec spec/01_models
+ 1880  rails db:seed
+ 1881  rails routes
+ 1882  rails g controller restaurants
+ 1883  rails s
+ 1884  rails routes
+ 1885  git add .
+ 1886  git commit -m "yep first commit"
+ 1887  git push origin master
+ 1888  rails db:seed
+ 1889  rails c
+ 1890  rails routes
+ 1891  node -v
+ 1892  yarn -v
+ 1893  git status
+ 1894  git add .
+ 1895  git status
+ 1896  git commit -m "yelp uncompleted"
+ 1897  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1898  cd ..
+ 1899  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1900  git pull upstream master -X ours
+ 1901  cd 05-Rails/04-Rails-mister-cocktail/01-Advanced-routing-quiz
+ 1902  code .
+ 1903  rake
+ 1904  rails routes
+ 1905  rake
+ 1906  git status
+ 1907  git add .
+ 1908  git commit -m "quiz done"
+ 1909  git push origin master
+ 1910  cd ~/code/LuizCampedelli
+ 1911  rails new rails-watch-list -j webpack -d postgresql --skip-action-mailbox -T
+ 1912  cd rails-watch-list
+ 1913  rails db:create
+ 1914  git add .
+ 1915  git commit -m "rails-watch-list"
+ 1916  gh repo create --public --source=.
+ 1917  git push origin master
+ 1918  echo "gem 'rspec-rails', group: [ :test ]" >> Gemfile
+ 1919  echo "gem 'rails-controller-testing', group: [ :test ]" >> Gemfile
+ 1920  bundle install
+ 1921  rails db:migrate
+ 1922  rails db:test:prepare
+ 1923  git submodule add https://github.com/lewagon/fullstack-challenges-04-Rails-watch-list-specs.git spec
+ 1924  git add .
+ 1925  git commit -m "Prepare rails app with external specs"
+ 1926  rails db:migrate
+ 1927  rails db:migrate RAILS_ENV=test
+ 1928  rspec spec/models
+ 1929  yarn add bootstrap @popperjs/core
+ 1930  code .
+ 1931  bundle install
+ 1932  rails generate simple_form:install --bootstrap
+ 1933  rm -rf app/assets/stylesheets
+ 1934  curl -L https://github.com/lewagon/stylesheets/archive/master.zip > stylesheets.zip
+ 1935  unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-master app/assets/stylesheets
+ 1936  git status
+ 1937  git add .
+ 1938  git commit -m "initial setup rails front end"
+ 1939  git push origin master
+ 1940  gst
+ 1941  bundle -v
+ 1942  yarn -v
+ 1943  rails g model movie title overview:text poster_url rating:float
+ 1944  rails g model list name
+ 1945  rails g model bookmark comment:text movie:references list:references
+ 1946  rspec spec/models
+ 1947  rake db:migrate
+ 1948  rspec spec/models
+ 1949  git status
+ 1950  git add .
+ 1951  git commit -m "models validation done"
+ 1952  gem 'faker'
+ 1953  bundle install
+ 1954  rails db
+ 1955  rails db:seed
+ 1956  rails s
+ 1957  rails routes
+ 1958  rails g controller lists
+ 1959  rails s
+ 1960  rails c
+ 1961  rails routes
+ 1962  cd ~/code/LuizCampedelli/fullstack-challenges/\ngit status
+ 1963  git pull upstream master -X ours
+ 1964  cd 05-Rails/05-Rails-MC-with-images/01-Rails-frontend-quiz
+ 1965  code .
+ 1966  rake
+ 1967  git add .
+ 1968  git commit -m "quiz done"
+ 1969  git push origin master
+ 1970  psql -v
+ 1971  psql --v
+ 1972  psql -d postgres
+ 1973  cd ~/code/LuizCampedelli/rails-watch-list
+ 1974  ll
+ 1975  code .
+ 1976  rails db:create
+ 1977  rails db:migrate
+ 1978  rails db:seed
+ 1979  rails g model Review list:references comment:text rating:integer
+ 1980  rails db:migrate
+ 1981  rails s
+ 1982  yarn build ==watch
+ 1983  yarn build --watch
+ 1984  rails s
+ 1985  yarn build --watch
+ 1986  bundle
+ 1987  yarn build --watch
+ 1988  yarn
+ 1989  yarn build --watch
+ 1990  psql
+ 1991  psql -v
+ 1992  psql --version
+ 1993  cd code
+ 1994  ll
+ 1995  mkdir mcpenchel
+ 1996  ll
+ 1997  rm -rf mcpenchel
+ 1998  cd code
+ 1999  cd ..
+ 2000  cd code
+ 2001  cd
+ 2002  code
+ 2003  ll
+ 2004  cd code
+ 2005  ll
+ 2006  ls
+ 2007  mkdir mcpenchel
+ 2008  cd mcpenchel
+ 2009  git clone git@github.com:mcpenchel/rails-authentication-1020.git
+ 2010  ll
+ 2011  cd rails-authentication-1020
+ 2012  ll
+ 2013  bundle install
+ 2014  rbenv -v
+ 2015  ruby -v
+ 2016  cd
+ 2017  ruby -v
+ 2018  cd code
+ 2019  cd mcpenchel/rails-authentication-1020
+ 2020  ll
+ 2021  git pull origin main
+ 2022  bundle install
+ 2023  git pull origin main
+ 2024  bundle install
+ 2025  yarn install
+ 2026  rails db:create db:migrate
+ 2027  rails c
+ 2028  git status
+ 2029  gst
+ 2030  git diff
+ 2031  git checkout -b landing-page
+ 2032  git add .
+ 2033  git commit -m "atualizou o ruby e o bundle"
+ 2034  git push origin landing-page
+ 2035  ..
+ 2036  ll
+ 2037  cd LuizCampedelli
+ 2038  ll
+ 2039  cd ~/code/LuizCampedelli
+ 2040  rails new \\n  -d postgresql \\n  -j webpack \\n  -m https://raw.githubusercontent.com/lewagon/rails-templates/master/minimal.rb \\n  partiupiscina
+ 2041  cd partiupiscina
+ 2042  gh repo create --public --source=.
+ 2043  git push origin master
+ 2044  git status
+ 2045  bundle install
+ 2046  yarn install
+ 2047  rails db:create db:migrate
+ 2048  heroku create airbnb-luizcampedelli --region=europe
+ 2049  heroku create airbnb-luizcampedelli --region=eu
+ 2050  brew tap heroku/brew && brew install heroku
+ 2051  heroku --version
+ 2052  heroku login
+ 2053  heroku create partiupiscina-luizcampedelli --region=eu
+ 2054  heroku regions list
+ 2055  heroku regions
+ 2056  git push heroku master
+ 2057  heroku run rails db:migrate
+ 2058  git checkout -b piscina-luiz
+ 2059  code .
+ 2060  git add .
+ 2061  gst
+ 2062  git push origin piscina-luiz
+ 2063  git remote -v
+ 2064  git remote set-url heroku \nhttps://git.heroku.com/partiupiscina.git
+ 2065  git remote -v
+ 2066  git checkout
+ 2067  git checkout master
+ 2068  git status
+ 2069  git pull origin master
+ 2070  code .
+ 2071  bundle install
+ 2072  git pull origin master
+ 2073  ls
+ 2074  git log
+ 2075  git pull origin master
+ 2076  git status
+ 2077  rails s
+ 2078  yarn build --watch
+ 2079  rails db:migrate
+ 2080  rails c
+ 2081  rails routes
+ 2082  rails routes | grep pages
+ 2083  rails routes | grep user
+ 2084  rails c
+ 2085  rails routes | grep new
+ 2086  rails routes | grep pools
+ 2087  git checkout -b pages_controller_methods
+ 2088  git status
+ 2089  git add .
+ 2090  gst
+ 2091  git commit -m "pages_controller_methods"
+ 2092  git push origin pages_controller_methods
+ 2093  git status
+ 2094  rails s
+ 2095  git status
+ 2096  git checkout master
+ 2097  git add .
+ 2098  git commit -m "fix routes.rb"
+ 2099  git push origin pages_controller_methods
+ 2100  rails s
+ 2101  git checkout master
+ 2102  git checkout -b devise_install
+ 2103  code .
+ 2104  git pull origin master
+ 2105  code .
+ 2106  git diff
+ 2107  gst
+ 2108  git stach
+ 2109  git stash
+ 2110  gst
+ 2111  git checkout master
+ 2112  git pull origin master
+ 2113  rails s
+ 2114  yarn build --watch
+ 2115  rails checkout -b frontendindex
+ 2116  git checkout -b front
+ 2117  rails db:migrate
+ 2118  git pull origin master
+ 2119  git status
+ 2120  git checkout master
+ 2121  gst
+ 2122  git checkout -b front
+ 2123  git checkout front
+ 2124  gst
+ 2125  git add .
+ 2126  git commit -m "begining front"
+ 2127  git push origin front
+ 2128  git checkout master
+ 2129  git checkout front
+ 2130  gst
+ 2131  git pull origin master
+ 2132  git status
+ 2133  git restore app/views/pools/index.html.erb
+ 2134  gst
+ 2135  grep -R ".form-control" *
+ 2136  code .
+ 2137  rails s
+ 2138  yarn build --watch
+ 2139  git diff
+ 2140  code .
+ 2141  git status
+ 2142  git restore app/views/devise/registrations/new.html.erb
+ 2143  git status
+ 2144  git commit -m "just add a ?_form scss"
+ 2145  git commit -m "just add a form scss"
+ 2146  git add .
+ 2147  git commit -m "just add a form scss"
+ 2148  git push origin front
+ 2149  git checkout master
+ 2150  git pull origin master
+ 2151  git checkout front
+ 2152  code .
+ 2153  rails db:migrate
+ 2154  rails db:seed
+ 2155  git checkout master
+ 2156  git checkout front
+ 2157  cd ..
+ 2158  ls
+ 2159  cd rails_7_devise_example-main
+ 2160  code .
+ 2161  rails new -d postgresql -j webpack rails_7_devise_example-main
+ 2162  cat /Users/luizcampedelli/code/LuizCampedelli/rails_7_devise_example-main/.ruby-version
+ 2163  ruby -v
+ 2164  rails s
+ 2165  yarn build --watch
+ 2166  git status
+ 2167  git add .
+ 2168  git commit -m "fix pools controller"
+ 2169  git push origin front
+ 2170  rails db:migrate
+ 2171  git status
+ 2172  git pull origin master
+ 2173  rails s
+ 2174  rails c
+ 2175  rails db:seed
+ 2176  rails db:migrate db:seed
+ 2177  git status
+ 2178  rails db:rollback STEP -1
+ 2179  rails db:drop db:migrate db:seed
+ 2180  rails db:drop
+ 2181  rails db:migrate
+ 2182  rails db:drop
+ 2183  rails db:seed
+ 2184  rails db:create
+ 2185  rails db:migrate
+ 2186  rails db:seed
+ 2187  rails s
+ 2188  git status
+ 2189  git add .
+ 2190  git commit -m "add methods to pools controller"
+ 2191  git push origin front
+ 2192  git status
+ 2193  git commit -m "login and signup"
+ 2194  git add .
+ 2195  git commit -m "login and signup"
+ 2196  git push origin front
+ 2197  bin/dev
+ 2198  git status
+ 2199  git add .
+ 2200  git commit -m "add footer navbar fix pool controller render at new pool creation"
+ 2201  git push origin front
+ 2202  git status
+ 2203  git add .
+ 2204  git commit -m "removed raise from pools controller"
+ 2205  git push origin front
+ 2206  bin/dev
+ 2207  git status
+ 2208  git add .
+ 2209  git commit -m "added grid to pools"
+ 2210  git checkout master
+ 2211  git push origin master
+ 2212  git checkout front
+ 2213  git status
+ 2214  git push origin front
+ 2215  git status
+ 2216  git checkout master
+ 2217  gst
+ 2218  git pull origin master
+ 2219  bin/dev
+ 2220  git checkout front
+ 2221  git merge master
+ 2222  bin/dev
+ 2223  heroku login
+ 2224  git remote -v
+ 2225  git status
+ 2226  git add .
+ 2227  git commit -m "removed photos fixed login"
+ 2228  git push origin front
+ 2229  git checkout master
+ 2230  git pull origin master
+ 2231  bin/dev
+ 2232  bundle install
+ 2233  bin/dev
+ 2234  git push heroku master
+ 2235  heroku run rails db:migrate
+ 2236  git add .
+ 2237  git commit -m "cloudinary"
+ 2238  git push origin master
+ 2239  git push heroku master
+ 2240  heroku config:set CLOUDINARY_URL=cloudinary://632658599642784:XOH7WAYuP3Aw22N9gQn0-uwtp9M@dkgmblgyb
+ 2241  heroku open
+ 2242  heroku run rails db:seed
+ 2243  heroku logs -T
+ 2244  heroku logs -t
+ 2245  heroku console
+ 2246  ls
+ 2247  cd ..
+ 2248  ls
+ 2249  cd partiupiscina
+ 2250  git status
+ 2251  bin/dev
+ 2252  git checkout front
+ 2253  git statsh app/views/pools/_form.html.erb && app/views/pools/show.html.erb
+ 2254  git statsh app/views/pools/_form.html.erb
+ 2255  git stash app/views/pools/_form.html.erb
+ 2256  git checkout front
+ 2257  git stash
+ 2258  git stash app/views/pools/_form.html.erb
+ 2259  git status
+ 2260  git checkout master
+ 2261  git checkout front
+ 2262  code .
+ 2263  bin/dev
+ 2264  git status
+ 2265  git add .
+ 2266  git commit -m "changed in front"
+ 2267  git push origin front
+ 2268  bin/dev
+ 2269  git status
+ 2270  git add .
+ 2271  git commit -m "make css looking better for devise pages"
+ 2272  git push orgin front
+ 2273  git push origin front
+ 2274  git checkout master
+ 2275  git pull origin master
+ 2276  bin/dev
+ 2277  git status
+ 2278  git checkout front
+ 2279  git status
+ 2280  git checkout master
+ 2281  git pull origin master
+ 2282  code .
+ 2283  bin/dev
+ 2284  history | grep heroku
+ 2285  history | grep migration
+ 2286  history | grep rails g model
+ 2287  history | grep rails
+ 2288  git branch -a
+ 2289  bin/dev
+ 2290  git checkout front
+ 2291  git status
+ 2292  git add .
+ 2293  git commit -m "changed duck color, changed navbar image tag, changed image tag in the index"
+ 2294  git status
+ 2295  git checkout master
+ 2296  git status
+ 2297  git checkout front
+ 2298  git status
+ 2299  git checkout master
+ 2300  git push origin master
+ 2301  git checkout front
+ 2302  git push origin master
+ 2303  git status
+ 2304  git push origin front
+ 2305  bin/dev
+ 2306  git checkout master
+ 2307  git add .
+ 2308  git commit -m "removed cl image tag that stopped working"
+ 2309  git push origin front
+ 2310  bin/dev
+ 2311  git status
+ 2312  git checkout master
+ 2313  git pull origin master
+ 2314  git checkout front
+ 2315  git status
+ 2316  bin/dev
+ 2317  git merge master
+ 2318  bin/dev
+ 2319  git checkout master
+ 2320  git pull origin master
+ 2321  git checkout front
+ 2322  git merge master
+ 2323  bin/dev
+ 2324  rails routes
+ 2325  bin/dev
+ 2326  rails c
+ 2327  bin/dev
+ 2328  git status
+ 2329  git restore db/schema.rb
+ 2330  git status
+ 2331  git add app/views/pools/_home.html.erb
+ 2332  git add app/views/pools/_pools.html.erb
+ 2333  git status
+ 2334  git commit -m "add style in index html, added clickable feature"
+ 2335  git puah origin front
+ 2336  git status
+ 2337  git add app/views/pools/_addanewpool.html.erb
+ 2338  git status
+ 2339  git commit -m "added new front features, restored add new pool link"
+ 2340  git push origin front
+ 2341  git checkout master
+ 2342  git merge master
+ 2343  git checkout front
+ 2344  git merge master
+ 2345  git pull origin master
+ 2346  git status
+ 2347  bin/dev
+ 2348  git add .
+ 2349  git status
+ 2350  git commit -m "add new front end, make the corret push"
+ 2351  git push origin front
+ 2352  git status
+ 2353  git merge master
+ 2354  git pull origin master
+ 2355  git merge master
+ 2356  bin/dev
+ 2357  git status
+ 2358  rails db:migrate
+ 2359  bin/dev
+ 2360  rails c
+ 2361  bundle install
+ 2362  yarn install
+ 2363  rails p
+ 2364  rails c
+ 2365  bin/dev
+ 2366  git status
+ 2367  git add app/views/pools/_filter.html.erb
+ 2368  git commit -m "fixed front end"
+ 2369  git push origin front
+ 2370  git checkout master
+ 2371  git checkout front
+ 2372  git add .
+ 2373  git commit -m "front end fix"
+ 2374  git push origin front
+ 2375  git status
+ 2376  git checkout master
+ 2377  git status
+ 2378  git pull origin master
+ 2379  git checkout front
+ 2380  git merge master
+ 2381  bin/dev
+ 2382  rails db:seed
+ 2383  bin/dev
+ 2384  git status
+ 2385  git add .
+ 2386  git commit -m "front end fix 2"
+ 2387  git push origin front
+ 2388  rails s
+ 2389  yarn build --watch
+ 2390  git status
+ 2391  git checkout master
+ 2392  git pull origin master
+ 2393  git checkout front
+ 2394  git merge master
+ 2395  rails s
+ 2396  bundle install
+ 2397  yarn install
+ 2398  bundle install
+ 2399  rails s
+ 2400  yarn build --watch
+ 2401  rails c
+ 2402  git status
+ 2403  code .
+ 2404  rails g controller user
+ 2405  rails d controller user
+ 2406  rails d controller users
+ 2407  rails g controller users
+ 2408  rails routes
+ 2409  rails routes | grep user
+ 2410  git status
+ 2411  git add app/controllers/users_controller.rb
+ 2412  git add test/controllers/users_controller_test.rb
+ 2413  git commit -m "front end index photos & users controller"
+ 2414  git add .
+ 2415  git status
+ 2416  git add app/controllers/users_controller.rb
+ 2417  git add test/controllers/users_controller_test.rb
+ 2418  git commit -m "added more features to front end index photos"
+ 2419  git status
+ 2420  git push origin front
+ 2421  git checkout master
+ 2422  git pull origin master
+ 2423  git checkout front
+ 2424  git merge master
+ 2425  git status
+ 2426  git add app/assets/images/relax.jpg
+ 2427  git add .
+ 2428  git commit -m "added spare image to pools index"
+ 2429  git push origin front
+ 2430  rails s
+ 2431  yarn build --watch
+ 2432  rails g pundit:policy order
+ 2433  rails s
+ 2434  yarn build --watch
+ 2435  git status
+ 2436  git add .
+ 2437  git status
+ 2438  git commit -m "Basic Pundit for CI/CD of Orders in project"
+ 2439  git push origin front
+ 2440  rails s
+ 2441  yarn build --watch
+ 2442  rails routes | g order
+ 2443  rails routes | grep order
+ 2444  rails routes | grep orders
+ 2445  rails routes
+ 2446  rails routes | grep orders
+ 2447  git status
+ 2448  git add .
+ 2449  git status
+ 2450  git commit -m "added reservar button to fix and changes in index pools"
+ 2451  git push origin front
+ 2452  git status
+ 2453  git checkout master
+ 2454  git pull origin master
+ 2455  git checkout front
+ 2456  git merge master
+ 2457  rails s
+ 2458  yarn build --watch
+ 2459  git pull origin master
+ 2460  git status
+ 2461  rails routes | grep orders_path
+ 2462  rails routes | grep order
+ 2463  git status
+ 2464  git add .
+ 2465  git commit -m "fixed orders reservar"
+ 2466  git push origin front
+ 2467  git checkout master
+ 2468  git pull origin master
+ 2469  git chekout front
+ 2470  git merge master
+ 2471  git pull origin master
+ 2472  code .
+ 2473  rails s
+ 2474  yarn build --watch
+ 2475  git status
+ 2476  git add .
+ 2477  git status
+ 2478  git commit -m "removi erro bizzaro"
+ 2479  git push origin front
+ 2480  git status
+ 2481  git checkout master
+ 2482  git pull origin master
+ 2483  git checkout front
+ 2484  git merge master
+ 2485  rails routes | grep destroy
+ 2486  rails routes | grep orders
+ 2487  git status
+ 2488  git restore app/views/orders/new.html.erb
+ 2489  git restore app/views/orders/show.html.erb
+ 2490  git push origin front
+ 2491  git status
+ 2492  git add .
+ 2493  git commit -m "user controller"
+ 2494  git push origin front
+ 2495  git checkout master
+ 2496  git pull origin master
+ 2497  git checkout front
+ 2498  git merge master
+ 2499  code .
+ 2500  yarn build --watch
+ 2501  rails s
+ 2502  yarn build --watch
+ 2503  git status
+ 2504  git add .
+ 2505  git commit -m "fixed search"
+ 2506  git push origin front
+ 2507  git checkout master
+ 2508  git pull origin master
+ 2509  git checkout front
+ 2510  git merge master
+ 2511  code .
+ 2512  rails s
+ 2513  yarn build --watch
+ 2514  rails db:seed
+ 2515  rails c
+ 2516  git status
+ 2517  git restore db/seeds.rb
+ 2518  git add .
+ 2519  git commit -m "removed def saerch unused from pools controller"
+ 2520  git push origin front
+ 2521  git status
+ 2522  rails s
+ 2523  yarn build --watch
+ 2524  git checkout master
+ 2525  git pull origin master
+ 2526  git checkout front
+ 2527  git merge master
+ 2528  rails s
+ 2529  yarn build --watch
+ 2530  rails db:seed
+ 2531  rails s
+ 2532  yarn build --watch
+ 2533  rails db:seed
+ 2534  rails s
+ 2535  yarn build --watch
+ 2536  git status
+ 2537  git add .
+ 2538  git commit -m "fixed future deploy possible error in dashboard"
+ 2539  git push origin front
+ 2540  git status
+ 2541  git add .
+ 2542  git commit -m "added dashboard in navbar"
+ 2543  git push origin front
+ 2544  yarn build --watch
+ 2545  rails s
+ 2546  rails db:seed
+ 2547  rails s
+ 2548  yarn build --watch
+ 2549  git checkout master
+ 2550  git checkout front
+ 2551  git restore app/views/pools/_filter.html.erb
+ 2552  git restore app/views/layouts/_navbar.html.erb
+ 2553  git status
+ 2554  git checkout master
+ 2555  git pull origin master
+ 2556  git checkout front
+ 2557  git merge master
+ 2558  rails s
+ 2559  yarn build --watch
+ 2560  git status
+ 2561  git add .
+ 2562  git commit -m "fixed dashboard show after git error fix conflict"
+ 2563  git push origin front
+ 2564  gts
+ 2565  rails s
+ 2566  yarn build --watch
+ 2567  bin/dev
+ 2568  git status
+ 2569  rails s
+ 2570  git status
+ 2571  git add .
+ 2572  git status
+ 2573  git commit -m "added incomplete form and search button, fixed pool parameter"
+ 2574  git push origin front
+ 2575  git checkout master
+ 2576  git pull origin master
+ 2577  git checkout -b ajustes_finais
+ 2578  git merge master
+ 2579  code .
+ 2580  rails s
+ 2581  bundle
+ 2582  yarn install
+ 2583  bin/dev
+ 2584  rails db:seed
+ 2585  bin/dev
+ 2586  rails routes | grep root
+ 2587  bin/dev
+ 2588  git status
+ 2589  git add .
+ 2590  git commit -m "fix front serach button, fix search pool controller"
+ 2591  git push origin ajustes_finais
+ 2592  git status
+ 2593  git checkout master
+ 2594  git pull origin master
+ 2595  git checkout ajustes_finais
+ 2596  git merge master
+ 2597  bin/dev
+ 2598  code .
+ 2599  git status
+ 2600  git add .
+ 2601  git commit -m "front ending small stuff"
+ 2602  git push origin ajustes_finais
+ 2603  git status
+ 2604  git add .
+ 2605  git commit -m "pools index text indety to left"
+ 2606  git push origin ajustes_finais
+ 2607  rails c
+ 2608  git status
+ 2609  git commit -m "added search and fixed front endings"
+ 2610  git add .
+ 2611  git status
+ 2612  git commit -m "added search and fixed front endings"
+ 2613  git staus
+ 2614  git status
+ 2615  git push origin ajustes_finais
+ 2616  git checkout master
+ 2617  git pull origin master
+ 2618  git checkout ajustes_finais
+ 2619  git merge master
+ 2620  bin/dev
+ 2621  rails routes -g delete
+ 2622  rails routes -g destroy
+ 2623  rails c
+ 2624  bin/dev
+ 2625  rails routes -g order_path
+ 2626  rails routes -g order
+ 2627  git status
+ 2628  git restore app/views/orders/show.html.erb
+ 2629  git status
+ 2630  git app/controllers/application_controller.rb
+ 2631  git app/views/layouts/application.html.erb
+ 2632  git status
+ 2633  git restore app/controllers/application_controller.rb
+ 2634  git restore app/views/layouts/application.html.erb
+ 2635  git status
+ 2636  bin/dev
+ 2637  git checkout master
+ 2638  git checkout ajustes_finais
+ 2639  git status
+ 2640  git add .
+ 2641  git status
+ 2642  bin/dev
+ 2643  git status
+ 2644  git add .
+ 2645  git commit -m "final ajustes"
+ 2646  git push origin ajustes_finais
+ 2647  git checkout master
+ 2648  git pull origin master
+ 2649  git checkout ajustes_finais
+ 2650  bin/dev
+ 2651  git merge master
+ 2652  git checkout master
+ 2653  heroku login
+ 2654  git pull origin master
+ 2655  git push heroku master
+ 2656  heroku config
+ 2657  heroku config:set MAPBOX_API_KEY=pk.eyJ1IjoibWFsYW1laXJhbyIsImEiOiJjbGR6M2ZlaXAwd3k1M3BwN25xYnR3MDV3In0.c8XUsza9GArJuHSNQ01mNQ
+ 2658  heroku config
+ 2659  heroku run rails db:migrate db:seed
+ 2660  heroku open
+ 2661  heroku logs --tail
+ 2662  heroku restart
+ 2663  git add .
+ 2664  git commit -m "end dash policy"
+ 2665  git push origin master
+ 2666  git push heroku master
+ 2667  git checkout ajustes_finais
+ 2668  bin/dev
+ 2669  node -v
+ 2670  ll
+ 2671  cd ..
+ 2672  ll
+ 2673  npx create-react-app jsx
+ 2674  cd ..
+ 2675  ll
+ 2676  cat readme.txt
+ 2677  npx remove-react-app jsx
+ 2678  npx --help
+ 2679  npx uninstall jsx
+ 2680  cd /Users/luizcampedelli/.npm
+ 2681  ll
+ 2682  cd partiupiscina
+ 2683  git status
+ 2684  cd ..
+ 2685  cd code
+ 2686  ll
+ 2687  cd LuizCampedelli/partiupiscina
+ 2688  git staus
+ 2689  cd ..
+ 2690  ll
+ 2691  cd jsx
+ 2692  ll
+ 2693  cd /Users/luizcampedelli/.npm
+ 2694  ll
+ 2695  cd ..
+ 2696  cd code/jsx
+ 2697  ls
+ 2698  npm start
+ 2699  cd ..
+ 2700  ll
+ 2701  cd LuizCampedelli
+ 2702  ll
+ 2703  git clone git@github.com:savannes/hired.git
+ 2704  ll
+ 2705  cd hired
+ 2706  bundle install
+ 2707  yarn install
+ 2708  rails db:create db:migrate
+ 2709  touch .env
+ 2710  echo '.env*' >> .gitignore
+ 2711  rails s
+ 2712  code .
+ 2713  bin/dev
+ 2714  rails s
+ 2715  top
+ 2716  rails s
+ 2717  rails routes
+ 2718  rails s
+ 2719  bin/dev
+ 2720  bundle install
+ 2721  bin/dev
+ 2722  yarn install
+ 2723  bin/dev
+ 2724  rails s
+ 2725  yarn build --watch
+ 2726  rails s
+ 2727  yarn build --watch
+ 2728  git branch -b hired_views
+ 2729  git checkout -b hired_view
+ 2730  git branch
+ 2731  code .
+ 2732  git status
+ 2733  cd ..
+ 2734  ll
+ 2735  cd /Users/luizcampedelli/Downloads/sento-kanban-master
+ 2736  rails s
+ 2737  bunble install
+ 2738  bundle install
+ 2739  git clone git@github.com:jaanai/sento-kanban.git
+ 2740  rails s
+ 2741  ll
+ 2742  cd sento-kanban
+ 2743  bundle install
+ 2744  cd /Users/luizcampedelli/code
+ 2745  ll
+ 2746  cd LuizCampedelli
+ 2747  ll
+ 2748  cd hired
+ 2749  rails s
+ 2750  ruby -v
+ 2751  cd ..
+ 2752  ll
+ 2753  cd ..
+ 2754  ll
+ 2755  git clone git@github.com:YoCodingJosh/kanban_rails.git
+ 2756  ll
+ 2757  cd kanban_rails
+ 2758  rails s
+ 2759  bin/rails app:update
+ 2760  nano /Users/luizcampedelli/code/kanban_rails/.ruby-version
+ 2761  rails s
+ 2762  bundle install
+ 2763  rbenv install 3.1.2
+ 2764  bundle install
+ 2765  rails s
+ 2766  code .
+ 2767  rails s
+ 2768  rails db:create db:migrate
+ 2769  rails db:drop db:create db:migrate
+ 2770  rails s
+ 2771  yarn --build watch
+ 2772  yarn install
+ 2773  yarn --build watch
+ 2774  cd code
+ 2775  cd ..
+ 2776  ll
+ 2777  cd LuizCampedelli
+ 2778  ll
+ 2779  cd hired
+ 2780  bin/dev
+ 2781  bundle install
+ 2782  yarn install
+ 2783  bin/dev
+ 2784  rails s
+ 2785  yarn --build watch
+ 2786  yarn install
+ 2787  yarn --build watch
+ 2788  rails s
+ 2789  yarn --build watch
+ 2790  yarn run build
+ 2791  yarn --build watch
+ 2792  yarn run build
+ 2793  yarn install
+ 2794  yarn --build watch
+ 2795  yarn --built watch
+ 2796  yarn --build watch
+ 2797  yarn start
+ 2798  yarn
+ 2799  yarn --build
+ 2800  yarn --build watch
+ 2801  yarn install watch
+ 2802  yarn add watch
+ 2803  yarn --build watch
+ 2804  ll
+ 2805  cd code
+ 2806  ll
+ 2807  cd jsx
+ 2808  rials s
+ 2809  rails s
+ 2810  code .
+ 2811  yarn start
+ 2812  cd code
+ 2813  cd ..
+ 2814  ll
+ 2815  git clone git@github.com:savannes/hired.git
+ 2816  ll
+ 2817  cd hired
+ 2818  ll
+ 2819  code .
+ 2820  rails s
+ 2821  yarn --build watch
+ 2822  yarn install
+ 2823  yarn --build watch
+ 2824  yarn
+ 2825  yarn upgrade
+ 2826  yarn --build watch
+ 2827  rails s
+ 2828  yarn --build watch
+ 2829  rails s
+ 2830  yarn --build watch
+ 2831  webpack --config webpack.config.js
+ 2832  yarn --build watch
+ 2833  yarn run build
+ 2834  yarn watch
+ 2835  yarn --build
+ 2836  yarn --build watch
+ 2837  yarn run webpack --config webpack.config.js
+ 2838  yarn --build watch
+ 2839  yarn build --watch
+ 2840  rails s
+ 2841  ll
+ 2842  cd ..
+ 2843  ll
+ 2844  git checkout main
+ 2845  git chekout -b views
+ 2846  cd hired
+ 2847  git chekout -b views
+ 2848  yarn build --watch
+ 2849  git statuss
+ 2850  bin/dev
+ 2851  rails s
+ 2852  yarn build --watch
+ 2853  rails s
+ 2854  yarn build --watch
+ 2855  git status
+ 2856  git add .
+ 2857  git status
+ 2858  git commit -m "basic landing page and devise views"
+ 2859  git push origin views
+ 2860  git checkout main
+ 2861  git pull origin main
+ 2862  git checkout views
+ 2863  git merge main
+ 2864  code .
+ 2865  rails s
+ 2866  bundle install
+ 2867  rails db:drop db:create db:migrate db:seed
+ 2868  rails s
+ 2869  yarn build --watch
+ 2870  yarn install
+ 2871  yarn build --watch
+ 2872  rails s
+ 2873  yarn build --watch
+ 2874  git checkout main
+ 2875  rails db:seed
+ 2876  git checkout views
+ 2877  yarn build --watch
+ 2878  rails s
+ 2879  git status
+ 2880  rails s
+ 2881  yarn build --watch
+ 2882  git status
+ 2883  git add .
+ 2884  git status
+ 2885  git commit -m "fix devise signup error"
+ 2886  git push origin views
+ 2887  bin/dev
+ 2888  rails s
+ 2889  rails about
+ 2890  yarn build --watch
+ 2891  rails routes | grep devise
+ 2892  yarn build --watch
+ 2893  rails s
+ 2894  yarn build --watch
+ 2895  bundle install
+ 2896  yarn build --watch
+ 2897  rails s
+ 2898  git status
+ 2899  git add .
+ 2900  git commit -m "devise views and edit done, avatar started and commented in code"
+ 2901  git status
+ 2902  git push origin views
+ 2903  git merge master
+ 2904  git merge main
+ 2905  git checkout main
+ 2906  git checkout views
+ 2907  git status
+ 2908  redis -v
+ 2909  rails s
+ 2910  yarn build --watch
+ 2911  rails g migration addAvatarToUser avatar:text
+ 2912  rails db:migrate
+ 2913  rails routes
+ 2914  bundle
+ 2915  git status
+ 2916  git add .
+ 2917  git commit -m "added kanban front, removed unused gems"
+ 2918  git pull origin views
+ 2919  git push origin views
+ 2920  yarn build --watch
+ 2921  rails s
+ 2922  rails active_storage:install
+ 2923  rails s
+ 2924  yarn build --watch
+ 2925  git status
+ 2926  git add .
+ 2927  git commit -m "fixed delete account, fixed css in conflict"
+ 2928  git push origin views
+ 2929  rails s
+ 2930  yarn build --watch
+ 2931  git status
+ 2932  git add .
+ 2933  git commit -m "Devise and navbar sign out done"
+ 2934  git push origin views
+ 2935  rails s
+ 2936  yarn build --watch
+ 2937  touch .env
+ 2938  echo '.env*' >> .gitignore
+ 2939  git status
+ 2940  git add .
+ 2941  git commit -m "added dotenv-rails"
+ 2942  git push origin views
+ 2943  bundle
+ 2944  curl https://pbs.twimg.com/media/DC1Xyz3XoAAv7zB.jpg > boris_retreat_2017.jpg
+ 2945  rails c
+ 2946  yarn build --watch
+ 2947  rails s
+ 2948  curl https://pbs.twimg.com/media/DC1Xyz3XoAAv7zB.jpg > boris_retreat_2017.jpg
+ 2949  rails c
+ 2950  rails s
+ 2951  yarn build --watch
+ 2952  git status
+ 2953  git add .
+ 2954  git commit -m "avatar done"
+ 2955  git push origin main
+ 2956  git push origin views
+ 2957  git status
+ 2958  rails s
+ 2959  yarn build --watch
+ 2960  git staus
+ 2961  git status
+ 2962  git add .
+ 2963  git status
+ 2964  git commit -m "added margaret hamilton defaut image to avatar"
+ 2965  git push origin views
+ 2966  yarn build --watch
+ 2967  rails s
+ 2968  git status
+ 2969  git add .
+ 2970  git commit -m "added footer only in index"
+ 2971  git push origin views
+ 2972  git status
+ 2973  rails s
+ 2974  yarn build --watch
+ 2975  rails s
+ 2976  yarn build --watch
+ 2977  git status
+ 2978  git add .
+ 2979  git commit -m "kanban front"
+ 2980  git push origin views
+ 2981  yarn build --watch
+ 2982  rails s
+ 2983  git status
+ 2984  git add .
+ 2985  git commit -m "new push to help team"
+ 2986  git push origin views
+ 2987  rails s
+ 2988  yarn build --watch
+ 2989  git status
+ 2990  rails s
+ 2991  yarn build --watch
+ 2992  rails s
+ 2993  git status
+ 2994  git add .
+ 2995  git commit -m "fix front end, fix devise delete account"
+ 2996  git push origin views
+ 2997  git status
+ 2998  git checkout main
+ 2999  git pull origin main
+ 3000  git checkout views
+ 3001  git merge main
+ 3002  rails s
+ 3003  git status
+ 3004  git checkout main
+ 3005  git pull origin main
+ 3006  git checkout views
+ 3007  git status
+ 3008  git add app/views/jobs/index.html.erb
+ 3009  git status
+ 3010  git checkout views
+ 3011  git status
+ 3012  git restore app/views/jobs/index.html.erb
+ 3013  git status
+ 3014  git pull origin main
+ 3015  git status
+ 3016  git restore --staged app/views/jobs/index.html.erb
+ 3017  git status
+ 3018  git restore app/views/jobs/index.html.erb
+ 3019  git status
+ 3020  git pull origin main
+ 3021  git checkout views
+ 3022  code .
+ 3023  git status
+ 3024  git checkout main
+ 3025  git pull origin main
+ 3026  git status
+ 3027  git checkout views
+ 3028  git stash
+ 3029  git checkout views
+ 3030  git status
+ 3031  git stash pop
+ 3032  git status
+ 3033  git add app/views/jobs/index.html.erb
+ 3034  git status
+ 3035  git add .
+ 3036  git commit -m "fixed placeholder edit devise"
+ 3037  git push origin views
+ 3038  rails c
+ 3039  rails assets:precompile
+ 3040  rails assets:clobber
+ 3041  cd ..
+ 3042  ll
+ 3043  git clone git@github.com:lewagon/rails-front-end.git
+ 3044  cd rails-front-end
+ 3045  ll
+ 3046  code .
+ 3047  rails s
+ 3048  yarn build --watch
+ 3049  bundle install
+ 3050  yarn insatll
+ 3051  yarn install
+ 3052  rails s
+ 3053  yarn build --watch
+ 3054  rails routes
+ 3055  cd ..
+ 3056  cd hired
+ 3057  code .
+ 3058  stimulus -v
+ 3059  stimulus
+ 3060  hotwire/stimulus -v
+ 3061  rails s
+ 3062  yarn build --watch
+ 3063  yarn add @hotwired/stimulus
+ 3064  yarn add @hotwired/stimulus-webpack-helpers
+ 3065  yarn build --watch
+ 3066  touch src/controllers/kanban_controller.js
+ 3067  rails s
+ 3068  yarn build --watch
+ 3069  rails g stimulus job
+ 3070  rails d stimulius hello
+ 3071  rails d stimulus hello
+ 3072  git status
+ 3073  git add .
+ 3074  git status
+ 3075  git commit -m "stimulues first feature add a new list in card"
+ 3076  git push origin views
+ 3077  git checkout master
+ 3078  git checkout main
+ 3079  git pull origin main
+ 3080  git checkout views
+ 3081  git merge main
+ 3082  yarn build --watch
+ 3083  rails s
+ 3084  rails db:migrate
+ 3085  rails routes | grep j
+ 3086  git status
+ 3087  git add .
+ 3088  git commit -m "removed login from sign up"
+ 3089  git push origin main
+ 3090  git push origin views
+ 3091  yarn build --watch
+ 3092  rails s
+ 3093  yarn build --watch
+ 3094  rails s
+ 3095  yarn build --watch
+ 3096  rails s
+ 3097  yarn build --watch
+ 3098  git status
+ 3099  git merge main
+ 3100  yarn add typed.js
+ 3101  rails g stimulus typed_js
+ 3102  rails s
+ 3103  yarn build --watch
+ 3104  git status
+ 3105  git add .
+ 3106  git commit -m "changes in buttons at devise and javascript"
+ 3107  git push origin views
+ 3108  git checkout main
+ 3109  git pull origin main
+ 3110  git checkout views
+ 3111  yarn build --watch
+ 3112  rails s
+ 3113  rails db:migrate:reset db:seed
+ 3114  yarn build --watch
+ 3115  rails s
+ 3116  rails d stimulus typed_js
+ 3117  yarn build --watch
+ 3118  rails s
+ 3119  git status
+ 3120  git add .
+ 3121  git commit -m "removed typed js"
+ 3122  git push origin views
+ 3123  git checkout main
+ 3124  git pull origin main
+ 3125  git checkout -
+ 3126  git merge main
+ 3127  code .
+ 3128  yarn build --watch
+ 3129  rails s
+ 3130  bundle install
+ 3131  rails db:migrate db:seed
+ 3132  yarn build --watch
+ 3133  rails s
+ 3134  yarn build --watch
+ 3135  git status
+ 3136  git add .
+ 3137  git commit -m "mudancas front end"
+ 3138  git push origin views
+ 3139  git checkout main
+ 3140  git pull origin main
+ 3141  rails db:migrate:reset db:seed
+ 3142  git checkout views
+ 3143  code .
+ 3144  yarn build --watch
+ 3145  rails s
+ 3146  git merge main
+ 3147  yarn build --watch
+ 3148  rails s
+ 3149  git checkout main
+ 3150  git pull origin main
+ 3151  raiils db:migration:reset db:seed
+ 3152  rails db:migration:reset db:seed
+ 3153  git checkout views
+ 3154  code .
+ 3155  rails s
+ 3156  yarn build --watch
+ 3157  git status
+ 3158  git checkout main
+ 3159  git pull origin main
+ 3160  git checkout -
+ 3161  git merge main
+ 3162  rails s
+ 3163  yarn build --watch
+ 3164  rails routes | grep columns
+ 3165  git status
+ 3166  git add .
+ 3167  git commit -m "added after sign up redirect, added more functions to stimulus"
+ 3168  git push origin views
+ 3169  git checkout main
+ 3170  git pull origin main
+ 3171  git checkout views
+ 3172  git merge main
+ 3173  yarn build --watch
+ 3174  rails s
+ 3175  git status
+ 3176  git add .
+ 3177  git commit -m "refrase kanaban"
+ 3178  git push origin views
+ 3179  yarn build --watch
+ 3180  rails s
+ 3181  git status
+ 3182  git checkout main
+ 3183  git pull origin main
+ 3184  git checkout -
+ 3185  git merge main
+ 3186  code .
+ 3187  yarn build --watch
+ 3188  rails s
+ 3189  git status
+ 3190  yarn build --watch
+ 3191  rails s
+ 3192  yarn add sortablejs
+ 3193  yarn build --watch
+ 3194  rails s
+ 3195  yarn build --watch
+ 3196  rails s
+ 3197  yarn build --watch
+ 3198  rails s
+ 3199  yarn build --watch
+ 3200  rails s
+ 3201  yarn build --watch
+ 3202  yarn run build
+ 3203  yarn install
+ 3204  yarn run build
+ 3205  yarn build --watch
+ 3206  yarn run build
+ 3207  yarn build --watch
+ 3208  yarn add sortablejs
+ 3209  yarn build --watch
+ 3210  rails s
+ 3211  yarn build --watch
+ 3212  code .
+ 3213  rails s
+ 3214  yarn build --watch
+ 3215  rails s
+ 3216  yarn build --watch
+ 3217  git status
+ 3218  git add .
+ 3219  git status
+ 3220  git commit -m "landing page"
+ 3221  git push origin views
+ 3222  git checkout main
+ 3223  git pull origin main
+ 3224  git checkout -
+ 3225  git merge main
+ 3226  code .
+ 3227  yarn add sortablejs
+ 3228  mkdir src/plugins
+ 3229  yarn build --watch
+ 3230  rails s
+ 3231  git add .
+ 3232  git commit -m "button color and h2 normalization"
+ 3233  git push origin views
+ 3234  git status
+ 3235  git checkout main
+ 3236  git checkout develop
+ 3237  history > history_for_print.txt
+ 3238  ll
+ 3239  git pull origin main
+ 3240  git checkout develop
+ 3241  git checkout -b develop
+ 3242  git pull origin develop
+ 3243  code .
+ 3244  git merge main
+ 3245  git checkout main
+ 3246  git pull origin main
+ 3247  git checkout views
+ 3248  git pull origin views
+ 3249  git merge develop
+ 3250  git checkout develop
+ 3251  git merge views
+ 3252  git push
+ 3253  git push --set-upstream origin develop
+ 3254  git pull
+ 3255  git branch --set-upstream-to=origin/<branch> develop
+ 3256  git branch --set-upstream-to=origin/develop
+ 3257  git pull
+ 3258  git push
+ 3259  git checkout feature/front-sortable
+ 3260  git checkout -b feature/front-sortable
+ 3261  yarn build --watch
+ 3262  rails s
+ 3263  yarn add stimulus-sortable sortablejs
+ 3264  npm i --save-dev @types/stimulus-sortable
+ 3265  bundle
+ 3266  rails s
+ 3267  yarn build --watch
+ 3268  bundle
+ 3269  rails reuqestjs:install
+ 3270  rails requestjs:install
+ 3271  yarn build --watch
+ 3272  yarn run build
+ 3273  yarn build --watch
+ 3274  yarn add sortablejs
+ 3275  yarn build --watch
+ 3276  npm install --save-dev @types/stimulus-sortable
+ 3277  yarn build --watch
+ 3278  rails s
+ 3279  yarn build --watch
+ 3280  rails s
+ 3281  yarn build --watch
+ 3282  rails s
+ 3283  git status
+ 3284  history > commands.txt
+ 3285  ll
+ 3286  git checkout develop
+ 3287  git pull origin develop
+ 3288  git checkout -
+ 3289  git merge develop
+ 3290  ll
+ 3291  cd ..
+ 3292  ll
+ 3293  git clone  hired git:(feature/front-sortable)
+ 3294  git clone https://github.com/gorails-screencasts/sortable-drag-and-drop.git
+ 3295  ll
+ 3296  rm sortable-drag-and-drop
+ 3297  rm -rf sortable-drag-and-drop
+ 3298  ll
+ 3299  git clone https://github.com/gorails-screencasts/sortable-drag-and-drop.git
+ 3300  cd sortable-drag-and-drop
+ 3301  bundle
+ 3302  rails s
+ 3303  cd ..
+ 3304  cd hired
+ 3305  yarn build --watch
+ 3306  rails s
+ 3307  git status
+ 3308  git add .
+ 3309  git commit -m "remove li bullets"
+ 3310  git push
+ 3311  git push --set-upstream origin feature/front-sortable
+ 3312  cd ..
+ 3313  ll
+ 3314  ngrok config add-authtoken 2MkhtG6cL6TbQX6eZ59f8R3xfz5_56gNRJB2WwAeSmPNSQYYj
+ 3315  unzip ngrok-v3-stable-darwin-amd64.zip
+ 3316  ngrok config add-authtoken 2MkhtG6cL6TbQX6eZ59f8R3xfz5_56gNRJB2WwAeSmPNSQYYj
+ 3317  unzip ngrok-v3-stable-darwin-amd64.zip
+ 3318  ngrok
+ 3319  ngrok config add-authtoken 2MkhtG6cL6TbQX6eZ59f8R3xfz5_56gNRJB2WwAeSmPNSQYYj
+ 3320  echo $PATH
+ 3321  brew install --cask ngrok
+ 3322  ngrok config add-authtoken 2MkhtG6cL6TbQX6eZ59f8R3xfz5_56gNRJB2WwAeSmPNSQYYj
+ 3323  ngrok http 8000
+ 3324  rails s
+ 3325  ngrok http 8000
+ 3326  ngrok http 3000
+ 3327  rails s
+ 3328  yarn build --watch
+ 3329  yarn install @rails/requestjs
+ 3330  yarn add @rails/requestjs
+ 3331  bundle
+ 3332  rails requestjs:install
+ 3333  bundle
+ 3334  rails requestjs:install
+ 3335  yarn add @rails/requestjs
+ 3336  yarn build --watch
+ 3337  bundle
+ 3338  yarn build --watch
+ 3339  yarn list
+ 3340  rails requestjs:install
+ 3341  yarn build --watch
+ 3342  rails s
+ 3343  yarn build --watch
+ 3344  rails s
+ 3345  yarn build --watch
+ 3346  code .
+ 3347  git status
+ 3348  git add .
+ 3349  git commit -m "delete img files"
+ 3350  git push
+ 3351  git checkout develop
+ 3352  git merge develop
+ 3353  git checkout
+ 3354  git checkout -
+ 3355  yarn build --watch
+ 3356  rails s
+ 3357  yarn build --watch
+ 3358  rails generate stimulus:new navbar\n
+ 3359  rails generate stimulus navbar\n
+ 3360  rails s
+ 3361  rails generate stimulus navbar\n
+ 3362  rails s
+ 3363  yarn build --watch
+ 3364  rails s
+ 3365  yarn build --watch
+ 3366  git status
+ 3367  git add .
+ 3368  git commit -m "changes in front end and start of sortable"
+ 3369  git push
+ 3370  git checkout develop
+ 3371  git pull
+ 3372  git checkout -
+ 3373  git merge develop
+ 3374  code .
+ 3375  git status
+ 3376  git merge develop
+ 3377  git status
+ 3378  git add app/views/columns/_kanban.html.erb
+ 3379  git status
+ 3380  git merge develop
+ 3381  yarn build --watch
+ 3382  rails s
+ 3383  git status
+ 3384  git add .
+ 3385  git status
+ 3386  git commit -m "fix frontend for presentation"
+ 3387  git push
+ 3388  yarn build --watch
+ 3389  rails s
+ 3390  git status
+ 3391  git checkout develop
+ 3392  git pull
+ 3393  git checkout feature/front-sortable
+ 3394  git status
+ 3395  git merge develop
+ 3396  yarn build --watch
+ 3397  rails s
+ 3398  yarn build --watch
+ 3399  rails s
+ 3400  bundle
+ 3401  rails s
+ 3402  yarn build --watch
+ 3403  rails s
+ 3404  yarn build --watch
+ 3405  rails s
+ 3406  git status
+ 3407  git add .
+ 3408  git commit -m "add icon to add form to kanban, add icon to add list"
+ 3409  git push
+ 3410  git checkout develop
+ 3411  git pull
+ 3412  git checkout -
+ 3413  git merge develop
+ 3414  git status
+ 3415  code .
+ 3416  git status
+ 3417  git push
+ 3418  git pull
+ 3419  git status
+ 3420  git checkout develop
+ 3421  git pull
+ 3422  git checkout -
+ 3423  code .
+ 3424  rails s
+ 3425  yarn build --watch
+ 3426  cd ..
+ 3427  ll
+ 3428  cd simple-pm-episode-5
+ 3429  rails s
+ 3430  cd ..
+ 3431  cd hired
+ 3432  yarn build --watch
+ 3433  rails s
+ 3434  git status
+ 3435  code .
+ 3436  rails s
+ 3437  yarn build --watch
+ 3438  git status
+ 3439  git add .
+ 3440  git commit -m "changes in front end"
+ 3441  git push
+ 3442  git checkout develop
+ 3443  git pull
+ 3444  git checkout -
+ 3445  git merge develop
+ 3446  code .
+ 3447  bundle add acts_as_list
+ 3448  rails webpacker:install:stimulus
+ 3449  yarn add sortablejs
+ 3450  yarn build --watch
+ 3451  rails s
+ 3452  git stash
+ 3453  git status
+ 3454  git add .
+ 3455  git commit -m "sortable in way"
+ 3456  git push
+ 3457  rails s
+ 3458  yarn build --watch
+ 3459  bin/dev
+ 3460  rails s
+ 3461  yarn build --watch
+ 3462  git status
+ 3463  git add .
+ 3464  git commit -m "sorting continue part 2"
+ 3465  git push
+ 3466  rails g migration AddPositionToJob position:integer
+ 3467  rails db:migrate
+ 3468  rails db:reset
+ 3469  rails c
+ 3470  rails s
+ 3471  yarn build --watch
+ 3472  rails c
+ 3473  rails db:reset
+ 3474  rails s
+ 3475  yarn build --watch
+ 3476  rails db:reset
+ 3477  yarn build --watch
+ 3478  rails s
+ 3479  git commit -m "sortable part 3"
+ 3480  git add .
+ 3481  git commit -m "sortable part 3"
+ 3482  git status
+ 3483  git push
+ 3484  rails s
+ 3485  yarn build --watch
+ 3486  git status
+ 3487  git add .
+ 3488  git commit -m "sortable part 4"
+ 3489  git push
+ 3490  git checkout develop
+ 3491  git pull
+ 3492  git checkout -
+ 3493  git merge develop
+ 3494  rails s
+ 3495  yarn build --watch
+ 3496  git status
+ 3497  git pull
+ 3498  git checkout develop
+ 3499  git pull
+ 3500  code .
+ 3501  git checkout main
+ 3502  git pull
+ 3503  git checkout develop
+ 3504  git merge main
+ 3505  git status
+ 3506  git merge main
+ 3507  git checkout feature/front-sortable
+ 3508  git status
+ 3509  git merge develop
+ 3510  git status
+ 3511  code .
+ 3512  rails s
+ 3513  yarn build --watch
+ 3514  git status
+ 3515  git add .
+ 3516  git commit -m "fixed problems in front"
+ 3517  git push
+ 3518  rails s
+ 3519  yarn build --watch
+ 3520  yarn add
+ 3521  yarn install
+ 3522  bundle
+ 3523  rails s
+ 3524  yarn build --watch
+ 3525  rails g stimulus sortable
+ 3526  yarn build --watch
+ 3527  rails s
+ 3528  rails c
+ 3529  git status
+ 3530  git add .
+ 3531  git commit -m "fix sortable and serach"
+ 3532  git push
+ 3533  git checkout develop
+ 3534  git pull
+ 3535  git checkout -
+ 3536  git merge develop
+ 3537  yarn build --watch
+ 3538  rails s
+ 3539  rails c
+ 3540  cat ~/.irb-history
+ 3541  rails c
+ 3542  git status
+ 3543  git checkout develop
+ 3544  git pull
+ 3545  git checkout -
+ 3546  git merge develop
+ 3547  git status
+ 3548  code .
+ 3549  cat ~/.irb-history
+ 3550  yarn build --watch
+ 3551  rails s
+ 3552  bundle
+ 3553  yarn install
+ 3554  bundle
+ 3555  yarn build --watch
+ 3556  rails s
+ 3557  git status
+ 3558  git add .
+ 3559  git commit -m "continuacao sortable part 5"
+ 3560  git push
+ 3561  git checkout develop
+ 3562  git pull
+ 3563  git checkout -
+ 3564  git merge develop
+ 3565  git status
+ 3566  git push
+ 3567  git status
+ 3568  git checkout develop
+ 3569  git status
+ 3570  git checkout -
+ 3571  yarn build --watch
+ 3572  rails s
+ 3573  yarn build --watch
+ 3574  git status
+ 3575  git checkout develop
+ 3576  git pull
+ 3577  git status
+ 3578  git checkout -
+ 3579  git merge develop
+ 3580  code .
+ 3581  yarn build --watch
+ 3582  rails s
+ 3583  bundle
+ 3584  yarn install
+ 3585  yarn build --watch
+ 3586  rails s
+ 3587  git status
+ 3588  yarn build --watch
+ 3589  rails s
+ 3590  yarn build --watch
+ 3591  rails s
+ 3592  yarn build --watch
+ 3593  rails s
+ 3594  git status
+ 3595  git add .
+ 3596  git commit -m "Fix code with modal and search"
+ 3597  git push
+ 3598  git status
+ 3599  git checkout develop
+ 3600  pit pull
+ 3601  git pull
+ 3602  git checkout -
+ 3603  git merge develop
+ 3604  yarn build --watch
+ 3605  rails s
+ 3606  git status
+ 3607  git push
+ 3608  git checkout develop
+ 3609  git status
+ 3610  git checkout -
+ 3611  git merge develop
+ 3612  code .
+ 3613  yarn build --watch
+ 3614  rails s
+ 3615  yarn outdated
+ 3616  yarn update
+ 3617  tarn upgrade
+ 3618  yarn upgrade
+ 3619  yarn install
+ 3620  yarn build --watch
+ 3621  rails s
+ 3622  git status
+ 3623  git add .
+ 3624  git commit -m "front end kanban"
+ 3625  git push
+ 3626  git checkout develop
+ 3627  git pull
+ 3628  git checkout -
+ 3629  git merge develop
+ 3630  git checkout develop
+ 3631  git status
+ 3632  git checkout -
+ 3633  git status
+ 3634  git checkout -
+ 3635  git push
+ 3636  git status
+ 3637  git checkout -
+ 3638  git status
+ 3639  git checkout -
+ 3640  yarn build --watch
+ 3641  rails s
+ 3642  git status
+ 3643  git add .
+ 3644  git commit -m "frontendless"
+ 3645  git push
+ 3646  git checkout develop
+ 3647  git pull
+ 3648  git status
+ 3649  git checkout -
+ 3650  git status
+ 3651  git merge develop
+ 3652  git status
+ 3653  git push
+ 3654  git status
+ 3655  code .
+ 3656  yarn build --watch
+ 3657  rails s
+ 3658  yarn build --watch
+ 3659  yarn add @rails/request.js
+ 3660  yarn build --watch
+ 3661  rails s
+ 3662  rails c
+ 3663  rails s
+ 3664  yarn build --watch
+ 3665  code .
+ 3666  yarn build --watch
+ 3667  GIT STATUS
+ 3668  git status
+ 3669  git add .
+ 3670  git commit -m "adiconado o maiszinho"
+ 3671  git push
+ 3672  git checkout develop
+ 3673  git pull
+ 3674  git checkout -
+ 3675  git merge develop
+ 3676  git status
+ 3677  git push
+ 3678  git status
+ 3679  rails s
+ 3680  yarn build --watch
+ 3681  rials db:reset
+ 3682  rails db:reset
+ 3683  rails db:seed
+ 3684  rails s
+ 3685  yarn build --watch
+ 3686  git checkout develop
+ 3687  git pull
+ 3688  git checkout -
+ 3689  git merge develop
+ 3690  rails s
+ 3691  yarn build --watch
+ 3692  bundle
+ 3693  yarn build --watch
+ 3694  rails s
+ 3695  rails c
+ 3696  rails s
+ 3697  yarn build --watch
+ 3698  rails db:seed
+ 3699  rails c
+ 3700  git status
+ 3701  git add .
+ 3702  git commit -m "fix taisa code"
+ 3703  git push
+ 3704  yarn build --watch
+ 3705  rails s
+ 3706  yarn build --watch
+ 3707  rails s
+ 3708  rails route | grep delete
+ 3709  rails route | grep destroy
+ 3710  rails routes | grep destroy
+ 3711  rails routes | grep jobs#destroy
+ 3712  rails s
+ 3713  yarn build --watch
+ 3714  rails s
+ 3715  git status
+ 3716  git add .
+ 3717  git commit -m "frontendless + sortable in progress"
+ 3718  git push
+ 3719  yarn build --watch
+ 3720  rails s
+ 3721  git status
+ 3722  git checkout develop
+ 3723  git status
+ 3724  git push
+ 3725  git pull
+ 3726  git checkout -
+ 3727  git merge develop
+ 3728  git status
+ 3729  git push
+ 3730  rails s
+ 3731  yarn build --watch
+ 3732  git push
+ 3733  rails s
+ 3734  rails routes | grep edit
+ 3735  rails s
+ 3736  rails routes | grep patch
+ 3737  rails routes | grep update
+ 3738  rails s
+ 3739  rails routes | grep update
+ 3740  rails routes | grep move
+ 3741  rails s
+ 3742  rails routes | grep move
+ 3743  rails s
+ 3744  rails routes | grep move
+ 3745  rails s
+ 3746  rails routes | grep columns
+ 3747  rails s
+ 3748  rails routes | grep column
+ 3749  rails s
+ 3750  git status
+ 3751  git checkout develop
+ 3752  git pull
+ 3753  git checkout -
+ 3754  git pull
+ 3755  rails s
+ 3756  yarn build --watch
+ 3757  rails s
+ 3758  yarn build --watch
+ 3759  rails s
+ 3760  yarn build --watch
+ 3761  rails s
+ 3762  yarn build --watch
+ 3763  rails s
+ 3764  git status
+ 3765  git add .
+ 3766  git commit -m "sortable quase terminado"
+ 3767  git push
+ 3768  rails s
+ 3769  yarn build --watch
+ 3770  rails g stimulus controller dark_light
+ 3771  rails g stimulus dark_light_controller
+ 3772  cd /Users/luizcampedelli/Downloads/Takeout\ 2/Mail/All\ mail\ Including\ Spam\ and\ Trash.mbox 
+ 3773  ll
+ 3774  cd storage
+ 3775  ll
+ 3776  ls
+ 3777  yarn build --watch
+ 3778  git status
+ 3779  git add .
+ 3780  git commit -m "dark-light theme"
+ 3781  git status
+ 3782  git add .
+ 3783  git status
+ 3784  git add .
+ 3785  git status
+ 3786  git commit -m "dark-light-mode"
+ 3787  git push
+ 3788  git checkout develop
+ 3789  git pull
+ 3790  git checkout -
+ 3791  git merge develop
+ 3792  code .
+ 3793  yarn build --watch
+ 3794  rails s
+ 3795  git status
+ 3796  git add .
+ 3797  git commit -m "dark-mode-done"
+ 3798  git push
+ 3799  rails c
+ 3800  rails s
+ 3801  yarn build --watch
+ 3802  rbundle
+ 3803  bundle
+ 3804  yarn build --watch
+ 3805  rails s
+ 3806  git status
+ 3807  git add .
+ 3808  git commit -m "sortable parte 7"
+ 3809  git push
+ 3810  git checkout develop
+ 3811  git pull
+ 3812  git checkout -
+ 3813  git merge develop
+ 3814  code .
+ 3815  yarn build --watch
+ 3816  rails s
+ 3817  yarn build --watch
+ 3818  git status
+ 3819  rails s
+ 3820  yarn build --watch
+ 3821  git status
+ 3822  git add .
+ 3823  git commit -m "sortable movendo"
+ 3824  git push
+ 3825  git checkout develop
+ 3826  git pull origin develop
+ 3827  git checkout -
+ 3828  git merge develop
+ 3829  yarn build --watch
+ 3830  rails s
+ 3831  git status
+ 3832  git add .
+ 3833  git commit -m "start front end style"
+ 3834  git push
+ 3835  git checkout develop
+ 3836  git pull
+ 3837  git checkout -
+ 3838  git merge develop
+ 3839  code .
+ 3840  rails s
+ 3841  yarn build --watch
+ 3842  rails s
+ 3843  yarn build --watch
+ 3844  rails s
+ 3845  yarn build --watch
+ 3846  rails s
+ 3847  rails routes
+ 3848  rails s
+ 3849  rails importmap:install
+ 3850  rails turbo:install stimulus:install
+ 3851  yarn build --watch
+ 3852  rails s
+ 3853  git status
+ 3854  git add .
+ 3855  git commit -m "frontendless part 999"
+ 3856  git status
+ 3857  git push
+ 3858  git checkout develop
+ 3859  git status
+ 3860  git restore app/views/columns/_kanban.html.erb
+ 3861  git checkout develop
+ 3862  git pull
+ 3863  git checkout -
+ 3864  git merge develop
+ 3865  code .
+ 3866  yarn build --watch
+ 3867  rails s
+ 3868  git add .
+ 3869  git status
+ 3870  git commit -m "frontendless part 1001"
+ 3871  git push
+ 3872  git checkout develop
+ 3873  git pull
+ 3874  git checkout -
+ 3875  git merge develop
+ 3876  git status
+ 3877  git add .
+ 3878  git commit -m "frontendless part 1002"
+ 3879  git push
+ 3880  git checkout develop
+ 3881  git pull
+ 3882  git checkout -
+ 3883  git merge develop
+ 3884  git status
+ 3885  git add .
+ 3886  rails s
+ 3887  git status
+ 3888  git add .
+ 3889  git commit -m "frontendless calendar"
+ 3890  git push
+ 3891  git status
+ 3892  git checkout develop
+ 3893  git pull
+ 3894  git checkout -
+ 3895  git merge develop
+ 3896  code .
+ 3897  rails s
+ 3898  git status
+ 3899  git add .
+ 3900  git commit -m "front calendar"
+ 3901  git push
+ 3902  git checkout develop
+ 3903  git pull
+ 3904  git checkout -
+ 3905  git merge develop
+ 3906  git status
+ 3907  git push
+ 3908  git status
+ 3909  yarn build --watch
+ 3910  yarn build --watch
+ 3911  rails s
+ 3912  git status
+ 3913  git checkout develop
+ 3914  git pull
+ 3915  git checkout -
+ 3916  git merge develop
+ 3917  code .
+ 3918  yarn build --watch
+ 3919  rails s
+ 3920  git status
+ 3921  git add .
+ 3922  git push
+ 3923  git status
+ 3924  git push
+ 3925  git status
+ 3926  git commit -m "more front finishes"
+ 3927  git push
+ 3928  git status
+ 3929  rails-default-error-page
+ 3930  yarn build --watch
+ 3931  rails s
+ 3932  yarn build --watch
+ 3933  git status
+ 3934  git add .
+ 3935  git commit -m "frontendless part 1003"
+ 3936  git push
+ 3937  cd /Users/luizcampedelli/Downloads/webet-master
+ 3938  rails s
+ 3939  bundle
+ 3940  rails s
+ 3941  yarn install
+ 3942  yarn build --watch
+ 3943  ll
+ 3944  cd ..
+ 3945  cd /Users/luizcampedelli/code
+ 3946  ll
+ 3947  cd hired
+ 3948  git status
+ 3949  git checkout develop
+ 3950  git pull
+ 3951  git checkout -
+ 3952  git merge master
+ 3953  git merge develop
+ 3954  rails s
+ 3955  yarn build --watch
+ 3956  code .
+ 3957  yarn build --watch
+ 3958  rails s
+ 3959  rails g stimulus drag_controller
+ 3960  rails s
+ 3961  yarn build --watch
+ 3962  rails s
+ 3963  yarn build --watch
+ 3964  rails s
+ 3965  yarn build --watch
+ 3966  rails s
+ 3967  yarn build --watch
+ 3968  rails s
+ 3969  yarn build --watch
+ 3970  rails s
+ 3971  npm install prettier -D --save-exact
+ 3972  rails s
+ 3973  yarn build --watch
+ 3974  git status
+ 3975  git add .
+ 3976  git commit -m "sortable sorting draggin"
+ 3977  git push
+ 3978  git checkout develop
+ 3979  git pull
+ 3980  git checkout -
+ 3981  git merge develop
+ 3982  code .
+ 3983  yarn build --watch
+ 3984  rails s
+ 3985  git status
+ 3986  git add .
+ 3987  git commit -m "devise imgs"
+ 3988  git oush
+ 3989  git push
+ 3990  git checkout develop
+ 3991  git pull
+ 3992  git checkout -
+ 3993  git merge develop
+ 3994  rails s
+ 3995  yarn build --watch
+ 3996  cd ..
+ 3997  ll
+ 3998  cd webet-master
+ 3999  rails s
+ 4000  yarn build --watch
+ 4001  code .
+ 4002  cd ..
+ 4003  cd hired
+ 4004  rails s
+ 4005  yarn build --watch
+ 4006  rails s
+ 4007  yarn build --watch
+ 4008  rails s
+ 4009  yarn build --watch
+ 4010  code .
+ 4011  git status
+ 4012  git add .
+ 4013  git commit -m "devise frontend"
+ 4014  git push
+ 4015  git checkout develop
+ 4016  git pull
+ 4017  git checkout -
+ 4018  git merge develop
+ 4019  code .
+ 4020  git pull
+ 4021  yarn build --watch
+ 4022  rails s
+ 4023  yarn build --watch
+ 4024  git status
+ 4025  git add .
+ 4026  git commit -m "alert warnings frontend"
+ 4027  git push
+ 4028  git checkout develop
+ 4029  git pull
+ 4030  git checkout -
+ 4031  git merge develop
+ 4032  rails g stimulus background
+ 4033  rails g model background
+ 4034  rails g controller backgrounds
+ 4035  rails s
+ 4036  yarn build --watch
+ 4037  rails d model background
+ 4038  rails d controller backgrounds
+ 4039  rails s
+ 4040  yarn build --watch
+ 4041  git status
+ 4042  yarn build --watch
+ 4043  rails s
+ 4044  rails g controller erros not_found internal_server_error
+ 4045  rails s
+ 4046  yarn build --watch
+ 4047  rails s
+ 4048  yarn build --watch
+ 4049  rails s
+ 4050  yarn build --watch
+ 4051  rails s
+ 4052  touch app/views/layouts/error.html.erb~
+ 4053  rails d controller erros not_found internal_server_error
+ 4054  rails g controller errors --no-helper --no-test-framework
+ 4055  touch app/views/layouts/error.html.erb
+ 4056  touch app/views/errors/404.html.erb
+ 4057  touch app/views/errors/500.html.erb
+ 4058  yarn build --watch
+ 4059  rails s
+ 4060  rails d controller errors --no-helper --no-test-framework
+ 4061  bundle
+ 4062  yarn build --watch
+ 4063  rails s
+ 4064  rails g exception_handler:views
+ 4065  rails g exception_handler:views -v views
+ 4066  rails s
+ 4067  yarn build --watch
+ 4068  git status
+ 4069  git add .
+ 4070  git commit -m "CSS Cleanup"
+ 4071  git push
+ 4072  git checkout develop
+ 4073  git pull
+ 4074  git checkout -
+ 4075  git merge develop
+ 4076  code .
+ 4077  yarn build --watch
+ 4078  rails s
+ 4079  git status
+ 4080  git add .
+ 4081  git commit -m "error pages"
+ 4082  git push
+ 4083  rails s
+ 4084  yarn build --watch
+ 4085  heroku config:get DOMAIN
+ 4086  rails s
+ 4087  yarn build --watch
+ 4088  rails s
+ 4089  git status
+ 4090  git add .
+ 4091  git commit -m "added favicon, meta etc"
+ 4092  git push
+ 4093  yarn build --watch
+ 4094  rails s
+ 4095  git status
+ 4096  git add .
+ 4097  git commit -m "remove unused imgs"
+ 4098  git push
+ 4099  git checkout develop
+ 4100  git pull
+ 4101  git checkout -
+ 4102  git merge develop
+ 4103  git checkout -
+ 4104  git pull
+ 4105  git checkout -
+ 4106  git merge develop
+ 4107  rails s
+ 4108  yarn build --watch
+ 4109  rails s
+ 4110  yarn build --watch
+ 4111  rails s
+ 4112  yarn build --watch
+ 4113  rails s
+ 4114  yarn install
+ 4115  yarn build --watch
+ 4116  rails s
+ 4117  yarn build --watch
+ 4118  rails s
+ 4119  yarn build --watch
+ 4120  rails s
+ 4121  yarn install
+ 4122  yarn build --watch
+ 4123  rails s
+ 4124  yarn build --watch
+ 4125  yarn install
+ 4126  yarn build --watch
+ 4127  yarn install
+ 4128  yarn build --watch
+ 4129  rails s
+ 4130  sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+ 4131  yarn build --watch
+ 4132  rails s
+ 4133  yarn build --watch
+ 4134  rails s
+ 4135  yarn build --watch
+ 4136  rails s
+ 4137  yarn build --watch
+ 4138  rails s
+ 4139  yarn build --watch
+ 4140  rails s
+ 4141  yarn build --watch
+ 4142  rails s
+ 4143  yarn build --watch
+ 4144  rails s
+ 4145  yarn build --watch
+ 4146  rails s
+ 4147  yarn build --watch
+ 4148  rails s
+ 4149  yarn build --watch
+ 4150  rails s
+ 4151  git status
+ 4152  git add .
+ 4153  git commit -m "sortable fixed"
+ 4154  git push
+ 4155  yarn build --watch
+ 4156  rails s
+ 4157  git checkout develop
+ 4158  git add .
+ 4159  git commit -m "js fix in course"
+ 4160  git push
+ 4161  git checkout develop
+ 4162  git pull
+ 4163  git checkout -
+ 4164  git merge develop
+ 4165  git status
+ 4166  yarn build --watch
+ 4167  rails s
+ 4168  git checkout develop
+ 4169  git pull
+ 4170  git checkout -
+ 4171  git merge develop
+ 4172  yarn build --watch
+ 4173  rails s
+ 4174  yarn build --watch
+ 4175  git status
+ 4176  git add .
+ 4177  git commit -m "Sortable Kanban Modal fix part 1"
+ 4178  git push
+ 4179  yarn build --watch
+ 4180  rails s
+ 4181  yarn build --watch
+ 4182  code .
+ 4183  yarn build --watch
+ 4184  rails s
+ 4185  yarn build --watch
+ 4186  rails s
+ 4187  yarn build --watch
+ 4188  git status
+ 4189  rails assets:precompile
+ 4190  rails assets:clobber
+ 4191  rails s
+ 4192  yarn build --watch
+ 4193  git status
+ 4194  git add .
+ 4195  git commit -m "fix user delete + robots"
+ 4196  git push
+ 4197  yarn build --watch
+ 4198  rails s
+ 4199  yarn build --watch
+ 4200  rails s
+ 4201  yarn build --watch
+ 4202  rails s
+ 4203  yarn build --watch
+ 4204  git status
+ 4205  git add .
+ 4206  git commit -m "sortable fixed, all working"
+ 4207  git push
+ 4208  code .
+ 4209  yarn build --watch
+ 4210  rails s
+ 4211  yarn build --watch
+ 4212  rails s
+ 4213  yarn build --watch
+ 4214  rails s
+ 4215  yarn build --watch
+ 4216  rails s
+ 4217  yarn build --watch
+ 4218  rails s
+ 4219  GIT STATUS
+ 4220  git status
+ 4221  git checkout -
+ 4222  git pull
+ 4223  git checkout -
+ 4224  git merge develop
+ 4225  code .
+ 4226  yarn build --watch
+ 4227  rails s
+ 4228  git status
+ 4229  rails s
+ 4230  yarn build --watch
+ 4231  yarn install
+ 4232  yarn update
+ 4233  yarn upgrade
+ 4234  bundle
+ 4235  yarn build --watch
+ 4236  rails s
+ 4237  yarn build --watch
+ 4238  rails s
+ 4239  git status
+ 4240  git add .
+ 4241  git commit -m "retornei codigo antigo do sortable, parou de funcionar"
+ 4242  git push
+ 4243  code .
+ 4244  rails s
+ 4245  yarn build --watch
+ 4246  rails s
+ 4247  yrn build --wtach
+ 4248  yarn build --wtach
+ 4249  yarn build --watch
+ 4250  rails s
+ 4251  git status
+ 4252  git add .
+ 4253  git commit -m "dark-light fix"
+ 4254  git push
+ 4255  git checkout -
+ 4256  git pull
+ 4257  git checkout -
+ 4258  git merge develop
+ 4259  yarn build --watch
+ 4260  rails s
+ 4261  yarn build --watch
+ 4262  git status
+ 4263  git add .
+ 4264  git commit -m "add dark light button css"
+ 4265  git push
+ 4266  yarn build --watch
+ 4267  rails s
+ 4268  git checkout -
+ 4269  git pull
+ 4270  git checkout -
+ 4271  git merge develop
+ 4272  yarn build --watch
+ 4273  rails s
+ 4274  git status
+ 4275  git add .
+ 4276  git commit -m "devise layout dark mode layout"
+ 4277  git push
+ 4278  git checkout -
+ 4279  git pull
+ 4280  git checkout -
+ 4281  git merge develop
+ 4282  yarn build --watch
+ 4283  rails s
+ 4284  yarn build --watch
+ 4285  rails s
+ 4286  yarn build --watch
+ 4287  rails s
+ 4288  yarn build --watch
+ 4289  dig CNAME www.hiredev.me
+ 4290  dig CNAME hiredev.me
+ 4291  curl -I www.hiredev.me
+ 4292  dig https://theroundtable.no-ip.org/
+ 4293  cd ..
+ 4294  ll
+ 4295  cd LuizCampedelli
+ 4296  ll
+ 4297  cd fullstack-challenges
+ 4298  ll
+ 4299  cd 06-Projects/08-Testing
+ 4300  code .
+ 4301  irb
+ 4302  rake reverse.rb
+ 4303  cd ..
+ 4304  ll
+ 4305  cd ..
+ 4306  ll
+ 4307  cd 01-Ruby
+ 4308  ll
+ 4309  cd 02-Flow-Array
+ 4310  ll
+ 4311  cd ..
+ 4312  ll
+ 4313  cd 01-Ruby
+ 4314  ll
+ 4315  01-Programming-basics
+ 4316  ll
+ 4317  cd 02-Experiment-methods
+ 4318  ll
+ 4319  code .
+ 4320  ruby reverse.rb
+ 4321  ruby lib/reverse.rb
+ 4322  irb
+ 4323  cd ..
+ 4324  ll
+ 4325  cd ..
+ 4326  ll
+ 4327  git clone git@github.com:EbookFoundation/free-programming-books.git
+ 4328  ll
+ 4329  cd free-programming-books
+ 4330  code .
+ 4331  irb
+ 4332  ll
+ 4333  cd ..
+ 4334  git clone git@github.com:nomic-ai/gpt4all.git
+ 4335  cd gpt4all
+ 4336  ll
+ 4337  cd chat;./gpt4all-lora-quantized-OSX-m1
+ 4338  cd chat;./gpt4all-lora-quantized-OSX-m1 -m gpt4all-lora-unfiltered-quantized.bin
+ 4339  docker conteiner rub
+ 4340  cd /
+ 4341  docker container run hello-world
+ 4342  docker container ls
+ 4343  docker container ls -a
+ 4344  docker container run -it ubuntu /bin/bash
+ 4345  docker container ls -a
+ 4346  docker container -it --rm a18c663fc119
+ 4347  docker container -rm a18c663fc119
+ 4348  docker container rm a18c663fc119
+ 4349  docker container ls -a
+ 4350  docker container rm c5dfe6538010
+ 4351  docker container ls -a
+ 4352  docker container run nginx
+ 4353  docker container run -d nginx
+ 4354  docker container ls
+ 4355  docker container ls -a
+ 4356  docker container rm bf37c6d5573d
+ 4357  docker container ls -a
+ 4358  docker container exec -it 6794330fdebc /bin/bash
+ 4359  docker container run -p 8080:80 -d nginx
+ 4360  docker container ls -a
+ 4361  docker container stop
+ 4362  docker container stop -f
+ 4363  docker container stop --help
+ 4364  docker container stop -t
+ 4365  docker container stop -t fc5e12236eb6
+ 4366  docker container stop fc5e12236eb6
+ 4367  docker container stop 6794330fdebc
+ 4368  docker container ls -a
+ 4369  docker container rm fc5e12236eb6
+ 4370  docker container ls -a
+ 4371  docker container rm 6794330fdebc
+ 4372  docker container ls -a
+ 4373  code .
+ 4374  ll
+ 4375  cd Users/luizcampedelli/code
+ 4376  code .
+ 4377  mkdir docker_files
+ 4378  ll
+ 4379  cd docker_files
+ 4380  docker build -t ubuntu-curl -f .
+ 4381  ll
+ 4382  docker build --help
+ 4383  docker build -t ubuntu-curl -f .
+ 4384  docker build -t ubuntu-curl .
+ 4385  ll
+ 4386  docker image ls
+ 4387  docker container run -it ubuntu-curl /bin/bash
+ 4388  docker build -t ubuntu-curl .
+ 4389  docker image prune
+ 4390  cd /
+ 4391  docker image prune
+ 4392  ll
+ 4393  docker image ls
+ 4394  docker image rm b5300308d49a && f71a4866129b
+ 4395  docker image rm b5300308d49a
+ 4396  docker image rm -f b5300308d49a
+ 4397  docker image rm -f f71a4866129b
+ 4398  docker image rm -f 46331d942d63
+ 4399  docker image ls
+ 4400  docker image rm -f bab8ce5c00ca
+ 4401  docker image ls
+ 4402  cd /Users/luizcampedelli/code/docker_files
+ 4403  ls
+ 4404  docker container run -it ubuntu-curl /bin/bash
+ 4405  docker build -t ubuntu-curl .
+ 4406  cd ..
+ 4407  ll
+ 4408  mkdir iniciativa_devops
+ 4409  git clone git@github.com:LuizCampedelli/conversao-temperatura.git
+ 4410  ll
+ 4411  cd conversao-temperatura
+ 4412  git status
+ 4413  code .
+ 4414  cd src
+ 4415  docker build -t luizcampedelli/conversao-temperatura:v1 .
+ 4416  docker login
+ 4417  ll
+ 4418  docker image ls
+ 4419  docker push luizcampedelli/conversao-temperatura:v1
+ 4420  docker login -u vapeprosper - p Pqp156ldd1 docker.io
+ 4421  docker push luizcampedelli/conversao-temperatura:v1
+ 4422  docker push vapeprosper/conversao-temperatura:v1
+ 4423  docker push luizcampedelli/conversao-temperatura:v1
+ 4424  docker push vapeprosper/conversao-temperatura:v1
+ 4425  docker image ls
+ 4426  docker image rm 470643db5121
+ 4427  docker image ls
+ 4428  docker build -t vapeprosper/conversao-temperatura:v1 .
+ 4429  docker push vapeprosper/conversao-temperatura:v1 .
+ 4430  docker push vapeprosper/conversao-temperatura:v1
+ 4431  docker tag vapeprosper/conversao-temperatura:v1 vapeprosper/conversao-temperatura:latest
+ 4432  docker push vapeprosper/conversao-temperatura:latest
+ 4433  git status
+ 4434  gh remote -v
+ 4435  git remote -v
+ 4436  git add .
+ 4437  git commit -m "start of project docker container kubedev"
+ 4438  git push origin master
+ 4439  git status
+ 4440  git add ../README.md
+ 4441  git status
+ 4442  git push origin main
+ 4443  docker build -t vapeprosper/conversao-temperatura:v1 .
+ 4444  docker image ls
+ 4445  docker push vapeprosper/conversao-temperatura:v1
+ 4446  docker tag vapeprosper/conversao-temperatura:v1 vapeprosper/conversao-temperatura:latest
+ 4447  docker push vapeprosper/conversao-temperatura:latest
+ 4448  docker container run -d -p 8080:8080 conversao-temperatura
+ 4449  docker container run -d -p 8080:8080 vapeprosper/conversao-temperatura:v1
+ 4450  ruby -v
+ 4451  brew install k3d
+ 4452  k3d
+ 4453  k3d -v
+ 4454  k3d
+ 4455  k3d version
+ 4456  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/arm64/kubectl"
+ 4457  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/arm64/kubectl.sha256"\n   
+ 4458  echo "$(cat kubectl.sha256)  kubectl" | shasum -a 256 --check
+ 4459  chmod +x ./kubectl
+ 4460  sudo mv ./kubectl /usr/local/bin/kubectl
+ 4461  sudo chown root: /usr/local/bin/kubectl
+ 4462  kubectl version --client
+ 4463  rm kubectl kubectl.sha256
+ 4464  kubectl cluster-info
+ 4465  source <(kubectl completion zsh)
+ 4466  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/arm64/kubectl-convert"\n   
+ 4467  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/amd64/kubectl-convert.sha256"
+ 4468  echo "$(cat kubectl-convert.sha256)  kubectl-convert" | shasum -a 256 --check
+ 4469  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/arm64/kubectl-convert.sha256"
+ 4470  echo "$(cat kubectl-convert.sha256)  kubectl-convert" | shasum -a 256 --check
+ 4471  chmod +x ./kubectl-convert
+ 4472  sudo mv ./kubectl-convert /usr/local/bin/kubectl-convert
+ 4473  sudo chown root: /usr/local/bin/kubectl-convert
+ 4474  kubectl convert --help
+ 4475  rm kubectl-convert kubectl-convert.sha256
+ 4476  code .
+ 4477  git status
+ 4478  git add .
+ 4479  git commmit -m "desafio 01"
+ 4480  git push origin main
+ 4481  git status
+ 4482  code .
+ 4483  cd ..
+ 4484  code .
+ 4485  git status
+ 4486  docker pull mathhub01/image_curl
+ 4487  k3d cluster create
+ 4488  kubectl get nodes
+ 4489  cat /Users/luizcampedelli/.kube
+ 4490  cat /Users/luizcampedelli/.kube/config
+ 4491  route
+ 4492  kubectl get nodes
+ 4493  k3d cluster list
+ 4494  k3d cluster delete
+ 4495  k3d cluster list
+ 4496  k3d cluster create --no-lb
+ 4497  kubectl get nodes
+ 4498  docker container ls
+ 4499  k3d cluster delete
+ 4500  docker container ls
+ 4501  k3d cluster create misterl --no-lb
+ 4502  docker container ls
+ 4503  k3d list nodes
+ 4504  k3d get nodes
+ 4505  kubectl get nodes
+ 4506  k3d cluster delete
+ 4507  kubectl get nodes
+ 4508  k3d cluster delete
+ 4509  docker container ls
+ 4510  k3d cluster delete misterl
+ 4511  docker container ls
+ 4512  k3d create cluster misterl
+ 4513  k3d cluster create meucontainer
+ 4514  kubectl get nodes
+ 4515  code .
+ 4516  cd ..
+ 4517  ll
+ 4518  mkdir aula02
+ 4519  cd aula2
+ 4520  cd aula02
+ 4521  code .
+ 4522  kubectl get nodes
+ 4523  kubectl api-resources
+ 4524  kubectl apply -f ./pod.yaml
+ 4525  kubectl create -f ./pod.yaml
+ 4526  kubectl create -f pod.yaml
+ 4527  ll
+ 4528  kubectl create -f pod.yaml 
+ 4529  kubectl get nodes
+ 4530  kubectl get pods
+ 4531  kubectl get nodes
+ 4532  kubectl get pods
+ 4533  kubectl apply -f pod.yaml 
+ 4534  kubectl describe pod meupod
+ 4535  k3d cluster list
+ 4536  kubectl get nodes
+ 4537  kubectl apply -f pod.yaml 
+ 4538  kubectl get nodes
+ 4539  kubectl get pods
+ 4540  kubectl create -f pod.yaml 
+ 4541  kubectl delete pods
+ 4542  kubectl delete pods meupod
+ 4543  kubectl create -f pod.yaml 
+ 4544  kubectl get pods
+ 4545  k3d cluster list
+ 4546  kubectl get pods
+ 4547  kubectl delete pods meupod
+ 4548  kubectl create -f pod.yaml 
+ 4549  kubectl get pods
+ 4550  kubectl describe pod meupod
+ 4551  kubectl port-forward pod/meupod 8080:80
+ 4552  kubectl apply -f pod.yaml
+ 4553  kubectl get pods -l cor=azul
+ 4554  kubectl delete pods
+ 4555  kubectl delete pods meupod
+ 4556  kubectl get pods
+ 4557  kubectl delete pods meupod-azul
+ 4558  kubectl delete pods meupod-verde
+ 4559  kubectl get pods
+ 4560  kubectl apply -f replicaset.yaml
+ 4561  kubectl create -f replicaset.yaml
+ 4562  kubectl api-resources
+ 4563  kubectl create -f pod.yaml
+ 4564  kubectl apply -f replicaset.yaml
+ 4565  kubectl describe meupod
+ 4566  kubectl describe meupod-azul
+ 4567  kubectl describe pode meupod
+ 4568  kubectl describe pode meupod-azul
+ 4569  kubectl describe pod meupod-azul
+ 4570  kubectl describe pod meupod
+ 4571  kubectl port-forward pod/meupod 8080:80
+ 4572  kubectl port-forward pod/meupod-azul 8080:80
+ 4573  kubectl port-forward pod/meupod-verde 8080:80
+ 4574  kubectl apply -f replicaset.yaml
+ 4575  kubectl api-resources | grep replica
+ 4576  kubectl apply -f replicaset.yaml
+ 4577  kubectl version
+ 4578  kubectl cluster
+ 4579  kubectl cluster-info
+ 4580  kubectl cluster list
+ 4581  kubectl get nodes
+ 4582  kubectl cluster list
+ 4583  k3d cluster list
+ 4584  k3d cluster delete
+ 4585  k3d cluster delete meucontainer
+ 4586  kubectl apply -f replicaset.yaml
+ 4587  k3d cluster list
+ 4588  kubectl cluster list
+ 4589  kubectl get nodes
+ 4590  k3d cluster create
+ 4591  kubectl apply -f replicaset.yaml
+ 4592  k3d cluster delete
+ 4593  k3d cluster create meucluster
+ 4594  kubectl apply -f replicaset.yaml
+ 4595  kubectl api-resources | grep replica
+ 4596  kubectl apply -f replicaset.yaml
+ 4597  kubectl apply  replicaset.yaml
+ 4598  kubectl apply  -h
+ 4599  kubectl apply -f replicaset.yaml
+ 4600  kubectl get pods
+ 4601  kubectl delete pod meureplicaset-hfkpv
+ 4602  kubectl get pods
+ 4603  kubectl get replicaset
+ 4604  kubectl describe replicaset
+ 4605  git status
+ 4606  kubectl delete -f replicaset.yaml
+ 4607  kubectl get pods
+ 4608  kubectl apply -f deployment.yaml
+ 4609  kubectl get pods
+ 4610  kubectl get replicaset
+ 4611  kubectl apply -f deployment.yaml
+ 4612  kubectl get replicaset
+ 4613  kubectl get pod
+ 4614  kubectl apply -f deployment.yaml
+ 4615  kubectl get pod
+ 4616  kubectl get pods
+ 4617  kubectl get replicaset
+ 4618  kubectl rollout undo deployment meudeployment
+ 4619  kubectl get replicaset
+ 4620  kubectl get deployment
+ 4621  kubectl get pods
+ 4622  kubectl get replicasets.apps
+ 4623  kubectl get pods
+ 4624  kubectl describe meudeployment-59795bc86c-jc5gw
+ 4625  kubectl describe pod meudeployment-59795bc86c-jc5gw
+ 4626  kubectl get pods
+ 4627  kubectl port-forward pod meudeployment-59795bc86c-jc5gw 8080:80
+ 4628  kubectl port-forward pod/meudeployment-59795bc86c-jc5gw 8080:80
+ 4629  kubectl apply -f deployment.yaml
+ 4630  kubectl get all
+ 4631  kubectl port-forward service/web-page 8080:80
+ 4632  kubectl get pods
+ 4633  kubectl apply -f deployment.yaml
+ 4634  kubectl get pods
+ 4635  kubectl apply -f deployment.yaml
+ 4636  kubectl get pods
+ 4637  kubectl port-forward service/web-page 8080:80
+ 4638  kubectl apply -f deployment.yaml
+ 4639  kubectl port-forward service/web-page 8080:80
+ 4640  kubectl get pods
+ 4641  k3d cluster delete meucluster
+ 4642  k3d cluster create meucluster -p "80:30000@loadbalancer"
+ 4643  kubectl cluster-info
+ 4644  kubectl apply -f deployment.yaml
+ 4645  kubectl get svc
+ 4646  kubectl apply -f deployment.yaml
+ 4647  kubectl get svc
+ 4648  kubectl apply -f deployment.yaml
+ 4649  kubectl port-forward service/web-page 8080:80
+ 4650  kubectl get svc
+ 4651  kubectl get nodes
+ 4652  ls
+ 4653  rm *
+ 4654  ls
+ 4655  git clone git@github.com:LuizCampedelli/kube-news.git
+ 4656  ls
+ 4657  cd kube-news
+ 4658  code .
+ 4659  cd src
+ 4660  docker build -t vapeprosper/kube-news:v1 .
+ 4661  cd ..
+ 4662  mkdir leb
+ 4663  ll
+ 4664  cd leb
+ 4665  git clone git@github.com:NataliaBraganca/lebkuchen.git
+ 4666  rails s
+ 4667  code .
+ 4668  bundle
+ 4669  bundle install
+ 4670  cd lebkuchen
+ 4671  rails s
+ 4672  bundle install
+ 4673  rails s
+ 4674  yarn build --watch
+ 4675  yarn install
+ 4676  yarn build --watch
+ 4677  rails s
+ 4678  rake assets:precompile\n
+ 4679  rake assets:precompile
+ 4680  rails s
+ 4681  yarn build --watch
+ 4682  rails db:seeds
+ 4683  rails db:seed
+ 4684  yarn build --watch
+ 4685  rails s
+ 4686  yarn build --watch
+ 4687  rails s
+ 4688  bundle install
+ 4689  rails generate simple_form:install
+ 4690  rails generate simple_form:install --bootstrap
+ 4691  rails s
+ 4692  cd ..
+ 4693  cd /Users/luizcampedelli/code
+ 4694  ll
+ 4695  mkdir lebkuchen
+ 4696  cd lebkuchen
+ 4697  git clone git@github.com:NataliaBraganca/lebkuchen.git
+ 4698  git status
+ 4699  ll
+ 4700  cd lebkuchen
+ 4701  git status
+ 4702  git checkout -b feature/fixfront
+ 4703  code .
+ 4704  bundle
+ 4705  yarn install
+ 4706  yarn build --watch
+ 4707  rails db:migrate db:seed
+ 4708  rails s
+ 4709  yarn upgrade
+ 4710  yarn install
+ 4711  rails assets:precompile
+ 4712  yarn build --watch
+ 4713  rails s
+ 4714  git status
+ 4715  cd ..
+ 4716  ll
+ 4717  cd lebkuchen
+ 4718  git status
+ 4719  cd ..
+ 4720  de lebkuchen
+ 4721  ll
+ 4722  cd lebkuchen
+ 4723  git status
+ 4724  rails s
+ 4725  yarn build --watch
+ 4726  code .
+ 4727  git status
+ 4728  git add .
+ 4729  git commit -m "start fixing lebchuken luiz"
+ 4730  git push origin master
+ 4731  git checout -
+ 4732  git checkout -
+ 4733  git pull origin master
+ 4734  git status
+ 4735  yarn build --watch
+ 4736  rails s
+ 4737  yarn build --watch
+ 4738  rails assets:precompile
+ 4739  rails assets:clobber
+ 4740  rails s
+ 4741  yarn build --watch
+ 4742  git status
+ 4743  git add .
+ 4744  git commit -m "start fixing luiz"
+ 4745  git push origin master
+ 4746  git pull origin master
+ 4747  git checkout -b feature/frontfix
+ 4748  git merge master
+ 4749  yarn build --watch
+ 4750  rails s
+ 4751  yarn build --watch
+ 4752  git status
+ 4753  git add .
+ 4754  git commit -m "fixed map show, fixed modal, fixed contact us page"
+ 4755  git push origin feature/frontfix
+ 4756  git checkout -
+ 4757  git pull origin master
+ 4758  git checkout -
+ 4759  git merge master
+ 4760  yarn build --watch
+ 4761  rails s
+ 4762  git status
+ 4763  git add .
+ 4764  git commit -m "justify itens center homepage, fix css identetion"
+ 4765  git push origin feature/frontfix
+ 4766  git checkout -
+ 4767  git pull origin master
+ 4768  git checkout -
+ 4769  git merge master
+ 4770  yarn build --watch
+ 4771  rails s
+ 4772  git status
+ 4773  git add .
+ 4774  git commit -m "add same font to findus as homepage"
+ 4775  git push origin feature/frontfix
+ 4776  git status
+ 4777  git checkout -
+ 4778  git restore app/javascript/controllers/index.js
+ 4779  git status
+ 4780  git checkout -
+ 4781  git pull origin master
+ 4782  git checkout -
+ 4783  git merge master
+ 4784  rails s
+ 4785  yarn build --watch
+ 4786  git status
+ 4787  git add .
+ 4788  git commit -m "remove js modal"
+ 4789  git push origin feature/frontfix
+ 4790  git checkout miler
+ 4791  git checkout mailer
+ 4792  git status
+ 4793  git checkout -
+ 4794  git status
+ 4795  git checkout -
+ 4796  git checkout master
+ 4797  git checkout mailer
+ 4798  git checkout master
+ 4799  git checkout mailer
+ 4800  git checkout master
+ 4801  git status
+ 4802  git checkout feature/frontfix
+ 4803  git status
+ 4804  git checkout -
+ 4805  git pull origin master
+ 4806  git checkout -
+ 4807  git merge master
+ 4808  bin/dev
+ 4809  yarn build --watch
+ 4810  git status
+ 4811  git add .
+ 4812  git commit -m "added bootstrap"
+ 4813  git push origin feature/frontfix
+ 4814  git checkout -
+ 4815  git pull origin master
+ 4816  git checkout -
+ 4817  git merge master
+ 4818  git status
+ 4819  git chekckout -
+ 4820  git pull origin master
+ 4821  git checkout -
+ 4822  git merge master
+ 4823  code .
+ 4824  bin/dev
+ 4825  git status
+ 4826  code .
+ 4827  bin/dev
+ 4828  git status
+ 4829  git add .
+ 4830  git commit -m "fix name in back to top"
+ 4831  git push origin feature/frontfix
+ 4832  bin/dev
+ 4833  rails s
+ 4834  yarn build --watch
+ 4835  rails s
+ 4836  yarn build --watch
+ 4837  git status
+ 4838  git add .
+ 4839  git commit -m "added stimulus scroll button reveal"
+ 4840  git push origin feature/frontfix
+ 4841  git checkout -
+ 4842  git pull origin master
+ 4843  git checkout -
+ 4844  git merge master
+ 4845  bin/dev
+ 4846  git checkout -
+ 4847  git pull origin master
+ 4848  git checkout -
+ 4849  git merge master
+ 4850  bin/dev
+ 4851  git checkout -
+ 4852  git pull origin master
+ 4853  git checkout -
+ 4854  git merge master
+ 4855  git status
+ 4856  git checkout -
+ 4857  git pull origin master
+ 4858  git checkout -
+ 4859  git merge master
+ 4860  code .
+ 4861  bin/dev
+ 4862  git status
+ 4863  git add .
+ 4864  git commit -m "fix buttons"
+ 4865  git push origin feature/frontfix
+ 4866  git checkout -
+ 4867  git pull origin master
+ 4868  git checkout -
+ 4869  git merge master
+ 4870  bin/dev
+ 4871  rails assets:precompile
+ 4872  rails assets:clobber
+ 4873  bin/dev
+ 4874  yarn build --watch
+ 4875  rails s
+ 4876  bin/dev
+ 4877  git status
+ 4878  git add .
+ 4879  git commit -m "start responsive"
+ 4880  git push origin feature/frontfix
+ 4881  git checkout -
+ 4882  git pull origin master
+ 4883  git checkout -
+ 4884  git merge master
+ 4885  bin/dev
+ 4886  git status
+ 4887  git add .
+ 4888  git commit -m "navbar hamburger"
+ 4889  git push origin feature/frontfix
+ 4890  git checkout -
+ 4891  git pull origin master
+ 4892  git checkout -
+ 4893  git merge master
+ 4894  bin/dev
+ 4895  cd ..
+ 4896  ll
+ 4897  git clone git@github.com:blacksnyd/wolfiV3.git
+ 4898  ll
+ 4899  cd wolfiV3
+ 4900  rails s
+ 4901  bundle
+ 4902  rials
+ 4903  rails s
+ 4904  code .
+ 4905  bin/dev
+ 4906  rails s
+ 4907  ps aux
+ 4908  ps aux | grep localhost
+ 4909  kill -9 75585
+ 4910  rails s
+ 4911  yarn build --watch
+ 4912  yarn --build
+ 4913  yarn build --watch
+ 4914  rails s
+ 4915  yarn build --watch
+ 4916  bin/dev
+ 4917  rails c
+ 4918  rails g stimulus alert
+ 4919  bin/dev
+ 4920  cd ..
+ 4921  cd lebkuchen
+ 4922  bin/dev
+ 4923  rails s
+ 4924  git status
+ 4925  cd lebkuchen
+ 4926  bin/dev
+ 4927  code
+ 4928  bin/dev
+ 4929  git status
+ 4930  git add .
+ 4931  git commit -m "nacbar color"
+ 4932  git push origin feature/frontfix
+ 4933  bin/dev
+ 4934  git status
+ 4935  git add .
+ 4936  git commit -m "added responsivity to photos history at home"
+ 4937  git push origin feature/frontfix
+ 4938  bin/dev
+ 4939  git checkout -
+ 4940  git pull origin master
+ 4941  git checkout -
+ 4942  git merge master
+ 4943  git status
+ 4944  bin/dev
+ 4945  rails g stimulus toggle controller
+ 4946  bin/dev
+ 4947  rails d stimulus toggle controller
+ 4948  bin/dev
+ 4949  git status
+ 4950  git add .
+ 4951  git commit -m "added changes to front"
+ 4952  git push origin feature/frontfix
+ 4953  git checkout -
+ 4954  git pull origin master
+ 4955  git checkout -
+ 4956  git merge master
+ 4957  bin/dev
+ 4958  bin/dev\\nexit
+ 4959  bin/dev\nexit
+ 4960  git merge master
+ 4961  git status
+ 4962  git add .
+ 4963  git commit -m "responsice banner and button to all devices"
+ 4964  git push origin feature/frontfix
+ 4965  git checkout -
+ 4966  git pull origin master
+ 4967  git checkout -
+ 4968  git merge master
+ 4969  git status
+ 4970  bin/dev
+ 4971  git status
+ 4972  git checkout -
+ 4973  git pull origin master
+ 4974  git checkout -
+ 4975  git pull origin master
+ 4976  git checkout -
+ 4977  git pull origin master
+ 4978  git checkout -
+ 4979  git merge master
+ 4980  code .
+ 4981  bin/dev
+ 4982  git checkout -
+ 4983  git status
+ 4984  git checkout -
+ 4985  git merge master
+ 4986  bin/dev
+ 4987  git status
+ 4988  git add .
+ 4989  git commit -m "added responsivity to ipad and tablets"
+ 4990  git push origin feature/frontfix
+ 4991  git checkout -
+ 4992  git pull origin master
+ 4993  git checkout -
+ 4994  git merge master
+ 4995  bin/dev
+ 4996  git checkout -
+ 4997  git pull origin master
+ 4998  git checkout -
+ 4999  git merge master
+ 5000  bin/dev
+ 5001  git checkout -
+ 5002  git pull origin master
+ 5003  git checkout -
+ 5004  git merge master
+ 5005  bin/dev
+ 5006  git checkout -
+ 5007  git pull origin master
+ 5008  git checkout -
+ 5009  git merge master
+ 5010  bin/dev
+ 5011  rails g stimulus screen-size controller
+ 5012  bin/dev
+ 5013  rails d stimulus screen-size controller
+ 5014  git status
+ 5015  git add .
+ 5016  git commit -m "removed banner from media queries iphone and ipad"
+ 5017  git push origin feature/frontfix
+ 5018  bin/dev
+ 5019  git checkout -
+ 5020  git status
+ 5021  git add .
+ 5022  git commit -m "fix identation"
+ 5023  git push origin feature/frontfix
+ 5024  git checkout -
+ 5025  git pull origin master
+ 5026  git checkout -
+ 5027  git merge master
+ 5028  bin/dev
+ 5029  git status
+ 5030  git add .
+ 5031  git commit -m "responsivity with Andre"
+ 5032  git push origin feature/frontfix
+ 5033  bin/dev
+ 5034  git status
+ 5035  git add .
+ 5036  git commit -m "map responsivity"
+ 5037  git push origin master
+ 5038  git push origin feature/frontfix
+ 5039  git checkout -
+ 5040  git pull origin master
+ 5041  git checkout -
+ 5042  git merge master
+ 5043  bin/dev
+ 5044  rails routes | grep contact
+ 5045  bin/dev
+ 5046  git status
+ 5047  git add .
+ 5048  git commit -m "fix flash messages in contact mailer"
+ 5049  git push origin feature/frontfix
+ 5050  git checkout -
+ 5051  git pull origin master
+ 5052  git checkout -
+ 5053  git merge master
+ 5054  bin/dev
+ 5055  git add .
+ 5056  git commit -m "added column reverse to cards"
+ 5057  git pull origin feature/frontfix
+ 5058  git remote -v
+ 5059  git pull origin feature/frontfix
+ 5060  git push origin feature/frontfix
+ 5061  git checkout -
+ 5062  git pull origin master
+ 5063  git checkout -
+ 5064  git merge master
+ 5065  rails routes | grep contacts
+ 5066  bin/dev
+ 5067  git add .
+ 5068  git commit -m "alert fixed"
+ 5069  git push origin feature/frontfix
+ 5070  bin/dev
+ 5071  git status
+ 5072  git checkout -
+ 5073  git pull origin master
+ 5074  git checkout -
+ 5075  git merge master
+ 5076  bin/dev
+ 5077  git status
+ 5078  git add .
+ 5079  git commit -m "changed scroll reveal and added box shadow to button"
+ 5080  git push origin feature/frontfix
+ 5081  git checkout -
+ 5082  git pull origin master
+ 5083  git checkout -
+ 5084  git merge master
+ 5085  bin/dev
+ 5086  rails g stimulus navbar controller
+ 5087  bin/dev
+ 5088  git status
+ 5089  git add .
+ 5090  git status
+ 5091  git commit -m "added X to mobile navigation menu"
+ 5092  git push origin feature/frontfix
+ 5093  bin/dev
+ 5094  git checkout -
+ 5095  git pull origin master
+ 5096  git checkout -
+ 5097  git merge master
+ 5098  bin/dev
+ 5099  git status
+ 5100  git add .
+ 5101  git commit -m "added Hamburger to X, menu shrink action with stimulus js"
+ 5102  git push origin feature/frontfix
+ 5103  git checkout -
+ 5104  git pull origin master
+ 5105  git checkout -
+ 5106  git merge master
+ 5107  bin/dev
+ 5108  git status
+ 5109  bundle
+ 5110  bin/dev
+ 5111  yarn add js-cookie app/javascript/packs/application.js window.Cookies = require("js-cookie")
+ 5112  yarn add js-cookie
+ 5113  bin/dev
+ 5114  rails g stimulus cookie_banner_controller
+ 5115  bin/dev
+ 5116  rails d stimulus hello_controller
+ 5117  bin/dev
+ 5118  rails routes
+ 5119  git status
+ 5120  git add .
+ 5121  git commit -m "added a cookies policy banner"
+ 5122  git push origin feature/frontfix
+ 5123  git checkout -
+ 5124  git pull origin master
+ 5125  git checkout -
+ 5126  git merge master
+ 5127  bin/dev
+ 5128  git status
+ 5129  git add .
+ 5130  git commit -m "fixed img"
+ 5131  git push origin feature/frontfix
+ 5132  bin/dev
+ 5133  git checkout -
+ 5134  git pull origin mastr
+ 5135  git pull origin master
+ 5136  git checkout -
+ 5137  git merge master
+ 5138  bin/dev
+ 5139  rails g controller errors not_found internal_server_error
+ 5140  bin/dev
+ 5141  rails g controller errors not_found internal_server_error
+ 5142  bin/dev
+ 5143  git status
+ 5144  git add .
+ 5145  git commit -m "added errors pages, controller, routes"
+ 5146  git push origin feature/frontfix
+ 5147  bin/dev
+ 5148  git status
+ 5149  git add .
+ 5150  git commit -m "moved errors routes to routes locate scope"
+ 5151  git push origin feature/frontfix
+ 5152  git checkout -
+ 5153  git pull origin master
+ 5154  git checkout -
+ 5155  git merge master
+ 5156  bin/dev
+ 5157  Volumes/4K\ Video\ Downloader\ 4.24/Open\ Gatekeeper\ friendly ; exit;
+ 5158  git checkout -
+ 5159  git pull origin master
+ 5160  git checkout -
+ 5161  git merge master
+ 5162  bin/dev
+ 5163  git status
+ 5164  git add .
+ 5165  git commit -m "try to fix locale"
+ 5166  git push origin feature/frontfix
+ 5167  git status
+ 5168  git log
+ 5169  git push -v 
+ 5170  git push -v origin feature/frontfix
+ 5171  git checkout -
+ 5172  git pull origin master
+ 5173  git branch -b feature/finalfront
+ 5174  git branch feature/finalfront
+ 5175  git checkout -
+ 5176  git checkout feature/finalfront
+ 5177  git status
+ 5178  git branch
+ 5179  bin/dev
+ 5180  git merge master
+ 5181  bin/dev
+ 5182  git status
+ 5183  git add .
+ 5184  git commit -m "fix locale"
+ 5185  git push origin feature/finalfront
+ 5186  git checkout -
+ 5187  git pull origin master
+ 5188  git checkout -
+ 5189  git exit
+ 5190  git checkout master
+ 5191  git status
+ 5192  git checkout feature/finalfront
+ 5193  git status
+ 5194  git pull origin feature/finalfront
+ 5195  git checkout -
+ 5196  git pull origin master
+ 5197  git checkout feature/finalfront
+ 5198  git merge master
+ 5199  bin/dev
+ 5200  git checkout master
+ 5201  git pull origin master
+ 5202  git checkout feature/finalfront
+ 5203  git status
+ 5204  bin/dev
+ 5205  git merge master
+ 5206  bin/dev
+ 5207  git status
+ 5208  git add .
+ 5209  git commit -m "resolving locale errors"
+ 5210  git push origin feature/finalfront
+ 5211  git checkout master
+ 5212  git pull origin master
+ 5213  git checkout -
+ 5214  git merge master
+ 5215  git status
+ 5216  git add .
+ 5217  git commit -m "added privacy policy deustch and english"
+ 5218  git push origin feature/finalfront
+ 5219  uname
+ 5220  uname -s
+ 5221  uname -n
+ 5222  uname -k
+ 5223  uname -v
+ 5224  uname -m
+ 5225  uname -p
+ 5226  uname -i
+ 5227  uname -o
+ 5228  uname --o
+ 5229  uname -a
+ 5230  who
+ 5231  free
+ 5232  man
+ 5233  man sudo
+ 5234  git status
+ 5235  git add .
+ 5236  git cimmit -m "fixed text and translation"
+ 5237  git push origin feature/finalfront
+ 5238  git checkout master
+ 5239  git pull origin master
+ 5240  git checkout -
+ 5241  git merge master
+ 5242  git checkout -
+ 5243  git pull origin master
+ 5244  git checkout -
+ 5245  git merge master
+ 5246  bin/dev
+ 5247  git status
+ 5248  git add .
+ 5249  git commit -m "added blur to cookies and 404 img"
+ 5250  git push origin feature/finalfront
+ 5251  git checkout -
+ 5252  git push origin mastr
+ 5253  git push origin masterr
+ 5254  git push origin master
+ 5255  git checkout -
+ 5256  git checkout master
+ 5257  git push origin master
+ 5258  git pull origin master
+ 5259  git checkout feature/finalfront
+ 5260  git merge master
+ 5261  bin/dev
+ 5262  git checkout master
+ 5263  git pull origin master
+ 5264  git checkout feature/finalfront
+ 5265  git merge master
+ 5266  bin/dev
+ 5267  git status
+ 5268  git add .
+ 5269  git commit -m "added language change in cookie banner"
+ 5270  git push origin feature/finalfront
+ 5271  git checkout master
+ 5272  git pull origin master
+ 5273  git checkout feature/finalfront
+ 5274  git merge master
+ 5275  git checkout master
+ 5276  git pull origin master
+ 5277  git checkout feature/finalfront
+ 5278  git merge mastr
+ 5279  git merge master
+ 5280  bin/dev
+ 5281  rails g cookies_eu:install
+ 5282  bin/dev
+ 5283  git status
+ 5284  git add .
+ 5285  git commit -m "favicon and fixes"
+ 5286  git push origin feature/finalfront
+ 5287  git checkout master
+ 5288  git pull origin master
+ 5289  git checkout feature/finalfront
+ 5290  git merge master
+ 5291  rials routes | grep cookies
+ 5292  rails routes | grep cookies
+ 5293  bin/dev
+ 5294  git checkout master
+ 5295  git checkout feature/finalfront
+ 5296  git status
+ 5297  git add .
+ 5298  git commit -m "add legal"
+ 5299  git checkout master
+ 5300  git pull origin master
+ 5301  git checkout feature/finalfront
+ 5302  git merge master
+ 5303  git status
+ 5304  bin/dev
+ 5305  git push origin feature/finalfront
+ 5306  git status
+ 5307  git add .
+ 5308  git commit -m "change some things"
+ 5309  git push origin feature/finalfront
+ 5310  git checkout master
+ 5311  git pull origin master
+ 5312  git checkout feature/finalfront
+ 5313  git merge master
+ 5314  bin/dev
+ 5315  git merge master
+ 5316  bin/dev
+ 5317  git status
+ 5318  git add .
+ 5319  git commit -m "added localized views to cookies policy"
+ 5320  git push origin feature/finalfront
+ 5321  git checkout mastr
+ 5322  git checkout master
+ 5323  git pull origin master
+ 5324  git checkout feature/finalfront
+ 5325  git merge master
+ 5326  bin/dev
+ 5327  bundle
+ 5328  bin/dev
+ 5329  yarn install
+ 5330  bin/dev
+ 5331  yarn add style-loader --dev
+ 5332  bin/dev
+ 5333  yarn add style-loader --dev
+ 5334  bin/dev
+ 5335  git add .
+ 5336  git status
+ 5337  git commit -m "fix some css"
+ 5338  git pull origin feature/finalfront
+ 5339  git push origin feature/finalfront
+ 5340  git checkout master
+ 5341  git pull origin master
+ 5342  git checkout feature/finalfront
+ 5343  git merge master
+ 5344  git checkout master
+ 5345  git pull origin master
+ 5346  git checkout feature/finalfront
+ 5347  git merge master
+ 5348  bin/dev
+ 5349  git status
+ 5350  git add .
+ 5351  git commit -m "fixed traduction of findus and identetion"
+ 5352  git push origin feature/finalfront
+ 5353  git checkout master
+ 5354  git pull origin master
+ 5355  git checkout feature/finalfront
+ 5356  git merge master
+ 5357  bin/dev
+ 5358  $ rails generate time_greeting_message:install
+ 5359  rails generate time_greeting_message:install
+ 5360  bin/dev
+ 5361  bundle
+ 5362  bin/dev
+ 5363  git status
+ 5364  git add .
+ 5365  git commit -m "added logic to enhance navigation to i18n"
+ 5366  git push origin feature/finalfront
+ 5367  git checkout master
+ 5368  git pull origin master
+ 5369  git checkout feature/finalfront
+ 5370  git merge master
+ 5371  bin/dev
+ 5372  git status
+ 5373  git add .
+ 5374  git commit -m "start legal page footer redirect"
+ 5375  git push origin feature/finalfront
+ 5376  git checkout master
+ 5377  git pull origin master
+ 5378  git checkout feature/finalfront
+ 5379  git merge master
+ 5380  bin/dev
+ 5381  git status
+ 5382  git add .
+ 5383  git commit -m "continue implementation of legal pages i18n"
+ 5384  git push origin feature/finalfront
+ 5385  git checkout master
+ 5386  git pull origin master
+ 5387  git checkout feature/finalfront
+ 5388  git merge master
+ 5389  bin/dev
+ 5390  cd ..
+ 5391  cd Javascript\ \|\ Rock,\ Paper,\ Scissors
+ 5392  code .
+ 5393  node
+ 5394  bin/dev
+ 5395  cd ..
+ 5396  cd leb
+ 5397  cd ..
+ 5398  ll
+ 5399  cd lebkuchen
+ 5400  git checkout master
+ 5401  git checkout feature/finalfront
+ 5402  git status
+ 5403  git add .
+ 5404  git commit -m "fix identetion in legal pages"
+ 5405  git checkout master
+ 5406  git pull origin master
+ 5407  git checkout feature/finalfront
+ 5408  git merge master
+ 5409  bin/dev
+ 5410  yarn why stimulus
+ 5411  bin/dev
+ 5412  git status
+ 5413  git add .
+ 5414  git commit -m "ading swipper carousel"
+ 5415  git push origin feature/finalfront
+ 5416  git checkout master
+ 5417  git pull origin master
+ 5418  git checkout feature/finalfront
+ 5419  git merge master
+ 5420  bin/dev
+ 5421  git checkout master
+ 5422  git checkout feature/finalfront
+ 5423  git status
+ 5424  git checkout master
+ 5425  git pull origin master
+ 5426  git checkout feature/finalfront
+ 5427  git merge master
+ 5428  bin/dev
+ 5429  rails g stimulus flavor
+ 5430  rails routes | grep prod
+ 5431  bin/dev
+ 5432  rails d stimulus flavor
+ 5433  bin/dev
+ 5434  ruby -v
+ 5435  rvm list
+ 5436  rbenv
+ 5437  rbenv list
+ 5438  rbenv -v
+ 5439  cd ..
+ 5440  git clone git@github.com:trouni/workshop-chrome-extension.git
+ 5441  cd workshop-chrome-extension
+ 5442  ll
+ 5443  code .
+ 5444  /Volumes/ScreenRecorder\ 1.0.3/Open\ Gatekeeper\ friendly ; exit;
+ 5445  cd ..
+ 5446  cd lebkuchen
+ 5447  ll
+ 5448  cd lebkuchen
+ 5449  code .
+ 5450  bin/dev
+ 5451  yarn install swiper
+ 5452  yarn add swiper
+ 5453  bin/dev
+ 5454  sudo pkill bluetoothd
+ 5455  sudo uninstall.sh cd /Applications/Background\ Music.app/Contents/Resources/
+ 5456  d /Applications/Background\ Music.app/Contents/Resources/
+ 5457  cd /Applications/Background\ Music.app/Contents/Resources/
+ 5458  bash uninstall.sh
+ 5459  /Volumes/App\ Cleaner\ 8.1.3/Open\ Gatekeeper\ friendly ; exit;
+ 5460  cd
+ 5461  ll
+ 5462  cd code
+ 5463  ll
+ 5464  mkdir elizabeth
+ 5465  cd elizabeth
+ 5466  git clone git@github.com:LizzyOrji123/Long-Term-Live-in-Companion.git
+ 5467  code .
+ 5468  rails s
+ 5469  ll
+ 5470  cd Long-Term-Live-in-Companion
+ 5471  bin/dev
+ 5472  bundle
+ 5473  yarn install
+ 5474  bin/dev
+ 5475  cd ..
+ 5476  cd Long-Term-Live-in-Companion
+ 5477  cd ../..
+ 5478  cd lebkuchen/lebkuchen
+ 5479* bin/dev
+ 5480  code .
+ 5481  rails g stimulus slider
+ 5482  git status
+ 5483  git add .
+ 5484  git commit -m "added button to slide in product page"
+ 5485  git push origin feature/finalfront
+ 5486  git checkout master
+ 5487  git pull origin master
+ 5488  git checkout feature/finalfront
+ 5489  git merge master
+ 5490* bin/dev
+ 5491  git status
+ 5492  git add .
+ 5493  git commit -m "replaced scrollintoview for slideto to prevent window navbar hide"
+ 5494  git push origin feature/finalfront
+ 5495  git checkout master
+ 5496  git pull origin master
+ 5497  git checkout feature/finalfront
+ 5498  git merge master
+ 5499* bin/dev
+ 5500* whois
+ 5501* whois https://www.caraguatatuba.sp.gov.br/
+ 5502* whois www.caraguatatuba.sp.gov.br
+ 5503  history
+ 5504* bin/dev
