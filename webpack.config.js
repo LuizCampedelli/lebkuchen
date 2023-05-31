@@ -8,13 +8,13 @@ module.exports = {
     application: "./app/javascript/application.js"
   },
 
-  // module: {
-  //   rules: [{ test: /\.css|scss$/,
-  //             use: ['style-loader',
-  //                   'css-loader',
-  //                   ],
-  //           }],
-  // },
+  module: {
+    rules: [{ test: /\.css|scss$/,
+              use: ['style-loader',
+                    'css-loader',
+                    ],
+            }],
+  },
 
   output: {
     filename: "[name].js",
