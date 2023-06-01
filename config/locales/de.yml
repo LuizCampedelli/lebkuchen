@@ -16,7 +16,7 @@ de:
 
 
    ourproducts: "Unsere Produkte"
-   moreinfobtn: "Mehr infos"
+   product_link_text: "Mehr infos"
 
    almond: "Mandel"
    almonddiscription: "Mandel-Lebkuchen ist ein Gebäck aus gemahlenen Mandeln, Honig und Gewürzen. Verziert mit einer Glasur und gehobelten Mandeln"
@@ -56,12 +56,17 @@ de:
    cookies_eu:
     privacy_policy: "Datenschutzerklärung"
     privacy_policy_link: "/cookies_eu"
+    Language: "Sprache"
+
 
    # map
    aufderkartesehen: "Auf der Karte sehen"
 
    #product
+   Nozes: "Mandel"
+   Sugar: "Zucker"
+   Dark: "Schokolade"
    flavors: "Geschmacksrichtungen verfügbar"
    listingr: "Zutatenliste"
    ingredients: "Mandeln, Sultaninen, Vollei (EIWEIß), Zucker, Butter (LAKTOSE),Marzipanrohmasse (MANDELN), Zitronat (Zitronensäure E330),
-                 Orangeat ( Zitronensäure E330), Semmelbrösel (WEIZEN), Rum (Alkohol), Backtriebmittel Pottasche, Gewürze (Zimt), Backoblaten (WEIZEN), Stärke"
+    Orangeat ( Zitronensäure E330), Semmelbrösel (WEIZEN), Rum (Alkohol), Backtriebmittel Pottasche, Gewürze (Zimt), Backoblaten (WEIZEN), Stärke"

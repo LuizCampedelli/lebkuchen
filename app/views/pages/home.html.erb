@@ -19,7 +19,7 @@
               <p class="prod-desc"><%= t("almonddiscription") %></p>
             </div>
              <div>
-             <%= link_to t("moreinfobtn"), "/product", class: "btn-findus" %>
+             <%= link_to t("product_link_text"), product_path(locale: I18n.locale), class: "btn-findus" %>
             </div>
            </div>
         </div>
@@ -33,7 +33,7 @@
               <p class="prod-desc"><%= t("hazelnutdiscription") %></p>
             </div>
              <div>
-             <%= link_to t("moreinfobtn"), "/product", class: "btn-findus" %>
+             <%= link_to t("product_link_text"), product_path(locale: I18n.locale), class: "btn-findus" %>
              </div>
            </div>
         </div>
