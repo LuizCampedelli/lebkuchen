@@ -48,10 +48,15 @@ swiper-slide img {
   height: 37px;
 }
 
-.btn-flavor:hover {
+.btn-flavor:hover,
+.btn-flavor:active,
+.btn-flavor.active {
   background: #A07037;
   color: #FFFFFF;
 }
+
+
+
 
 .flavors{
   font-family:$body-font;
@@ -72,3 +77,9 @@ tbody th{
 
 }
 
+
+:root {
+  --swiper-navigation-color:#BB7854 !important;
+  --swiper-navigation-size: 40px;
+
+}

@@ -16,9 +16,9 @@
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-6">
           <p class="flavors"><strong><%= t("flavors") %></strong></p>
             <div class="btn-prod" data-target="slider.buttons">
-              <%= link_to t("Nozes"), "#", class: "btn-flavor me-2", data: { action: "click->slider#goTo", target: "slider.button", index: 0 } %>
-              <%= link_to t("Sugar"), "#", class: "btn-flavor me-2", data: { action: "click->slider#goTo", target: "slider.button", index: 1 } %>
-              <%= link_to t("Dark"), "#", class: "btn-flavor me-2", data: { action: "click->slider#goTo", target: "slider.button", index: 2 } %>
+              <%= link_to t("Nozes"), "#", class: "btn-flavor me-2", data: { action: "click->slider#goTo", slider_target: "slider.button", index: 0 } %>
+              <%= link_to t("Sugar"), "#", class: "btn-flavor me-2", data: { action: "click->slider#goTo", slider_target: "slider.button", index: 1 } %>
+              <%= link_to t("Dark"), "#", class: "btn-flavor me-2", data: { action: "click->slider#goTo", slider_target: "slider.button", index: 2 } %>
             </div>
         </div>
       </div>
