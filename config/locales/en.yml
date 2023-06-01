@@ -15,7 +15,7 @@ en:
    wheretobuybtn: "Where to buy"
 
    ourproducts: "Our Products"
-   moreinfobtn: "More info"
+   product_link_text: "More info"
 
    almond: "Almond"
    almonddiscription: "Almond Lebkuchen is a cookie made with ground almonds, honey, and spices. Decorated with a glaze and sliced almonds"
@@ -51,13 +51,18 @@ en:
    sendusmessage: " Send us a message"
 
    cookies_eu:
-      privacy_policy: Privacy Policy
+      privacy_policy: Privacy-Policy
       privacy_policy_link: "cookies_eu_en"
+      Language: "Language"
+
 
    # map
    aufderkartesehen: "See on the map"
 
    #product
+   Nozes: "Almond"
+   Sugar: "Sugar"
+   Dark: "Chocolate"
    flavors: "Flavors available"
    listingr: "Ingredients list"
    ingredients: "Almonds, raisins, SOLE (egg white), sugar, butter (lactose), marzipan paste (almonds), candied lemon peel (citric acid E330), candied orange peel (citric acid E330), breadcrumbs (wheat), rum (alcohol), raising agent potash, spices (cinnamon), baking wafers (wheat), starch."

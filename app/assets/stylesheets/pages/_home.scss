@@ -143,6 +143,29 @@ border-radius: 10px;
 
 // Media queries for responsive design
 @media (max-width: 320px) { // iPhone 5
+
+  .divide {
+    display: none !important;
+  }
+
+  .cookies-eu-link {
+      font-size: 8px !important;
+  }
+
+  .cookies-eu-content-holder {
+      width: 100% !important;
+      font-size: 8px !important;
+  }
+
+  .cookies-eu {
+      flex-wrap: wrap !important;
+      line-height: 50px !important;
+      padding: 0 5px !important;
+      position: fixed !important;
+      bottom: 0 !important;
+      z-index: 999 !important; // you can increase the z-index value if needed
+  }
+
   .banner h1 {
     font-size: 2.5rem;
     margin-top: 10px;
@@ -162,6 +185,29 @@ border-radius: 10px;
 }
 
 @media (max-width: 414px) { // iPhone 11
+
+  .divide {
+      display: none;
+    }
+
+  .cookies-eu-link {
+      font-size: 8px !important;
+    }
+
+    .cookies-eu-content-holder {
+      width: 100% !important;
+      font-size: 8px !important;
+    }
+
+    .cookies-eu {
+      flex-wrap: wrap !important;
+      line-height: 10px !important;
+      padding: 0 5px !important;
+      position: fixed;
+      bottom: 0 !important;
+      z-index: 999; // you can increase the z-index value if needed
+    }
+
   .banner h1 {
     font-size: 3rem;
     padding: 8px 20px;
@@ -183,6 +229,29 @@ border-radius: 10px;
 }
 
 @media (max-width: 428px) { // iPhone 11 Pro Max
+
+  .divide {
+      display: none;
+    }
+
+  .cookies-eu-link {
+      font-size: 8px !important;
+    }
+
+    .cookies-eu-content-holder {
+      width: 100% !important;
+      font-size: 14px !important;
+    }
+
+    .cookies-eu {
+      flex-wrap: wrap !important;
+      line-height: 20px !important;
+      padding: 0 5px !important;
+      position: fixed;
+      bottom: 0 !important;
+      z-index: 999; // you can increase the z-index value if needed
+    }
+
   .banner h1 {
     font-size: 3.2rem;
   }
@@ -203,6 +272,33 @@ border-radius: 10px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) { // iPad
+
+  a.cookies-eu-link {
+    font-size: 10px !important;
+  }
+
+  .divide {
+      display: none;
+    }
+
+  .cookies-eu-link {
+      font-size: 14px !important;
+    }
+
+    .cookies-eu-content-holder {
+      width: 100% !important;
+      font-size: 14px !important;
+    }
+
+    .cookies-eu {
+      flex-wrap: wrap !important;
+      flex-direction: column !important;
+      padding: 0 20px !important;
+      position: fixed;
+      bottom: 0 !important;
+      z-index: 999; // you can increase the z-index value if needed
+    }
+
   .banner h1 {
     font-size: 4rem;
   }
@@ -218,6 +314,33 @@ border-radius: 10px;
 }
 
 @media (min-width: 1025px) { // MacBook
+
+  a.cookies-eu-link {
+      font-size: 10px !important;
+    }
+
+    .divide {
+      display: none;
+    }
+
+    .cookies-eu-link {
+      font-size: 14px !important;
+    }
+
+    .cookies-eu-content-holder {
+      width: 100% !important;
+      font-size: 14px !important;
+    }
+
+    .cookies-eu {
+      flex-wrap: wrap !important;
+      flex-direction: column !important;
+      padding: 0 20px !important;
+      position: fixed;
+      bottom: 0 !important;
+      z-index: 999; // you can increase the z-index value if needed
+    }
+
   .banner h1 {
     font-size: 7.1875rem; // 115px
   }

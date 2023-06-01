@@ -10,7 +10,7 @@
       </span>
       <span class="bar cookies-eu-lang-switcher">
         <a href="<%= "#{request.path}?locale=de" %>" class="cookies-eu-lang-link">DE</a>
-        <span>|</span>
+        <span class="divide">|</span>
         <a href="<%= "#{request.path}?locale=en" %>" class="cookies-eu-lang-link">EN</a>
       </span>
     </div>
@@ -18,7 +18,3 @@
 <% else %>
   <% raise Exception.new "'cookies' is a reserved Rails class, please rename your method" %>
 <% end %>
-
-
-
-
