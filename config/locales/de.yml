@@ -63,6 +63,18 @@ de:
    aufderkartesehen: "Auf der Karte sehen"
 
    #product
+   Nährwerttabelle: "Nährwerttabelle"
+   Durchschnittliche Nährwerte: "Durchschnittliche Nährwerte"
+   contain-traces: "KANN SPUREN ANDERER SCHALENFRÜCHTE ENTHALTEN.
+    Enthält GLUTEN (Semmelbrösel, Oblaten)"
+   60g: "1 Stück ca. 60g"
+   Stück: "Stück"
+   Brennwert: "Brennwert"
+   fat-saturated: "Fett, davon gesättigte Fettsäuren"
+   carbohydrates: "Kohlehydrate davon Zucker"
+   Ballaststoffe: "Ballaststoffe"
+   Eiweiß: "Eiweiß"
+   Salz: "Salz"
    Nozes: "Mandel"
    Sugar: "Zucker"
    Dark: "Schokolade"
@@ -70,3 +82,8 @@ de:
    listingr: "Zutatenliste"
    ingredients: "Mandeln, Sultaninen, Vollei (EIWEIß), Zucker, Butter (LAKTOSE),Marzipanrohmasse (MANDELN), Zitronat (Zitronensäure E330),
     Orangeat ( Zitronensäure E330), Semmelbrösel (WEIZEN), Rum (Alkohol), Backtriebmittel Pottasche, Gewürze (Zimt), Backoblaten (WEIZEN), Stärke"
+
+   # 404
+   homepage: "Zurück zur Startseite"
+   anerror: "Ein Fehler ist aufgetreten"
+   anerror500: "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut oder besuchen Sie unsere Homepage erneut."

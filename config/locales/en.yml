@@ -60,9 +60,26 @@ en:
    aufderkartesehen: "See on the map"
 
    #product
+   Nährwerttabelle: "Nutritional information"
+   Durchschnittliche Nährwerte: "Average nutritional values"
+   contain-traces: "MAY CONTAIN TRACES OF OTHER NUTS.
+            Contains GLUTEN (breadcrumbs, wafers)"
+   60g: "1 piece about 60g"
+   Stück: "Piece"
+   Brennwert: "Caloric Value"
+   fat-saturated: "Saturated fat"
+   carbohydrates: "Sugar carbohydrates"
+   Ballaststoffe: "Fiber"
+   Eiweiß: "Protein"
+   Salz: "Salt"
    Nozes: "Almond"
    Sugar: "Sugar"
    Dark: "Chocolate"
    flavors: "Flavors available"
    listingr: "Ingredients list"
    ingredients: "Almonds, raisins, SOLE (egg white), sugar, butter (lactose), marzipan paste (almonds), candied lemon peel (citric acid E330), candied orange peel (citric acid E330), breadcrumbs (wheat), rum (alcohol), raising agent potash, spices (cinnamon), baking wafers (wheat), starch."
+
+   # 404
+   homepage: "Back to home page"
+   anerror: "An error has occurred"
+   anerror500: "An error has occurred. Please try again later or come back to our home page."
