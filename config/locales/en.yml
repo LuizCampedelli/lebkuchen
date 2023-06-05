@@ -81,5 +81,7 @@ en:
 
    # 404
    homepage: "Back to home page"
-   anerror: "An error has occurred"
+   anerror: "Page not found"
+   homepage_text: "Go to homepage"
+   explainerror: "The page you are looking for was not found. Please go back to the %{homepage_link} and explore our amazing content on the home page."
    anerror500: "An error has occurred. Please try again later or come back to our home page."

@@ -3,6 +3,7 @@
     <div class="image-container-404"></div>
     <div class="content">
         <h2 class="msgerror"><%= t("anerror") %></h2>
+        <p class="error"><%= t("explainerror", homepage_link: link_to(t("homepage_text"), root_path).html_safe) %></p>
         <%= link_to t("homepage"), "/", class: "btn-findus" %>
     </div>
 </div>
