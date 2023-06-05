@@ -1,4 +1,4 @@
-Copyright (c) 2023 Nathalia Bragança, Andre Teixeira, Luiz Otavio Campedelli
+Copyright (c) 2023 Natália Bragança, Andre Teixeira, Luiz Otavio Campedelli
 
 MIT License
 
