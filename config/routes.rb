@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
   scope "(:locale)", locale: /en|de/ do
     root to: "pages#home"
-    get "event", to: "pages#event", as: :event
-    get "findus", to: "pages#findus", as: :findus
+    get "/findus", to: "pages#findus", as: :findus
     get "contacts", to: "contacts#new"
     post "contacts", to: "contacts#create"
     get  "/product", to: "pages#product", as: :product
