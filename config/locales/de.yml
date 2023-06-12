@@ -87,5 +87,5 @@ de:
    homepage: "Zurück zur Startseite"
    anerror: "Seite nicht gefunden"
    homepage_text: "Zur Startseite"
-   explainerror: "Die gesuchte Seite wurde nicht gefunden. Bitte gehe zurück zur %{homepage_link} und erkunde unseren tollen Inhalt auf der Startseite."
+   explainerror: "Die gesuchte Seite wurde nicht gefunden. Bitte gehe zurück zur Startseite und erkunde unseren tollen Inhalt auf der Startseite."
    anerror500: "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut oder besuchen Sie unsere Homepage erneut."
